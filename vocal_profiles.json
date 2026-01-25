@@ -1,0 +1,137 @@
+{
+  "vocal_characteristics_guide": {
+    "description": "Comprehensive guide of vocal profiles for Suno AI generation.",
+    "profiles": {
+      "Pop": {
+        "female": {
+          "description": "Crystalline voice with dynamic range, capable of powerful belting and soft falsettos.",
+          "suno_tags": "female vocals, pristine, glossy, powerful belting, melismatic runs, wide vibrato, punchy"
+        },
+        "male": {
+          "description": "Smooth tenor with frequent use of falsetto and rhythmic staccato.",
+          "suno_tags": "male vocals, kinetic, smooth tenor, dynamic falsetto, percussive phrasing, radio-ready"
+        }
+      },
+      "Rock": {
+        "female": {
+          "description": "Raspy and visceral voice, capable of emotional screams and raw delivery.",
+          "suno_tags": "female vocals, raw, gritty, raspy, emotional screams, powerful, kinetic, organic"
+        },
+        "male": {
+          "description": "Wide range with operatic power or gritty texture. Long sustain.",
+          "suno_tags": "male vocals, aggressive, power belting, gritty distortion, wide range, anthemic, raw"
+        }
+      },
+      "Metal": {
+        "female": {
+          "description": "Duality between dramatic operatic soprano and aggressive gutturals.",
+          "suno_tags": "female vocals, operatic, heavy, symphonic, dramatic vibrato, ethereal vs brutal"
+        },
+        "male": {
+          "description": "From high piercing tenors to deep aggressive gutturals.",
+          "suno_tags": "male vocals, aggressive, guttural screams, high-pitched wail, serrated, brutal, heavy"
+        }
+      },
+      "Metalcore": {
+        "female": {
+          "description": "Clean melodic singing contrasted with harsh screams.",
+          "suno_tags": "female vocals, clean vs harsh, melodic, emotional, powerful, brutal breakdowns"
+        },
+        "male": {
+          "description": "Aggressive screams with clean melodic choruses.",
+          "suno_tags": "male vocals, aggressive screams, clean singing, emotional, powerful, metalcore"
+        }
+      },
+      "Djent": {
+        "female": {
+          "description": "Contrast between clean ethereal vocals and technical screams. Rhythmic precision.",
+          "suno_tags": "female vocals, clean vs harsh, ethereal, technical, punchy, sharp, brutal"
+        },
+        "male": {
+          "description": "Mid-range screams, percussive gutturals, and progressive cleans.",
+          "suno_tags": "male vocals, aggressive, percussive screams, technical, punchy, metallic, brutal"
+        }
+      },
+      "Deathcore": {
+        "female": {
+          "description": "Brutal gutturals with occasional clean ethereal passages.",
+          "suno_tags": "female vocals, brutal, guttural, pig squeals, ethereal cleans, heavy, devastating"
+        },
+        "male": {
+          "description": "Deep guttural growls, pig squeals, and brutal screams.",
+          "suno_tags": "male vocals, brutal, guttural growls, pig squeals, devastating, heavy, crushing"
+        }
+      },
+      "Industrial": {
+        "female": {
+          "description": "Processed and distorted vocals with mechanical quality.",
+          "suno_tags": "female vocals, processed, distorted, mechanical, cold, industrial, harsh"
+        },
+        "male": {
+          "description": "Harsh distorted vocals with robotic processing.",
+          "suno_tags": "male vocals, harsh, distorted, robotic, industrial, mechanical, aggressive"
+        }
+      },
+      "Thrash": {
+        "female": {
+          "description": "High-energy aggressive vocals with punk attitude.",
+          "suno_tags": "female vocals, aggressive, high-energy, punk attitude, raw, fast, intense"
+        },
+        "male": {
+          "description": "Aggressive shouting vocals with speed and intensity.",
+          "suno_tags": "male vocals, aggressive shouting, fast, intense, raw, thrash, high-energy"
+        }
+      },
+      "Grunge": {
+        "female": {
+          "description": "Raw emotional delivery with raspy texture and angst.",
+          "suno_tags": "female vocals, raw, raspy, emotional, grunge, angst, powerful"
+        },
+        "male": {
+          "description": "Gritty and raw vocals with emotional depth and pain.",
+          "suno_tags": "male vocals, gritty, raw, emotional, grunge, angst, tortured"
+        }
+      },
+      "Hip-Hop": {
+        "female": {
+          "description": "Versatile flow alternating between melodic singing and assertive rapping.",
+          "suno_tags": "female vocals, sassy, melodic rap, syncopated flow, rhythmic precision, attitude"
+        },
+        "male": {
+          "description": "Precise rhythmic delivery, ranging from laid-back nasal flows to aggressive styles.",
+          "suno_tags": "male vocals, gritty, lyrical flow, rhythmic delivery, punchy, street-smart"
+        }
+      },
+      "Electronic": {
+        "female": {
+          "description": "Ethereal and processed voice, often with exaggerated breathiness or rhythmic stutter cuts.",
+          "suno_tags": "female vocals, ethereal, glossy, processed, breathy, soaring, trance-like"
+        },
+        "male": {
+          "description": "Clean and processed vocals, often used as rhythmic texture or anthemic hooks.",
+          "suno_tags": "male vocals, punchy, anthemic, processed, robotic, rhythmic, high-energy"
+        }
+      },
+      "Synthwave": {
+        "female": {
+          "description": "Nostalgic 80s style voice, gated reverb, dramatic or dreamy delivery.",
+          "suno_tags": "female vocals, retro, nostalgic, dreamy, reverb-heavy, neon, cinematic"
+        },
+        "male": {
+          "description": "Deep, brooding voice, electronic crooner style, or robotic (vocoder).",
+          "suno_tags": "male vocals, retro, brooding, vocoder, neon, cinematic, smooth"
+        }
+      },
+      "Hyperpop": {
+        "female": {
+          "description": "Extreme pitch-shifted vocals, hyper-processed, chaotic energy.",
+          "suno_tags": "female vocals, pitched, hyper-processed, chaotic, glitchy, extreme autotune, bubblegum"
+        },
+        "male": {
+          "description": "Distorted and pitch-shifted vocals with aggressive processing.",
+          "suno_tags": "male vocals, pitched, distorted, hyper-processed, aggressive, glitchy, chaotic"
+        }
+      }
+    }
+  }
+}

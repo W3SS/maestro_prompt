@@ -1,0 +1,234 @@
+{
+    "emotional_states": {
+        "rage": {
+            "description": "Uncontrolled fury, cathartic release, primal aggression",
+            "bpm_range": [
+                140,
+                200
+            ],
+            "key_preference": [
+                "minor",
+                "phrygian",
+                "locrian"
+            ],
+            "sonic_characteristics": [
+                "brutal",
+                "chaotic",
+                "punchy",
+                "visceral"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "low-mid aggression (200-800Hz), harsh high-mids",
+                "dynamics": "compressed, loud, in-your-face, brickwall limiting",
+                "spatial": "narrow, confrontational stereo, dry"
+            }
+        },
+        "melancholy": {
+            "description": "Bittersweet sadness, introspection, nostalgic longing",
+            "bpm_range": [
+                60,
+                90
+            ],
+            "key_preference": [
+                "minor",
+                "dorian",
+                "aeolian"
+            ],
+            "sonic_characteristics": [
+                "ethereal",
+                "warm",
+                "intimate",
+                "dreamy"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "rounded mids, soft highs, gentle bass",
+                "dynamics": "wide dynamic range, breathing room, subtle swells",
+                "spatial": "wide, enveloping reverb, distant"
+            }
+        },
+        "euphoria": {
+            "description": "Overwhelming joy, transcendent bliss, peak experience",
+            "bpm_range": [
+                120,
+                150
+            ],
+            "key_preference": [
+                "major",
+                "lydian",
+                "ionian"
+            ],
+            "sonic_characteristics": [
+                "glossy",
+                "shimmering",
+                "bombastic",
+                "lush"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "bright highs, full spectrum, harmonic richness",
+                "dynamics": "building crescendos, massive climax, dynamic peaks",
+                "spatial": "ultra-wide stereo, hall reverb, expansive"
+            }
+        },
+        "dread": {
+            "description": "Creeping fear, existential anxiety, impending doom",
+            "bpm_range": [
+                50,
+                80
+            ],
+            "key_preference": [
+                "phrygian",
+                "locrian",
+                "diminished"
+            ],
+            "sonic_characteristics": [
+                "abyssal",
+                "cavernous",
+                "spooky",
+                "droning"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "sub-bass pressure, dissonant mids, absence of high-end clarity",
+                "dynamics": "slow builds, sudden drops, oppressive sustain",
+                "spatial": "claustrophobic or impossibly vast, unnatural reverb"
+            }
+        },
+        "defiance": {
+            "description": "Rebellious spirit, unyielding resistance, empowerment",
+            "bpm_range": [
+                130,
+                180
+            ],
+            "key_preference": [
+                "minor",
+                "phrygian_dominant",
+                "harmonic_minor"
+            ],
+            "sonic_characteristics": [
+                "kinetic",
+                "punchy",
+                "raw",
+                "serrated"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "aggressive mids, cutting guitars, powerful low-end",
+                "dynamics": "driving momentum, anthemic peaks, relentless energy",
+                "spatial": "tight, focused, in-your-face presence"
+            }
+        },
+        "serenity": {
+            "description": "Inner peace, meditative calm, acceptance",
+            "bpm_range": [
+                60,
+                85
+            ],
+            "key_preference": [
+                "major",
+                "lydian",
+                "mixolydian"
+            ],
+            "sonic_characteristics": [
+                "minimal",
+                "organic",
+                "warm",
+                "airy"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "balanced, natural, no harsh frequencies",
+                "dynamics": "gentle, consistent, breathing",
+                "spatial": "natural room, spacious but not overwhelming"
+            }
+        },
+        "anguish": {
+            "description": "Deep emotional pain, suffering, desperation",
+            "bpm_range": [
+                70,
+                110
+            ],
+            "key_preference": [
+                "minor",
+                "phrygian",
+                "aeolian"
+            ],
+            "sonic_characteristics": [
+                "raw",
+                "intimate",
+                "fuzzy",
+                "hollow"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "midrange emphasis, vocal presence, painful clarity",
+                "dynamics": "dynamic extremes, whisper to scream, cathartic releases",
+                "spatial": "intimate close-mic to vast isolation"
+            }
+        },
+        "tension": {
+            "description": "Anticipation, suspense, building pressure",
+            "bpm_range": [
+                90,
+                130
+            ],
+            "key_preference": [
+                "diminished",
+                "phrygian",
+                "chromatic"
+            ],
+            "sonic_characteristics": [
+                "sharp",
+                "metallic",
+                "pulsating",
+                "tense"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "dissonant intervals, unresolved harmonies",
+                "dynamics": "constant builds without release, micro-variations",
+                "spatial": "narrowing, claustrophobic, enclosing"
+            }
+        },
+        "nostalgia": {
+            "description": "Wistful remembrance, bittersweet past, time's passage",
+            "bpm_range": [
+                80,
+                110
+            ],
+            "key_preference": [
+                "major",
+                "mixolydian",
+                "dorian"
+            ],
+            "sonic_characteristics": [
+                "warm",
+                "retro",
+                "hazy",
+                "dreamy"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "rolled-off highs, tape warmth, vinyl character",
+                "dynamics": "gentle, nostalgic swells, familiar patterns",
+                "spatial": "lo-fi room, distant memory quality"
+            }
+        },
+        "triumph": {
+            "description": "Victory achieved, obstacles overcome, glory",
+            "bpm_range": [
+                120,
+                160
+            ],
+            "key_preference": [
+                "major",
+                "lydian",
+                "ionian"
+            ],
+            "sonic_characteristics": [
+                "epic",
+                "bombastic",
+                "lush",
+                "punchy"
+            ],
+            "psychoacoustic_targets": {
+                "frequency_focus": "full spectrum power, brass-like presence, harmonic richness",
+                "dynamics": "triumphant crescendos, anthemic peaks, powerful resolution",
+                "spatial": "massive, stadium-sized, cinematic"
+            }
+        }
+    }
+}

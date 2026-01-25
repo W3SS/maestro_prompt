@@ -1,0 +1,1176 @@
+{
+    "scales_database": [
+        {
+            "id": "major_ionian",
+            "name": "Major (Ionian)",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Happiness",
+                "keywords": [
+                    "Joy",
+                    "Triumph",
+                    "Innocence",
+                    "Clarity",
+                    "Stable"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Pop",
+                "Country",
+                "Power Metal",
+                "Punk Rock"
+            ],
+            "lyrical_themes": [
+                "Celebration",
+                "Love",
+                "Overcoming",
+                "Friendship"
+            ]
+        },
+        {
+            "id": "minor_aeolian",
+            "name": "Minor (Aeolian)",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Sadness",
+                "keywords": [
+                    "Melancholy",
+                    "Tragedy",
+                    "Serious",
+                    "Emotional",
+                    "Dark"
+                ],
+                "energy_level": "Low/Medium"
+            },
+            "common_genres": [
+                "Ballads",
+                "Doom Metal",
+                "Trap",
+                "Indie Rock"
+            ],
+            "lyrical_themes": [
+                "Loss",
+                "Heartbreak",
+                "Reflection",
+                "Solitude"
+            ]
+        },
+        {
+            "id": "dorian",
+            "name": "Dorian",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Sophistication",
+                "keywords": [
+                    "Sentimental",
+                    "Groovy",
+                    "Hopeful Sadness",
+                    "Night Drive",
+                    "Cool"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Jazz Fusion",
+                "Funk",
+                "Pink Floyd-style Rock",
+                "Deep House"
+            ],
+            "lyrical_themes": [
+                "Nostalgia",
+                "Urban Life",
+                "Complex Relationships",
+                "Journey"
+            ]
+        },
+        {
+            "id": "phrygian",
+            "name": "Phrygian",
+            "intervals": [
+                1,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Tension",
+                "keywords": [
+                    "Evil",
+                    "Exotic",
+                    "Aggressive",
+                    "Ominous",
+                    "Mysterious"
+                ],
+                "energy_level": "High/Intense"
+            },
+            "common_genres": [
+                "Thrash Metal",
+                "Techno",
+                "Hip Hop (Dark)",
+                "Flamenco"
+            ],
+            "lyrical_themes": [
+                "War",
+                "Occult",
+                "Inner Demons",
+                "Rebellion"
+            ]
+        },
+        {
+            "id": "lydian",
+            "name": "Lydian",
+            "intervals": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Dreamy",
+                "keywords": [
+                    "Ethereal",
+                    "Floating",
+                    "Sci-Fi",
+                    "Hopeful",
+                    "Wonder"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Film Score",
+                "Dreampop",
+                "Prog Rock (Steve Vai/Dream Theater)",
+                "Ambient"
+            ],
+            "lyrical_themes": [
+                "Space",
+                "Dreams",
+                "Fantasy",
+                "Nature"
+            ]
+        },
+        {
+            "id": "mixolydian",
+            "name": "Mixolydian",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Adventure",
+                "keywords": [
+                    "Rocking",
+                    "Bluesy",
+                    "Positive",
+                    "Roadtrip",
+                    "Confident"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Classic Rock",
+                "Blues",
+                "Jam Bands",
+                "Psychedelic Rock"
+            ],
+            "lyrical_themes": [
+                "Freedom",
+                "Travel",
+                "Partying",
+                "Counter-culture"
+            ]
+        },
+        {
+            "id": "locrian",
+            "name": "Locrian",
+            "intervals": [
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Instability",
+                "keywords": [
+                    "Dissonant",
+                    "Unresolved",
+                    "Horror",
+                    "Chaos",
+                    "Disgust"
+                ],
+                "energy_level": "Variable"
+            },
+            "common_genres": [
+                "Extreme Metal",
+                "Experimental",
+                "Avant-Garde",
+                "Horror Soundtracks"
+            ],
+            "lyrical_themes": [
+                "Madness",
+                "Void",
+                "Abstract Fear",
+                "Decay"
+            ]
+        },
+        {
+            "id": "phrygian_dominant",
+            "name": "Phrygian Dominant",
+            "intervals": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Epic/Exotic",
+                "keywords": [
+                    "Middle-Eastern",
+                    "Intense",
+                    "Vampiric",
+                    "Dramatic"
+                ],
+                "energy_level": "Very High"
+            },
+            "common_genres": [
+                "Tech Death",
+                "Symphonic Metal",
+                "Psytrance"
+            ],
+            "lyrical_themes": [
+                "Ancient Mythology",
+                "Rituals",
+                "Power",
+                "Destruction"
+            ]
+        },
+        {
+            "id": "major_pentatonic",
+            "name": "Major Pentatonic",
+            "intervals": [
+                2,
+                2,
+                3,
+                2,
+                3
+            ],
+            "emotions": [
+                "Simple Joy",
+                "Folk",
+                "Openness",
+                "Pastoral"
+            ],
+            "genres": [
+                "Country",
+                "Bluegrass",
+                "Indie Folk",
+                "Pop"
+            ]
+        },
+        {
+            "id": "harmonic_minor",
+            "name": "Harmonic Minor",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                3,
+                1
+            ],
+            "emotions": [
+                "Gothic",
+                "Classical Tension",
+                "Baroque",
+                "Sinister"
+            ],
+            "genres": [
+                "Neoclassical Metal",
+                "Tech Death",
+                "Trap (Dark)"
+            ]
+        },
+        {
+            "id": "melodic_minor",
+            "name": "Melodic Minor (Jazz Minor)",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "emotions": [
+                "Mysterious",
+                "Sophisticated",
+                "Unresolved longing",
+                "Noir"
+            ],
+            "genres": [
+                "Jazz Fusion",
+                "Neo Soul",
+                "Progressive Rock"
+            ]
+        },
+        {
+            "id": "hungarian_minor",
+            "name": "Hungarian Minor (Double Harmonic)",
+            "intervals": [
+                2,
+                1,
+                3,
+                1,
+                1,
+                3,
+                1
+            ],
+            "emotions": [
+                "Exotic",
+                "Desert",
+                "Intense",
+                "Psychedelic"
+            ],
+            "genres": [
+                "Psytrance",
+                "Technical Death Metal",
+                "Surf Rock"
+            ]
+        },
+        {
+            "id": "hirajoshi",
+            "name": "Hirajoshi (Japanese)",
+            "intervals": [
+                2,
+                1,
+                4,
+                1,
+                4
+            ],
+            "emotions": [
+                "Eastern",
+                "Contemplative",
+                "Honorable",
+                "Tragic"
+            ],
+            "genres": [
+                "Trap",
+                "Ambient",
+                "Film Score",
+                "Martial Industrial"
+            ]
+        },
+        {
+            "id": "whole_tone",
+            "name": "Whole Tone",
+            "intervals": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "emotions": [
+                "Dreamlike",
+                "Floating",
+                "Confused",
+                "Dissociative"
+            ],
+            "genres": [
+                "Impressionist Classical",
+                "Modern Jazz",
+                "Intro of Prog Songs"
+            ]
+        },
+        {
+            "id": "harmonic_major",
+            "name": "Harmonic Major",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Majestic",
+                "keywords": [
+                    "Regal",
+                    "Exotic",
+                    "Dramatic",
+                    "Mysterious",
+                    "Cinematic"
+                ],
+                "energy_level": "Medium/High"
+            },
+            "common_genres": [
+                "Film Noir Scores",
+                "Progressive Metal",
+                "Fusion Jazz",
+                "Neoclassical"
+            ],
+            "lyrical_themes": [
+                "Royalty",
+                "Ancient Secrets",
+                "Epic Journeys",
+                "Fate"
+            ]
+        },
+        {
+            "id": "double_harmonic_major",
+            "name": "Double Harmonic Major (Byzantine)",
+            "intervals": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Exotic Intensity",
+                "keywords": [
+                    "Middle-Eastern",
+                    "Dramatic",
+                    "Hypnotic",
+                    "Belly Dance",
+                    "Mystical"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Traditional Arabic Music",
+                "Flamenco",
+                "Extreme Metal",
+                "Psychedelic Rock"
+            ],
+            "lyrical_themes": [
+                "Desert",
+                "Mysticism",
+                "Passion",
+                "Ancient Rituals"
+            ]
+        },
+        {
+            "id": "blues_scale",
+            "name": "Blues Scale",
+            "intervals": [
+                3,
+                2,
+                1,
+                1,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Raw Emotion",
+                "keywords": [
+                    "Soulful",
+                    "Gritty",
+                    "Expressive",
+                    "Yearning",
+                    "Authentic"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Blues",
+                "Rock 'n' Roll",
+                "Funk",
+                "Soul"
+            ],
+            "lyrical_themes": [
+                "Struggle",
+                "Love",
+                "Hard Times",
+                "Personal Expression"
+            ]
+        },
+        {
+            "id": "neapolitan_minor",
+            "name": "Neapolitan Minor",
+            "intervals": [
+                1,
+                2,
+                2,
+                2,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Tragic Grandeur",
+                "keywords": [
+                    "Dark Romanticism",
+                    "Operatic",
+                    "Somber",
+                    "Complex",
+                    "Baroque"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Neoclassical Metal",
+                "Film Score (Drama)",
+                "Avant-Garde Classical",
+                "Gothic Rock"
+            ],
+            "lyrical_themes": [
+                "Tragedy",
+                "Lost Love",
+                "Historical Drama",
+                "Fatalism"
+            ]
+        },
+        {
+            "id": "neapolitan_major",
+            "name": "Neapolitan Major",
+            "intervals": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Unusual Brightness",
+                "keywords": [
+                    "Bright yet Strange",
+                    "Colorful",
+                    "Unpredictable",
+                    "Sophisticated"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Jazz",
+                "Modern Classical",
+                "Prog Rock",
+                "Film Score (Whimsical)"
+            ],
+            "lyrical_themes": [
+                "Eccentricity",
+                "Wonder",
+                "Sophisticated Humor",
+                "Dreams"
+            ]
+        },
+        {
+            "id": "persian_major",
+            "name": "Persian (Major)",
+            "intervals": [
+                1,
+                3,
+                1,
+                1,
+                2,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Ancient Mystique",
+                "keywords": [
+                    "Exotic",
+                    "Intricate",
+                    "Ancient",
+                    "Spiritual",
+                    "Ornate"
+                ],
+                "energy_level": "Medium/High"
+            },
+            "common_genres": [
+                "Traditional Persian Music",
+                "Progressive Metal",
+                "World Fusion",
+                "Soundtrack (Historical)"
+            ],
+            "lyrical_themes": [
+                "Ancient Persia",
+                "Philosophy",
+                "Spirituality",
+                "Epic Poetry"
+            ]
+        },
+        {
+            "id": "arabian_diminished",
+            "name": "Arabian (Diminished)",
+            "intervals": [
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Hypnotic Symmetry",
+                "keywords": [
+                    "Symmetrical",
+                    "Hypnotic",
+                    "Tension",
+                    "Kaleidoscopic",
+                    "Unresolved"
+                ],
+                "energy_level": "Variable"
+            },
+            "common_genres": [
+                "Jazz (Bebop)",
+                "Progressive Rock",
+                "Metal (Tech/Prog)",
+                "Electronic (IDM)"
+            ],
+            "lyrical_themes": [
+                "Complexity",
+                "Patterns",
+                "Abstract Concepts",
+                "Mental Journeys"
+            ]
+        },
+        {
+            "id": "algerian",
+            "name": "Algerian",
+            "intervals": [
+                2,
+                1,
+                3,
+                1,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "North African Sun",
+                "keywords": [
+                    "Warm",
+                    "Vibrant",
+                    "Folkloric",
+                    "Celebratory",
+                    "Rhythmic"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Raï Music",
+                "World Music",
+                "Fusion",
+                "Psychedelic"
+            ],
+            "lyrical_themes": [
+                "Celebration",
+                "Love",
+                "Community",
+                "Heritage"
+            ]
+        },
+        {
+            "id": "enigmatic",
+            "name": "Enigmatic",
+            "intervals": [
+                1,
+                3,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Mysterious Ascension",
+                "keywords": [
+                    "Puzzling",
+                    "Ascending",
+                    "Cinematic",
+                    "Otherworldly",
+                    "Suspenseful"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Film Score (Mystery/Adventure)",
+                "Progressive Rock/Metal",
+                "Avant-Garde"
+            ],
+            "lyrical_themes": [
+                "Riddles",
+                "Exploration",
+                "The Unknown",
+                "Supernatural"
+            ]
+        },
+        {
+            "id": "gypsy_minor",
+            "name": "Gypsy (Hungarian) Minor",
+            "intervals": [
+                2,
+                1,
+                3,
+                1,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Passionate Nomad",
+                "keywords": [
+                    "Passionate",
+                    "Folkloric",
+                    "Vibrant",
+                    "Melancholic Joy",
+                    "Theatrical"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Romani Music",
+                "Flamenco",
+                "Folk Metal",
+                "Classical (Liszt)"
+            ],
+            "lyrical_themes": [
+                "Journey",
+                "Freedom",
+                "Passion",
+                "Heritage"
+            ]
+        },
+        {
+            "id": "in_sen",
+            "name": "In Sen (Japanese)",
+            "intervals": [
+                1,
+                4,
+                2,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Meditative Stillness",
+                "keywords": [
+                    "Zen",
+                    "Sparse",
+                    "Contemplative",
+                    "Ancient",
+                    "Elegant"
+                ],
+                "energy_level": "Low"
+            },
+            "common_genres": [
+                "Traditional Japanese Music",
+                "Ambient",
+                "Minimalist",
+                "Film Score (Historical/Contemplative)"
+            ],
+            "lyrical_themes": [
+                "Nature",
+                "Meditation",
+                "Transience",
+                "Silence"
+            ]
+        },
+        {
+            "id": "yo_scale",
+            "name": "Yo (Japanese)",
+            "intervals": [
+                3,
+                2,
+                2,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Festive Simplicity",
+                "keywords": [
+                    "Festive",
+                    "Strong",
+                    "Direct",
+                    "Positive",
+                    "Folkish"
+                ],
+                "energy_level": "Medium/High"
+            },
+            "common_genres": [
+                "Japanese Folk Music",
+                "Video Game Music (RPG towns)",
+                "World Music",
+                "Pop (with exotic flavor)"
+            ],
+            "lyrical_themes": [
+                "Festival",
+                "Work Song",
+                "Community",
+                "Celebration"
+            ]
+        },
+        {
+            "id": "octatonic_half_whole",
+            "name": "Octatonic (Diminished) - Half-Whole",
+            "intervals": [
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Suspense & Tension",
+                "keywords": [
+                    "Suspenseful",
+                    "Unsettling",
+                    "Jazzy Tension",
+                    "Modern",
+                    "Complex"
+                ],
+                "energy_level": "Variable"
+            },
+            "common_genres": [
+                "Film Noir/Jazz",
+                "Progressive Metal",
+                "Modern Classical",
+                "Video Game (Boss Battle)"
+            ],
+            "lyrical_themes": [
+                "Mystery",
+                "Chaos",
+                "Internal Conflict",
+                "The Chase"
+            ]
+        },
+        {
+            "id": "prometheus",
+            "name": "Prometheus (Mystic)",
+            "intervals": [
+                2,
+                2,
+                2,
+                3,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Futuristic Radiance",
+                "keywords": [
+                    "Bright",
+                    "Modern",
+                    "Positive Tension",
+                    "Scriabin-like",
+                    "Luminous"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Modern Classical (Scriabin)",
+                "Prog Rock",
+                "Fusion",
+                "Cinematic Electronic"
+            ],
+            "lyrical_themes": [
+                "Fire",
+                "Creation",
+                "Futurism",
+                "Transcendence"
+            ]
+        },
+        {
+            "id": "iwato",
+            "name": "Iwato (Japanese)",
+            "intervals": [
+                1,
+                4,
+                1,
+                4,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Ethereal Emptiness",
+                "keywords": [
+                    "Suspended",
+                    "Ambient",
+                    "Mysterious",
+                    "Floating",
+                    "Sparse"
+                ],
+                "energy_level": "Low"
+            },
+            "common_genres": [
+                "Ambient",
+                "Experimental",
+                "Film Score (Suspense/Otherworldly)",
+                "Trap (atmospheric)"
+            ],
+            "lyrical_themes": [
+                "Void",
+                "Spirituality",
+                "Isolation",
+                "Dream State"
+            ]
+        },
+        {
+            "id": "super_locrian",
+            "name": "Super Locrian (Altered)",
+            "intervals": [
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Extreme Dissonance",
+                "keywords": [
+                    "Chaotic",
+                    "Unstable",
+                    "Jazzy Tension",
+                    "Aggressive",
+                    "Abstract"
+                ],
+                "energy_level": "High/Intense"
+            },
+            "common_genres": [
+                "Avant-Garde Jazz",
+                "Technical Death Metal",
+                "20th Century Classical",
+                "Noise Rock"
+            ],
+            "lyrical_themes": [
+                "Chaos",
+                "Deconstruction",
+                "Anger",
+                "Cosmic Horror"
+            ]
+        },
+        {
+            "id": "lydian_dominant",
+            "name": "Lydian Dominant",
+            "intervals": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Cool & Dreamy Tension",
+                "keywords": [
+                    "Dreamy Jazz",
+                    "Cool",
+                    "Sophisticated",
+                    "Floating Tension",
+                    "TV Theme Songs"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Jazz (Post-bop, Fusion)",
+                "Film/TV Scores (The Simpsons)",
+                "Prog Rock",
+                "Neo-Soul"
+            ],
+            "lyrical_themes": [
+                "Sophistication",
+                "Urban Life",
+                "Nuanced Emotions",
+                "Stylish Cool"
+            ]
+        },
+        {
+            "id": "bebop_dominant",
+            "name": "Bebop Dominant",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Swinging Fluidity",
+                "keywords": [
+                    "Swinging",
+                    "Fluid",
+                    "Energetic",
+                    "Jazzy",
+                    "Running"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Bebop Jazz",
+                "Swing",
+                "Big Band",
+                "Jazz Fusion"
+            ],
+            "lyrical_themes": [
+                "Virtuosity",
+                "Nightlife",
+                "Joyful Energy",
+                "Improvisation"
+            ]
+        },
+        {
+            "id": "pelog_approx",
+            "name": "Pelog (Balinese) - Approximation",
+            "intervals": [
+                1,
+                2,
+                4,
+                1,
+                4
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Tropical Ceremony",
+                "keywords": [
+                    "Ceremonial",
+                    "Tropical",
+                    "Hypnotic",
+                    "Gamelan-like",
+                    "Trance-inducing"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Gamelan Music",
+                "World Music",
+                "Ambient/Experimental",
+                "Film Score (Exotic/Tribal)"
+            ],
+            "lyrical_themes": [
+                "Ritual",
+                "Nature Spirits",
+                "Community",
+                "Trance"
+            ]
+        },
+        {
+            "id": "six_tone_symmetrical",
+            "name": "Six-Tone Symmetrical",
+            "intervals": [
+                1,
+                3,
+                1,
+                3,
+                1,
+                3
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Abstract Symmetry",
+                "keywords": [
+                    "Angular",
+                    "Modern",
+                    "Unsettling",
+                    "Geometric",
+                    "Sci-Fi"
+                ],
+                "energy_level": "Variable"
+            },
+            "common_genres": [
+                "20th Century Classical",
+                "Avant-Garde",
+                "Sci-Fi Soundtracks",
+                "Math Rock"
+            ],
+            "lyrical_themes": [
+                "Machines",
+                "Aliens",
+                "Mathematics",
+                "Dystopia"
+            ]
+        },
+        {
+            "id": "minor_pentatonic",
+            "name": "Minor Pentatonic (Blues Box)",
+            "intervals": [
+                3,
+                2,
+                2,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Primordial Soul",
+                "keywords": [
+                    "Soulful",
+                    "Roots",
+                    "Primal",
+                    "Emotional",
+                    "Universal"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Blues",
+                "Rock",
+                "Funk",
+                "Soul",
+                "Hip-Hop"
+            ],
+            "lyrical_themes": [
+                "Heartache",
+                "Struggle",
+                "Truth",
+                "Everyman Stories"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "sonic_characteristics": {
+    "clean": "Audiophile reference quality, Transparent and uncolored, Full dynamic range.",
+    "glossy": "Hyper-compressed, Autotune polish, Bright high-end, Digital precision.",
+    "gritty": "Tube saturation, Vinyl crackle, Room bleed, Tape hiss, Mid-range focus.",
+    "brutal": "Scooped mids, Gated drums, High-gain distortion, Aggressive transient shaping.",
+    "ethereal": "Massive hall reverb, Shimmer delay, Washed-out transients, Floating atmosphere.",
+    "cyber": "Bitcrushed textures, Glitch artifacts, Granular synthesis, Robotic vocal chains.",
+    "warm": "Analog warmth, Round bass, Smooth treble roll-off, Ribbon microphone character.",
+    "kinetic": "Transient heavy, Sidechain pumping, Dry percussion, Tight rhythmic pocket.",
+    "abyssal": "Sub-bass pressure, cavernous reverb, Low-pass filtering, Slow movement."
+  },
+  "genre_fusion_recipes": {
+    "Thall": "Djent + Ambience + Dissonance: Pitch-shifted delays, bending guitars.",
+    "Trap Metal": "Trap 808s + Screaming Vocals: Distortion, simple flow, clipped bass.",
+    "Glitchcore": "Pop Melodies + IDM Glitches: Sped up vocals, bitcrushing, bubblegum synths.",
+    "Dungeon Synth": "Black Metal Atmosphere + Lo-Fi Synths: Medieval scales, low fidelity.",
+    "Blackgaze": "Black Metal Blast Beats + Shoegaze Wall of Sound: Tremolo picking, major key melodies.",
+    "Phonk": "Memphis Rap Vocals + Cowbells + Trap Beats: Sidechain compression, lo-fi grit.",
+    "Hyperpop": "Pop Melodies + Industrial Noise: Extreme autotune, pitched vocals, chaotic structure.",
+    "Djent/Metalcore": "Technical precision + Emotional dynamics: Polyrhythms, breakdowns, clean/scream contrast.",
+    "Industrial Metal": "Mechanical rhythms + Heavy guitars: Synth layers, distorted vocals, dystopian atmosphere.",
+    "Deathcore": "Death Metal brutality + Hardcore breakdowns: Guttural vocals, blast beats, crushing heaviness."
+  }
+}

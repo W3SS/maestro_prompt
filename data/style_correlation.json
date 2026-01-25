@@ -1,0 +1,244 @@
+{
+    "style_correlations": {
+        "Pop": [
+            "glossy",
+            "punchy",
+            "pristine",
+            "kinetic"
+        ],
+        "Hip-Hop": [
+            "punchy",
+            "sizzling",
+            "kinetic",
+            "gritty"
+        ],
+        "EDM": [
+            "bombastic",
+            "glossy",
+            "punchy",
+            "plastic"
+        ],
+        "Rock": [
+            "raw",
+            "kinetic",
+            "punchy",
+            "organic"
+        ],
+        "Jazz": [
+            "warm",
+            "intimate",
+            "silky",
+            "organic"
+        ],
+        "Metal": [
+            "heavy",
+            "serrated",
+            "punchy",
+            "aggressive"
+        ],
+        "Ambient": [
+            "ethereal",
+            "submerged",
+            "minimal",
+            "shimmering"
+        ],
+        "Djent": [
+            "brutal",
+            "metallic",
+            "sharp",
+            "punchy"
+        ],
+        "Hyperpop": [
+            "plastic",
+            "glossy",
+            "chaotic",
+            "manic"
+        ],
+        "Shoegaze": [
+            "ethereal",
+            "dense",
+            "noisy",
+            "dreamy"
+        ],
+        "Vaporwave": [
+            "vapor",
+            "hollow",
+            "hazy",
+            "retro"
+        ],
+        "Industrial": [
+            "industrial",
+            "metallic",
+            "cold",
+            "distorted"
+        ],
+        "Thall": [
+            "abyssal",
+            "metallic",
+            "brutal",
+            "cavernous"
+        ],
+        "Trap Metal": [
+            "distorted",
+            "brutal",
+            "sizzling",
+            "chaotic"
+        ],
+        "Glitchcore": [
+            "broken",
+            "manic",
+            "digital",
+            "plastic"
+        ],
+        "Jazz-Hop": [
+            "dusty",
+            "warm",
+            "hollow",
+            "intimate"
+        ],
+        "Blackgaze": [
+            "ethereal",
+            "raw",
+            "dense",
+            "melancholic"
+        ],
+        "Synthwave Metal": [
+            "retro",
+            "serrated",
+            "kinetic",
+            "neon"
+        ],
+        "Breakcore": [
+            "manic",
+            "fragmented",
+            "chaotic",
+            "punchy"
+        ],
+        "Phonk": [
+            "spooky",
+            "gritty",
+            "distorted",
+            "memphis"
+        ],
+        "Midwest Emo": [
+            "dreamy",
+            "organic",
+            "sharp",
+            "kinetic"
+        ],
+        "Witch House": [
+            "spooky",
+            "abyssal",
+            "dragged",
+            "hazy"
+        ],
+        "Folktronica": [
+            "organic",
+            "broken",
+            "intimate",
+            "warm"
+        ],
+        "Future Funk": [
+            "bouncy",
+            "glossy",
+            "retro",
+            "kinetic"
+        ],
+        "Post-Rock": [
+            "cinematic",
+            "epic",
+            "shimmering",
+            "dynamic"
+        ],
+        "Slamming Brutal Death Metal": [
+            "slamming",
+            "guttural",
+            "brutal",
+            "heavy"
+        ],
+        "Cloud Rap": [
+            "hazy",
+            "submerged",
+            "ethereal",
+            "dreamy"
+        ],
+        "Hardwave": [
+            "euphoric",
+            "futuristic",
+            "bombastic",
+            "glossy"
+        ],
+        "Sludge Pop": [
+            "fuzzy",
+            "melodic",
+            "sludgy",
+            "heavy"
+        ],
+        "Industrial Techno": [
+            "industrial",
+            "repetitive",
+            "dark",
+            "cavernous"
+        ],
+        "Gregorian Trap": [
+            "sacred",
+            "abyssal",
+            "cavernous",
+            "heavy"
+        ],
+        "Space Rock": [
+            "shimmering",
+            "delay-heavy",
+            "psychedelic",
+            "floating"
+        ],
+        "Cybergrind": [
+            "digital",
+            "chaotic",
+            "brutal",
+            "fast"
+        ],
+        "Neuro-Hop": [
+            "squelchy",
+            "distorted",
+            "heavy",
+            "tech"
+        ],
+        "Flamenco Metal": [
+            "organic",
+            "percussive",
+            "passionate",
+            "heavy"
+        ],
+        "Cinematic Djent": [
+            "epic",
+            "orchestral",
+            "brutal",
+            "huge"
+        ],
+        "Acid Techno": [
+            "acidic",
+            "hypnotic",
+            "squelchy",
+            "repetitive"
+        ],
+        "Drone Metal": [
+            "droning",
+            "abyssal",
+            "minimal",
+            "heavy"
+        ],
+        "Gorenoise": [
+            "scorched",
+            "chaotic",
+            "noisy",
+            "broken"
+        ],
+        "French House": [
+            "funky",
+            "filtered",
+            "bouncy",
+            "disco"
+        ]
+    }
+}

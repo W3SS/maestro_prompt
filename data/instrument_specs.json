@@ -1,0 +1,614 @@
+{
+    "instrumentation_map": {
+        "mainstream_clusters": {
+            "Pop": "polished synthesizers, electronic drum samples, acoustic guitar strumming, pristine vocal production",
+            "Hip-Hop": "808 sub-bass, MPC drum pads, sampled vinyl breaks, rhythmic vocals, hi-hat rolls",
+            "EDM": "supersaw leads, sidechained kick drum, white noise risers, massive drop bass",
+            "Rock": "overdriven electric guitar, live acoustic drum kit, electric bass, dynamic vocals",
+            "Latin": "nylon string guitar, brass section, latin percussion (congas/timbales), piano montuno",
+            "R&B": "smooth rhodes piano, finger snaps, deep synth bass, melismatic vocals",
+            "Country": "steel guitar, acoustic guitar, fiddle, telecaster twang, storytelling vocals",
+            "Metal": "high-gain distorted guitars, double kick drumming, aggressive bass, growled/screamed vocals",
+            "Jazz": "hollow body guitar, upright bass, grand piano, brush drums, saxophone, trumpet",
+            "Blues": "tube amp breakup, pentatonic guitar licks, harmonica, shuffle drum beat, walking bass",
+            "Classical": "full symphony orchestra, string quartet, grand piano, tympani, woodwinds",
+            "Reggae": "off-beat guitar skank, heavy dub bass, organ bubble, rimshot drums",
+            "Soul": "hammond B3 organ, horn section, grooving bassline, expressive vocals",
+            "Funk": "wah-wah guitar, slap bass, tight drum pocket, brass stabs, clavinet",
+            "Disco": "four-on-the-floor kick, octave basslines, string section sweeps, funk guitar",
+            "Folk": "acoustic guitar, banjo, mandolin, vocal harmonies, minimal percussion",
+            "Punk": "fast power chords, pick bass playing, fast aggressive drums, shouted vocals",
+            "House": "909 drum machine, piano house chords, diva vocals, repetitive bass loops",
+            "Techno": "industrial mechanical rhythms, modular synth loops, rumble kick, dark atmosphere",
+            "Trance": "arpeggiated melodic leads, gating effects, expansive reverb, driving 138bpm beat",
+            "Dubstep": "wobble bass (LFO), sub-bass drops, half-time drums, snare impact",
+            "Drum & Bass": "fast breakbeats (Amen break), reese bass, atmospheric pads, high tempo",
+            "Gospel": "hammond organ, mass choir, grand piano, tambourine, clapping",
+            "Ska": "walking bass, upbeat guitar chords, horn section, energetic drums",
+            "Afrobeat": "complex polyrhythms, shekere, brass section, repetitive guitar riffs, fela kuti style",
+            "Grunge": "muddy distortion, heavy bass, slovenly drumming, angst-filled vocals",
+            "Indie": "jangly guitars, lo-fi vocals, vintage synthesizers, simple drum beats",
+            "Ambient": "granular synthesis, field recordings, reverb washes, slow attack pads, no rhythm"
+        },
+        "niche_clusters": {
+            "Djent": "low tuned 8-string guitar, noise gate, punchy mechanical drums, digital amp tone, harsh vocals",
+            "Hyperpop": "pitched-up vocals, bubblegum synths, distorted bass, metallic snare, chaos",
+            "IDM": "glitchy micro-percussion, sine wave bass, algorithmic melodies, non-standard structures",
+            "Tech Death": "rapid sweep picking, blast beats, fretless bass solos, complex time signatures",
+            "Shoegaze": "wall of sound guitars, heavy reverb/delay, buried vocals, fuzz pedals",
+            "Math Rock": "clean tapping guitars, changing time signatures, dry drums, complex interplay",
+            "Industrial": "metallic percussion, sampling, distorted synths, mechanical rhythms",
+            "Vaporwave": "slowed down samples, saxophone loops, heavy reverb, retro commercial vibes",
+            "Glitch": "digital artifacts, stutter edits, skipping CD effects, pure data sounds",
+            "Breakcore": "chopped amen breaks, gabber kicks, anime samples, extreme speed",
+            "Noise": "feedback loops, contact microphones, pedal harshness, no melody",
+            "Grindcore": "micro-songs, blast beats, down-tuned muddy guitars, guttural screams",
+            "Drone": "sustained oscillators, bowing guitars, sunn o))) amps, sub-frequencies",
+            "Doom Metal": "slow tempo, fuzz-laden guitars, sabbath-style riffs, haunting vocals",
+            "Black Metal": "tremolo picking, lo-fi production, shrieked vocals, blast beats",
+            "Post-Hardcore": "dynamic shifts, emotional screaming, melodic choruses, intricate guitars",
+            "Gabber": "distorted 909 kick, hoover synths, 160+ bpm, aggressive samples",
+            "Hardstyle": "reverse bass, distorted kick, euphoric supersaw melodies, mc vocals",
+            "Chiptune": "8-bit square waves, triangle wave bass, noise channel percussion, gameboy sounds",
+            "Synthwave": "analog synths (juno/jupiter), gated reverb drums, neon aesthetic pads",
+            "Darkwave": "minor key synths, drum machine, goth vocals, chorus guitar",
+            "EBM": "sequenced basslines, 4/4 industrial beat, shouted vocals, cold atmosphere",
+            "Sludge": "slow heavy riffs, feedback, hardcore punk aggression, swampy tone",
+            "Crust Punk": "d-beat drums, dirty distortion, apocalyptic lyrics, dual vocals",
+            "Plunderphonics": "excessive sampling, collage style, copyright infringement aesthetic, rapid cuts",
+            "Lowercase": "amplified quiet sounds, paper rustling, breathing, microsound",
+            "Speedcore": "300+ bpm, rapid-fire kicks, industrial noise, terror atmosphere",
+            "Dungeon Synth": "casio keyboard strings, medieval melodies, lo-fi tape hiss, fantasy vibe"
+        },
+        "fusion_recipes": {
+            "Thall": "pitch-shifted delays, dissonant bending riffs, massive ambience, silence as instrument",
+            "Trap Metal": "distorted 808s, screaming vocals, industrial noise samples, hi-hat rolls",
+            "Glitchcore": "bitcrushed vocals, rapid stutter effects, bright pop synths, chaotic arrangement",
+            "Jazz-Hop": "boom bap drums, jazz piano samples, upright bass, vinyl crackle",
+            "Blackgaze": "tremolo picking, major key reverb, blast beats, screamo vocals",
+            "Mathcore": "panic chords, dissonant intervals, chaotic tempo changes, angular riffs",
+            "Synthwave Metal": "heavy metal rhythm guitars, 80s synth leads, gated drums, retro solos",
+            "Breakcore": "chopped amen breaks, gabber kicks, anime samples, glitch artifacts",
+            "Nu-Metalcore": "drop tunings, turntable scratches, hip-hop grooves, electronic backing",
+            "Phonk": "memphis rap vocals, cowbells, heavy tape saturation, trap beats",
+            "Deconstructed Club": "metallic textures, glass breaking samples, non-linear rhythms, cold space",
+            "Midwest Emo": "clean guitar tapping, open tunings (FACGCE), raw emotional vocals, dynamic drums",
+            "Witch House": "sawtooth bass, slow trap beats, occult themes, heavy reverb",
+            "Folktronica": "acoustic guitar/banjo, laptop glitches, granular synthesis, intimate vocals",
+            "Future Funk": "city pop samples, french house filters, slap bass, upbeat disco groove",
+            "Kawaii Metal": "j-pop idol vocals, brutal death metal instrumentation, high energy synths",
+            "Post-Rock": "tremolo guitars, gradual crescendo, lack of vocals, cinematic strings",
+            "Slamming Brutal Death Metal": "chromatic palm-muted riffs, tin-can snare, guttural vocals, slow slams",
+            "Electro-Swing": "vintage swing samples, house beat, brass section, energetic bass",
+            "Cloud Rap": "hazy pads, ethereal atmosphere, mumbled vocals, trap drums",
+            "Hardwave": "euphoric hardstyle leads, trap beats, emotional breakdowns, futuristic synths",
+            "Neoclassical Darkwave": "operatic vocals, orchestral percussion, dark ambient drones, strings",
+            "Sludge Pop": "heavy fuzz guitars, melodic pop vocals, slow tempo, wall of sound",
+            "Chiptune Rock": "gameboy synths, real drum kit, electric guitar power chords, high energy",
+            "Industrial Techno": "metallic kicks, cavernous reverb, repetitive loops, oppressive atmosphere",
+            "Progressive Soul": "polymetric drums, complex harmonies, virtuoso bass, soulful vocals",
+            "Gregorian Trap": "monk chants, deep 808s, trap hi-hats, sacred reverb",
+            "Latin Trap": "reggaeton dembow rhythm, trap sub-bass, spanish rap, minimal synths",
+            "Dream Trap": "shoegaze guitar textures, trap percussion, washed out vocals, floating pads",
+            "Gorenoise": "extreme digital clipping, drum machine blasts, unrecognizable vocals, wall of static",
+            "Baroque Pop": "harpsichord, string quartet, chamber arrangement, theatrical vocals",
+            "Space Rock": "heavy delay effects, synthesizers, sci-fi themes, long instrumental jams",
+            "Cybergrind": "programmed blast beats, glitch effects, grindcore guitars, digital chaos",
+            "Alien Deathcore": "sweep picking synth leads, stutter edits, deep growls, sci-fi fx",
+            "Neuro-Hop": "distorted reese bass, broken hip-hop beats, dark sound design, glitch fills",
+            "Flamenco Metal": "nylon string rasgueado, distortion, double kick, palmas (claps)",
+            "Cinematic Djent": "orchestral brass swells, syncopated heavy guitars, epic percussion, hans zimmer vibe",
+            "Acid Techno": "roland TB-303 squelch, resonant filter sweeps, 4/4 kick, hypnotic loop",
+            "Funk Metal": "slap bass, heavy guitar riffs, syncopated drums, energetic vocals",
+            "Gothabilly": "upright slap bass, reverb-drenched guitar, spooky lyrics, swing beat",
+            "Psybient": "psytrance squelches, downtempo beat, ethnic samples, dub delay",
+            "Drone Metal": "extreme sustain, sunn o))) amps, ultra-slow tempo, sub-bass pressure",
+            "Glitch Hop": "swing rhythm, digital bass wobbles, laser sound effects, punchy drums",
+            "Electro-Industrial": "EBM beats, distorted vocals, complex layering, cybernetic themes",
+            "Math Pop": "clean tapping guitars, catchy vocal hooks, odd time signatures, bright tone",
+            "Jazz Noir": "brush drums, slow saxophone, rain samples, upright bass, dark mood",
+            "Aggrotech": "terror EBM beats, distorted screaming, supersaw leads, horror samples",
+            "Tribal Industrial": "metallic beats, tom-toms/djembes, ritual chanting, raw aggression",
+            "Symphonic Black Metal": "full orchestra, choir, black metal blast beats, tremolo guitars",
+            "Prog-Hop": "live drums, odd meters, jazz fusion keys, complex rap flows",
+            "Complextro": "rapidly switching bass patches, chiptune leads, electro house beat, glitch edits",
+            "Doom Jazz": "slow heavy riffs, free jazz saxophone, dissonant piano, noir atmosphere",
+            "Stoner Doom": "bluesy pentatonic riffs, heavy fuzz, vintage amp tone, slow groove",
+            "Deathstep": "machine-gun bass, blast beats, growls, extreme distortion, tearout drops",
+            "Folk Metal": "flutes/violins, accordion, distorted guitars, double kick drums",
+            "Gospel House": "piano chords, choir vocals, soulful organ, uplifting 4/4 beat",
+            "Afro House": "tribal percussion, deep house bass, african chants, soulful vibe",
+            "Ska Punk": "upstroke guitar, brass section, fast punk beat, walking bass",
+            "Noise Rock": "atonal guitar riffs, feedback, chaotic drumming, shouting",
+            "Happy Hardcore": "pitched-up vocals, 170bpm, major key piano riffs, breakbeats",
+            "Liquid DnB": "soulful samples, smooth reese bass, rolling breakbeats, emotive keys",
+            "Neoclassical Metal": "shredding arpeggios, harpsichord, harmonic minor runs, double kick",
+            "Dub Techno": "tape delay chords, static noise, deep kick, repetitive groove",
+            "Gqom": "broken african beats, dark minimalism, repetitive chants, brooding bass",
+            "Grungegaze": "heavy distorted riffs, ethereal vocals, loud-quiet dynamics, fuzz",
+            "Digital Hardcore": "punk vocals, distorted breakbeats, political lyrics, abrasive synths",
+            "Funkot": "180bpm, cowbells, playful melodies, hard bassline, frantic energy",
+            "Post-Metal": "atmospheric build-ups, textured heavy guitars, cinematic climax, sludge riffs",
+            "Skramz": "emotional screaming, melodic chaotic guitars, dynamic shifts, raw production",
+            "French House": "heavy filter sweeps, disco samples, sidechain compression, phaser effects",
+            "Riddim": "triplet flow, metallic bass hits, repetitive drop, swampy atmosphere",
+            "Color Bass": "vocoded melodic chords, bright arpeggios, heavy growls, high-definition sound"
+        }
+    },
+    "tunings": {
+        "standard": [
+            40,
+            45,
+            50,
+            55,
+            59,
+            64
+        ],
+        "drop_d": [
+            38,
+            45,
+            50,
+            55,
+            59,
+            64
+        ],
+        "dadgad": [
+            38,
+            45,
+            50,
+            55,
+            57,
+            62
+        ],
+        "open_g": [
+            38,
+            43,
+            50,
+            55,
+            59,
+            62
+        ],
+        "bass_standard": [
+            28,
+            33,
+            38,
+            43
+        ],
+        "drop_c": [
+            36,
+            43,
+            48,
+            53,
+            57,
+            62
+        ],
+        "c_standard": [
+            36,
+            41,
+            46,
+            51,
+            55,
+            60
+        ],
+        "b_standard": [
+            34,
+            39,
+            44,
+            49,
+            53,
+            58
+        ],
+        "a_standard": [
+            32,
+            37,
+            42,
+            47,
+            51,
+            56
+        ],
+        "drop_bb": [
+            34,
+            41,
+            46,
+            51,
+            55,
+            60
+        ],
+        "open_d": [
+            38,
+            45,
+            50,
+            54,
+            57,
+            62
+        ],
+        "open_e": [
+            40,
+            47,
+            52,
+            56,
+            59,
+            64
+        ],
+        "open_a": [
+            45,
+            52,
+            57,
+            61,
+            64,
+            69
+        ],
+        "open_c": [
+            36,
+            43,
+            48,
+            52,
+            55,
+            60
+        ],
+        "open_dm": [
+            38,
+            45,
+            50,
+            53,
+            57,
+            62
+        ],
+        "new_standard": [
+            36,
+            43,
+            48,
+            53,
+            57,
+            60
+        ],
+        "nashville": [
+            45,
+            45,
+            50,
+            55,
+            59,
+            64
+        ],
+        "all_fourths": [
+            40,
+            45,
+            50,
+            55,
+            60,
+            65
+        ],
+        "baritone": [
+            34,
+            39,
+            44,
+            49,
+            53,
+            58
+        ],
+        "russian": [
+            38,
+            45,
+            50,
+            55,
+            57,
+            62
+        ],
+        "drop_a": [
+            32,
+            41,
+            46,
+            51,
+            55,
+            60
+        ],
+        "dgcfad": [
+            38,
+            43,
+            48,
+            53,
+            57,
+            62
+        ],
+        "cf_bb_eb": [
+            36,
+            41,
+            46,
+            51,
+            55,
+            60
+        ],
+        "7_string_std": [
+            38,
+            45,
+            50,
+            55,
+            59,
+            64,
+            69
+        ],
+        "8_string_std": [
+            30,
+            38,
+            45,
+            50,
+            55,
+            59,
+            64,
+            69
+        ],
+        "open_g6": [
+            38,
+            43,
+            50,
+            55,
+            59,
+            64
+        ],
+        "open_dsus4": [
+            38,
+            45,
+            50,
+            55,
+            60,
+            62
+        ],
+        "celtic": [
+            38,
+            45,
+            50,
+            54,
+            57,
+            62
+        ],
+        "orkney": [
+            38,
+            45,
+            50,
+            55,
+            58,
+            62
+        ],
+        "double_drop_d": [
+            38,
+            45,
+            50,
+            55,
+            59,
+            62
+        ],
+        "open_d7": [
+            38,
+            45,
+            50,
+            54,
+            57,
+            60
+        ],
+        "open_gm": [
+            38,
+            43,
+            50,
+            55,
+            58,
+            62
+        ],
+        "open_em": [
+            40,
+            47,
+            52,
+            55,
+            59,
+            64
+        ],
+        "vestapol": [
+            38,
+            45,
+            50,
+            54,
+            57,
+            62
+        ],
+        "spanish": [
+            38,
+            43,
+            48,
+            52,
+            55,
+            59
+        ],
+        "bass_drop_d": [
+            26,
+            33,
+            38,
+            43
+        ],
+        "bass_c_std": [
+            24,
+            31,
+            36,
+            41
+        ],
+        "bass_5_std": [
+            28,
+            33,
+            38,
+            43,
+            48
+        ],
+        "bass_6_std": [
+            28,
+            33,
+            38,
+            43,
+            48,
+            53
+        ],
+        "piccolo_bass": [
+            40,
+            45,
+            50,
+            55
+        ],
+        "blackhole": [
+            36,
+            43,
+            48,
+            52,
+            55,
+            60
+        ],
+        "hexaphonic": [
+            40,
+            45,
+            50,
+            55,
+            60,
+            65
+        ],
+        "minor_third": [
+            40,
+            43,
+            46,
+            49,
+            52,
+            55
+        ],
+        "4ths_and_5ths": [
+            40,
+            47,
+            50,
+            57,
+            60,
+            67
+        ],
+        "7_drop_a": [
+            33,
+            41,
+            46,
+            51,
+            55,
+            60,
+            64
+        ],
+        "7_bb_std": [
+            34,
+            39,
+            44,
+            49,
+            53,
+            58,
+            63
+        ],
+        "7_drop_g": [
+            31,
+            38,
+            43,
+            48,
+            52,
+            57,
+            62
+        ],
+        "7_all_fourths": [
+            38,
+            43,
+            48,
+            53,
+            58,
+            63,
+            68
+        ],
+        "7_russian": [
+            33,
+            40,
+            45,
+            50,
+            54,
+            59,
+            64
+        ],
+        "8_drop_e": [
+            28,
+            35,
+            40,
+            45,
+            49,
+            54,
+            59,
+            64
+        ],
+        "8_f_std": [
+            29,
+            34,
+            39,
+            44,
+            48,
+            53,
+            58,
+            63
+        ],
+        "8_all_fourths": [
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61,
+            66
+        ],
+        "8_meshuggah": [
+            30,
+            38,
+            45,
+            50,
+            55,
+            59,
+            64,
+            69
+        ],
+        "8_extended_range": [
+            26,
+            33,
+            38,
+            43,
+            48,
+            53,
+            58,
+            63
+        ],
+        "bass_7_std": [
+            23,
+            28,
+            33,
+            38,
+            43,
+            48,
+            53
+        ],
+        "bass_drop_c": [
+            24,
+            31,
+            36,
+            41
+        ],
+        "bass_f_std": [
+            29,
+            34,
+            39,
+            44
+        ],
+        "bass_high_c": [
+            36,
+            41,
+            46,
+            51
+        ],
+        "bass_tenor": [
+            43,
+            48,
+            53,
+            58
+        ]
+    }
+}

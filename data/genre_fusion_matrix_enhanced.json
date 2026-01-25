@@ -1,0 +1,1019 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "description": "Enhanced genre fusion matrix with BPM ranges, artist references, difficulty levels, and production metadata",
+    "total_fusions": 81,
+    "last_updated": "2026-01-23",
+    "improvements": [
+      "Added BPM ranges for all fusions",
+      "Added artist references and example songs",
+      "Added difficulty levels (Beginner/Intermediate/Advanced/Expert)",
+      "Added recommended scales and vocal profiles",
+      "Added 6+ new modern fusions",
+      "Added origin year and historical context"
+    ]
+  },
+  "genres": {
+    "mainstream_clusters": [
+      "Pop",
+      "Hip-Hop",
+      "EDM",
+      "Rock",
+      "Latin",
+      "R&B",
+      "Country",
+      "Metal",
+      "Jazz",
+      "Blues",
+      "Classical",
+      "Reggae",
+      "Soul",
+      "Funk",
+      "Disco",
+      "Folk",
+      "Punk",
+      "House",
+      "Techno",
+      "Trance",
+      "Dubstep",
+      "Drum & Bass",
+      "Gospel",
+      "Ska",
+      "Afrobeat",
+      "Grunge",
+      "Indie",
+      "Reggaeton",
+      "Ambient"
+    ],
+    "niche_clusters": [
+      "Djent",
+      "Hyperpop",
+      "IDM",
+      "Tech Death",
+      "Shoegaze",
+      "Math Rock",
+      "Industrial",
+      "Vaporwave",
+      "Glitch",
+      "Breakcore",
+      "Noise",
+      "Grindcore",
+      "Deathcore",
+      "Drone",
+      "Doom Metal",
+      "Black Metal",
+      "Post-Hardcore",
+      "Gabber",
+      "Hardstyle",
+      "Chiptune",
+      "Synthwave",
+      "Darkwave",
+      "EBM (Electronic Body Music)",
+      "Sludge",
+      "Crust Punk",
+      "Plunderphonics",
+      "Lowercase",
+      "Speedcore",
+      "Dungeon Synth"
+    ],
+    "fusion_recipes": [
+      {
+        "name": "Thall",
+        "formula": "Djent + Ambience + Dissonance",
+        "key_elements": "Bending guitars, reverb washes, silence, pitch-shifted delays.",
+        "bpm_range": [
+          60,
+          100
+        ],
+        "difficulty": "Advanced",
+        "origin_year": 2010,
+        "artist_references": [
+          "Vildhjarta",
+          "Humanity's Last Breath",
+          "Reflections"
+        ],
+        "example_songs": [
+          "Vildhjarta - Dagger",
+          "Humanity's Last Breath - Abyssal"
+        ],
+        "recommended_scales": [
+          "phrygian",
+          "locrian",
+          "whole_tone"
+        ],
+        "recommended_vocals": [
+          "male_djent_progressive",
+          "male_meshuggah_growl"
+        ]
+      },
+      {
+        "name": "Trap Metal",
+        "formula": "Trap 808s + Screaming Vocals + Industrial Noise",
+        "key_elements": "Distortion, simple flow, high energy, clipped bass.",
+        "bpm_range": [
+          140,
+          170
+        ],
+        "difficulty": "Intermediate",
+        "origin_year": 2016,
+        "artist_references": [
+          "Scarlxrd",
+          "City Morgue",
+          "Ghostemane"
+        ],
+        "example_songs": [
+          "Scarlxrd - Heart Attack",
+          "City Morgue - 33rd Blakk Glass"
+        ],
+        "recommended_scales": [
+          "phrygian",
+          "minor_aeolian",
+          "harmonic_minor"
+        ],
+        "recommended_vocals": [
+          "male_trap_metal",
+          "male_city_morgue_style"
+        ]
+      },
+      {
+        "name": "Glitchcore (Hyperpop)",
+        "formula": "Pop Melodies + IDM Glitches + Pitch shifting",
+        "key_elements": "Sped up vocals, bitcrushing, A.D.D. arrangement, bubblegum synths.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dungeon Synth",
+        "formula": "Black Metal Atmosphere + Lo-Fi Synths + Folk",
+        "key_elements": "Medieval scales, low fidelity, repetitive, fantasy themes.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Jazz-Hop (Lofi)",
+        "formula": "Boom Bap Drums + Jazz Piano Samples + Vinyl Crackle",
+        "key_elements": "Extended chords (9ths, 11ths), swing feel, relaxed tempo.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Blackgaze",
+        "formula": "Black Metal Blast Beats + Shoegaze Wall of Sound",
+        "key_elements": "Tremolo picking, major key melodies, buried vocals, emotional crescendo.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Mathcore",
+        "formula": "Hardcore Punk + Math Rock Polyrhythms + Jazz Fusion",
+        "key_elements": "Dissonant chords, frequent time signature changes, chaotic panic chords.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Synthwave Metal",
+        "formula": "80s Retro Synths + Heavy Metal Rhythm Guitars",
+        "key_elements": "Gated reverb drums, arpeggiated basslines, palm-muted chugs.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Breakcore",
+        "formula": "Jungle/DnB Breaks (Amen Break) + IDM Chaos + Anime Samples",
+        "key_elements": "Extremely high BPM, chopped breaks, glitch artifacts, aggressive sampling.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Nu-Metalcore",
+        "formula": "Metalcore Riffs + Nu-Metal Bounce + Pop Production",
+        "key_elements": "Drop tunings, hip-hop grooves, electronic backing tracks, catchy choruses.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Phonk (Drift)",
+        "formula": "Memphis Rap Vocals + Cowbells + Trap Beats + High Distortion",
+        "key_elements": "Sidechain compression, lo-fi grit, repetitive vocal hooks, aggressive bass.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Deconstructed Club",
+        "formula": "Club Rhythms + Industrial Sound Design + Silence",
+        "key_elements": "Metallic textures, non-linear percussion, glass breaking sounds, cold atmosphere.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Midwest Emo",
+        "formula": "Indie Rock + Math Rock Tapping + Emotional Vocals",
+        "key_elements": "Clean guitar tapping, open tunings (FACGCE), dynamic shifts, raw lyrics.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Witch House",
+        "formula": "Trap Beats + Goth Atmosphere + Chopped & Screwed",
+        "key_elements": "Sawtooth bass, occult themes, very slow tempo, heavy reverb.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Folktronica",
+        "formula": "Acoustic Instruments + Electronic Glitches/Beats",
+        "key_elements": "Organic textures mixed with digital artifacts, intimate vocals, granular synthesis.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Future Funk",
+        "formula": "City Pop Samples + French House Filters + Disco Beats",
+        "key_elements": "Sidechain pumping, anime aesthetic, upbeat grooves, slap bass samples.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Kawaii Metal",
+        "formula": "J-Pop Melodies + Death Metal Instrumentation",
+        "key_elements": "Idol vocals, brutal breakdowns, synthesizers, high energy.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Post-Rock",
+        "formula": "Rock Instrumentation + Classical Song Structure + Ambient",
+        "key_elements": "Lack of vocals, gradual build-ups, tremolo guitars, cinematic climaxes.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Darkwave",
+        "formula": "New Wave + Gothic Rock + Minor Keys",
+        "key_elements": "Deep vocals, chorus-laden guitars, drum machines, melancholic synths.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Slamming Brutal Death Metal (Slam)",
+        "formula": "Death Metal + Hardcore Slow Breakdowns",
+        "key_elements": "Chromatic palm-muted riffs, guttural vocals, tin-can snare tone, slow grooves.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Vaporwave",
+        "formula": "Elevator Music/Smooth Jazz + Slowed Down + Effects",
+        "key_elements": "Nostalgia, consumerism critique, sax samples, heavy delay/reverb.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Electro-Swing",
+        "formula": "Vintage Swing/Jazz + House Beats",
+        "key_elements": "Brass sections, 4-on-the-floor beat, vintage vocal filters, energetic bass.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cloud Rap",
+        "formula": "Trap Drums + Ethereal/Ambient Pads + Lo-Fi Vocals",
+        "key_elements": "Dreamy atmosphere, abstract lyrics, hazy production, heavy reverb.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Hardwave",
+        "formula": "Wave/Witch House + Hardstyle Leads + Trap Beats",
+        "key_elements": "Euphoric supersaw melodies, emotional breakdowns, heavy 808s, futuristic vibe.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Neoclassical Darkwave",
+        "formula": "Classical Instrumentation + Industrial/Gothic Atmosphere",
+        "key_elements": "Operatic vocals, strings, orchestral percussion, dark ambient drones.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Sludge Pop",
+        "formula": "Sludge/Doom Metal Tones + Pop Song Structures",
+        "key_elements": "Fuzz-heavy guitars, slow tempos, melodic vocals, massive wall of sound.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Chiptune Rock (Nintendocore)",
+        "formula": "8-bit/Gameboy Synths + Rock/Metal Drums & Guitars",
+        "key_elements": "Square waves, arpeggios, high energy, nostalgia, punk attitude.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Industrial Techno",
+        "formula": "Techno Repetition + Industrial Noise/Distortion",
+        "key_elements": "Metallic kicks, cavernous reverb, lack of melody, oppressive atmosphere.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Progressive Soul",
+        "formula": "R&B/Soul Vocals + Prog Rock Complexity",
+        "key_elements": "Odd time signatures, polymeters, virtuoso bass, lush harmonies.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Gregorian Trap",
+        "formula": "Monk Chants/Choirs + Trap Beats",
+        "key_elements": "Sacred atmosphere mixed with 808s, reverb, epic scale.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Latin Trap",
+        "formula": "Trap Beats + Reggaeton Dembow Influence + Spanish Vocals",
+        "key_elements": "Sub-bass, habanera rhythm hints, urban lyrics, minimal production.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dream Trap",
+        "formula": "Dreampop Textures + Trap Hi-Hats/Snares",
+        "key_elements": "Washed out guitars, rolling hi-hats, floating vocals, melancholic bliss.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Gorenoise",
+        "formula": "Grindcore + Extreme Distortion + Digital Clipping",
+        "key_elements": "Incomprehensible vocals, drum machine blasts, wall of static, chaos.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Baroque Pop",
+        "formula": "Pop/Rock + Orchestral/Chamber Instrumentation",
+        "key_elements": "Harpsichords, string quartets, complex arrangements, theatrical vocals.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Space Rock",
+        "formula": "Psych Rock + Sci-Fi Themes + Synthesizers",
+        "key_elements": "Delay effects, long instrumental passages, futuristic lyrics, floating grooves.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cybergrind",
+        "formula": "Grindcore + Gabber Kicks + Glitch Electronics",
+        "key_elements": "Machine-gun drum programming, glitch vocals, extreme tempo, digital chaos.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Alien Deathcore",
+        "formula": "Deathcore Breakdowns + Sci-Fi Synth Leads (Shred)",
+        "key_elements": "Sweep picking synth leads, stutter edits, alien sound effects, deep growls.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Neuro-Hop",
+        "formula": "Neurofunk Bass Design + Hip Hop Tempo",
+        "key_elements": "Heavily distorted reese bass, broken beats, dark atmosphere, glitch fills.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Flamenco Metal",
+        "formula": "Flamenco Guitar Techniques + Metal Distortion & Drums",
+        "key_elements": "Nylon string rasgueado, phrygian dominant scale, blast beats, palmas (claps).",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cinematic Djent",
+        "formula": "Djent Rhythms + Film Score Orchestration",
+        "key_elements": "Syncopated chugs, massive brass sections, epic percussion, Hans Zimmer vibes.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Acid Techno",
+        "formula": "Minimal Techno Beat + Roland TB-303",
+        "key_elements": "Squelchy resonant basslines, repetitive hypnotic groove, evolving filter sweeps.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Funk Metal",
+        "formula": "Funk Slap Bass + Heavy Metal Riffs",
+        "key_elements": "Groove-oriented drums, slap bass solos, syncopated vocals, high energy.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Gothabilly",
+        "formula": "Rockabilly Swing + Goth Rock Themes",
+        "key_elements": "Upright slap bass, reverb-drenched guitars, spooky lyrics, horror aesthetic.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Psybient (Psychill)",
+        "formula": "Psytrance Textures + Downtempo/Ambient Beats",
+        "key_elements": "Trippy synth layers, slow tempo, ethnic samples, dub delay effects.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Drone Metal",
+        "formula": "Doom Metal + Minimalist Drone Music",
+        "key_elements": "Extreme sustain, ultra-slow tempo, massive amplification, lack of traditional rhythm.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Glitch Hop",
+        "formula": "Hip Hop Beats + IDM/Glitch Editing",
+        "key_elements": "Swing rhythm, digital artifacts, laser sounds, wobbling basslines.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Electro-Industrial",
+        "formula": "EBM (Electronic Body Music) + Distorted Vocals + Complex Layering",
+        "key_elements": "Aggressive beats, cybernetic themes, dense production, harsh synths.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Math Pop",
+        "formula": "Indie Pop Melodies + Math Rock Time Signatures",
+        "key_elements": "Twinkly guitars, catchy hooks, unexpected rhythmic turns, clean production.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Jazz Noir (Dark Jazz)",
+        "formula": "Slow Jazz + Dark Ambient Atmosphere",
+        "key_elements": "Brush drums, low saxophone, rain sounds, melancholic double bass, doom pace.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Aggrotech",
+        "formula": "Techno/Trance Leads + Harsh Industrial Vocals",
+        "key_elements": "Terror EBM beats, distorted screaming, supersaw leads, horror movie samples.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Tribal Industrial",
+        "formula": "Industrial Metal + Tribal Percussion",
+        "key_elements": "Machine beats mixed with tom-toms/djembes, ritualistic chanting, raw aggression.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Symphonic Black Metal",
+        "formula": "Black Metal + Full Orchestra + Choirs",
+        "key_elements": "High-speed tremolo, blast beats, majestic string sections, operatic vocals.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Prog-Hop",
+        "formula": "Progressive Rock Instrumentation + Hip Hop Flow",
+        "key_elements": "Live drums, complex time signatures, conscious rap, jazz fusion keys.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Complextro",
+        "formula": "Electro House + Chiptune + Glitch Editing",
+        "key_elements": "Rapidly switching bass patches, video game noises, heavy sidechain, 128 BPM.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Doom Jazz",
+        "formula": "Doom Metal Sludge + Free Jazz Chaos",
+        "key_elements": "Slow heavy riffs, dissonant saxophone solos, noir atmosphere, druggy vibe.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Stoner Doom",
+        "formula": "Blues + Doom Metal",
+        "key_elements": "Fuzz distortion, pentatonic riffs played slowly, heavy bass, retro vibe.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Deathstep",
+        "formula": "Dubstep + Death Metal",
+        "key_elements": "Machine-gun bass, blast beats, growls, extreme distortion, mosh-pit energy.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Folk Metal",
+        "formula": "Folk + Metal",
+        "key_elements": "Traditional instruments (flute, violin) mixed with distorted electric guitars.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Gospel House",
+        "formula": "Gospel + House",
+        "key_elements": "Powerful choir vocals, piano chords, 4-on-the-floor beat, uplifting lyrics.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Afro House",
+        "formula": "Afrobeat + House",
+        "key_elements": "Complex polyrhythms, tribal percussion, deep bass, soulful chanting.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Ska Punk",
+        "formula": "Ska + Punk",
+        "key_elements": "Upstroke guitar rhythm, brass section (horns), fast punk tempo, walking bass.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Noise Rock",
+        "formula": "Noise + Rock",
+        "key_elements": "Atonal riffs, feedback usage, chaotic drumming, unconventional song structures.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Happy Hardcore",
+        "formula": "Pop + Gabber/Hardcore",
+        "key_elements": "Very fast tempo (160+ BPM), pitched-up vocals, euphoric major chords.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Liquid DnB",
+        "formula": "Drum & Bass + Soul/R&B",
+        "key_elements": "Smooth breakbeats, melodic synthesizers, emotive vocal samples, deep bass.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Neoclassical Metal",
+        "formula": "Classical + Metal",
+        "key_elements": "Virtuoso shredding, arpeggios, harmonic minor scales, complex counterpoint.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dub Techno",
+        "formula": "Techno + Ambient/Dub",
+        "key_elements": "Tape delay, heavy reverb chords, static noise, repetitive deep groove.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Gqom",
+        "formula": "House + African Rhythms + Dark Minimalism",
+        "key_elements": "Broken beats, dark atmosphere, repetitive vocal chants, minimal synths.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Grungegaze",
+        "formula": "Grunge + Shoegaze",
+        "key_elements": "Heavy distorted riffs, buried vocals, ethereal textures, loud-quiet dynamics.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Digital Hardcore",
+        "formula": "Hardcore Punk + Breakcore/Gabber",
+        "key_elements": "Political lyrics, shouted vocals, distorted breakbeats, punk aggression.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Funkot",
+        "formula": "House + Funk + High BPM",
+        "key_elements": "Very fast tempo (180+ BPM), cowbells, 'hard' bassline, playful melodies.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Post-Metal",
+        "formula": "Post-Rock + Sludge/Doom",
+        "key_elements": "Atmospheric buildup, heavy crescendos, textured guitars, long song durations.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Skramz (Screamo)",
+        "formula": "Post-Hardcore + Emo + Chaos",
+        "key_elements": "Emotional screaming, melodic guitars turning chaotic, dynamic shifts.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "French House",
+        "formula": "House + Disco + Filter Effects",
+        "key_elements": "Heavy filter sweeps (phaser/low-pass), disco samples, sidechain compression.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Riddim (Dubstep)",
+        "formula": "Dubstep + Minimal Repetition",
+        "key_elements": "Triplet flow, metallic bass sounds, repetitive loop-based drops, swampy vibe.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Color Bass",
+        "formula": "Dubstep + Melodic/Harmonic Vocoder Chords",
+        "key_elements": "Bright melodic chords, vocoded bass growls, arpeggios, high-definition sound.",
+        "bpm_range": [
+          100,
+          140
+        ],
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Progressive Deathcore",
+        "formula": "Deathcore Breakdowns + Progressive Metal Complexity",
+        "key_elements": "Technical riffs, odd time signatures, brutal breakdowns, clean/harsh dynamics, atmospheric sections.",
+        "bpm_range": [
+          80,
+          200
+        ],
+        "difficulty": "Expert",
+        "origin_year": 2008,
+        "artist_references": [
+          "Born of Osiris",
+          "Veil of Maya",
+          "After the Burial"
+        ],
+        "recommended_scales": [
+          "phrygian_dominant",
+          "harmonic_minor",
+          "locrian"
+        ],
+        "recommended_vocals": [
+          "male_tech_deathcore",
+          "male_prog_tech_death"
+        ]
+      },
+      {
+        "name": "Melodic Metalcore",
+        "formula": "Metalcore + Melodic Death Metal",
+        "key_elements": "Dual guitar harmonies, clean singing choruses, harsh verses, Swedish death metal influence.",
+        "bpm_range": [
+          140,
+          180
+        ],
+        "difficulty": "Intermediate",
+        "origin_year": 2002,
+        "artist_references": [
+          "Killswitch Engage",
+          "As I Lay Dying",
+          "Parkway Drive"
+        ],
+        "recommended_scales": [
+          "minor_aeolian",
+          "harmonic_minor",
+          "dorian"
+        ],
+        "recommended_vocals": [
+          "male_melodic_metalcore",
+          "male_killswitch_engage_style"
+        ]
+      },
+      {
+        "name": "Bass House",
+        "formula": "House + Dubstep Bass Design",
+        "key_elements": "4-on-the-floor kick, wobble bass, 128 BPM, festival energy.",
+        "bpm_range": [
+          125,
+          130
+        ],
+        "difficulty": "Intermediate",
+        "origin_year": 2014,
+        "artist_references": [
+          "Jauz",
+          "AC Slater",
+          "Tchami"
+        ],
+        "recommended_scales": [
+          "minor_pentatonic",
+          "blues_scale"
+        ],
+        "recommended_vocals": [
+          "male_big_room_anthem",
+          "male_deep_house_soul"
+        ]
+      },
+      {
+        "name": "Melodic Dubstep",
+        "formula": "Dubstep + Trance Melodies + Emotional Vocals",
+        "key_elements": "Euphoric melodies, emotional buildups, heavy bass drops, uplifting atmosphere.",
+        "bpm_range": [
+          140,
+          150
+        ],
+        "difficulty": "Intermediate",
+        "origin_year": 2012,
+        "artist_references": [
+          "Illenium",
+          "Seven Lions",
+          "Said the Sky"
+        ],
+        "recommended_scales": [
+          "major_ionian",
+          "lydian",
+          "major_pentatonic"
+        ],
+        "recommended_vocals": [
+          "male_future_bass_vocalist",
+          "female_uplifting_choir"
+        ]
+      },
+      {
+        "name": "Emo Rap",
+        "formula": "Trap + Emo/Rock + Autotuned Singing",
+        "key_elements": "Sad melodies, guitar samples, emotional lyrics, heavy autotune, 808s.",
+        "bpm_range": [
+          120,
+          150
+        ],
+        "difficulty": "Beginner",
+        "origin_year": 2015,
+        "artist_references": [
+          "Lil Peep",
+          "Juice WRLD",
+          "XXXTentacion"
+        ],
+        "recommended_scales": [
+          "minor_aeolian",
+          "dorian",
+          "minor_pentatonic"
+        ],
+        "recommended_vocals": [
+          "male_emo_trap",
+          "male_hyperpop_emo"
+        ]
+      },
+      {
+        "name": "Drill",
+        "formula": "Trap + UK Grime + Dark Atmosphere",
+        "key_elements": "Sliding 808s, dark piano, hi-hat rolls, aggressive lyrics, 140 BPM.",
+        "bpm_range": [
+          135,
+          145
+        ],
+        "difficulty": "Intermediate",
+        "origin_year": 2012,
+        "artist_references": [
+          "Pop Smoke",
+          "Chief Keef",
+          "Headie One"
+        ],
+        "recommended_scales": [
+          "phrygian",
+          "harmonic_minor",
+          "minor_aeolian"
+        ],
+        "recommended_vocals": [
+          "male_boom_bap_classic",
+          "male_mumble_rap"
+        ]
+      }
+    ]
+  }
+}

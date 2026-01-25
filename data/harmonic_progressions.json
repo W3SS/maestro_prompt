@@ -1,0 +1,270 @@
+{
+  "progressions_database": [
+    {
+      "name": "The Axis of Awesome",
+      "numerals": [ "I", "V", "vi", "IV" ],
+      "vibe": "Pop Anthem, Triumph, Nostalgia",
+      "complexity": "Low",
+      "modal_interchange": false
+    },
+    {
+      "name": "The Sad Banger (Trap/Emo)",
+      "numerals": [ "vi", "IV", "I", "V" ],
+      "vibe": "Emotional, Melancholic Energy, Reflective",
+      "complexity": "Low",
+      "modal_interchange": false
+    },
+    {
+      "name": "The 'Creep' Progression (Picardy Third)",
+      "numerals": [ "I", "III", "IV", "iv" ],
+      "vibe": "Unexpected Sadness, Regret, Bitter-sweet",
+      "complexity": "Medium",
+      "modal_interchange": true,
+      "note": "The 'iv' (minor four) is borrowed from the parallel minor key."
+    },
+    {
+      "name": "Neo-Soul Turnaround",
+      "numerals": [ "ii7", "V7", "Imaj7", "VI7alt" ],
+      "vibe": "Smooth, Sexy, Urban, Late Night",
+      "complexity": "High",
+      "modal_interchange": true,
+      "note": "Uses secondary dominants and extensions."
+    },
+    {
+      "name": "Andalusian Cadence",
+      "numerals": [ "i", "VII", "VI", "V" ],
+      "vibe": "Tension, Descent, Flamenco, Metal Breakdown",
+      "complexity": "Medium",
+      "genres": [ "Flamenco", "Thrash Metal", "Trap" ]
+    },
+    {
+      "name": "The Hero's Journey (Lydian)",
+      "numerals": [ "I", "II" ],
+      "vibe": "Cinematic, Floating, Space, Optimistic",
+      "complexity": "Medium",
+      "genres": [ "Film Score", "Prog Rock", "Dreampop" ]
+    },
+    {
+      "name": "The Royal Road (Oudou Shinkou)",
+      "numerals": [ "IV", "V", "iii", "vi" ],
+      "vibe": "Anime Opening, J-Pop, Nostalgic, Emotional",
+      "complexity": "Medium",
+      "modal_interchange": false,
+      "genres": [ "J-Pop", "Kawaii Metal", "Hyperpop" ]
+    },
+    {
+      "name": "Doo-Wop / 50s Progression",
+      "numerals": [ "I", "vi", "IV", "V" ],
+      "vibe": "Vintage, Sweet, Wholesome, Ballad",
+      "complexity": "Low",
+      "modal_interchange": false
+    },
+    {
+      "name": "The Jazz Atom (Major)",
+      "numerals": [ "ii7", "V7", "Imaj7" ],
+      "vibe": "Resolved, Classy, Jazz Standard Foundation",
+      "complexity": "Medium",
+      "modal_interchange": false
+    },
+    {
+      "name": "The Jazz Atom (Minor)",
+      "numerals": [ "ii7b5", "V7alt", "im7" ],
+      "vibe": "Dark, Noir, Sophisticated, Tension",
+      "complexity": "High",
+      "modal_interchange": true
+    },
+    {
+      "name": "Mixolydian Rock",
+      "numerals": [ "I", "bVII", "IV" ],
+      "vibe": "Classic Rock, Adventure, Rebellious",
+      "complexity": "Low",
+      "modal_interchange": true,
+      "note": "The bVII is borrowed from the Mixolydian mode."
+    },
+    {
+      "name": "Double Plagal (The Hey Jude)",
+      "numerals": [ "bVII", "IV", "I" ],
+      "vibe": "Epic, Finale, Resolution, Arena Rock",
+      "complexity": "Low",
+      "modal_interchange": true
+    },
+    {
+      "name": "Minor Plagal (The Heartbreaker)",
+      "numerals": [ "I", "iv" ],
+      "vibe": "Sentimental, Yearning, Romantic Tragedy",
+      "complexity": "Low",
+      "modal_interchange": true,
+      "note": "I major moving to iv minor."
+    },
+    {
+      "name": "Dorian Vamp",
+      "numerals": [ "im7", "IV7" ],
+      "vibe": "Groovy, Funk, Infinite Loop, Daft Punk",
+      "complexity": "Medium",
+      "modal_interchange": true,
+      "genres": [ "Funk", "House", "Pink Floyd-style" ]
+    },
+    {
+      "name": "The 'Just The Two of Us'",
+      "numerals": [ "IVmaj7", "III7", "vim7", "vm7", "I7" ],
+      "vibe": "Lo-Fi, Relaxed, City Pop, Sophisticated",
+      "complexity": "High",
+      "modal_interchange": true
+    },
+    {
+      "name": "Chromatic Mediant (Space)",
+      "numerals": [ "I", "bVI" ],
+      "vibe": "Sci-Fi, Epic, Superhero, Interstellar",
+      "complexity": "Medium",
+      "modal_interchange": true
+    },
+    {
+      "name": "Chromatic Mediant (Fantasy)",
+      "numerals": [ "I", "III" ],
+      "vibe": "Wonder, Fantasy, Bright but unsettling",
+      "complexity": "Medium",
+      "modal_interchange": true,
+      "note": "Major chord moving to another Major chord a 3rd away."
+    },
+    {
+      "name": "Phrygian Dominant Vamp",
+      "numerals": [ "I", "bII" ],
+      "vibe": "Middle Eastern, Exotic Metal, Egyptian",
+      "complexity": "Medium",
+      "modal_interchange": true,
+      "genres": [ "Death Metal", "Psytrance" ]
+    },
+    {
+      "name": "The Line Cliché (Spy)",
+      "numerals": [ "im", "im(maj7)", "im7", "im6" ],
+      "vibe": "Spy Thriller, Detective, James Bond, Suspense",
+      "complexity": "High",
+      "modal_interchange": false,
+      "note": "Chromatic descending line inside the chord."
+    },
+    {
+      "name": "Circle of Fifths (The Survivor)",
+      "numerals": [ "vi", "ii", "V", "I", "IV", "vii", "III" ],
+      "vibe": "Journey, Complete Story, Disco, Baroque",
+      "complexity": "Medium",
+      "modal_interchange": false
+    },
+    {
+      "name": "Backdoor Cadence",
+      "numerals": [ "iv7", "bVII7", "Imaj7" ],
+      "vibe": "Jazz Resolution, Unexpected Warmth, Soulful",
+      "complexity": "High",
+      "modal_interchange": true
+    },
+    {
+      "name": "The Mario Cadence",
+      "numerals": [ "bVI", "bVII", "I" ],
+      "vibe": "Video Game Victory, Epic Resolve, Heroic",
+      "complexity": "Low",
+      "modal_interchange": true
+    },
+    {
+      "name": "12 Bar Blues",
+      "numerals": [ "I7", "I7", "I7", "I7", "IV7", "IV7", "I7", "I7", "V7", "IV7", "I7", "V7" ],
+      "vibe": "Roots, Rock n Roll, Grit, Shuffle",
+      "complexity": "Medium",
+      "modal_interchange": false
+    },
+    {
+      "name": "Deceptive Cadence",
+      "numerals": [ "I", "V", "vi" ],
+      "vibe": "Surprise, Continuity, Denied Resolution",
+      "complexity": "Low",
+      "modal_interchange": false,
+      "note": "Instead of resolving to I, it lands on vi."
+    },
+    {
+      "name": "The Komuro Progression",
+      "numerals": [ "vi", "IV", "V", "I" ],
+      "vibe": "Eurobeat, Trance, Uplifting, 90s Japan",
+      "complexity": "Low",
+      "modal_interchange": false
+    },
+    {
+      "name": "Diminished Passing",
+      "numerals": [ "I", "#Idim7", "ii7" ],
+      "vibe": "Gospel, Old School, Piano Man, Smooth Transition",
+      "complexity": "High",
+      "modal_interchange": true
+    },
+    {
+      "name": "Tritone Substitution",
+      "numerals": [ "dm7", "Db7", "Cmaj7" ],
+      "vibe": "Jazz, Chromatic Slide, Smooth Resolve",
+      "complexity": "High",
+      "modal_interchange": true,
+      "note": "Using bII7 instead of V7."
+    },
+    {
+      "name": "Pachelbel's Canon",
+      "numerals": [ "I", "V", "vi", "iii", "IV", "I", "IV", "V" ],
+      "vibe": "Baroque, Classical, Foundational, Memories",
+      "complexity": "Medium",
+      "modal_interchange": false
+    },
+    {
+      "name": "Dark Step (Djent)",
+      "numerals": [ "i", "bii", "i", "bV" ],
+      "vibe": "Dissonant, Heavy, Mechanical, Evil",
+      "complexity": "Medium",
+      "modal_interchange": true,
+      "genres": [ "Djent", "Thall", "Industrial" ]
+    },
+    {
+      "name": "Gospel Turnaround",
+      "numerals": [ "I", "E7/G#", "vi", "C7" ],
+      "vibe": "Church, Soul, Powerful, Uplifting",
+      "complexity": "High",
+      "modal_interchange": true
+    },
+    {
+      "name": "Radiohead (Chromatic)",
+      "numerals": [ "I", "II", "iv" ],
+      "vibe": "Unsettling, Alternative, Melancholic Alienation",
+      "complexity": "High",
+      "modal_interchange": true
+    },
+    {
+      "name": "Cyberpunk Descent",
+      "numerals": [ "im", "bvi", "biv" ],
+      "vibe": "Futuristic, Dystopian, Synthetic",
+      "complexity": "Medium",
+      "modal_interchange": true
+    },
+    {
+      "name": "Aeolian Vamp",
+      "numerals": [ "i", "bVI", "bVII" ],
+      "vibe": "Iron Maiden, Epic Metal, Adventure, Video Game Loop",
+      "complexity": "Low",
+      "modal_interchange": false
+    },
+    {
+      "name": "Folia",
+      "numerals": [ "i", "V", "i", "VII", "III", "VII", "i", "V" ],
+      "vibe": "Ancient, Medieval, Historical, Folk",
+      "complexity": "Medium",
+      "modal_interchange": false
+    },
+    {
+      "name": "The Picardy End",
+      "numerals": [ "i", "iv", "V", "I" ],
+      "vibe": "Holy, Resolution, Light at end of tunnel",
+      "complexity": "Low",
+      "modal_interchange": true,
+      "note": "A minor key song ending on the parallel Major chord."
+    },
+    {
+      "name": "Locrian Grind",
+      "numerals": [ "idim", "bII" ],
+      "vibe": "Unstable, Grimy, Sludge, Horror",
+      "complexity": "High",
+      "modal_interchange": false,
+      "genres": [ "Sludge Metal", "Grindcore" ]
+    }
+  ]
+}

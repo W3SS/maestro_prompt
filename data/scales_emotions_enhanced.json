@@ -1,0 +1,1375 @@
+{
+    "metadata": {
+        "version": "2.0",
+        "description": "Enhanced scales database with artist references, chord progressions, and metal-specific scales",
+        "total_scales": 35,
+        "last_updated": "2026-01-23"
+    },
+    "scales_database": [
+        {
+            "id": "major_ionian",
+            "name": "Major (Ionian)",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Happiness",
+                "keywords": [
+                    "Joy",
+                    "Triumph",
+                    "Innocence",
+                    "Clarity",
+                    "Stable"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Pop",
+                "Country",
+                "Power Metal",
+                "Punk Rock"
+            ],
+            "lyrical_themes": [
+                "Celebration",
+                "Love",
+                "Overcoming",
+                "Friendship"
+            ],
+            "artist_references": [
+                "Taylor Swift",
+                "DragonForce",
+                "Blink-182"
+            ],
+            "signature_chords": [
+                "I - IV - V",
+                "I - V - vi - IV"
+            ],
+            "bpm_range": [
+                80,
+                180
+            ],
+            "difficulty": "Beginner",
+            "metal_subgenres": [
+                "Power Metal",
+                "Speed Metal"
+            ]
+        },
+        {
+            "id": "minor_aeolian",
+            "name": "Minor (Aeolian)",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Sadness",
+                "keywords": [
+                    "Melancholy",
+                    "Tragedy",
+                    "Serious",
+                    "Emotional",
+                    "Dark"
+                ],
+                "energy_level": "Low/Medium"
+            },
+            "common_genres": [
+                "Ballads",
+                "Doom Metal",
+                "Trap",
+                "Indie Rock"
+            ],
+            "lyrical_themes": [
+                "Loss",
+                "Heartbreak",
+                "Reflection",
+                "Solitude"
+            ],
+            "artist_references": [
+                "Radiohead",
+                "Electric Wizard",
+                "Candlemass"
+            ],
+            "signature_chords": [
+                "i - VI - III - VII",
+                "i - iv - v"
+            ],
+            "bpm_range": [
+                60,
+                140
+            ],
+            "difficulty": "Beginner",
+            "metal_subgenres": [
+                "Doom Metal",
+                "Gothic Metal",
+                "Melodic Death Metal"
+            ]
+        },
+        {
+            "id": "dorian",
+            "name": "Dorian",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Sophistication",
+                "keywords": [
+                    "Sentimental",
+                    "Groovy",
+                    "Hopeful Sadness",
+                    "Night Drive",
+                    "Cool"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Jazz Fusion",
+                "Funk",
+                "Pink Floyd-style Rock",
+                "Deep House"
+            ],
+            "lyrical_themes": [
+                "Nostalgia",
+                "Urban Life",
+                "Complex Relationships",
+                "Journey"
+            ],
+            "artist_references": [
+                "Pink Floyd",
+                "Santana",
+                "Opeth (clean sections)"
+            ],
+            "signature_chords": [
+                "i - IV",
+                "i - II - IV"
+            ],
+            "bpm_range": [
+                70,
+                130
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Groove Metal"
+            ]
+        },
+        {
+            "id": "phrygian",
+            "name": "Phrygian",
+            "intervals": [
+                1,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Tension",
+                "keywords": [
+                    "Evil",
+                    "Exotic",
+                    "Aggressive",
+                    "Ominous",
+                    "Mysterious"
+                ],
+                "energy_level": "High/Intense"
+            },
+            "common_genres": [
+                "Thrash Metal",
+                "Techno",
+                "Hip Hop (Dark)",
+                "Flamenco"
+            ],
+            "lyrical_themes": [
+                "War",
+                "Occult",
+                "Inner Demons",
+                "Rebellion"
+            ],
+            "artist_references": [
+                "Metallica",
+                "Slayer",
+                "Testament",
+                "Kreator"
+            ],
+            "signature_chords": [
+                "i - bII",
+                "i - bII - bVII - i"
+            ],
+            "bpm_range": [
+                120,
+                220
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Thrash Metal",
+                "Death Metal",
+                "Black Metal"
+            ]
+        },
+        {
+            "id": "lydian",
+            "name": "Lydian",
+            "intervals": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Dreamy",
+                "keywords": [
+                    "Ethereal",
+                    "Floating",
+                    "Sci-Fi",
+                    "Hopeful",
+                    "Wonder"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Film Score",
+                "Dreampop",
+                "Prog Rock",
+                "Ambient"
+            ],
+            "lyrical_themes": [
+                "Space",
+                "Dreams",
+                "Fantasy",
+                "Nature"
+            ],
+            "artist_references": [
+                "Steve Vai",
+                "Dream Theater",
+                "Joe Satriani"
+            ],
+            "signature_chords": [
+                "I - II",
+                "I - II - #IV"
+            ],
+            "bpm_range": [
+                60,
+                140
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Djent"
+            ]
+        },
+        {
+            "id": "mixolydian",
+            "name": "Mixolydian",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Adventure",
+                "keywords": [
+                    "Rocking",
+                    "Bluesy",
+                    "Positive",
+                    "Roadtrip",
+                    "Confident"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Classic Rock",
+                "Blues",
+                "Jam Bands",
+                "Psychedelic Rock"
+            ],
+            "lyrical_themes": [
+                "Freedom",
+                "Travel",
+                "Partying",
+                "Counter-culture"
+            ],
+            "artist_references": [
+                "Grateful Dead",
+                "Lynyrd Skynyrd",
+                "AC/DC"
+            ],
+            "signature_chords": [
+                "I - bVII - IV",
+                "I - bVII - I"
+            ],
+            "bpm_range": [
+                90,
+                160
+            ],
+            "difficulty": "Beginner",
+            "metal_subgenres": [
+                "Stoner Rock",
+                "Southern Metal"
+            ]
+        },
+        {
+            "id": "locrian",
+            "name": "Locrian",
+            "intervals": [
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Instability",
+                "keywords": [
+                    "Dissonant",
+                    "Unresolved",
+                    "Horror",
+                    "Chaos",
+                    "Disgust"
+                ],
+                "energy_level": "Variable"
+            },
+            "common_genres": [
+                "Extreme Metal",
+                "Experimental",
+                "Avant-Garde",
+                "Horror Soundtracks"
+            ],
+            "lyrical_themes": [
+                "Madness",
+                "Void",
+                "Abstract Fear",
+                "Decay"
+            ],
+            "artist_references": [
+                "Meshuggah",
+                "Gorguts",
+                "Portal"
+            ],
+            "signature_chords": [
+                "i° - bII",
+                "i° - bV"
+            ],
+            "bpm_range": [
+                40,
+                200
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Technical Death Metal",
+                "Avant-Garde Metal",
+                "Dissonant Death Metal"
+            ]
+        },
+        {
+            "id": "phrygian_dominant",
+            "name": "Phrygian Dominant",
+            "intervals": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Epic/Exotic",
+                "keywords": [
+                    "Middle-Eastern",
+                    "Intense",
+                    "Vampiric",
+                    "Dramatic",
+                    "Powerful"
+                ],
+                "energy_level": "Very High"
+            },
+            "common_genres": [
+                "Tech Death",
+                "Symphonic Metal",
+                "Psytrance",
+                "Flamenco"
+            ],
+            "lyrical_themes": [
+                "Ancient Mythology",
+                "Rituals",
+                "Power",
+                "Destruction"
+            ],
+            "artist_references": [
+                "Nile",
+                "Behemoth",
+                "Arch Enemy",
+                "Yngwie Malmsteen"
+            ],
+            "signature_chords": [
+                "I - bII - I",
+                "I - bII - bVII - I"
+            ],
+            "bpm_range": [
+                140,
+                260
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Technical Death Metal",
+                "Symphonic Metal",
+                "Neoclassical Metal"
+            ]
+        },
+        {
+            "id": "harmonic_minor",
+            "name": "Harmonic Minor",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Gothic Tension",
+                "keywords": [
+                    "Gothic",
+                    "Classical Tension",
+                    "Baroque",
+                    "Sinister",
+                    "Dramatic"
+                ],
+                "energy_level": "Medium/High"
+            },
+            "common_genres": [
+                "Neoclassical Metal",
+                "Tech Death",
+                "Trap (Dark)",
+                "Classical"
+            ],
+            "lyrical_themes": [
+                "Darkness",
+                "Classical Horror",
+                "Vampires",
+                "Gothic Romance"
+            ],
+            "artist_references": [
+                "Yngwie Malmsteen",
+                "Necrophagist",
+                "Obscura"
+            ],
+            "signature_chords": [
+                "i - V - i",
+                "i - iv - V - i"
+            ],
+            "bpm_range": [
+                80,
+                200
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Neoclassical Metal",
+                "Technical Death Metal",
+                "Symphonic Metal"
+            ]
+        },
+        {
+            "id": "melodic_minor",
+            "name": "Melodic Minor (Jazz Minor)",
+            "intervals": [
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Mysterious Sophistication",
+                "keywords": [
+                    "Mysterious",
+                    "Sophisticated",
+                    "Unresolved longing",
+                    "Noir",
+                    "Complex"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Jazz Fusion",
+                "Neo Soul",
+                "Progressive Rock",
+                "Progressive Metal"
+            ],
+            "lyrical_themes": [
+                "Mystery",
+                "Complexity",
+                "Urban Noir",
+                "Introspection"
+            ],
+            "artist_references": [
+                "Allan Holdsworth",
+                "Cynic",
+                "Atheist"
+            ],
+            "signature_chords": [
+                "i - II - IV",
+                "i - bVII - IV"
+            ],
+            "bpm_range": [
+                70,
+                160
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Jazz Metal Fusion"
+            ]
+        },
+        {
+            "id": "hungarian_minor",
+            "name": "Hungarian Minor (Double Harmonic)",
+            "intervals": [
+                2,
+                1,
+                3,
+                1,
+                1,
+                3,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Exotic Intensity",
+                "keywords": [
+                    "Exotic",
+                    "Desert",
+                    "Intense",
+                    "Psychedelic",
+                    "Hypnotic"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Psytrance",
+                "Technical Death Metal",
+                "Surf Rock",
+                "Folk Metal"
+            ],
+            "lyrical_themes": [
+                "Desert Mysticism",
+                "Ancient Cultures",
+                "Psychedelic Journeys"
+            ],
+            "artist_references": [
+                "Nile",
+                "Melechesh",
+                "Orphaned Land"
+            ],
+            "signature_chords": [
+                "i - bII - III+ - i"
+            ],
+            "bpm_range": [
+                100,
+                200
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Technical Death Metal",
+                "Oriental Metal",
+                "Folk Metal"
+            ]
+        },
+        {
+            "id": "whole_tone",
+            "name": "Whole Tone",
+            "intervals": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Dreamlike Ambiguity",
+                "keywords": [
+                    "Dreamlike",
+                    "Floating",
+                    "Confused",
+                    "Dissociative",
+                    "Surreal"
+                ],
+                "energy_level": "Low/Medium"
+            },
+            "common_genres": [
+                "Impressionist Classical",
+                "Modern Jazz",
+                "Prog Intros",
+                "Ambient"
+            ],
+            "lyrical_themes": [
+                "Dreams",
+                "Unreality",
+                "Liminal Spaces",
+                "Confusion"
+            ],
+            "artist_references": [
+                "Opeth (interludes)",
+                "Cynic",
+                "Gorguts"
+            ],
+            "signature_chords": [
+                "Augmented triads",
+                "Whole tone clusters"
+            ],
+            "bpm_range": [
+                40,
+                100
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Avant-Garde Metal"
+            ]
+        },
+        {
+            "id": "blues_scale",
+            "name": "Blues Scale",
+            "intervals": [
+                3,
+                2,
+                1,
+                1,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Raw Emotion",
+                "keywords": [
+                    "Soulful",
+                    "Gritty",
+                    "Expressive",
+                    "Yearning",
+                    "Authentic"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Blues",
+                "Rock 'n' Roll",
+                "Funk",
+                "Soul"
+            ],
+            "lyrical_themes": [
+                "Struggle",
+                "Love",
+                "Hard Times",
+                "Personal Expression"
+            ],
+            "artist_references": [
+                "Black Sabbath",
+                "Pantera",
+                "Zakk Wylde"
+            ],
+            "signature_chords": [
+                "i7 - IV7 - V7",
+                "i7 - bVII7 - i7"
+            ],
+            "bpm_range": [
+                60,
+                140
+            ],
+            "difficulty": "Beginner",
+            "metal_subgenres": [
+                "Doom Metal",
+                "Sludge Metal",
+                "Stoner Metal"
+            ]
+        },
+        {
+            "id": "super_locrian",
+            "name": "Super Locrian (Altered)",
+            "intervals": [
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Extreme Dissonance",
+                "keywords": [
+                    "Chaotic",
+                    "Unstable",
+                    "Jazzy Tension",
+                    "Aggressive",
+                    "Abstract"
+                ],
+                "energy_level": "High/Intense"
+            },
+            "common_genres": [
+                "Avant-Garde Jazz",
+                "Technical Death Metal",
+                "20th Century Classical",
+                "Noise Rock"
+            ],
+            "lyrical_themes": [
+                "Chaos",
+                "Deconstruction",
+                "Anger",
+                "Cosmic Horror"
+            ],
+            "artist_references": [
+                "Gorguts",
+                "Ulcerate",
+                "Imperial Triumphant"
+            ],
+            "signature_chords": [
+                "Altered dominants",
+                "Tritone substitutions"
+            ],
+            "bpm_range": [
+                80,
+                240
+            ],
+            "difficulty": "Expert",
+            "metal_subgenres": [
+                "Dissonant Death Metal",
+                "Avant-Garde Metal",
+                "Technical Death Metal"
+            ]
+        },
+        {
+            "id": "lydian_dominant",
+            "name": "Lydian Dominant (Mixolydian #4)",
+            "intervals": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Cool Dreamy Tension",
+                "keywords": [
+                    "Dreamy Jazz",
+                    "Cool",
+                    "Sophisticated",
+                    "Floating Tension",
+                    "Bright"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Jazz Fusion",
+                "Film/TV Scores",
+                "Prog Rock",
+                "Neo-Soul"
+            ],
+            "lyrical_themes": [
+                "Sophistication",
+                "Urban Life",
+                "Nuanced Emotions",
+                "Stylish Cool"
+            ],
+            "artist_references": [
+                "Steve Vai",
+                "Allan Holdsworth",
+                "Plini"
+            ],
+            "signature_chords": [
+                "I7 - II",
+                "I7 - #IV"
+            ],
+            "bpm_range": [
+                70,
+                150
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Djent",
+                "Jazz Metal"
+            ]
+        },
+        {
+            "id": "major_pentatonic",
+            "name": "Major Pentatonic",
+            "intervals": [
+                2,
+                2,
+                3,
+                2,
+                3
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Simple Joy",
+                "keywords": [
+                    "Folk",
+                    "Openness",
+                    "Pastoral",
+                    "Universal",
+                    "Accessible"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Country",
+                "Bluegrass",
+                "Indie Folk",
+                "Pop"
+            ],
+            "lyrical_themes": [
+                "Nature",
+                "Simplicity",
+                "Home",
+                "Peace"
+            ],
+            "artist_references": [
+                "Mastodon (melodic sections)",
+                "Baroness"
+            ],
+            "signature_chords": [
+                "I - V - vi",
+                "I - IV - I"
+            ],
+            "bpm_range": [
+                80,
+                160
+            ],
+            "difficulty": "Beginner",
+            "metal_subgenres": [
+                "Sludge Metal (melodic parts)",
+                "Progressive Sludge"
+            ]
+        },
+        {
+            "id": "minor_pentatonic",
+            "name": "Minor Pentatonic (Blues Box)",
+            "intervals": [
+                3,
+                2,
+                2,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Primordial Soul",
+                "keywords": [
+                    "Soulful",
+                    "Roots",
+                    "Primal",
+                    "Emotional",
+                    "Universal"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Blues",
+                "Rock",
+                "Funk",
+                "Soul",
+                "Hip-Hop"
+            ],
+            "lyrical_themes": [
+                "Heartache",
+                "Struggle",
+                "Truth",
+                "Everyman Stories"
+            ],
+            "artist_references": [
+                "Black Sabbath",
+                "Pantera",
+                "Down",
+                "Crowbar"
+            ],
+            "signature_chords": [
+                "i - bVII - i",
+                "i - iv - i"
+            ],
+            "bpm_range": [
+                60,
+                160
+            ],
+            "difficulty": "Beginner",
+            "metal_subgenres": [
+                "Doom Metal",
+                "Sludge Metal",
+                "Stoner Metal",
+                "Groove Metal"
+            ]
+        },
+        {
+            "id": "hirajoshi",
+            "name": "Hirajoshi (Japanese)",
+            "intervals": [
+                2,
+                1,
+                4,
+                1,
+                4
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Eastern Contemplation",
+                "keywords": [
+                    "Eastern",
+                    "Contemplative",
+                    "Honorable",
+                    "Tragic",
+                    "Sparse"
+                ],
+                "energy_level": "Low/Medium"
+            },
+            "common_genres": [
+                "Trap",
+                "Ambient",
+                "Film Score",
+                "Martial Industrial"
+            ],
+            "lyrical_themes": [
+                "Honor",
+                "Tradition",
+                "Solitude",
+                "Meditation"
+            ],
+            "artist_references": [
+                "Dir En Grey",
+                "Sigh",
+                "Coffins"
+            ],
+            "signature_chords": [
+                "Suspended chords",
+                "Open 5ths"
+            ],
+            "bpm_range": [
+                60,
+                140
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Japanese Metal",
+                "Atmospheric Black Metal"
+            ]
+        },
+        {
+            "id": "in_sen",
+            "name": "In Sen (Japanese)",
+            "intervals": [
+                1,
+                4,
+                2,
+                3,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Meditative Stillness",
+                "keywords": [
+                    "Zen",
+                    "Sparse",
+                    "Contemplative",
+                    "Ancient",
+                    "Elegant"
+                ],
+                "energy_level": "Low"
+            },
+            "common_genres": [
+                "Traditional Japanese",
+                "Ambient",
+                "Minimalist",
+                "Film Score"
+            ],
+            "lyrical_themes": [
+                "Nature",
+                "Meditation",
+                "Transience",
+                "Silence"
+            ],
+            "artist_references": [
+                "Boris (ambient sections)",
+                "Sunn O)))"
+            ],
+            "signature_chords": [
+                "Open intervals",
+                "Quartal harmony"
+            ],
+            "bpm_range": [
+                40,
+                80
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Drone Metal",
+                "Atmospheric Black Metal"
+            ]
+        },
+        {
+            "id": "octatonic_half_whole",
+            "name": "Octatonic (Diminished) - Half-Whole",
+            "intervals": [
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Suspense & Tension",
+                "keywords": [
+                    "Suspenseful",
+                    "Unsettling",
+                    "Jazzy Tension",
+                    "Modern",
+                    "Complex"
+                ],
+                "energy_level": "Variable"
+            },
+            "common_genres": [
+                "Film Noir/Jazz",
+                "Progressive Metal",
+                "Modern Classical",
+                "Video Game"
+            ],
+            "lyrical_themes": [
+                "Mystery",
+                "Chaos",
+                "Internal Conflict",
+                "The Chase"
+            ],
+            "artist_references": [
+                "Meshuggah",
+                "Gojira",
+                "Obscura"
+            ],
+            "signature_chords": [
+                "Diminished 7th",
+                "Augmented triads"
+            ],
+            "bpm_range": [
+                80,
+                200
+            ],
+            "difficulty": "Expert",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Technical Death Metal",
+                "Djent"
+            ]
+        },
+        {
+            "id": "mixolydian_b6",
+            "name": "Mixolydian b6 (Aeolian Dominant)",
+            "intervals": [
+                2,
+                2,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Dark Groove",
+                "keywords": [
+                    "Heavy",
+                    "Groovy",
+                    "Dark but Uplifting",
+                    "Powerful",
+                    "Driving"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Groove Metal",
+                "Metalcore",
+                "Djent",
+                "Progressive Metal"
+            ],
+            "lyrical_themes": [
+                "Power",
+                "Aggression",
+                "Determination",
+                "Rebellion"
+            ],
+            "artist_references": [
+                "Lamb of God",
+                "Gojira",
+                "Meshuggah"
+            ],
+            "signature_chords": [
+                "I - bVI - bVII",
+                "I - bVI - IV"
+            ],
+            "bpm_range": [
+                100,
+                180
+            ],
+            "difficulty": "Intermediate",
+            "metal_subgenres": [
+                "Groove Metal",
+                "Djent",
+                "Metalcore"
+            ]
+        },
+        {
+            "id": "phrygian_natural_3",
+            "name": "Phrygian Natural 3rd",
+            "intervals": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Exotic Aggression",
+                "keywords": [
+                    "Exotic",
+                    "Aggressive",
+                    "Middle-Eastern",
+                    "Powerful",
+                    "Intense"
+                ],
+                "energy_level": "Very High"
+            },
+            "common_genres": [
+                "Death Metal",
+                "Thrash Metal",
+                "Oriental Metal"
+            ],
+            "lyrical_themes": [
+                "War",
+                "Ancient Battles",
+                "Mythology",
+                "Conquest"
+            ],
+            "artist_references": [
+                "Nile",
+                "Melechesh",
+                "Behemoth"
+            ],
+            "signature_chords": [
+                "i - bII - III",
+                "i - bII - bVII"
+            ],
+            "bpm_range": [
+                140,
+                240
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Death Metal",
+                "Oriental Metal",
+                "Technical Death Metal"
+            ]
+        },
+        {
+            "id": "lydian_augmented",
+            "name": "Lydian Augmented",
+            "intervals": [
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Ethereal Brightness",
+                "keywords": [
+                    "Bright",
+                    "Floating",
+                    "Otherworldly",
+                    "Expansive",
+                    "Cosmic"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Progressive Metal",
+                "Jazz Fusion",
+                "Film Score"
+            ],
+            "lyrical_themes": [
+                "Space",
+                "Transcendence",
+                "Wonder",
+                "Infinity"
+            ],
+            "artist_references": [
+                "Cynic",
+                "Atheist",
+                "Obscura"
+            ],
+            "signature_chords": [
+                "Imaj7#5",
+                "I+ - II"
+            ],
+            "bpm_range": [
+                60,
+                140
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Technical Death Metal"
+            ]
+        },
+        {
+            "id": "dorian_sharp_4",
+            "name": "Dorian #4 (Ukrainian Dorian)",
+            "intervals": [
+                2,
+                1,
+                3,
+                1,
+                2,
+                1,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Mystical Folk",
+                "keywords": [
+                    "Mystical",
+                    "Folkloric",
+                    "Bright Minor",
+                    "Exotic",
+                    "Hopeful"
+                ],
+                "energy_level": "Medium"
+            },
+            "common_genres": [
+                "Folk Metal",
+                "Progressive Metal",
+                "World Music"
+            ],
+            "lyrical_themes": [
+                "Folklore",
+                "Nature",
+                "Mysticism",
+                "Heritage"
+            ],
+            "artist_references": [
+                "Opeth",
+                "Agalloch",
+                "Enslaved"
+            ],
+            "signature_chords": [
+                "i - II - #IV°",
+                "i - IV - II"
+            ],
+            "bpm_range": [
+                70,
+                150
+            ],
+            "difficulty": "Advanced",
+            "metal_subgenres": [
+                "Folk Metal",
+                "Progressive Metal",
+                "Atmospheric Black Metal"
+            ]
+        },
+        {
+            "id": "altered_dominant",
+            "name": "Altered Dominant (Super Locrian bb7)",
+            "intervals": [
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "psychoacoustics": {
+                "primary_mood": "Extreme Tension",
+                "keywords": [
+                    "Dissonant",
+                    "Jazzy",
+                    "Unstable",
+                    "Complex",
+                    "Sophisticated"
+                ],
+                "energy_level": "High"
+            },
+            "common_genres": [
+                "Jazz Fusion",
+                "Progressive Metal",
+                "Technical Death Metal"
+            ],
+            "lyrical_themes": [
+                "Complexity",
+                "Chaos",
+                "Abstract Concepts",
+                "Tension"
+            ],
+            "artist_references": [
+                "Cynic",
+                "Atheist",
+                "Pestilence"
+            ],
+            "signature_chords": [
+                "Alt7 chords",
+                "Tritone substitutions"
+            ],
+            "bpm_range": [
+                80,
+                180
+            ],
+            "difficulty": "Expert",
+            "metal_subgenres": [
+                "Progressive Metal",
+                "Jazz Metal",
+                "Technical Death Metal"
+            ]
+        }
+    ],
+    "usage_guide": {
+        "difficulty_levels": {
+            "Beginner": "Easy to use, common in popular music",
+            "Intermediate": "Requires some music theory knowledge",
+            "Advanced": "Complex sound, requires good ear training",
+            "Expert": "Highly dissonant or unusual, requires extensive theory"
+        },
+        "bpm_interpretation": "Suggested BPM range where this scale is most effective",
+        "metal_subgenres": "Specific metal subgenres where this scale is commonly used",
+        "artist_references": "Notable artists/bands known for using this scale",
+        "signature_chords": "Characteristic chord progressions using this scale"
+    }
+}

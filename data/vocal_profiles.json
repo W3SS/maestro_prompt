@@ -1,0 +1,593 @@
+{
+  "vocal_characteristics_guide": {
+    "description": "Comprehensive guide of vocal profiles for Suno AI generation with artist references, separated by genre and gender, focusing on technical characteristics and timbres.",
+    "profiles": {
+      "Pop": {
+        "female": {
+          "artist_reference": "Ariana Grande style",
+          "description": "Crystalline voice with dynamic range, capable of powerful belting and soft falsettos. Focus on clarity, ornate melismas, and polished production.",
+          "suno_tags": "female vocals, pristine, glossy, powerful belting, melismatic runs, wide vibrato, high fidelity, punchy"
+        },
+        "male": {
+          "artist_reference": "Bruno Mars style",
+          "description": "Smooth tenor with frequent use of falsetto and rhythmic staccato. Emotional delivery with fluid transitions between chest and head voice.",
+          "suno_tags": "male vocals, kinetic, smooth tenor, dynamic falsetto, percussive phrasing, clean tone, radio-ready"
+        },
+        "female_whistle_register": {
+          "artist_reference": "Mariah Carey style",
+          "description": "Specialist in extreme high register, capable of reaching whistle tones. Delicate yet piercing tone with perfect intonation in the 5th+ octave.",
+          "suno_tags": "female vocals, whistle register, glass-like, extreme highs, delicate piercing, flawless intonation, aria-like"
+        },
+        "male_falsetto_crooner": {
+          "artist_reference": "Frankie Valli / The Weeknd style",
+          "description": "Male falsetto specialist with sweet, airy tone reminiscent of 60s pop. Master of breath control and smooth head voice transitions.",
+          "suno_tags": "male vocals, falsetto crooner, sweet airy, breath control, head voice, vintage pop, romantic"
+        },
+        "male_power_belt": {
+          "artist_reference": "Adam Levine style",
+          "description": "Pop tenor with dramatic power belting capability. Soaring high notes with strong vibrato and emotional intensity.",
+          "suno_tags": "male vocals, power belt, dramatic tenor, soaring highs, strong vibrato, emotional intensity, anthemic"
+        },
+        "male_rnb_fusion": {
+          "artist_reference": "Justin Timberlake style",
+          "description": "Pop vocalist with strong R&B influence. Master of melismatic runs, vocal fry, and rhythmic phrasing within pop structures.",
+          "suno_tags": "male vocals, rnb fusion, melismatic runs, vocal fry, rhythmic phrasing, soulful pop, contemporary"
+        }
+      },
+      "Hip-Hop": {
+        "female": {
+          "artist_reference": "Cardi B / Nicki Minaj style",
+          "description": "Versatile flow alternating between melodic singing and assertive rapping. Confident attitude with creative pitch usage and syncopated rhythms.",
+          "suno_tags": "female vocals, sassy, melodic rap, syncopated flow, rhythmic precision, attitude, sizzling, punchy"
+        },
+        "male": {
+          "artist_reference": "J. Cole / Kendrick Lamar style",
+          "description": "Precise rhythmic delivery, ranging from laid-back nasal flows to aggressive percussive styles. Focus on diction and narrative.",
+          "suno_tags": "male vocals, gritty, lyrical flow, rhythmic delivery, punchy, narrative, street-smart, dynamic"
+        },
+        "female_triplet_flow": {
+          "artist_reference": "Megan Thee Stallion style",
+          "description": "Master of complex triplet-based flows with rapid-fire delivery. Incorporates singing and rapping seamlessly with rhythmic sophistication.",
+          "suno_tags": "female vocals, triplet flow, rapid fire, rhythmic complexity, sing-rap hybrid, intricate patterns, swaggering"
+        },
+        "male_mumble_rap": {
+          "artist_reference": "Playboi Carti / Future style",
+          "description": "Laid-back, melodic rap with heavy autotune and slurred delivery. Focus on vibe and melodic hooks over technical precision.",
+          "suno_tags": "male vocals, mumble rap, laid-back, heavy autotune, slurred delivery, melodic hooks, vibe-oriented"
+        },
+        "male_technical_lyricist": {
+          "artist_reference": "Eminem / MF DOOM style",
+          "description": "Extremely precise enunciation with complex rhyme schemes and multi-syllabic patterns. Focus on wordplay and lyrical density.",
+          "suno_tags": "male vocals, technical lyricist, precise enunciation, complex rhyme schemes, multi-syllabic, wordplay, lyrical density"
+        },
+        "male_boom_bap_classic": {
+          "artist_reference": "Nas / Wu-Tang Clan style",
+          "description": "Traditional boom bap delivery with strong, clear projection. Aggressive yet controlled, with emphasis on punchlines and storytelling.",
+          "suno_tags": "male vocals, boom bap classic, strong projection, aggressive controlled, punchlines, storytelling, 90s style"
+        }
+      },
+      "R&B": {
+        "female": {
+          "artist_reference": "SZA / H.E.R. style",
+          "description": "Velvety voice with extreme control of melismas and runs. Use of whistle register and whispered textures for intimacy.",
+          "suno_tags": "female vocals, silky, soulful, whistle register, complex melismas, breathy, intimate, warm"
+        },
+        "male": {
+          "artist_reference": "Daniel Caesar / Frank Ocean style",
+          "description": "Seductive falsetto and rich chest voice. Relaxed phrasing with ad-libs and gospel influence.",
+          "suno_tags": "male vocals, smooth, seductive falsetto, soulful runs, neo-soul, warm, emotional, laid-back"
+        },
+        "female_husky_contralto": {
+          "artist_reference": "Lauryn Hill / Macy Gray style",
+          "description": "Deep, smoky contralto with natural rasp and gravitas. Emotionally raw delivery with slow, deliberate phrasing and bluesy inflections.",
+          "suno_tags": "female vocals, contralto, smoky rasp, deep warm, emotional rawness, bluesy, intimate, velvety"
+        },
+        "male_gospel_tinged": {
+          "artist_reference": "John Legend / Sam Cooke style",
+          "description": "R&B vocalist with strong gospel background. Powerful belting, call-and-response ad-libs, and church-trained vibrato.",
+          "suno_tags": "male vocals, gospel tinged, powerful belting, call-response, church vibrato, soulful, spiritual"
+        },
+        "male_alternative_rnb": {
+          "artist_reference": "James Blake / Blood Orange style",
+          "description": "Experimental R&B with atmospheric delivery. Whisper-to-scream dynamics, unconventional phrasing, and genre-blending approach.",
+          "suno_tags": "male vocals, alternative rnb, atmospheric, whisper-scream dynamics, unconventional phrasing, experimental, genre-blend"
+        },
+        "male_new_jack_swing": {
+          "artist_reference": "Bobby Brown / Keith Sweat style",
+          "description": "80s/90s new jack swing style with rhythmic, percussive delivery. Upbeat, dance-oriented with clear, punchy enunciation.",
+          "suno_tags": "male vocals, new jack swing, rhythmic percussive, upbeat dance, clear enunciation, 90s rnb, party vibe"
+        }
+      },
+      "Indie": {
+        "female": {
+          "artist_reference": "Feist / Mitski style",
+          "description": "Quirky, unconventional voice with unique timbre. Often breathy or nasal with intimate, conversational delivery.",
+          "suno_tags": "female vocals, quirky, unconventional, unique timbre, breathy nasal, intimate conversational, indie"
+        },
+        "male": {
+          "artist_reference": "Mac DeMarco / Alex Turner style",
+          "description": "Understated, slightly flat delivery with emotional vulnerability. Focus on lyrical storytelling over technical perfection.",
+          "suno_tags": "male vocals, understated, slightly flat, emotional vulnerability, lyrical storytelling, imperfect charm"
+        },
+        "female_falsetto_fragile": {
+          "artist_reference": "Regina Spektor / Joanna Newsom style",
+          "description": "Extremely fragile, breathy falsetto with occasional voice breaks. Intimate, bedroom-recorded aesthetic with emotional rawness.",
+          "suno_tags": "female vocals, fragile falsetto, breathy, voice breaks, intimate, bedroom aesthetic, emotional raw"
+        },
+        "male_falsetto_angst_experimental": {
+          "artist_reference": "Thom Yorke style",
+          "description": "Falsetto indie angst with experimental phrasing, electronic-organic blend, and melancholic art rock.",
+          "suno_tags": "male vocals, falsetto indie angst, experimental phrasing, electronic-organic, melancholic art rock"
+        },
+        "male_anthemic_baroque": {
+          "artist_reference": "Win Butler style",
+          "description": "Anthemic indie with choir-like delivery, baroque pop vocals, and New Wave influence. Arcade Fire grand scale.",
+          "suno_tags": "male vocals, anthemic indie, choir-like delivery, baroque pop, New Wave influence, grand scale"
+        },
+        "female_art_punk_shriek": {
+          "artist_reference": "Karen O style",
+          "description": "Art-punk indie with shrieking intensity, vulnerable-aggressive dynamics, and garage rock edge.",
+          "suno_tags": "female vocals, art-punk indie, shrieking intensity, vulnerable-aggressive dynamics, garage rock edge"
+        },
+        "male_quivering_emo_folk": {
+          "artist_reference": "Conor Oberst style",
+          "description": "Quivering emotional indie with confessional delivery, frail vulnerable tone, and emo-folk style.",
+          "suno_tags": "male vocals, quivering emotional indie, confessional delivery, frail vulnerable, emo-folk"
+        },
+        "female_baroque_indie_power": {
+          "artist_reference": "Florence Welch style",
+          "description": "Baroque indie power with ethereal-fierce dynamics, dramatic delivery, and art pop influence.",
+          "suno_tags": "female vocals, baroque indie power, ethereal-fierce dynamics, dramatic delivery, art pop influence"
+        }
+      },
+      "Speed Metal": {
+        "female": {
+          "artist_reference": "Doro Pesch style",
+          "description": "High-energy vocals with rapid delivery and clear enunciation at fast tempos. Powerful projection with emphasis on speed and precision over extreme aggression.",
+          "suno_tags": "female vocals, high-energy, rapid delivery, clear enunciation, powerful projection, speed metal, precise"
+        },
+        "male": {
+          "artist_reference": "Michael Kiske (Helloween) style",
+          "description": "High-pitched, rapid-fire vocals with strong vibrato and clear diction. Focus on melodic screaming and sustained high notes at fast tempos.",
+          "suno_tags": "male vocals, high-pitched, rapid-fire, strong vibrato, clear diction, melodic screaming, speed metal"
+        },
+        "female_velocity_virtuoso": {
+          "artist_reference": "Simone Simons (Epica) speed style",
+          "description": "Specialist in extremely fast vocal delivery without sacrificing clarity. Master of rapid lyrical passages and precise timing at 200+ BPM.",
+          "suno_tags": "female vocals, velocity virtuoso, extremely fast, clarity at speed, rapid lyrical passages, precise timing, speed metal"
+        },
+        "male_power_speed_hybrid": {
+          "artist_reference": "Rob Halford (Judas Priest) style",
+          "description": "Combines power metal's melodic sensibilities with speed metal's velocity. Soaring high notes with rapid vibrato and epic phrasing.",
+          "suno_tags": "male vocals, power speed hybrid, melodic sensibility, soaring high notes, rapid vibrato, epic phrasing, heavy metal"
+        },
+        "male_thrash_speed": {
+          "artist_reference": "Tom Araya (Slayer) style",
+          "description": "Aggressive speed metal with thrash influence. Sharper, more aggressive tone with less vibrato and more rhythmic barking.",
+          "suno_tags": "male vocals, thrash speed, aggressive, sharp tone, rhythmic barking, thrash influence, speed metal"
+        },
+        "male_classic_speed": {
+          "artist_reference": "Udo Dirkschneider (Accept) style",
+          "description": "Traditional 80s speed metal style with dramatic vibrato and theatrical delivery. Inspired by early German and American speed metal.",
+          "suno_tags": "male vocals, classic speed, 80s style, dramatic vibrato, theatrical delivery, traditional, german speed metal"
+        }
+      },
+      "Technical Death Metal": {
+        "female": {
+          "artist_reference": "Alissa White-Gluz (Arch Enemy) tech style",
+          "description": "Precision gutturals and screams synchronized with complex instrumental patterns. Clear articulation despite extreme vocal techniques.",
+          "suno_tags": "female vocals, precision gutturals, complex synchronization, clear articulation, extreme vocals, technical death metal"
+        },
+        "male": {
+          "artist_reference": "George Fisher (Cannibal Corpse) tech style",
+          "description": "Rapid, articulate gutturals matching technical guitar work. Focus on rhythmic precision and complex phrasing.",
+          "suno_tags": "male vocals, rapid gutturals, articulate, technical synchronization, rhythmic precision, complex phrasing, tech death"
+        },
+        "female_surgical_diction": {
+          "artist_reference": "Martina Edoff (Benediction) style",
+          "description": "Extremely precise diction in guttural vocals. Each syllable clearly defined despite low register and technical complexity.",
+          "suno_tags": "female vocals, surgical diction, precise gutturals, clear syllables, low register, technical complexity, tech death"
+        },
+        "male_necrophagist_precision": {
+          "artist_reference": "Muhammed Suiçmez (Necrophagist) style",
+          "description": "Mathematical precision in vocal delivery matching technical riffs. Classical music influence with blast-beat paced articulation.",
+          "suno_tags": "male vocals, necrophagist precision, mathematical, technical riff matching, classical influence, blast-beat articulation"
+        },
+        "male_brutal_technical": {
+          "artist_reference": "Alex Erian (Despised Icon) style",
+          "description": "Blends brutal death metal heaviness with technical precision. Extremely low gutturals with complex rhythmic patterns.",
+          "suno_tags": "male vocals, brutal technical, brutal death influence, extremely low gutturals, complex rhythms, tech death"
+        },
+        "male_progressive_tech": {
+          "artist_reference": "Mikael Åkerfeldt (Opeth) style",
+          "description": "Technical death metal with progressive elements. Clean singing sections mixed with technical growls and unusual time signatures.",
+          "suno_tags": "male vocals, progressive tech, clean harsh mix, unusual time signatures, progressive elements, opeth influence"
+        }
+      },
+      "Hard Rock": {
+        "female": {
+          "artist_reference": "Ann Wilson (Heart) style",
+          "description": "Powerful, gritty vocals with bluesy influence. Strong projection with raspy texture and emotional delivery.",
+          "suno_tags": "female vocals, powerful gritty, bluesy influence, strong projection, raspy texture, emotional, hard rock"
+        },
+        "male": {
+          "artist_reference": "Steven Tyler (Aerosmith) style",
+          "description": "Raspy tenor with wide vibrato and powerful belting. Blues and soul influence with rock attitude.",
+          "suno_tags": "male vocals, raspy tenor, wide vibrato, powerful belting, blues soul influence, rock attitude"
+        },
+        "female_classic_rock_goddess": {
+          "artist_reference": "Stevie Nicks style",
+          "description": "70s hard rock style with powerful, soulful delivery. Janis Joplin/Stevie Nicks influence with raw emotion.",
+          "suno_tags": "female vocals, classic rock goddess, 70s style, soulful delivery, raw emotion, janis joplin style, stevie nicks"
+        },
+        "male_arena_rock": {
+          "artist_reference": "Robert Plant (Led Zeppelin) style",
+          "description": "Anthemic hard rock vocals designed for large venues. Soaring choruses with massive reverb and crowd-pleasing melodies.",
+          "suno_tags": "male vocals, arena rock, anthemic, large venue style, soaring choruses, massive reverb, crowd-pleasing"
+        },
+        "male_southern_hard_rock": {
+          "artist_reference": "Chris Robinson (Black Crowes) style",
+          "description": "Hard rock with Southern rock and blues influence. Drawling delivery with whiskey-soaked rasp and slide guitar phrasing.",
+          "suno_tags": "male vocals, southern hard rock, southern influence, drawling delivery, whiskey rasp, slide guitar phrasing, lynryd skynyrd style"
+        },
+        "male_glam_rock": {
+          "artist_reference": "Bret Michaels (Poison) style",
+          "description": "80s glam/hard rock with dramatic falsetto and flamboyant delivery. Focus on hooks and theatrical performance.",
+          "suno_tags": "male vocals, glam rock, 80s glam, dramatic falsetto, flamboyant delivery, hooks, theatrical, poison style"
+        }
+      },
+      "Metalcore": {
+        "female": {
+          "artist_reference": "Courtney LaPlante (Spiritbox) style",
+          "description": "Dynamic range from clean singing to aggressive screams. Emotional intensity with technical control and breakdown-ready delivery.",
+          "suno_tags": "female vocals, dynamic range, clean to screams, emotional intensity, technical control, breakdowns, metalcore"
+        },
+        "male": {
+          "artist_reference": "Howard Jones (Killswitch Engage) style",
+          "description": "Alternating between melodic singing and aggressive screaming. Focus on emotional expression and breakdown sections.",
+          "suno_tags": "male vocals, melodic aggressive, clean harsh alternation, emotional expression, breakdowns, metalcore"
+        },
+        "female_breakdown_queen": {
+          "artist_reference": "Megan Targett (Ithaca) style",
+          "description": "Specialized in intense breakdown vocals with rhythmic precision. Powerful lows and piercing highs optimized for breakdown sections.",
+          "suno_tags": "female vocals, breakdown queen, intense breakdowns, rhythmic precision, powerful lows, piercing highs, metalcore"
+        },
+        "male_melodic_metalcore": {
+          "artist_reference": "Jesse Leach (Killswitch Engage) style",
+          "description": "Metalcore with strong emphasis on melodic clean vocals. Pop-punk influence in cleans with metalcore screams.",
+          "suno_tags": "male vocals, melodic metalcore, strong clean emphasis, pop-punk influence, metalcore screams, killswitch engage style"
+        },
+        "male_mathcore": {
+          "artist_reference": "Greg Puciato (Dillinger Escape Plan) style",
+          "description": "Metalcore with math rock complexity and dissonance. Chaotic screaming with unusual time signatures and angular phrasing.",
+          "suno_tags": "male vocals, mathcore, math rock complexity, dissonance, chaotic screaming, unusual time signatures, dillinger escape plan"
+        },
+        "male_beatdown_hardcore": {
+          "artist_reference": "Vincent Bennett (The Acacia Strain) style",
+          "description": "Metalcore with hardcore beatdown influence. Focus on chugging breakdowns and tough-guy vocal delivery.",
+          "suno_tags": "male vocals, beatdown hardcore, hardcore influence, chugging breakdowns, tough-guy vocals, aggressive, mosh music"
+        }
+      },
+      "Stoner Rock": {
+        "female": {
+          "artist_reference": "Brittany Howard (Alabama Shakes) stoner style",
+          "description": "Heavy, slow-burning vocals with psychedelic edge. Hypnotic delivery with reverb-drenched atmosphere and cannabis themes.",
+          "suno_tags": "female vocals, heavy slow-burning, psychedelic edge, hypnotic delivery, reverb-drenched, cannabis themes, stoner rock"
+        },
+        "male": {
+          "artist_reference": "Josh Homme (Queens of the Stone Age) style",
+          "description": "Sludgy, distorted vocals with bluesy phrasing. Often buried in the mix with heavy fuzz guitar accompaniment.",
+          "suno_tags": "male vocals, sludgy distorted, bluesy phrasing, buried in mix, fuzz guitar, stoner rock"
+        },
+        "female_doom_stoner": {
+          "artist_reference": "Al Cisneros (Sleep) female version style",
+          "description": "Stoner rock with doom metal weight. Extremely slow tempos with powerful, sustained vocal delivery.",
+          "suno_tags": "female vocals, doom stoner, doom metal weight, extremely slow, sustained vocals, heavy, electric wizard style"
+        },
+        "male_kyuss_style": {
+          "artist_reference": "John Garcia (Kyuss) style",
+          "description": "Classic desert rock/stoner style with raw, howling vocals. Emphasizes groove and psychedelic jamming.",
+          "suno_tags": "male vocals, kyuss style, desert rock, raw howling, groove emphasis, psychedelic jamming, 90s stoner"
+        },
+        "male_psychedelic_stoner": {
+          "artist_reference": "Matt Pike (Sleep/High on Fire) style",
+          "description": "Heavily psychedelic stoner rock with spacey vocals. Often features effects processing and cosmic themes.",
+          "suno_tags": "male vocals, psychedelic stoner, spacey vocals, effects processing, cosmic themes, space rock influence"
+        },
+        "male_stoner_blues": {
+          "artist_reference": "Chris Goss (Masters of Reality) style",
+          "description": "Stoner rock with strong blues foundation. Raspy, whiskey-soaked vocals with traditional blues phrasing.",
+          "suno_tags": "male vocals, stoner blues, blues foundation, raspy whiskey vocals, blues phrasing, traditional influence"
+        }
+      },
+      "Progressive Rock": {
+        "female": {
+          "artist_reference": "Annie Haslam (Renaissance) style",
+          "description": "Versatile vocals handling complex compositions and odd time signatures. Often features classical training and wide dynamic range.",
+          "suno_tags": "female vocals, versatile, complex compositions, odd time signatures, classical training, wide dynamic range, prog rock"
+        },
+        "male": {
+          "artist_reference": "Peter Gabriel (Genesis) style",
+          "description": "Technical vocals with complex phrasing and wide range. Often features multiple vocal styles within single songs.",
+          "suno_tags": "male vocals, technical, complex phrasing, wide range, multiple styles, prog rock"
+        },
+        "female_symphonic_prog": {
+          "artist_reference": "Kate Bush prog style",
+          "description": "Prog rock with classical and symphonic elements. Operatic delivery with complex arrangements and literary themes.",
+          "suno_tags": "female vocals, symphonic prog, classical influence, operatic delivery, complex arrangements, literary themes, renaissance style"
+        },
+        "male_yes_style": {
+          "artist_reference": "Jon Anderson (Yes) style",
+          "description": "High tenor prog vocals with dramatic vibrato and poetic lyrics. Inspired by Jon Anderson's ethereal delivery.",
+          "suno_tags": "male vocals, yes style, high tenor, dramatic vibrato, poetic lyrics, ethereal delivery, jon anderson"
+        },
+        "male_genesis_style": {
+          "artist_reference": "Phil Collins (Genesis) style",
+          "description": "Theatrical prog vocals with character voices and storytelling. Often features multiple personas within concept albums.",
+          "suno_tags": "male vocals, genesis style, theatrical, character voices, storytelling, multiple personas, concept albums, peter gabriel"
+        },
+        "male_canterbury_scene": {
+          "artist_reference": "Robert Wyatt (Soft Machine) style",
+          "description": "Prog rock with jazz and psychedelic influence. Often features quirky, unconventional vocal delivery and humor.",
+          "suno_tags": "male vocals, canterbury scene, jazz influence, psychedelic, quirky unconventional, humor, soft machine style"
+        }
+      },
+      "Progressive Metal": {
+        "female": {
+          "artist_reference": "Anneke van Giersbergen (The Gathering) style",
+          "description": "Technical vocals combining clean singing with harsh elements. Mastery of complex rhythms and wide vocal range.",
+          "suno_tags": "female vocals, technical, clean harsh combination, complex rhythms, wide range, progressive metal"
+        },
+        "male": {
+          "artist_reference": "Devin Townsend style",
+          "description": "Versatile vocals ranging from clean melodies to aggressive screams. Focus on technical proficiency and emotional expression.",
+          "suno_tags": "male vocals, versatile, clean to screams, technical proficiency, emotional expression, prog metal"
+        },
+        "female_dream_theater_style": {
+          "artist_reference": "James LaBrie (Dream Theater) female version style",
+          "description": "Prog metal with strong emphasis on vocal virtuosity. Wide range with operatic influence and complex phrasing.",
+          "suno_tags": "female vocals, dream theater style, vocal virtuosity, wide range, operatic influence, complex phrasing, progressive metal"
+        },
+        "male_tool_style": {
+          "artist_reference": "Maynard James Keenan (Tool) style",
+          "description": "Progressive metal with atmospheric, philosophical vocals. Clean baritone with occasional aggressive bursts and complex rhythms.",
+          "suno_tags": "male vocals, tool style, atmospheric, philosophical, clean baritone, aggressive bursts, complex rhythms, maynard keenan"
+        },
+        "male_opeth_style": {
+          "artist_reference": "Mikael Åkerfeldt (Opeth) style",
+          "description": "Progressive death metal with clean/harsh contrasts. Deep growls contrasted with beautiful clean passages.",
+          "suno_tags": "male vocals, opeth style, clean harsh contrasts, deep growls, beautiful clean passages, progressive death metal"
+        },
+        "male_djent_progressive": {
+          "artist_reference": "Spencer Sotelo (Periphery) style",
+          "description": "Progressive metal with djent influence. Technical screams and complex clean vocals over polyrhythmic patterns.",
+          "suno_tags": "male vocals, djent progressive, djent influence, technical screams, complex clean vocals, polyrhythmic, meshuggah style"
+        }
+      },
+      "Nu Metal": {
+        "female": {
+          "artist_reference": "Amy Lee (Evanescence) nu metal style",
+          "description": "Aggressive vocals with rap-influenced delivery and melodic singing. Often features emotional intensity and alternative rock influence.",
+          "suno_tags": "female vocals, aggressive, rap influence, melodic singing, emotional intensity, alternative rock, nu metal"
+        },
+        "male": {
+          "artist_reference": "Jonathan Davis (Korn) style",
+          "description": "Rap-rock fusion with aggressive screaming and melodic singing. Focus on teenage angst and urban themes.",
+          "suno_tags": "male vocals, rap-rock fusion, aggressive screaming, melodic singing, teenage angst, urban themes, nu metal"
+        },
+        "female_korn_style": {
+          "artist_reference": "Maria Brink (In This Moment) style",
+          "description": "Nu metal with deep, percussive vocal delivery. Emphasis on rhythmic phrasing and emotional catharsis.",
+          "suno_tags": "female vocals, korn style, deep percussive, rhythmic phrasing, emotional catharsis, Jonathan Davis influence"
+        },
+        "male_linkin_park_style": {
+          "artist_reference": "Chester Bennington (Linkin Park) style",
+          "description": "Nu metal with electronic elements and clean/scream dynamics. Rap verses with melodic choruses and emotional intensity.",
+          "suno_tags": "male vocals, linkin park style, electronic elements, clean scream dynamics, rap verses, melodic choruses, chester bennington"
+        },
+        "male_limp_bizkit_style": {
+          "artist_reference": "Fred Durst (Limp Bizkit) style",
+          "description": "Rap-focused nu metal with aggressive delivery. Often features confrontational lyrics and party anthem energy.",
+          "suno_tags": "male vocals, limp bizkit style, rap focused, aggressive delivery, confrontational lyrics, party anthem, fred durst"
+        },
+        "male_deftones_style": {
+          "artist_reference": "Chino Moreno (Deftones) style",
+          "description": "Atmospheric nu metal with ethereal vocals and heavy guitars. Whisper-to-scream dynamics with romantic themes.",
+          "suno_tags": "male vocals, deftones style, atmospheric, ethereal vocals, whisper scream dynamics, romantic themes, chino moreno"
+        }
+      },
+      "Gothic Metal": {
+        "female": {
+          "artist_reference": "Sharon den Adel (Within Temptation) style",
+          "description": "Ethereal, operatic vocals contrasted with heavy guitars. Often features romantic, melancholic themes and atmospheric delivery.",
+          "suno_tags": "female vocals, ethereal operatic, heavy contrast, romantic melancholic, atmospheric delivery, gothic metal"
+        },
+        "male": {
+          "artist_reference": "Anders Fridén (In Flames) gothic style",
+          "description": "Deep, resonant vocals with dramatic delivery. Often features clean baritone with occasional growls and romantic themes.",
+          "suno_tags": "male vocals, deep resonant, dramatic delivery, clean baritone, occasional growls, romantic themes, gothic metal"
+        },
+        "female_beauty_and_beast": {
+          "artist_reference": "Liv Kristine (Leaves' Eyes) style",
+          "description": "Classic gothic metal style with female operatic vocals and male growls. Creates dramatic contrast between beauty and brutality.",
+          "suno_tags": "female vocals, beauty and beast, operatic vocals, male growls contrast, dramatic, gothic metal, theatre of tragedy"
+        },
+        "male_type_o_negative": {
+          "artist_reference": "Peter Steele (Type O Negative) style",
+          "description": "Deep, slow gothic metal with Peter Steele influence. Extremely low baritone with dark humor and romantic melancholy.",
+          "suno_tags": "male vocals, type o negative, deep slow, extremely low baritone, dark humor, romantic melancholy, peter steele"
+        },
+        "male_paradise_lost_style": {
+          "artist_reference": "Nick Holmes (Paradise Lost) style",
+          "description": "Death-doom gothic metal with clean/harsh vocals. Melodic death metal influence with gothic atmosphere.",
+          "suno_tags": "male vocals, paradise lost style, death doom, clean harsh vocals, melodic death influence, gothic atmosphere"
+        },
+        "male_sentimental_gothic": {
+          "artist_reference": "Tilo Wolff (Lacrimosa) style",
+          "description": "Gothic metal with strong romantic and sentimental themes. Clean vocals with emotional delivery and poetic lyrics.",
+          "suno_tags": "male vocals, sentimental gothic, romantic themes, clean vocals, emotional delivery, poetic lyrics, lacrimosa style"
+        }
+      },
+      "Rock": {
+        "female": {
+          "artist_reference": "Janis Joplin / Alanis Morissette style",
+          "description": "Raspy and visceral voice, capable of emotional screams and raw delivery. Alternating between vulnerability and punk aggression.",
+          "suno_tags": "female vocals, raw, gritty, raspy, emotional screams, powerful, kinetic, organic"
+        },
+        "male": {
+          "artist_reference": "Chris Cornell / Eddie Vedder style",
+          "description": "Wide range with operatic power or gritty texture. Long sustain of high notes and theatrical delivery.",
+          "suno_tags": "male vocals, aggressive, power belting, gritty distortion, wide range, anthemic, punchy, raw"
+        },
+        "female_operatic_rock": {
+          "artist_reference": "Pat Benatar style",
+          "description": "Classically trained voice applied to rock with dramatic vibrato and powerful projection. Capable of belting over distorted guitars with operatic precision.",
+          "suno_tags": "female vocals, operatic rock, dramatic vibrato, powerful projection, classical training, belting over distortion, theatrical"
+        },
+        "male_blues_rock_shouter": {
+          "artist_reference": "Joe Cocker / Paul Rodgers style",
+          "description": "Gravelly voice with blues roots, emphasizing raw emotion over technical perfection. Master of vocal grit and strained high notes.",
+          "suno_tags": "male vocals, blues rock shouter, gravelly, raw emotion, vocal grit, strained highs, whiskey-soaked"
+        },
+        "male_progressive_virtuoso": {
+          "artist_reference": "Freddie Mercury rock style",
+          "description": "Technically precise rock vocalist with operatic range and complex phrasing. Often incorporates odd time signatures and avant-garde elements.",
+          "suno_tags": "male vocals, progressive virtuoso, technically precise, operatic range, complex phrasing, odd time, avant-garde"
+        },
+        "male_garage_rock_raw": {
+          "artist_reference": "Iggy Pop / Jack White style",
+          "description": "Lo-fi, unpolished delivery with punk attitude. Deliberately sloppy but energetic, with focus on emotion over technique.",
+          "suno_tags": "male vocals, garage rock raw, lo-fi unpolished, punk attitude, energetic sloppy, emotional, DIY"
+        }
+      },
+      "Metal": {
+        "female": {
+          "artist_reference": "Tarja Turunen (Nightwish) style",
+          "description": "Duality between dramatic operatic soprano and aggressive gutturals. Powerful sustain and lyrical vibrato.",
+          "suno_tags": "female vocals, operatic, heavy, symphonic, dramatic vibrato, ethereal vs brutal, soaring highs"
+        },
+        "male": {
+          "artist_reference": "Bruce Dickinson (Iron Maiden) style",
+          "description": "From high piercing tenors to deep aggressive gutturals. Focus on power, vocal distortion, and theatricality.",
+          "suno_tags": "male vocals, aggressive, guttural screams, high-pitched wail, serrated, brutal, heavy, epic"
+        },
+        "female_brutal_deluxe": {
+          "artist_reference": "Angela Gossow (Arch Enemy) style",
+          "description": "Extreme vocalist specializing in death growls, pig squeals, and fry screams. Maintains clarity in enunciation despite extreme distortion.",
+          "suno_tags": "female vocals, brutal death vocals, guttural growls, pig squeals, fry screams, extreme distortion, articulate brutality"
+        },
+        "male_viking_metal": {
+          "artist_reference": "Johan Hegg (Amon Amarth) style",
+          "description": "Deep, chanting vocals with folk influences. Clean singing with rough edges, often telling mythological stories.",
+          "suno_tags": "male vocals, viking metal, deep chanting, folk influences, clean rough, mythological storytelling, epic"
+        },
+        "male_metalcore_screamer": {
+          "artist_reference": "Sam Carter (Architects) style",
+          "description": "Specialized in metalcore-style screams with emotional breakdowns. Alternates between melodic singing and aggressive yelling.",
+          "suno_tags": "male vocals, metalcore screamer, emotional breakdowns, melodic-aggressive, yelled vocals, modern metal"
+        },
+        "male_thrash_shouter": {
+          "artist_reference": "James Hetfield (Metallica) style",
+          "description": "Fast, aggressive shouting style with clear enunciation. High-energy delivery matching thrash metal tempos.",
+          "suno_tags": "male vocals, thrash shouter, fast aggressive, clear enunciation, high energy, thrash metal, speed"
+        }
+      },
+      "EDM": {
+        "female": {
+          "artist_reference": "Ellie Goulding / Kylie Minogue style",
+          "description": "Ethereal and processed voice, often with exaggerated breathiness or rhythmic stutter cuts. Designed to cut through the mix.",
+          "suno_tags": "female vocals, ethereal, glossy, processed, breathy, soaring, trance-like, plastic"
+        },
+        "male": {
+          "artist_reference": "Calvin Harris featured vocal style",
+          "description": "Clean and processed vocals, often used as rhythmic texture or anthemic hooks. Stylistic autotune usage.",
+          "suno_tags": "male vocals, punchy, anthemic, processed, robotic, rhythmic, high-energy, bombastic"
+        },
+        "female_chopped_glitch": {
+          "artist_reference": "SOPHIE production style",
+          "description": "Experimental vocal style featuring heavy glitch processing, granular synthesis, stutter edits, and pitch manipulation as rhythmic elements.",
+          "suno_tags": "female vocals, glitch processing, granular synthesis, stutter edits, pitch manipulation, experimental, digital artifact"
+        },
+        "male_future_bass_vocalist": {
+          "artist_reference": "Illenium featured vocal style",
+          "description": "High-pitched, emotional male vocals with heavy pitch correction and atmospheric processing. Often features in future bass and melodic dubstep.",
+          "suno_tags": "male vocals, future bass, high-pitched emotional, heavy pitch correction, atmospheric processing, melodic dubstep, vulnerable"
+        },
+        "male_big_room_anthem": {
+          "artist_reference": "Martin Garrix featured vocal style",
+          "description": "Powerful, anthemic vocals designed for festival main stages. Clear, uplifting lyrics with massive reverb and delay.",
+          "suno_tags": "male vocals, big room anthem, powerful uplifting, festival ready, massive reverb, clear lyrics, euphoric"
+        },
+        "male_deep_house_soul": {
+          "artist_reference": "Disclosure featured vocal style",
+          "description": "Smooth, soulful vocals for deep house. Intimate delivery with jazz and gospel influences, often with minimal processing.",
+          "suno_tags": "male vocals, deep house soul, smooth soulful, intimate, jazz gospel influence, minimal processing, late night"
+        }
+      },
+      "Jazz": {
+        "female": {
+          "artist_reference": "Norah Jones / Diana Krall style",
+          "description": "Improvisational scat, subtle dynamic control, smoky tones, and laid-back phrasing.",
+          "suno_tags": "female vocals, smoky, intimate, scat improvisation, swing phrasing, warm, silky, sophisticated"
+        },
+        "male": {
+          "artist_reference": "Tony Bennett / Harry Connick Jr. style",
+          "description": "Smooth crooner with perfect legato or rough textured growl. Precise diction and melodic charm.",
+          "suno_tags": "male vocals, smooth crooner, gravelly, swing feel, sophisticated, warm, organic"
+        },
+        "female_scat_virtuoso": {
+          "artist_reference": "Ella Fitzgerald style",
+          "description": "Virtuosic scat singer with horn-like improvisation, complex rhythmic patterns, and extreme range. Mimics instrumental solos vocally.",
+          "suno_tags": "female vocals, scat virtuoso, horn-like, complex rhythms, instrumental mimicry, bebop influenced, technical mastery"
+        },
+        "male_bebop_scat": {
+          "artist_reference": "Mel Tormé style",
+          "description": "Fast, complex scat singing with bebop rhythmic complexity. Technical precision with improvisational flair.",
+          "suno_tags": "male vocals, bebop scat, fast complex, rhythmic complexity, technical precision, improvisational, virtuosic"
+        },
+        "male_cool_jazz": {
+          "artist_reference": "Chet Baker style",
+          "description": "Understated, relaxed jazz vocals with minimal vibrato. Intellectual approach with subtle emotional expression.",
+          "suno_tags": "male vocals, cool jazz, understated relaxed, minimal vibrato, intellectual, subtle emotion, west coast"
+        },
+        "male_jazz_standard_crooner": {
+          "artist_reference": "Frank Sinatra style",
+          "description": "Classic crooner style focusing on Great American Songbook. Perfect phrasing, romantic delivery, and timeless elegance.",
+          "suno_tags": "male vocals, jazz standard crooner, classic, perfect phrasing, romantic delivery, timeless elegance, great american songbook"
+        }
+      },
+      "Blues": {
+        "female": {
+          "artist_reference": "Etta James / Bonnie Raitt style",
+          "description": "Deep, rough, and pain-filled voice. Use of growls, slow portamentos, and visceral delivery.",
+          "suno_tags": "female vocals, raw, soulful rasp, emotional pain, powerful, gritty, earthy"
+        },
+        "male": {
+          "artist_reference": "B.B. King / Muddy Waters style",
+          "description": "Guttural, declamatory, and intense voice. Passionate shouts and occasional falsettos for emotional emphasis.",
+          "suno_tags": "male vocals, gravelly, raw, soulful shouts, intense, gritty, authentic"
+        },
+        "female_bent_note": {
+          "artist_reference": "Bessie Smith style",
+          "description": "Specialist in microtonal pitch bending, blue notes, and expressive slides between notes. Raw emotional delivery with guitar-like vocal techniques.",
+          "suno_tags": "female vocals, pitch bending, blue notes, microtonal, expressive slides, guitar-like vocals, raw emotion"
+        },
+        "male_delta_blues": {
+          "artist_reference": "Robert Johnson style",
+          "description": "Raw, acoustic blues style with slide guitar vocal techniques. Field holler influence with minimal accompaniment.",
+          "suno_tags": "male vocals, delta blues, raw acoustic, slide guitar vocal, field holler, minimal accompaniment, traditional"
+        },
+        "male_chicago_electric": {
+          "artist_reference": "Howlin' Wolf style",
+          "description": "Powerful electric blues shout with amplification. Strong projection, aggressive delivery, and urban energy.",
+          "suno_tags": "male vocals, chicago electric, powerful shout, amplification, strong projection, aggressive delivery, urban blues"
+        },
+        "male_texas_blues": {
+          "artist_reference": "Stevie Ray Vaughan vocal style",
+          "description": "Smooth yet gritty Texas blues style with swing influence. Technical guitar-like phrasing and storytelling focus.",
+          "suno_tags": "male vocals, texas blues, smooth gritty, swing influence, guitar-like phrasing, storytelling, technical"
+        }
+      }
+    }
+  }
+}

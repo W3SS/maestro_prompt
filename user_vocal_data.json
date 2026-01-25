@@ -1,0 +1,1619 @@
+{
+    "vocal_characteristics_guide": {
+        "description": "Comprehensive guide of vocal profiles for Suno AI generation, separated by genre and gender, focusing on technical characteristics and timbres. Includes multiple male variations with distinctive characteristics.",
+        "profiles": {
+            "Pop": {
+                "female": {
+                    "description": "Crystalline voice with dynamic range, capable of powerful belting and soft falsettos. Focus on clarity, ornate melismas, and polished production.",
+                    "suno_tags": "female vocals, pristine, glossy, powerful belting, melismatic runs, wide vibrato, high fidelity, punchy"
+                },
+                "male": {
+                    "description": "Smooth tenor with frequent use of falsetto and rhythmic staccato. Emotional delivery with fluid transitions between chest and head voice.",
+                    "suno_tags": "male vocals, kinetic, smooth tenor, dynamic falsetto, percussive phrasing, clean tone, radio-ready"
+                },
+                "female_whistle_register": {
+                    "description": "Specialist in extreme high register, capable of reaching whistle tones. Delicate yet piercing tone with perfect intonation in the 5th+ octave.",
+                    "suno_tags": "female vocals, whistle register, glass-like, extreme highs, delicate piercing, flawless intonation, aria-like"
+                },
+                "male_falsetto_crooner": {
+                    "description": "Male falsetto specialist with sweet, airy tone reminiscent of 60s pop. Master of breath control and smooth head voice transitions.",
+                    "suno_tags": "male vocals, falsetto crooner, sweet airy, breath control, head voice, vintage pop, romantic"
+                },
+                "male_power_belt": {
+                    "description": "Pop tenor with dramatic power belting capability. Soaring high notes with strong vibrato and emotional intensity.",
+                    "suno_tags": "male vocals, power belt, dramatic tenor, soaring highs, strong vibrato, emotional intensity, anthemic"
+                },
+                "male_rnb_fusion": {
+                    "description": "Pop vocalist with strong R&B influence. Master of melismatic runs, vocal fry, and rhythmic phrasing within pop structures.",
+                    "suno_tags": "male vocals, rnb fusion, melismatic runs, vocal fry, rhythmic phrasing, soulful pop, contemporary"
+                }
+            },
+            "Hip-Hop": {
+                "female": {
+                    "description": "Versatile flow alternating between melodic singing and assertive rapping. Confident attitude with creative pitch usage and syncopated rhythms.",
+                    "suno_tags": "female vocals, sassy, melodic rap, syncopated flow, rhythmic precision, attitude, sizzling, punchy"
+                },
+                "male": {
+                    "description": "Precise rhythmic delivery, ranging from laid-back nasal flows to aggressive percussive styles. Focus on diction and narrative.",
+                    "suno_tags": "male vocals, gritty, lyrical flow, rhythmic delivery, punchy, narrative, street-smart, dynamic"
+                },
+                "female_triplet_flow": {
+                    "description": "Master of complex triplet-based flows with rapid-fire delivery. Incorporates singing and rapping seamlessly with rhythmic sophistication.",
+                    "suno_tags": "female vocals, triplet flow, rapid fire, rhythmic complexity, sing-rap hybrid, intricate patterns, swaggering"
+                },
+                "male_mumble_rap": {
+                    "description": "Laid-back, melodic rap with heavy autotune and slurred delivery. Focus on vibe and melodic hooks over technical precision.",
+                    "suno_tags": "male vocals, mumble rap, laid-back, heavy autotune, slurred delivery, melodic hooks, vibe-oriented"
+                },
+                "male_technical_lyricist": {
+                    "description": "Extremely precise enunciation with complex rhyme schemes and multi-syllabic patterns. Focus on wordplay and lyrical density.",
+                    "suno_tags": "male vocals, technical lyricist, precise enunciation, complex rhyme schemes, multi-syllabic, wordplay, lyrical density"
+                },
+                "male_boom_bap_classic": {
+                    "description": "Traditional boom bap delivery with strong, clear projection. Aggressive yet controlled, with emphasis on punchlines and storytelling.",
+                    "suno_tags": "male vocals, boom bap classic, strong projection, aggressive controlled, punchlines, storytelling, 90s style"
+                }
+            },
+            "R&B": {
+                "female": {
+                    "description": "Velvety voice with extreme control of melismas and runs. Use of whistle register and whispered textures for intimacy.",
+                    "suno_tags": "female vocals, silky, soulful, whistle register, complex melismas, breathy, intimate, warm"
+                },
+                "male": {
+                    "description": "Seductive falsetto and rich chest voice. Relaxed phrasing with ad-libs and gospel influence.",
+                    "suno_tags": "male vocals, smooth, seductive falsetto, soulful runs, neo-soul, warm, emotional, laid-back"
+                },
+                "female_husky_contralto": {
+                    "description": "Deep, smoky contralto with natural rasp and gravitas. Emotionally raw delivery with slow, deliberate phrasing and bluesy inflections.",
+                    "suno_tags": "female vocals, contralto, smoky rasp, deep warm, emotional rawness, bluesy, intimate, velvety"
+                },
+                "male_gospel_tinged": {
+                    "description": "R&B vocalist with strong gospel background. Powerful belting, call-and-response ad-libs, and church-trained vibrato.",
+                    "suno_tags": "male vocals, gospel tinged, powerful belting, call-response, church vibrato, soulful, spiritual"
+                },
+                "male_alternative_rnb": {
+                    "description": "Experimental R&B with atmospheric delivery. Whisper-to-scream dynamics, unconventional phrasing, and genre-blending approach.",
+                    "suno_tags": "male vocals, alternative rnb, atmospheric, whisper-scream dynamics, unconventional phrasing, experimental, genre-blend"
+                },
+                "male_new_jack_swing": {
+                    "description": "80s/90s new jack swing style with rhythmic, percussive delivery. Upbeat, dance-oriented with clear, punchy enunciation.",
+                    "suno_tags": "male vocals, new jack swing, rhythmic percussive, upbeat dance, clear enunciation, 90s rnb, party vibe"
+                }
+            },
+            "Rock": {
+                "female": {
+                    "description": "Raspy and visceral voice, capable of emotional screams and raw delivery. Alternating between vulnerability and punk aggression.",
+                    "suno_tags": "female vocals, raw, gritty, raspy, emotional screams, powerful, kinetic, organic"
+                },
+                "male": {
+                    "description": "Wide range with operatic power or gritty texture. Long sustain of high notes and theatrical delivery.",
+                    "suno_tags": "male vocals, aggressive, power belting, gritty distortion, wide range, anthemic, punchy, raw"
+                },
+                "female_operatic_rock": {
+                    "description": "Classically trained voice applied to rock with dramatic vibrato and powerful projection. Capable of belting over distorted guitars with operatic precision.",
+                    "suno_tags": "female vocals, operatic rock, dramatic vibrato, powerful projection, classical training, belting over distortion, theatrical"
+                },
+                "male_blues_rock_shouter": {
+                    "description": "Gravelly voice with blues roots, emphasizing raw emotion over technical perfection. Master of vocal grit and strained high notes.",
+                    "suno_tags": "male vocals, blues rock shouter, gravelly, raw emotion, vocal grit, strained highs, whiskey-soaked"
+                },
+                "male_progressive_virtuoso": {
+                    "description": "Technically precise rock vocalist with operatic range and complex phrasing. Often incorporates odd time signatures and avant-garde elements.",
+                    "suno_tags": "male vocals, progressive virtuoso, technically precise, operatic range, complex phrasing, odd time, avant-garde"
+                },
+                "male_garage_rock_raw": {
+                    "description": "Lo-fi, unpolished delivery with punk attitude. Deliberately sloppy but energetic, with focus on emotion over technique.",
+                    "suno_tags": "male vocals, garage rock raw, lo-fi unpolished, punk attitude, energetic sloppy, emotional, DIY"
+                }
+            },
+            "Metal": {
+                "female": {
+                    "description": "Duality between dramatic operatic soprano and aggressive gutturals. Powerful sustain and lyrical vibrato.",
+                    "suno_tags": "female vocals, operatic, heavy, symphonic, dramatic vibrato, ethereal vs brutal, soaring highs"
+                },
+                "male": {
+                    "description": "From high piercing tenors to deep aggressive gutturals. Focus on power, vocal distortion, and theatricality.",
+                    "suno_tags": "male vocals, aggressive, guttural screams, high-pitched wail, serrated, brutal, heavy, epic"
+                },
+                "female_brutal_deluxe": {
+                    "description": "Extreme vocalist specializing in death growls, pig squeals, and fry screams. Maintains clarity in enunciation despite extreme distortion.",
+                    "suno_tags": "female vocals, brutal death vocals, guttural growls, pig squeals, fry screams, extreme distortion, articulate brutality"
+                },
+                "male_viking_metal": {
+                    "description": "Deep, chanting vocals with folk influences. Clean singing with rough edges, often telling mythological stories.",
+                    "suno_tags": "male vocals, viking metal, deep chanting, folk influences, clean rough, mythological storytelling, epic"
+                },
+                "male_metalcore_screamer": {
+                    "description": "Specialized in metalcore-style screams with emotional breakdowns. Alternates between melodic singing and aggressive yelling.",
+                    "suno_tags": "male vocals, metalcore screamer, emotional breakdowns, melodic-aggressive, yelled vocals, modern metal"
+                },
+                "male_thrash_shouter": {
+                    "description": "Fast, aggressive shouting style with clear enunciation. High-energy delivery matching thrash metal tempos.",
+                    "suno_tags": "male vocals, thrash shouter, fast aggressive, clear enunciation, high energy, thrash metal, speed"
+                }
+            },
+            "EDM": {
+                "female": {
+                    "description": "Ethereal and processed voice, often with exaggerated breathiness or rhythmic stutter cuts. Designed to cut through the mix.",
+                    "suno_tags": "female vocals, ethereal, glossy, processed, breathy, soaring, trance-like, plastic"
+                },
+                "male": {
+                    "description": "Clean and processed vocals, often used as rhythmic texture or anthemic hooks. Stylistic autotune usage.",
+                    "suno_tags": "male vocals, punchy, anthemic, processed, robotic, rhythmic, high-energy, bombastic"
+                },
+                "female_chopped_glitch": {
+                    "description": "Experimental vocal style featuring heavy glitch processing, granular synthesis, stutter edits, and pitch manipulation as rhythmic elements.",
+                    "suno_tags": "female vocals, glitch processing, granular synthesis, stutter edits, pitch manipulation, experimental, digital artifact"
+                },
+                "male_future_bass_vocalist": {
+                    "description": "High-pitched, emotional male vocals with heavy pitch correction and atmospheric processing. Often features in future bass and melodic dubstep.",
+                    "suno_tags": "male vocals, future bass, high-pitched emotional, heavy pitch correction, atmospheric processing, melodic dubstep, vulnerable"
+                },
+                "male_big_room_anthem": {
+                    "description": "Powerful, anthemic vocals designed for festival main stages. Clear, uplifting lyrics with massive reverb and delay.",
+                    "suno_tags": "male vocals, big room anthem, powerful uplifting, festival ready, massive reverb, clear lyrics, euphoric"
+                },
+                "male_deep_house_soul": {
+                    "description": "Smooth, soulful vocals for deep house. Intimate delivery with jazz and gospel influences, often with minimal processing.",
+                    "suno_tags": "male vocals, deep house soul, smooth soulful, intimate, jazz gospel influence, minimal processing, late night"
+                }
+            },
+            "Latin": {
+                "female": {
+                    "description": "Passionate voice with rapid vibrato, trills, and strong chest technique. Flamenco or urban influence depending on subgenre.",
+                    "suno_tags": "female vocals, passionate, fiery, rapid vibrato, chest voice, melodic, rhythmic"
+                },
+                "male": {
+                    "description": "Romantic and projected voice (Bolero) or rhythmic relaxed flow (Reggaeton/Trap). Clear and emotive diction.",
+                    "suno_tags": "male vocals, romantic, smooth, rhythmic flow, emotional, warm, charismatic"
+                },
+                "female_flamenco_fury": {
+                    "description": "Traditional flamenco voice with intense emotional delivery, rapid melismas, and percussive vocal techniques (palmas-like rhythms).",
+                    "suno_tags": "female vocals, flamenco, intense emotion, rapid melismas, percussive vocals, traditional, raw passion"
+                },
+                "male_mariachi_hero": {
+                    "description": "Powerful, emotive voice for mariachi and ranchera. Strong vibrato, dramatic phrasing, and romantic intensity.",
+                    "suno_tags": "male vocals, mariachi hero, powerful emotive, strong vibrato, dramatic phrasing, romantic intensity, traditional"
+                },
+                "male_salsa_singer": {
+                    "description": "Smooth, rhythmic vocals for salsa music. Excellent timing, improvisational skills, and call-and-response interaction.",
+                    "suno_tags": "male vocals, salsa singer, smooth rhythmic, excellent timing, improvisational, call-response, danceable"
+                },
+                "male_latin_trap": {
+                    "description": "Aggressive, autotuned vocals for Latin trap. Dark, moody delivery with urban slang and street attitude.",
+                    "suno_tags": "male vocals, latin trap, aggressive autotuned, dark moody, urban slang, street attitude, modern"
+                }
+            },
+            "Country": {
+                "female": {
+                    "description": "Bright voice with characteristic twang. Fast vibrato and emotional storytelling. Clear and resonant belting.",
+                    "suno_tags": "female vocals, twang, bright, storytelling, emotional belting, crystalline, organic"
+                },
+                "male": {
+                    "description": "Deep resonant baritone or nasal tenor. Sincere, conversational, and robust delivery.",
+                    "suno_tags": "male vocals, deep baritone, rugged, nasal twang, sincere, storytelling, organic, warm"
+                },
+                "female_yodel_queen": {
+                    "description": "Master of traditional country yodeling with rapid register breaks between chest and head voice. Clear, precise yodel patterns with emotional expression.",
+                    "suno_tags": "female vocals, yodeling, register breaks, traditional country, precise patterns, emotional expression, alpine influence"
+                },
+                "male_outlaw_country": {
+                    "description": "Gravelly, weathered voice with lived-in quality. Storytelling focus with anti-establishment attitude and whiskey-soaked tone.",
+                    "suno_tags": "male vocals, outlaw country, gravelly weathered, lived-in quality, storytelling, anti-establishment, whiskey-soaked"
+                },
+                "male_bluegrass_tenor": {
+                    "description": "High, clear tenor voice for bluegrass harmonies. Precise pitch and rapid-fire lyrical delivery with mountain music influence.",
+                    "suno_tags": "male vocals, bluegrass tenor, high clear, precise pitch, rapid-fire lyrics, mountain music, harmony specialist"
+                },
+                "male_bro_country": {
+                    "description": "Modern country-pop vocals with rock influence. Clean, radio-friendly delivery with slight twang and party anthem energy.",
+                    "suno_tags": "male vocals, bro country, modern country-pop, rock influence, clean delivery, slight twang, party anthem"
+                }
+            },
+            "Jazz": {
+                "female": {
+                    "description": "Improvisational scat, subtle dynamic control, smoky tones, and laid-back phrasing.",
+                    "suno_tags": "female vocals, smoky, intimate, scat improvisation, swing phrasing, warm, silky, sophisticated"
+                },
+                "male": {
+                    "description": "Smooth crooner with perfect legato or rough textured growl. Precise diction and melodic charm.",
+                    "suno_tags": "male vocals, smooth crooner, gravelly, swing feel, sophisticated, warm, organic"
+                },
+                "female_scat_virtuoso": {
+                    "description": "Virtuosic scat singer with horn-like improvisation, complex rhythmic patterns, and extreme range. Mimics instrumental solos vocally.",
+                    "suno_tags": "female vocals, scat virtuoso, horn-like, complex rhythms, instrumental mimicry, bebop influenced, technical mastery"
+                },
+                "male_bebop_scat": {
+                    "description": "Fast, complex scat singing with bebop rhythmic complexity. Technical precision with improvisational flair.",
+                    "suno_tags": "male vocals, bebop scat, fast complex, rhythmic complexity, technical precision, improvisational, virtuosic"
+                },
+                "male_cool_jazz": {
+                    "description": "Understated, relaxed jazz vocals with minimal vibrato. Intellectual approach with subtle emotional expression.",
+                    "suno_tags": "male vocals, cool jazz, understated relaxed, minimal vibrato, intellectual, subtle emotion, west coast"
+                },
+                "male_jazz_standard_crooner": {
+                    "description": "Classic crooner style focusing on Great American Songbook. Perfect phrasing, romantic delivery, and timeless elegance.",
+                    "suno_tags": "male vocals, jazz standard crooner, classic, perfect phrasing, romantic delivery, timeless elegance, great american songbook"
+                }
+            },
+            "Blues": {
+                "female": {
+                    "description": "Deep, rough, and pain-filled voice. Use of growls, slow portamentos, and visceral delivery.",
+                    "suno_tags": "female vocals, raw, soulful rasp, emotional pain, powerful, gritty, earthy"
+                },
+                "male": {
+                    "description": "Guttural, declamatory, and intense voice. Passionate shouts and occasional falsettos for emotional emphasis.",
+                    "suno_tags": "male vocals, gravelly, raw, soulful shouts, intense, gritty, authentic"
+                },
+                "female_bent_note": {
+                    "description": "Specialist in microtonal pitch bending, blue notes, and expressive slides between notes. Raw emotional delivery with guitar-like vocal techniques.",
+                    "suno_tags": "female vocals, pitch bending, blue notes, microtonal, expressive slides, guitar-like vocals, raw emotion"
+                },
+                "male_delta_blues": {
+                    "description": "Raw, acoustic blues style with slide guitar vocal techniques. Field holler influence with minimal accompaniment.",
+                    "suno_tags": "male vocals, delta blues, raw acoustic, slide guitar vocal, field holler, minimal accompaniment, traditional"
+                },
+                "male_chicago_electric": {
+                    "description": "Powerful electric blues shout with amplification. Strong projection, aggressive delivery, and urban energy.",
+                    "suno_tags": "male vocals, chicago electric, powerful shout, amplification, strong projection, aggressive delivery, urban blues"
+                },
+                "male_texas_blues": {
+                    "description": "Smooth yet gritty Texas blues style with swing influence. Technical guitar-like phrasing and storytelling focus.",
+                    "suno_tags": "male vocals, texas blues, smooth gritty, swing influence, guitar-like phrasing, storytelling, technical"
+                }
+            },
+            "Classical": {
+                "female": {
+                    "description": "Operatic soprano with perfect breath control, wide vibrato, and precise intonation across extreme ranges. Focus on classical technique and purity of tone.",
+                    "suno_tags": "female vocals, operatic soprano, perfect intonation, wide vibrato, breath control, classical technique, pure tone"
+                },
+                "male": {
+                    "description": "Resonant tenor or powerful bass with focus on projection without amplification. Perfect diction in multiple languages and dynamic control.",
+                    "suno_tags": "male vocals, resonant tenor, powerful bass, acoustic projection, perfect diction, dynamic control, classical"
+                },
+                "female_coloratura": {
+                    "description": "Coloratura soprano specializing in rapid runs, trills, and ornamentation. Extreme agility and precision in high register with sparkling tone.",
+                    "suno_tags": "female vocals, coloratura soprano, rapid runs, trills, ornamentation, vocal agility, sparkling tone, extreme precision"
+                },
+                "male_heldentenor": {
+                    "description": "Heroic tenor with powerful, dramatic voice capable of cutting through large orchestras. Wagnerian style with endurance for long roles.",
+                    "suno_tags": "male vocals, heldentenor, heroic tenor, powerful dramatic, orchestra cutting, wagnerian, endurance, operatic"
+                },
+                "male_basso_profondo": {
+                    "description": "Exceptionally deep bass voice with cavernous low notes. Russian choral style with immense resonance and gravity.",
+                    "suno_tags": "male vocals, basso profondo, exceptionally deep, cavernous lows, russian choral, immense resonance, gravity"
+                },
+                "male_countertenor": {
+                    "description": "Male singer using falsetto or head voice to sing in female alto or soprano range. Pure, ethereal tone with early music specialization.",
+                    "suno_tags": "male vocals, countertenor, falsetto head voice, female range, pure ethereal, early music, baroque"
+                }
+            },
+            "Soul": {
+                "female": {
+                    "description": "Powerful, gospel-influenced voice with melismatic runs, emotional shouts, and raw passion. Full-bodied tone with gritty texture.",
+                    "suno_tags": "female vocals, powerful soul, gospel influence, melismatic runs, emotional shouts, raw passion, gritty texture"
+                },
+                "male": {
+                    "description": "Smooth yet gritty baritone with falsetto breaks. Passionate delivery with call-and-response phrasing and improvisational ad-libs.",
+                    "suno_tags": "male vocals, smooth gritty baritone, falsetto breaks, passionate delivery, call-and-response, improvisational ad-libs"
+                },
+                "female_gospel_shouter": {
+                    "description": "Intense gospel shouting technique with powerful belting, dramatic dynamics, and spiritual fervor. Capable of sustained high notes with emotional intensity.",
+                    "suno_tags": "female vocals, gospel shouting, powerful belting, dramatic dynamics, spiritual fervor, sustained highs, church roots"
+                },
+                "male_motown_smooth": {
+                    "description": "Classic Motown style with impeccable phrasing and romantic delivery. Sweet, clear tenor with perfect pop sensibility.",
+                    "suno_tags": "male vocals, motown smooth, impeccable phrasing, romantic delivery, sweet clear tenor, perfect pop, 60s soul"
+                },
+                "male_southern_soul": {
+                    "description": "Raw, gritty soul from the American South. Church-influenced with emotional cracks and raspy delivery.",
+                    "suno_tags": "male vocals, southern soul, raw gritty, church influenced, emotional cracks, raspy delivery, memphis style"
+                },
+                "male_blue_eyed_soul": {
+                    "description": "White vocalist mastering soul techniques with unique timbre. Often features more rock influence while maintaining soul emotion.",
+                    "suno_tags": "male vocals, blue eyed soul, white soul vocalist, unique timbre, rock influence, soul emotion, crossover"
+                }
+            },
+            "Funk": {
+                "female": {
+                    "description": "Rhythmic, percussive vocals with staccato phrasing. Playful attitude with syncopated delivery and call-response interaction.",
+                    "suno_tags": "female vocals, rhythmic, percussive, staccato phrasing, playful attitude, syncopated, call-response"
+                },
+                "male": {
+                    "description": "Energetic shouts, rhythmic talk-singing, and charismatic stage presence. Focus on groove and danceability over melodic complexity.",
+                    "suno_tags": "male vocals, energetic shouts, rhythmic talk-singing, charismatic, groovy, danceable, funky"
+                },
+                "female_percussive_banshee": {
+                    "description": "Extreme percussive vocal style using tongue clicks, lip trills, and breath sounds as rhythmic elements. High-energy delivery with funk attitude.",
+                    "suno_tags": "female vocals, percussive vocals, tongue clicks, lip trills, breath rhythms, high-energy, funk attitude"
+                },
+                "male_parliament_funk": {
+                    "description": "Theatrical, character-driven vocals with sci-fi themes. Often uses vocal distortion and cosmic imagery.",
+                    "suno_tags": "male vocals, parliament funk, theatrical character, sci-fi themes, vocal distortion, cosmic imagery, george clinton style"
+                },
+                "male_james_brown_shout": {
+                    "description": "Intense, percussive shouting with screams and grunts. Master of call-and-response and rhythmic vocal percussion.",
+                    "suno_tags": "male vocals, james brown shout, intense percussive, screams grunts, call-response, vocal percussion, godfather of soul"
+                },
+                "male_funk_rap_pioneer": {
+                    "description": "Early rap-style delivery within funk contexts. Rhythmic spoken word with musicality and party energy.",
+                    "suno_tags": "male vocals, funk rap pioneer, early rap style, rhythmic spoken word, musicality, party energy, 70s funk"
+                }
+            },
+            "Disco": {
+                "female": {
+                    "description": "Bright, clear voice with strong projection over dance beats. Euphoric delivery with soaring melodies and polished production.",
+                    "suno_tags": "female vocals, bright clear, strong projection, euphoric, soaring melodies, polished, danceable"
+                },
+                "male": {
+                    "description": "Falsetto-heavy with smooth delivery and rhythmic phrasing. Romantic or celebratory themes with danceable energy.",
+                    "suno_tags": "male vocals, falsetto-heavy, smooth delivery, rhythmic phrasing, romantic, celebratory, dance energy"
+                },
+                "female_octave_jumper": {
+                    "description": "Dramatic octave leaps and register breaks as stylistic elements. Playful delivery with exaggerated vocal fry and breathy highs.",
+                    "suno_tags": "female vocals, octave leaps, register breaks, playful, exaggerated vocal fry, breathy highs, dramatic contrast"
+                },
+                "male_bee_gees_falsetto": {
+                    "description": "Extremely high, breathy falsetto made famous by the Bee Gees. Silky smooth with perfect pitch in upper register.",
+                    "suno_tags": "male vocals, bee gees falsetto, extremely high, breathy falsetto, silky smooth, perfect pitch, saturday night fever"
+                },
+                "male_disco_crooner": {
+                    "description": "Rich baritone for disco ballads and slower dance tracks. Romantic delivery with orchestral arrangements.",
+                    "suno_tags": "male vocals, disco crooner, rich baritone, disco ballads, romantic delivery, orchestral, slow dance"
+                },
+                "male_funk_disco": {
+                    "description": "Funk-influenced disco with rhythmic, shouted vocals. Energetic delivery with horn-like phrasing.",
+                    "suno_tags": "male vocals, funk disco, rhythmic shouted, energetic delivery, horn-like phrasing, party starter"
+                }
+            },
+            "Reggae": {
+                "female": {
+                    "description": "Soulful and relaxed voice, third harmonies, spiritual and rhythmic delivery.",
+                    "suno_tags": "female vocals, soulful, laid-back, spiritual, roots, rhythmic, warm"
+                },
+                "male": {
+                    "description": "Percussive or smooth melodic voice, Patois accent, militant or romantic (Lovers Rock) delivery.",
+                    "suno_tags": "male vocals, rhythmic patois, roots, conscious, smooth, laid-back, organic"
+                },
+                "female_dancehall_toaster": {
+                    "description": "Fast-paced dancehall toasting with rapid-fire patois, rhythmic complexity, and aggressive yet playful delivery. Master of vocal percussion.",
+                    "suno_tags": "female vocals, dancehall toasting, rapid-fire patois, rhythmic complexity, aggressive playful, vocal percussion, yard style"
+                },
+                "male_dub_poet": {
+                    "description": "Spoken word over dub rhythms with poetic, political content. Measured delivery with heavy echo effects.",
+                    "suno_tags": "male vocals, dub poet, spoken word, poetic political, measured delivery, heavy echo, conscious"
+                },
+                "male_rockers_style": {
+                    "description": "Classic rockers reggae vocal with strong Rastafarian influence. Spiritual themes with roots rhythm foundation.",
+                    "suno_tags": "male vocals, rockers style, classic reggae, rastafarian influence, spiritual themes, roots rhythm, 70s"
+                },
+                "male_dancehall_chant": {
+                    "description": "Modern dancehall style with catchy, repetitive chants. Often sexually explicit with aggressive delivery.",
+                    "suno_tags": "male vocals, dancehall chant, modern, catchy repetitive, sexually explicit, aggressive delivery, contemporary"
+                }
+            },
+            "Punk": {
+                "female": {
+                    "description": "High-pitched screams, bratty attitude, fast and aggressive delivery. Focus on energy over perfect pitch.",
+                    "suno_tags": "female vocals, aggressive, shrill, bratty, high energy, raw, chaotic, punchy"
+                },
+                "male": {
+                    "description": "Shouted, nasal, or barked voice. Fast, aggressive, and anti-technical delivery.",
+                    "suno_tags": "male vocals, shouting, aggressive, raw, fast, chaotic, gritty, snotty"
+                },
+                "female_three_chord_screamer": {
+                    "description": "Pure punk energy with deliberately sloppy delivery. Anti-virtuosity with maximum attitude and speed.",
+                    "suno_tags": "female vocals, three chord screamer, sloppy delivery, anti-virtuosity, maximum attitude, speed, punk"
+                },
+                "male_oi_punk": {
+                    "description": "Working class punk with shouted, anthemic choruses. Often football chant-inspired with group vocals.",
+                    "suno_tags": "male vocals, oi punk, working class, shouted anthemic, football chant, group vocals, street punk"
+                },
+                "male_hardcore_barker": {
+                    "description": "Extremely fast, aggressive hardcore punk delivery. Barked vocals with political urgency and DIY ethos.",
+                    "suno_tags": "male vocals, hardcore barker, extremely fast, aggressive, barked vocals, political urgency, DIY"
+                },
+                "male_pop_punk": {
+                    "description": "Melodic punk with clean(er) vocals and catchy hooks. Whiny, emotional delivery with teenage angst themes.",
+                    "suno_tags": "male vocals, pop punk, melodic, clean vocals, catchy hooks, whiny emotional, teenage angst"
+                }
+            },
+            "Grunge": {
+                "female": {
+                    "description": "Angsty voice, alternating between dark whispers and raspy screams. Dirty and emotional texture.",
+                    "suno_tags": "female vocals, angsty, raspy, heavy, emotional dynamics, raw, muddy"
+                },
+                "male": {
+                    "description": "Slurred baritone voice, emotional voice cracks, raspy and powerful screams.",
+                    "suno_tags": "male vocals, raspy, tortured, deep, raw, gravelly, sludge, emotional"
+                },
+                "female_whisper_scream": {
+                    "description": "Extreme dynamic contrast between barely-audible whispers and raw, unfiltered screams. Intimate yet explosive delivery.",
+                    "suno_tags": "female vocals, whisper scream, dynamic contrast, intimate explosive, raw unfiltered, emotional extremes"
+                },
+                "male_nirvana_style": {
+                    "description": "Kurt Cobain-inspired delivery with quiet-loud dynamics, melodic screaming, and emotional vulnerability.",
+                    "suno_tags": "male vocals, nirvana style, quiet-loud dynamics, melodic screaming, emotional vulnerability, grunge icon"
+                },
+                "male_alice_in_chains": {
+                    "description": "Harmony-focused grunge with dark, sludgy delivery. Often features dual vocal harmonies with haunting quality.",
+                    "suno_tags": "male vocals, alice in chains, harmony focused, dark sludgy, dual vocals, haunting, 90s grunge"
+                },
+                "male_soundgarden_range": {
+                    "description": "Technical grunge vocals with wide range and dramatic vibrato. Powerful belting with metal and classic rock influence.",
+                    "suno_tags": "male vocals, soundgarden range, technical grunge, wide range, dramatic vibrato, powerful belting, metal influence"
+                }
+            },
+            "Indie": {
+                "female": {
+                    "description": "Quirky, unconventional voice with unique timbre. Often breathy or nasal with intimate, conversational delivery.",
+                    "suno_tags": "female vocals, quirky, unconventional, unique timbre, breathy nasal, intimate conversational, indie"
+                },
+                "male": {
+                    "description": "Understated, slightly flat delivery with emotional vulnerability. Focus on lyrical storytelling over technical perfection.",
+                    "suno_tags": "male vocals, understated, slightly flat, emotional vulnerability, lyrical storytelling, imperfect charm"
+                },
+                "female_falsetto_fragile": {
+                    "description": "Extremely fragile, breathy falsetto with occasional voice breaks. Intimate, bedroom-recorded aesthetic with emotional rawness.",
+                    "suno_tags": "female vocals, fragile falsetto, breathy, voice breaks, intimate, bedroom aesthetic, emotional raw"
+                },
+                "male_indie_folk_whisper": {
+                    "description": "Extremely quiet, intimate delivery with acoustic focus. Often recorded with close-miking capturing breath sounds.",
+                    "suno_tags": "male vocals, indie folk whisper, extremely quiet, intimate, acoustic focus, close-miking, breath sounds"
+                },
+                "male_baroque_pop": {
+                    "description": "Ornate indie pop with classical influences and complex arrangements. Often features high tenor range with theatrical delivery.",
+                    "suno_tags": "male vocals, baroque pop, ornate indie, classical influences, complex arrangements, high tenor, theatrical"
+                },
+                "male_lofi_tape_hiss": {
+                    "description": "Deliberately lo-fi with tape hiss and distortion. Emotionally detached delivery with bedroom production aesthetic.",
+                    "suno_tags": "male vocals, lofi tape hiss, deliberately lo-fi, tape distortion, emotionally detached, bedroom production, diy"
+                }
+            },
+            "Reggaeton": {
+                "female": {
+                    "description": "Sensual, melodic voice with strong hooks, urban Latin accent. Smooth autotune.",
+                    "suno_tags": "female vocals, sensual, melodic, urbano, smooth, rhythmic, catchy"
+                },
+                "male": {
+                    "description": "Percussive flow (dembow), melodic delivery with autotune, or fast aggressive rap.",
+                    "suno_tags": "male vocals, rhythmic flow, dembow style, melodic rap, urbano, smooth, punchy"
+                },
+                "female_dembow_aggressive": {
+                    "description": "Aggressive reggaeton flow with rapid-fire Spanish delivery and percussive vocal attacks. Strong dembow rhythm with attitude.",
+                    "suno_tags": "female vocals, aggressive reggaeton, rapid-fire Spanish, percussive attacks, dembow rhythm, attitude, urbano"
+                },
+                "male_trapeton": {
+                    "description": "Reggaeton mixed with trap influences. Dark, moody autotune with aggressive flow and street themes.",
+                    "suno_tags": "male vocals, trapeton, trap influence, dark moody, aggressive autotune, street themes, modern"
+                },
+                "male_reggaeton_romantico": {
+                    "description": "Romantic reggaeton with smooth, melodic delivery. Focus on love songs with polished production.",
+                    "suno_tags": "male vocals, reggaeton romantico, romantic, smooth melodic, love songs, polished production, sensual"
+                },
+                "male_dembow_old_school": {
+                    "description": "Early 2000s reggaeton style with raw production and classic flow. Less autotune, more organic delivery.",
+                    "suno_tags": "male vocals, dembow old school, early 2000s, raw production, classic flow, organic delivery, perreo"
+                }
+            },
+            "Djent": {
+                "female": {
+                    "description": "Contrast between clean ethereal vocals and technical screams. Rhythmic precision to match polyrhythms.",
+                    "suno_tags": "female vocals, clean vs harsh, ethereal, technical, punchy, sharp, brutal"
+                },
+                "male": {
+                    "description": "Mid-range screams, percussive gutturals, and progressive cleans. Mechanical rhythmic fit.",
+                    "suno_tags": "male vocals, aggressive, percussive screams, technical, punchy, metallic, brutal"
+                },
+                "female_polyrhythmic": {
+                    "description": "Vocals synchronized with complex polyrhythms and odd time signatures. Precision timing with mathematical delivery.",
+                    "suno_tags": "female vocals, polyrhythmic, odd time signatures, precision timing, mathematical delivery, technical, progressive"
+                },
+                "male_periphery_style": {
+                    "description": "Clean vocals with extensive layering and harmonies, combined with precise harsh vocals. Modern progressive metalcore influence.",
+                    "suno_tags": "male vocals, periphery style, clean layered, extensive harmonies, precise harsh, progressive metalcore, modern"
+                },
+                "male_meshuggah_growl": {
+                    "description": "Extremely low, mechanical growls synchronized with complex rhythms. Almost robotic delivery with minimal melody.",
+                    "suno_tags": "male vocals, meshuggah growl, extremely low, mechanical, rhythm synchronized, robotic delivery, minimal melody"
+                },
+                "male_djent_clean_virtuoso": {
+                    "description": "Technical clean singing with wide range and complex phrasing. Often incorporates jazz fusion elements.",
+                    "suno_tags": "male vocals, djent clean virtuoso, technical clean, wide range, complex phrasing, jazz fusion, progressive"
+                }
+            },
+            "Hyperpop": {
+                "female": {
+                    "description": "High-pitched (chipmunk) voices, exaggerated autotune, plastic and bright aesthetic.",
+                    "suno_tags": "female vocals, pitched up, autotuned, glossy, plastic, manic, chaotic, bubblegum"
+                },
+                "male": {
+                    "description": "Extreme digital processing, pitch shifting, vocal glitch, energetic and chaotic delivery.",
+                    "suno_tags": "male vocals, heavily processed, glitchy, manic, digital, futuristic, chaotic"
+                },
+                "female_glitch_core": {
+                    "description": "Extreme vocal glitching with digital artifacts, bitcrushing, and intentional distortion. Chaotic yet rhythmic delivery.",
+                    "suno_tags": "female vocals, glitch core, digital artifacts, bitcrushing, intentional distortion, chaotic rhythmic, digital hardcore"
+                },
+                "male_100_gecs_style": {
+                    "description": "Extremely pitched-up male vocals with ADHD energy. Rapid genre shifts and ironic, internet-native aesthetic.",
+                    "suno_tags": "male vocals, 100 gecs style, extremely pitched up, ADHD energy, rapid genre shifts, ironic, internet aesthetic"
+                },
+                "male_hyperpop_emo": {
+                    "description": "Emotional hyperpop with autotuned vulnerability. Blends pop-punk influence with digital processing.",
+                    "suno_tags": "male vocals, hyperpop emo, emotional, autotuned vulnerability, pop-punk influence, digital processing, sad boy"
+                },
+                "male_pc_music": {
+                    "description": "Plastic, artificial vocals with corporate aesthetic. Deliberately cheesy with high-gloss production.",
+                    "suno_tags": "male vocals, pc music, plastic artificial, corporate aesthetic, deliberately cheesy, high-gloss, satirical"
+                }
+            },
+            "IDM": {
+                "female": {
+                    "description": "Abstract vocal processing with granular synthesis and micro-editing. Often used as texture rather than melodic focus.",
+                    "suno_tags": "female vocals, abstract processing, granular synthesis, micro-editing, textural, experimental, IDM"
+                },
+                "male": {
+                    "description": "Minimal vocal delivery with focus on timbral manipulation. Spoken word or fragmented phrases with complex processing.",
+                    "suno_tags": "male vocals, minimal delivery, timbral manipulation, spoken word, fragmented phrases, complex processing, IDM"
+                },
+                "female_granular_choir": {
+                    "description": "Multiple vocal layers processed through granular synthesis creating evolving textures. Choir-like effect from single voice.",
+                    "suno_tags": "female vocals, granular choir, multiple layers, evolving textures, choir effect, experimental, textural"
+                },
+                "male_aphex_twin_style": {
+                    "description": "Distorted, processed vocals with dark ambient atmosphere. Often features time-stretching and spectral processing.",
+                    "suno_tags": "male vocals, aphex twin style, distorted processed, dark ambient, time-stretching, spectral processing, experimental electronic"
+                },
+                "male_idm_glitch_poet": {
+                    "description": "Spoken word with glitch processing and algorithmic manipulation. Intellectual, abstract themes with digital artifacts.",
+                    "suno_tags": "male vocals, idm glitch poet, spoken word, glitch processing, algorithmic manipulation, intellectual abstract, digital artifacts"
+                },
+                "male_ambient_idm": {
+                    "description": "Ethereal, floating vocals in ambient IDM contexts. Often wordless or in constructed languages.",
+                    "suno_tags": "male vocals, ambient idm, ethereal floating, wordless vocals, constructed languages, atmospheric, cerebral"
+                }
+            },
+            "Tech Death": {
+                "female": {
+                    "description": "Precision gutturals and screams synchronized with technical instrumentation. Clear diction despite extreme vocal style.",
+                    "suno_tags": "female vocals, precision gutturals, technical synchronization, clear diction, extreme vocals, brutal, technical"
+                },
+                "male": {
+                    "description": "Rapid-fire guttural delivery matching technical guitar work. Focus on rhythmic precision and articulation.",
+                    "suno_tags": "male vocals, rapid-fire gutturals, technical synchronization, rhythmic precision, articulation, brutal, technical"
+                },
+                "female_surgical_precision": {
+                    "description": "Extremely precise gutturals with surgical articulation. Each syllable clearly defined despite extreme low register.",
+                    "suno_tags": "female vocals, surgical precision gutturals, clear articulation, syllable definition, extreme lows, technical death"
+                },
+                "male_necrophagist_style": {
+                    "description": "Extreme technical precision with classical music influence. Blast-beat paced gutturals with melodic sensibilities.",
+                    "suno_tags": "male vocals, necrophagist style, extreme technical, classical influence, blast-beat gutturals, melodic, progressive death"
+                },
+                "male_brutal_tech": {
+                    "description": "Focus on brutal, slam-influenced elements within technical framework. Emphasizes heaviness and groove.",
+                    "suno_tags": "male vocals, brutal tech, slam influenced, heaviness groove, low gutturals, brutal death, technical"
+                },
+                "male_prog_tech_death": {
+                    "description": "Progressive technical death with clean vocals and harsh extremes. Wide dynamic range and complex song structures.",
+                    "suno_tags": "male vocals, prog tech death, progressive, clean harsh extremes, wide dynamic range, complex structures, avant-garde"
+                }
+            },
+            "Shoegaze": {
+                "female": {
+                    "description": "Ethereal, whispered vocals buried in the mix. Dreamy texture and heavy reverb.",
+                    "suno_tags": "female vocals, ethereal, dreamy, buried in mix, whispery, hazy, shimmering"
+                },
+                "male": {
+                    "description": "Soft, monotone, and melancholic voice blending with guitar walls. Little dynamic variation.",
+                    "suno_tags": "male vocals, dreamy, detached, hazy, submerged, soft, ethereal"
+                },
+                "female_wall_of_sound": {
+                    "description": "Vocals completely integrated into guitar texture, using vowel sounds and breath as additional instrument layers.",
+                    "suno_tags": "female vocals, wall of sound, integrated texture, vowel sounds, breath instrument, hazy, ambient"
+                },
+                "male_my_bloody_valentine": {
+                    "description": "Extremely buried vocals treated as another guitar texture. Often indecipherable lyrics with melodic murmuring.",
+                    "suno_tags": "male vocals, my bloody valentine, extremely buried, guitar texture, indecipherable lyrics, melodic murmuring, loveless style"
+                },
+                "male_shoegaze_baritone": {
+                    "description": "Deeper male voice in shoegaze context. Creates contrast with shimmering guitars while maintaining dreamy aesthetic.",
+                    "suno_tags": "male vocals, shoegaze baritone, deeper voice, contrast, shimmering guitars, dreamy aesthetic, melancholic"
+                },
+                "male_nu_gaze": {
+                    "description": "Modern shoegaze with clearer vocal mix and pop influence. Maintains effects-heavy guitar but with more accessible vocals.",
+                    "suno_tags": "male vocals, nu gaze, modern shoegaze, clearer vocal mix, pop influence, effects-heavy guitar, accessible"
+                }
+            },
+            "Math Rock": {
+                "female": {
+                    "description": "Conversational delivery with complex rhythmic phrasing. Often spoken-sung with focus on lyrical delivery over melody.",
+                    "suno_tags": "female vocals, conversational, complex rhythms, spoken-sung, lyrical focus, math rock, technical"
+                },
+                "male": {
+                    "description": "Nervous, jittery delivery matching complex guitar patterns. Often talk-singing with abrupt rhythmic changes.",
+                    "suno_tags": "male vocals, nervous jittery, complex patterns, talk-singing, abrupt rhythms, math rock"
+                },
+                "female_rhythmic_counterpoint": {
+                    "description": "Vocals creating rhythmic counterpoint to instrumental complexity. Polyrhythmic delivery with precision timing.",
+                    "suno_tags": "female vocals, rhythmic counterpoint, polyrhythmic, precision timing, complex interplay, math rock"
+                },
+                "male_math_rock_falsetto": {
+                    "description": "High, fragile falsetto over complex rhythms. Creates emotional contrast with technical instrumentation.",
+                    "suno_tags": "male vocals, math rock falsetto, high fragile, emotional contrast, complex rhythms, technical instrumentation, emotive"
+                },
+                "male_math_rock_shout": {
+                    "description": "Aggressive shouted vocals matching math rock intensity. Clear enunciation despite complex time signatures.",
+                    "suno_tags": "male vocals, math rock shout, aggressive shouted, math intensity, clear enunciation, complex time, energetic"
+                },
+                "male_american_football_style": {
+                    "description": "Emotional, emo-influenced math rock vocals. Melodic yet rhythmically sophisticated with nostalgic quality.",
+                    "suno_tags": "male vocals, american football style, emotional emo, melodic, rhythmically sophisticated, nostalgic, midwest emo"
+                }
+            },
+            "Industrial": {
+                "female": {
+                    "description": "Heavy processing, digital distortion, cold mechanical delivery, or aggressive screams.",
+                    "suno_tags": "female vocals, distorted, mechanical, cold, aggressive, processed, metallic"
+                },
+                "male": {
+                    "description": "Filtered, distorted voices, menacing whispers, or processed screams. Megaphone or radio aesthetic.",
+                    "suno_tags": "male vocals, distorted, aggressive, mechanical, cold, metallic, harsh"
+                },
+                "female_machine_gun": {
+                    "description": "Staccato vocal bursts mimicking machine rhythms. Mechanical, repetitive phrases with industrial noise elements.",
+                    "suno_tags": "female vocals, staccato bursts, machine rhythms, mechanical repetition, industrial noise, cold precision"
+                },
+                "male_nine_inch_nails": {
+                    "description": "Aggressive yet melodic industrial rock vocals. Emotional screaming with electronic processing and dynamic range.",
+                    "suno_tags": "male vocals, nine inch nails, aggressive melodic, emotional screaming, electronic processing, dynamic range, industrial rock"
+                },
+                "male_ministry_style": {
+                    "description": "Angry, shouted industrial metal vocals. Political rage with distorted aggression and punk influence.",
+                    "suno_tags": "male vocals, ministry style, angry shouted, political rage, distorted aggression, punk influence, industrial metal"
+                },
+                "male_ebm_coldwave": {
+                    "description": "Cold, detached vocals for EBM and coldwave. Monotone delivery with German accent and minimal emotion.",
+                    "suno_tags": "male vocals, ebm coldwave, cold detached, monotone delivery, german accent, minimal emotion, 80s industrial"
+                }
+            },
+            "Vaporwave": {
+                "female": {
+                    "description": "Heavily processed, slowed-down samples or ethereal original vocals. Nostalgic 80s/90s aesthetic with heavy reverb.",
+                    "suno_tags": "female vocals, heavily processed, slowed down, ethereal, nostalgic, 80s aesthetic, heavy reverb"
+                },
+                "male": {
+                    "description": "Pitched-down samples or smooth crooning with digital degradation. Focus on lo-fi aesthetic and retro-futurism.",
+                    "suno_tags": "male vocals, pitched down, smooth crooning, digital degradation, lo-fi, retro-futurism, vaporwave"
+                },
+                "female_mall_soft": {
+                    "description": "Ultra-smooth, soft vocals mimicking elevator music or mall announcements. Deliberately cheesy with perfect enunciation.",
+                    "suno_tags": "female vocals, mall soft, elevator music, smooth, cheesy, perfect enunciation, commercial aesthetic"
+                },
+                "male_vaporwave_slush": {
+                    "description": "Extremely slowed and reverbed vocals creating dreamlike texture. Often samples from 80s commercials or smooth jazz.",
+                    "suno_tags": "male vocals, vaporwave slush, extremely slowed, reverbed, dreamlike texture, 80s samples, smooth jazz"
+                },
+                "male_future_funk": {
+                    "description": "Upbeat vaporwave subgenre with funky, processed vocals. Often features French house influence and disco samples.",
+                    "suno_tags": "male vocals, future funk, upbeat vaporwave, funky processed, french house influence, disco samples, danceable"
+                },
+                "male_signal_wave": {
+                    "description": "Experimental vaporwave using radio transmissions and corporate media samples. Often political with glitch aesthetics.",
+                    "suno_tags": "male vocals, signal wave, experimental, radio transmissions, corporate samples, political, glitch aesthetics"
+                }
+            },
+            "Glitch": {
+                "female": {
+                    "description": "Extreme digital manipulation with skipping CD effects, buffer glitches, and digital artifacts as musical elements.",
+                    "suno_tags": "female vocals, digital manipulation, skipping CD, buffer glitches, digital artifacts, glitch, experimental"
+                },
+                "male": {
+                    "description": "Fragmented phrases with stutter edits and bitcrushing. Rhythmic use of digital errors and system sounds.",
+                    "suno_tags": "male vocals, fragmented phrases, stutter edits, bitcrushing, digital errors, system sounds, glitch"
+                },
+                "female_buffer_error": {
+                    "description": "Intentional use of digital buffer errors, clipping, and system crash sounds as vocal texture. Chaotic yet rhythmic.",
+                    "suno_tags": "female vocals, buffer error, digital clipping, system crash, vocal texture, chaotic rhythmic, glitch art"
+                },
+                "male_glitch_hop": {
+                    "description": "Glitch techniques applied to hip-hop influenced beats. Rhythmic vocal chops and scratches with funk sensibility.",
+                    "suno_tags": "male vocals, glitch hop, hip-hop influence, rhythmic vocal chops, scratches, funk sensibility, electronic"
+                },
+                "male_digital_hardcore": {
+                    "description": "Aggressive glitch with punk attitude. Screamed vocals over breakcore beats with political themes.",
+                    "suno_tags": "male vocals, digital hardcore, aggressive glitch, punk attitude, screamed vocals, breakcore beats, political"
+                },
+                "male_glitch_ambient": {
+                    "description": "Atmospheric glitch with minimal, processed vocals. Creates textured soundscapes from vocal fragments.",
+                    "suno_tags": "male vocals, glitch ambient, atmospheric, minimal processed, textured soundscapes, vocal fragments, experimental"
+                }
+            },
+            "Breakcore": {
+                "female": {
+                    "description": "Aggressive shouting or screaming over chaotic breakbeats. Often politically charged with raw, unprocessed delivery.",
+                    "suno_tags": "female vocals, aggressive shouting, chaotic breakbeats, political, raw unprocessed, breakcore"
+                },
+                "male": {
+                    "description": "Rapid-fire delivery matching breakbeat complexity. Often distorted or filtered with extreme energy.",
+                    "suno_tags": "male vocals, rapid-fire, breakbeat complexity, distorted filtered, extreme energy, breakcore"
+                },
+                "female_breakbeat_mania": {
+                    "description": "Vocals synchronized with individual breakbeat hits. Extremely precise timing with chaotic overall effect.",
+                    "suno_tags": "female vocals, breakbeat synchronization, precise timing, chaotic effect, manic energy, breakcore"
+                },
+                "male_drumcorps_style": {
+                    "description": "Metal-influenced breakcore with screamed vocals. Blast beats and guitar riffs combined with amen breaks.",
+                    "suno_tags": "male vocals, drumcorps style, metal influenced, screamed vocals, blast beats, guitar riffs, amen breaks"
+                },
+                "male_idm_breakcore": {
+                    "description": "Complex, intelligent breakcore with technical precision. Often features abstract vocals and experimental structures.",
+                    "suno_tags": "male vocals, idm breakcore, complex intelligent, technical precision, abstract vocals, experimental structures, cerebral"
+                },
+                "male_raggacore": {
+                    "description": "Breakcore with dancehall and ragga influence. Toasting and chatting over chaotic breaks.",
+                    "suno_tags": "male vocals, raggacore, dancehall influence, toasting chatting, chaotic breaks, jamaican influence, hybrid"
+                }
+            },
+            "Noise": {
+                "female": {
+                    "description": "Extreme vocal distortion, feedback manipulation, and non-musical sounds. Focus on texture and intensity over melody.",
+                    "suno_tags": "female vocals, extreme distortion, feedback manipulation, non-musical, textural, intense, noise"
+                },
+                "male": {
+                    "description": "Harsh vocals, power electronics, and confrontational delivery. Often minimalist with maximum intensity.",
+                    "suno_tags": "male vocals, harsh vocals, power electronics, confrontational, minimalist intense, noise"
+                },
+                "female_feedback_siren": {
+                    "description": "Vocal cords used to generate and control feedback frequencies. Extreme extended techniques creating instrument-like sounds.",
+                    "suno_tags": "female vocals, feedback siren, extreme techniques, instrument-like, frequency control, harsh noise"
+                },
+                "male_merzbow_style": {
+                    "description": "Extreme noise with layered textures and maximum volume. Often features processed animal sounds and industrial samples.",
+                    "suno_tags": "male vocals, merzbow style, extreme noise, layered textures, maximum volume, processed animal sounds, industrial samples"
+                },
+                "male_japanoise": {
+                    "description": "Japanese noise scene style with intense, chaotic delivery. Often features traditional instruments destroyed through noise.",
+                    "suno_tags": "male vocals, japanoise, japanese noise, intense chaotic, traditional instruments destroyed, noise rock"
+                },
+                "male_drone_noise": {
+                    "description": "Slow-moving noise with sustained vocal textures. Creates oppressive atmosphere with minimal change.",
+                    "suno_tags": "male vocals, drone noise, slow moving, sustained vocal textures, oppressive atmosphere, minimal change, ambient noise"
+                }
+            },
+            "Grindcore": {
+                "female": {
+                    "description": "Blast beat-paced screaming with guttural lows and shrieked highs. Extremely short songs with maximum aggression.",
+                    "suno_tags": "female vocals, blast beat pace, guttural lows, shrieked highs, maximum aggression, grindcore"
+                },
+                "male": {
+                    "description": "Inhumanly fast vocal delivery matching drum blasts. Often indecipherable lyrics with pure energy focus.",
+                    "suno_tags": "male vocals, inhumanly fast, drum blast matching, indecipherable, pure energy, grindcore"
+                },
+                "female_microsong": {
+                    "description": "Complete vocal expressions in under 30 seconds. Extreme compression of lyrical content with rapid-fire delivery.",
+                    "suno_tags": "female vocals, microsong, under 30 seconds, extreme compression, rapid-fire, grindcore"
+                },
+                "male_pornogrind": {
+                    "description": "Grindcore with pornographic themes and samples. Often features pig squeals and toilet flush vocals.",
+                    "suno_tags": "male vocals, pornogrind, pornographic themes, samples, pig squeals, toilet flush, extreme grind"
+                },
+                "male_crust_grind": {
+                    "description": "Grindcore with crust punk influence. Political lyrics with raw, unpolished production and punk attitude.",
+                    "suno_tags": "male vocals, crust grind, crust punk influence, political lyrics, raw unpolished, punk attitude, DIY"
+                },
+                "male_goregrind": {
+                    "description": "Medical/horror themed grindcore with pitch-shifted vocals. Often uses medical samples and gory imagery.",
+                    "suno_tags": "male vocals, goregrind, medical horror, pitch-shifted vocals, medical samples, gory imagery, extreme"
+                }
+            },
+            "Deathcore": {
+                "female": {
+                    "description": "Deep gutturals and pig squeals. Rapid alternation between extreme lows and shrill highs.",
+                    "suno_tags": "female vocals, guttural, pig squeals, brutal, aggressive, demonic, heavy"
+                },
+                "male": {
+                    "description": "Cavernous gutturals, tunnel throat, high-frequency screams. Inhuman intensity.",
+                    "suno_tags": "male vocals, guttural, deep growls, pig squeals, brutal, monster voices, heavy"
+                },
+                "female_breakdown_banshee": {
+                    "description": "Specialized in vocal rhythms for breakdown sections. Syncopated gutturals and screams emphasizing rhythmic heaviness.",
+                    "suno_tags": "female vocals, breakdown specialist, syncopated gutturals, rhythmic screams, heaviness emphasis, deathcore"
+                },
+                "male_slam_deathcore": {
+                    "description": "Focus on slam riffs and brutal breakdowns. Extremely low gutturals with pitch-shifted effects.",
+                    "suno_tags": "male vocals, slam deathcore, slam riffs, brutal breakdowns, extremely low gutturals, pitch-shifted, brutal"
+                },
+                "male_blackened_deathcore": {
+                    "description": "Deathcore with black metal influence. Features shrieks and tremolo picking alongside breakdowns.",
+                    "suno_tags": "male vocals, blackened deathcore, black metal influence, shrieks, tremolo picking, breakdowns, hybrid"
+                },
+                "male_tech_deathcore": {
+                    "description": "Technical deathcore with complex rhythms and guitar work. Precision screams and growls with progressive elements.",
+                    "suno_tags": "male vocals, tech deathcore, technical, complex rhythms, precision screams, progressive elements, modern"
+                }
+            },
+            "Drone": {
+                "female": {
+                    "description": "Sustained tones with minimal variation. Focus on harmonic overtones and meditative quality.",
+                    "suno_tags": "female vocals, sustained tones, minimal variation, harmonic overtones, meditative, drone"
+                },
+                "male": {
+                    "description": "Long-form vocal sustains with gradual evolution. Often using throat singing or overtone techniques.",
+                    "suno_tags": "male vocals, long-form sustains, gradual evolution, throat singing, overtone techniques, drone"
+                },
+                "female_overtone_singer": {
+                    "description": "Specialist in harmonic overtone singing creating multiple pitches simultaneously. Meditative yet complex vocal architecture.",
+                    "suno_tags": "female vocals, overtone singing, harmonic multiples, simultaneous pitches, meditative complex, drone"
+                },
+                "male_drone_doom": {
+                    "description": "Extremely slow, heavy drone with metal influence. Creates immense weight and space with minimal notes.",
+                    "suno_tags": "male vocals, drone doom, extremely slow, heavy, metal influence, immense weight, minimal notes"
+                },
+                "male_ambient_drone": {
+                    "description": "Atmospheric drone with ethereal vocals. Creates dreamlike states with gradual shifts.",
+                    "suno_tags": "male vocals, ambient drone, atmospheric, ethereal vocals, dreamlike states, gradual shifts, peaceful"
+                },
+                "male_ritual_drone": {
+                    "description": "Drone music with ritualistic, spiritual focus. Often features chanting and ceremonial elements.",
+                    "suno_tags": "male vocals, ritual drone, ritualistic spiritual, chanting, ceremonial elements, transcendental, sacred"
+                }
+            },
+            "Doom Metal": {
+                "female": {
+                    "description": "Slow, mournful delivery with dramatic sustain. Often clean vocals with occasional harsh elements.",
+                    "suno_tags": "female vocals, slow mournful, dramatic sustain, clean with harsh, doom metal"
+                },
+                "male": {
+                    "description": "Deep, resonant voice with funeral pace delivery. Focus on atmosphere and despair.",
+                    "suno_tags": "male vocals, deep resonant, funeral pace, atmospheric despair, doom metal"
+                },
+                "female_funeral_dirge": {
+                    "description": "Extremely slow, chant-like delivery mimicking funeral rituals. Minimalist with maximum emotional weight.",
+                    "suno_tags": "female vocals, funeral dirge, chant-like, ritualistic, minimalist emotional, doom metal"
+                },
+                "male_candlemass_style": {
+                    "description": "Epic doom metal with operatic vocals. Dramatic, powerful delivery with fantasy themes.",
+                    "suno_tags": "male vocals, candlemass style, epic doom, operatic vocals, dramatic powerful, fantasy themes, traditional doom"
+                },
+                "male_stoner_doom": {
+                    "description": "Stoner-influenced doom with psychedelic elements. Often features effects-processed vocals and cannabis themes.",
+                    "suno_tags": "male vocals, stoner doom, stoner influenced, psychedelic elements, effects processed, cannabis themes, fuzzed out"
+                },
+                "male_sludge_doom": {
+                    "description": "Doom metal with hardcore/punk influence. Aggressive, shouted vocals with raw production.",
+                    "suno_tags": "male vocals, sludge doom, hardcore punk influence, aggressive shouted, raw production, southern sludge"
+                }
+            },
+            "Black Metal": {
+                "female": {
+                    "description": "High-pitched shrieks, ghostly wails, lo-fi and cold atmosphere.",
+                    "suno_tags": "female vocals, shrieking, banshee wails, raw, lo-fi, cold, atmospheric"
+                },
+                "male": {
+                    "description": "High rasping shrieks, howls, hateful and raw delivery. Little bass presence.",
+                    "suno_tags": "male vocals, shrieking, rasping, raw, lo-fi, cold, evil, aggressive"
+                },
+                "female_forest_witch": {
+                    "description": "Ethereal shrieks with natural reverb (forest, cave recordings). Pagan ritualistic delivery with atmospheric focus.",
+                    "suno_tags": "female vocals, forest witch, ethereal shrieks, natural reverb, pagan ritual, atmospheric, black metal"
+                },
+                "male_norwegian_second_wave": {
+                    "description": "Classic Norwegian black metal style with raw production and Satanic themes. Shrieked vocals with minimal low end.",
+                    "suno_tags": "male vocals, norwegian second wave, classic black metal, raw production, satanic themes, shrieked vocals, minimal low end"
+                },
+                "male_atmospheric_bm": {
+                    "description": "Atmospheric black metal with clean vocals and harsh contrasts. Often features nature themes and epic song lengths.",
+                    "suno_tags": "male vocals, atmospheric bm, clean harsh contrasts, nature themes, epic lengths, post-black metal, cinematic"
+                },
+                "male_war_metal": {
+                    "description": "Extremely aggressive, bestial black/death hybrid. Inhuman vocalizations with war and violence themes.",
+                    "suno_tags": "male vocals, war metal, extremely aggressive, bestial, inhuman vocalizations, war themes, violent"
+                }
+            },
+            "Post-Hardcore": {
+                "female": {
+                    "description": "Dynamic range from melodic singing to raw screams. Emotional intensity with technical control.",
+                    "suno_tags": "female vocals, dynamic range, melodic to screams, emotional intensity, technical control, post-hardcore"
+                },
+                "male": {
+                    "description": "Yelled vocals with melodic undercurrent. Emotional vulnerability with aggressive delivery.",
+                    "suno_tags": "male vocals, yelled vocals, melodic undercurrent, emotional vulnerability, aggressive, post-hardcore"
+                },
+                "female_scream_sing": {
+                    "description": "Seamless transitions between clean singing and harsh screams within single phrases. Emotional catharsis through vocal extremes.",
+                    "suno_tags": "female vocals, scream sing, seamless transitions, clean to harsh, emotional catharsis, post-hardcore"
+                },
+                "male_la_dispute_style": {
+                    "description": "Spoken word/screamed post-hardcore with literary influence. Emotional storytelling with dynamic shifts.",
+                    "suno_tags": "male vocals, la dispute style, spoken word screamed, literary influence, emotional storytelling, dynamic shifts, narrative"
+                },
+                "male_dance_gavin_dance": {
+                    "description": "Technical post-hardcore with R&B influenced clean vocals and aggressive screams. Often features dual vocalists.",
+                    "suno_tags": "male vocals, dance gavin dance, technical, rnb influenced clean, aggressive screams, dual vocalists, progressive post-hardcore"
+                },
+                "male_emo_revival": {
+                    "description": "Modern emo revival with 90s influence. Whiny yet passionate vocals with math rock elements.",
+                    "suno_tags": "male vocals, emo revival, modern emo, 90s influence, whiny passionate, math rock elements, fourth wave emo"
+                }
+            },
+            "Gabber": {
+                "female": {
+                    "description": "Shouted vocals over extreme BPM hardcore. Often sampled or heavily distorted with aggressive energy.",
+                    "suno_tags": "female vocals, shouted, extreme BPM, sampled distorted, aggressive energy, gabber"
+                },
+                "male": {
+                    "description": "Distorted shouts and commands matching kick drum patterns. Minimalist with maximum impact.",
+                    "suno_tags": "male vocals, distorted shouts, kick drum matching, minimalist impact, gabber"
+                },
+                "female_kick_sync": {
+                    "description": "Vocals synchronized with gabber kick drum patterns. Each vocal hit timed to kick for maximum rhythmic impact.",
+                    "suno_tags": "female vocals, kick synchronization, rhythmic impact, gabber kicks, hardcore, extreme"
+                },
+                "male_thunderdome_style": {
+                    "description": "Classic 90s gabber with distorted samples and anti-establishment themes. Often features movie samples and dark atmosphere.",
+                    "suno_tags": "male vocals, thunderdome style, classic 90s gabber, distorted samples, anti-establishment, movie samples, dark atmosphere"
+                },
+                "male_mainstream_hardcore": {
+                    "description": "Modern gabber/hardcore with clearer production and melodic elements. Often features pitched-up vocals and happy hardcore influence.",
+                    "suno_tags": "male vocals, mainstream hardcore, modern gabber, clearer production, melodic elements, pitched-up vocals, happy hardcore influence"
+                },
+                "male_industrial_gabber": {
+                    "description": "Gabber with industrial music influence. Mechanical, processed vocals with factory-like rhythms.",
+                    "suno_tags": "male vocals, industrial gabber, industrial influence, mechanical processed, factory rhythms, ebm gabber"
+                }
+            },
+            "Hardstyle": {
+                "female": {
+                    "description": "Melodic yet powerful vocals with reverse bass energy. Euphoric delivery with occasional raw elements.",
+                    "suno_tags": "female vocals, melodic powerful, reverse bass energy, euphoric, raw elements, hardstyle"
+                },
+                "male": {
+                    "description": "Anthemic vocals with strong hooks and processed clarity. Designed for festival energy.",
+                    "suno_tags": "male vocals, anthemic, strong hooks, processed clarity, festival energy, hardstyle"
+                },
+                "female_reverse_bass": {
+                    "description": "Vocals specifically phrased around reverse bass patterns. Euphoric melodies with hardstyle rhythm integration.",
+                    "suno_tags": "female vocals, reverse bass phrasing, euphoric melodies, rhythm integration, hardstyle"
+                },
+                "male_rawstyle": {
+                    "description": "Aggressive hardstyle subgenre with distorted kicks and dark themes. Often features pitched-down vocals and industrial elements.",
+                    "suno_tags": "male vocals, rawstyle, aggressive, distorted kicks, dark themes, pitched-down vocals, industrial elements"
+                },
+                "male_euphoric_hardstyle": {
+                    "description": "Melodic hardstyle with emotional, uplifting vocals. Often features trance influences and major key melodies.",
+                    "suno_tags": "male vocals, euphoric hardstyle, melodic, emotional uplifting, trance influence, major key, happy hardstyle"
+                },
+                "male_early_hardstyle": {
+                    "description": "Early 2000s hardstyle with harder trance influence. Often features cheesy vocals and simpler structures.",
+                    "suno_tags": "male vocals, early hardstyle, harder trance influence, cheesy vocals, simpler structures, nostalgic, 2000s"
+                }
+            },
+            "Chiptune": {
+                "female": {
+                    "description": "High-pitched, video game-inspired vocals with lo-fi aesthetic. Often mimicking 8-bit synth sounds.",
+                    "suno_tags": "female vocals, high-pitched, video game inspired, lo-fi, 8-bit mimicry, chiptune"
+                },
+                "male": {
+                    "description": "Spoken or sung vocals processed to sound like game audio. Retro gaming aesthetic with playful delivery.",
+                    "suno_tags": "male vocals, game audio processing, retro gaming, playful delivery, chiptune"
+                },
+                "female_arcade_queen": {
+                    "description": "Vocal sounds mimicking specific arcade game effects (shoots, jumps, explosions). Interactive and playful delivery.",
+                    "suno_tags": "female vocals, arcade effects, game sound mimicry, interactive playful, chiptune"
+                },
+                "male_bitpop_singer": {
+                    "description": "Chiptune with pop song structures and clear vocals. Often features real instruments alongside chip sounds.",
+                    "suno_tags": "male vocals, bitpop singer, pop structures, clear vocals, real instruments, chip sounds, accessible chiptune"
+                },
+                "male_nintendo_core": {
+                    "description": "Extreme metal/rock with chiptune elements. Screamed vocals over 8-bit instrumentation.",
+                    "suno_tags": "male vocals, nintendo core, extreme metal, chiptune elements, screamed vocals, 8-bit instrumentation, metal chip"
+                },
+                "male_chiptune_rap": {
+                    "description": "Hip-hop over chiptune beats. Often features video game references and nerdy themes.",
+                    "suno_tags": "male vocals, chiptune rap, hip-hop, video game references, nerdy themes, game samples, nerdcore"
+                }
+            },
+            "Synthwave": {
+                "female": {
+                    "description": "Nostalgic 80s style voice, gated reverb, dramatic or dreamy delivery.",
+                    "suno_tags": "female vocals, retro, nostalgic, dreamy, reverb-heavy, neon, cinematic"
+                },
+                "male": {
+                    "description": "Deep, brooding voice, electronic crooner style, or robotic (vocoder).",
+                    "suno_tags": "male vocals, retro, brooding, vocoder, neon, cinematic, smooth"
+                },
+                "female_gated_reverb": {
+                    "description": "Heavy use of 80s gated reverb effect on vocals. Dramatic, larger-than-life sound with nostalgic production.",
+                    "suno_tags": "female vocals, gated reverb, 80s effect, dramatic, larger-than-life, nostalgic production, synthwave"
+                },
+                "male_outrun_style": {
+                    "description": "Synthwave with driving, energetic feel. Often features sports car themes and nighttime imagery.",
+                    "suno_tags": "male vocals, outrun style, driving energetic, sports car themes, nighttime imagery, miami vice, 80s action"
+                },
+                "male_darksynth": {
+                    "description": "Dark, aggressive synthwave with horror themes. Often features distorted vocals and minor key melodies.",
+                    "suno_tags": "male vocals, darksynth, dark aggressive, horror themes, distorted vocals, minor key, john carpenter style"
+                },
+                "male_dreamwave": {
+                    "description": "Atmospheric, slow synthwave with dreamy vocals. Focus on texture and mood over driving rhythms.",
+                    "suno_tags": "male vocals, dreamwave, atmospheric slow, dreamy vocals, texture mood, ambient synthwave"
+                }
+            },
+            "Darkwave": {
+                "female": {
+                    "description": "Gothic, melancholic vocals with coldwave influence. Often baritone range for females with dramatic delivery.",
+                    "suno_tags": "female vocals, gothic melancholic, coldwave influence, baritone range, dramatic, darkwave"
+                },
+                "male": {
+                    "description": "Deep, mournful vocals with post-punk austerity. Minimalist with emotional depth.",
+                    "suno_tags": "male vocals, deep mournful, post-punk austerity, minimalist emotional, darkwave"
+                },
+                "female_gothic_siren": {
+                    "description": "Extremely low female contralto with gothic romanticism. Victorian horror aesthetic with poetic delivery.",
+                    "suno_tags": "female vocals, gothic siren, low contralto, gothic romanticism, Victorian horror, poetic, darkwave"
+                },
+                "male_sisters_of_mercy": {
+                    "description": "Deep, charismatic vocals with rock influence. Gothic rock style with dramatic delivery and leather-clad attitude.",
+                    "suno_tags": "male vocals, sisters of mercy, deep charismatic, rock influence, gothic rock, dramatic delivery, leather-clad"
+                },
+                "male_coldwave_minimal": {
+                    "description": "Minimalist darkwave with cold, detached vocals. Often French-influenced with intellectual themes.",
+                    "suno_tags": "male vocals, coldwave minimal, minimalist, cold detached, french influence, intellectual themes, post-punk"
+                },
+                "male_ethereal_wave": {
+                    "description": "Darkwave with ethereal, atmospheric elements. Often features choir-like vocals and medieval influence.",
+                    "suno_tags": "male vocals, ethereal wave, atmospheric, choir-like vocals, medieval influence, 4ad style, dream pop dark"
+                }
+            },
+            "EBM": {
+                "female": {
+                    "description": "Rhythmic spoken commands, cold and authoritative. Little melody, focus on vocal percussion.",
+                    "suno_tags": "female vocals, spoken word, rhythmic, cold, authoritative, industrial, mechanical"
+                },
+                "male": {
+                    "description": "Military shouts, repetitive chants, controlled and robotic aggression.",
+                    "suno_tags": "male vocals, shouting, rhythmic, military, aggressive, mechanical, cold"
+                },
+                "female_robot_commander": {
+                    "description": "Mechanical, synthesized vocal delivery with command presence. Robotic precision with human aggression.",
+                    "suno_tags": "female vocals, robot commander, mechanical synthesized, command presence, robotic precision, human aggression, EBM"
+                },
+                "male_front_242_style": {
+                    "description": "Classic EBM with shouted, militaristic vocals. Often political with cold war themes.",
+                    "suno_tags": "male vocals, front 242 style, classic ebm, shouted militaristic, political, cold war themes, 80s industrial"
+                },
+                "male_aggrotech": {
+                    "description": "Aggressive EBM with harsh vocals and metal influence. Often features horror themes and extreme distortion.",
+                    "suno_tags": "male vocals, aggrotech, aggressive ebm, harsh vocals, metal influence, horror themes, extreme distortion"
+                },
+                "male_futurepop": {
+                    "description": "EBM with trance and synthpop influence. More melodic with clean(er) vocals and romantic themes.",
+                    "suno_tags": "male vocals, futurepop, trance influence, synthpop, melodic, clean vocals, romantic themes"
+                }
+            },
+            "Sludge": {
+                "female": {
+                    "description": "Slow, tortured vocals with maximum distortion. Often indecipherable with focus on texture and pain.",
+                    "suno_tags": "female vocals, slow tortured, maximum distortion, indecipherable, textural pain, sludge"
+                },
+                "male": {
+                    "description": "Extremely slow, heavy delivery with southern metal influence. Drunken, slurred aesthetic with raw power.",
+                    "suno_tags": "male vocals, extremely slow, southern influence, drunken slurred, raw power, sludge"
+                },
+                "female_muddy_waters": {
+                    "description": "Vocals intentionally mixed low and muddy. Part of instrumental texture rather than separate element.",
+                    "suno_tags": "female vocals, muddy waters, low mix, instrumental texture, integrated, sludge"
+                },
+                "male_eyehategod_style": {
+                    "description": "Nihilistic sludge with hardcore punk influence. Screamed vocals with Southern drawl and substance abuse themes.",
+                    "suno_tags": "male vocals, eyehategod style, nihilistic sludge, hardcore punk influence, screamed vocals, southern drawl, substance abuse"
+                },
+                "male_stoner_sludge": {
+                    "description": "Sludge with stoner metal influence. Often features cleaner vocals and psychedelic elements.",
+                    "suno_tags": "male vocals, stoner sludge, stoner metal influence, cleaner vocals, psychedelic elements, weed themes"
+                },
+                "male_post_sludge": {
+                    "description": "Sludge metal with post-metal elements. Often features clean singing and atmospheric passages.",
+                    "suno_tags": "male vocals, post sludge, post-metal elements, clean singing, atmospheric passages, progressive sludge"
+                }
+            },
+            "Crust Punk": {
+                "female": {
+                    "description": "Extremely raw, distorted shouts with political urgency. Lo-fi production with maximum aggression.",
+                    "suno_tags": "female vocals, extremely raw, distorted shouts, political urgency, lo-fi aggression, crust punk"
+                },
+                "male": {
+                    "description": "Barked vocals with anarchist themes. Fast, aggressive delivery with DIY aesthetic.",
+                    "suno_tags": "male vocals, barked vocals, anarchist themes, fast aggressive, DIY aesthetic, crust punk"
+                },
+                "female_anarchist_screamer": {
+                    "description": "Political slogans shouted with maximum intensity. Raw, unprocessed delivery with confrontational energy.",
+                    "suno_tags": "female vocals, anarchist screamer, political slogans, maximum intensity, raw unprocessed, confrontational, crust punk"
+                },
+                "male_d_beat": {
+                    "description": "Crust punk with Discharge influence. Shouted vocals with simple, repetitive structures.",
+                    "suno_tags": "male vocals, d beat, discharge influence, shouted vocals, simple repetitive, UK82 style"
+                },
+                "male_crust_grind": {
+                    "description": "Crust punk with grindcore speed and intensity. Extremely fast with political themes.",
+                    "suno_tags": "male vocals, crust grind, grindcore speed, intensity, extremely fast, political themes, extreme crust"
+                },
+                "male_neocrust": {
+                    "description": "Modern crust with post-hardcore and screamo influence. More melodic with emotional delivery.",
+                    "suno_tags": "male vocals, neocrust, modern crust, post-hardcore influence, screamo, melodic, emotional delivery"
+                }
+            },
+            "Plunderphonics": {
+                "female": {
+                    "description": "Sampled and manipulated vocal fragments from various sources. Collage aesthetic with focus on texture over continuity.",
+                    "suno_tags": "female vocals, sampled fragments, manipulated, collage aesthetic, textural, plunderphonics"
+                },
+                "male": {
+                    "description": "Found audio manipulated into musical elements. Often conceptual with focus on source material transformation.",
+                    "suno_tags": "male vocals, found audio, manipulated, conceptual, source transformation, plunderphonics"
+                },
+                "female_collage_artist": {
+                    "description": "Vocal collage from hundreds of micro-samples. Creates narrative from disparate sources through editing.",
+                    "suno_tags": "female vocals, collage artist, micro-samples, narrative editing, disparate sources, plunderphonics"
+                },
+                "male_the_avalanches": {
+                    "description": "Plunderphonics with pop sensibility and danceable results. Often features nostalgic samples and joyful atmosphere.",
+                    "suno_tags": "male vocals, the avalanches, pop sensibility, danceable, nostalgic samples, joyful atmosphere, sample collage"
+                },
+                "male_conceptual_plunder": {
+                    "description": "Concept-driven plunderphonics with academic approach. Often features political commentary and audio essays.",
+                    "suno_tags": "male vocals, conceptual plunder, concept-driven, academic approach, political commentary, audio essays, experimental"
+                },
+                "male_mashup_artist": {
+                    "description": "Plunderphonics focused on recognizable pop culture mashups. Often humorous with clear source material recognition.",
+                    "suno_tags": "male vocals, mashup artist, pop culture mashups, humorous, clear source recognition, internet culture, meme music"
+                }
+            },
+            "Lowercase": {
+                "female": {
+                    "description": "Extremely quiet, almost inaudible vocals. Focus on subtle breath sounds and mouth noises.",
+                    "suno_tags": "female vocals, extremely quiet, inaudible, subtle breath, mouth noises, lowercase"
+                },
+                "male": {
+                    "description": "Minimal vocal sounds amplified to reveal detail. Often non-musical with focus on acoustic phenomena.",
+                    "suno_tags": "male vocals, minimal sounds, amplified detail, non-musical, acoustic phenomena, lowercase"
+                },
+                "female_microphone_licker": {
+                    "description": "Extreme close-miking capturing intimate mouth sounds. Lip smacks, tongue clicks, and breathing as primary material.",
+                    "suno_tags": "female vocals, microphone licker, close-miking, mouth sounds, lip smacks, tongue clicks, breathing, lowercase"
+                },
+                "male_room_tone_specialist": {
+                    "description": "Focus on ambient room sounds and barely-there vocal presence. Creates atmosphere from near-silence.",
+                    "suno_tags": "male vocals, room tone specialist, ambient room sounds, barely-there vocals, atmosphere, near-silence, minimal"
+                },
+                "male_whisper_artist": {
+                    "description": "Extremely quiet spoken word that demands listener attention. Creates intimacy through volume restriction.",
+                    "suno_tags": "male vocals, whisper artist, extremely quiet, spoken word, listener attention, intimacy, volume restriction"
+                },
+                "male_digital_silence": {
+                    "description": "Exploration of digital silence and low-bitrate audio artifacts. Often features glitches from near-zero amplitude.",
+                    "suno_tags": "male vocals, digital silence, digital silence exploration, low-bitrate artifacts, glitches, near-zero amplitude, conceptual"
+                }
+            },
+            "Speedcore": {
+                "female": {
+                    "description": "Extreme BPM shouting or screaming. Often indecipherable with pure energy focus.",
+                    "suno_tags": "female vocals, extreme BPM, shouting screaming, indecipherable, pure energy, speedcore"
+                },
+                "male": {
+                    "description": "Machine-gun vocal delivery matching extreme tempos. Often processed to sound like drum machine.",
+                    "suno_tags": "male vocals, machine-gun delivery, extreme tempos, drum machine sound, speedcore"
+                },
+                "female_bpm_mania": {
+                    "description": "Vocal rhythms at 300+ BPM. Human attempt to match electronic speed with physical limitations.",
+                    "suno_tags": "female vocals, BPM mania, 300+ BPM, human limits, speed challenge, speedcore"
+                },
+                "male_extratone": {
+                    "description": "Speedcore at 1000+ BPM creating continuous tone effect. Vocals become texture rather than distinct phrases.",
+                    "suno_tags": "male vocals, extratone, 1000+ BPM, continuous tone, vocal texture, extreme speed, digital"
+                },
+                "male_splittercore": {
+                    "description": "Speedcore subgenre around 600-800 BPM. More structured than extratone with discernible patterns.",
+                    "suno_tags": "male vocals, splittercore, 600-800 BPM, structured, discernible patterns, hardcore techno"
+                },
+                "male_happy_speedcore": {
+                    "description": "Speedcore with happy hardcore influence and major keys. Often features pitched-up vocals and cartoon samples.",
+                    "suno_tags": "male vocals, happy speedcore, happy hardcore influence, major keys, pitched-up vocals, cartoon samples, ironic"
+                }
+            },
+            "Dungeon Synth": {
+                "female": {
+                    "description": "Medieval-style chanting or ethereal vocals. Often in imagined languages with fantasy themes.",
+                    "suno_tags": "female vocals, medieval chanting, ethereal, imagined languages, fantasy themes, dungeon synth"
+                },
+                "male": {
+                    "description": "Deep, resonant vocals with ritualistic delivery. Often processed to sound ancient or otherworldly.",
+                    "suno_tags": "male vocals, deep resonant, ritualistic, ancient sound, otherworldly, dungeon synth"
+                },
+                "female_tapestry_weaver": {
+                    "description": "Multiple vocal layers creating medieval tapestry of sound. Counterpoint and drone techniques with fantasy aesthetic.",
+                    "suno_tags": "female vocals, tapestry weaver, multiple layers, medieval counterpoint, drone techniques, fantasy aesthetic, dungeon synth"
+                },
+                "male_burzum_style": {
+                    "description": "Early dungeon synth with black metal connection. Lo-fi, minimalist with dark fantasy themes.",
+                    "suno_tags": "male vocals, burzum style, early dungeon synth, black metal connection, lo-fi minimalist, dark fantasy, norse"
+                },
+                "male_comfy_synth": {
+                    "description": "Warm, comforting dungeon synth with cozy atmosphere. Often features hearthside aesthetic and gentle melodies.",
+                    "suno_tags": "male vocals, comfy synth, warm comforting, cozy atmosphere, hearthside aesthetic, gentle melodies, wholesome"
+                },
+                "male_dark_dungeon": {
+                    "description": "Dungeon synth with horror and dark ambient influence. Creates oppressive, frightening atmosphere.",
+                    "suno_tags": "male vocals, dark dungeon, horror influence, dark ambient, oppressive atmosphere, frightening, Lovecraftian"
+                }
+            },
+            "Gospel": {
+                "female": {
+                    "description": "Maximum vocal power, extreme dynamic range, spiritual melismas, and improvisation.",
+                    "suno_tags": "female vocals, powerful belting, spiritual, melismatic, choir leader, uplifting, soaring"
+                },
+                "male": {
+                    "description": "Full-bodied, raspy, and passionate voice. Singing-preaching style, falsettos, and shouts of joy.",
+                    "suno_tags": "male vocals, soulful, powerful, raspy, preaching style, uplifting, emotional"
+                },
+                "female_testifier": {
+                    "description": "Call-and-response leader with improvisational storytelling. Testimonial delivery with congregation interaction.",
+                    "suno_tags": "female vocals, testifier, call-and-response leader, improvisational storytelling, testimonial, congregation interaction, gospel"
+                },
+                "male_quartet_tenor": {
+                    "description": "High tenor for gospel quartet harmony. Smooth, clear voice with impeccable timing for complex harmonies.",
+                    "suno_tags": "male vocals, quartet tenor, high tenor, gospel quartet, smooth clear, impeccable timing, complex harmonies"
+                },
+                "male_bass_singer": {
+                    "description": "Extremely low bass for gospel quartets. Foundation of harmony with rich, resonant lows.",
+                    "suno_tags": "male vocals, bass singer, extremely low, gospel quartet, foundation harmony, rich resonant, low notes"
+                },
+                "male_contemporary_gospel": {
+                    "description": "Modern gospel with R&B and pop influence. Often features slick production and crossover appeal.",
+                    "suno_tags": "male vocals, contemporary gospel, modern, rnb pop influence, slick production, crossover appeal, kirk franklin style"
+                }
+            },
+            "Folk": {
+                "female": {
+                    "description": "Pure voice, straight tone or fast vibrato. Focus on narrative and acoustic intimacy.",
+                    "suno_tags": "female vocals, pure, intimate, storytelling, organic, ethereal, acoustic"
+                },
+                "male": {
+                    "description": "Nasal, conversational voice, woody timbre. Honest and stripped-back delivery.",
+                    "suno_tags": "male vocals, earthy, nasal, storytelling, organic, acoustic, raw, warm"
+                },
+                "female_story_spinner": {
+                    "description": "Narrative-focused delivery with character voices and atmospheric description. Traditional folk storytelling techniques.",
+                    "suno_tags": "female vocals, story spinner, narrative focus, character voices, atmospheric description, traditional storytelling, folk"
+                },
+                "male_americana": {
+                    "description": "Modern folk with country, blues, and rock influence. Often features fuller arrangements and contemporary themes.",
+                    "suno_tags": "male vocals, americana, modern folk, country blues rock influence, fuller arrangements, contemporary themes, rustic"
+                },
+                "male_folk_punk": {
+                    "description": "Folk music with punk energy and DIY ethos. Often political with shouted vocals and simple instrumentation.",
+                    "suno_tags": "male vocals, folk punk, punk energy, DIY ethos, political, shouted vocals, simple instrumentation"
+                },
+                "male_traditional_folk": {
+                    "description": "Preservationist approach to traditional folk songs. Often features regional accents and historical authenticity.",
+                    "suno_tags": "male vocals, traditional folk, preservationist, traditional songs, regional accents, historical authenticity, revival"
+                }
+            },
+            "Trap Metal": {
+                "female": {
+                    "description": "Distorted screams over 808 beats, aggressive flow, and punk attitude.",
+                    "suno_tags": "female vocals, distorted screams, aggressive flow, chaotic, sizzling, brutal"
+                },
+                "male": {
+                    "description": "Fast flow with saturated screams, extreme vocal distortion, chaotic energy.",
+                    "suno_tags": "male vocals, distorted screams, aggressive, chaotic, sizzling, heavy, raw"
+                },
+                "female_rage_queen": {
+                    "description": "Female trap metal with extreme aggression and feminist themes. Often features industrial and nu metal influence.",
+                    "suno_tags": "female vocals, rage queen, extreme aggression, feminist themes, industrial influence, nu metal, trap metal"
+                },
+                "male_city_morgue_style": {
+                    "description": "Dark, nihilistic trap metal with horrorcore influence. Often features drug themes and violent imagery.",
+                    "suno_tags": "male vocals, city morgue style, dark nihilistic, horrorcore influence, drug themes, violent imagery, SoundCloud rap"
+                },
+                "male_nu_trap": {
+                    "description": "Trap metal with nu metal revival influence. Features rap-rock fusion with angst-filled lyrics.",
+                    "suno_tags": "male vocals, nu trap, nu metal revival, rap-rock fusion, angst-filled lyrics, 2000s throwback"
+                },
+                "male_emo_trap": {
+                    "description": "Trap metal with emo rap influence. More melodic with autotuned singing and emotional themes.",
+                    "suno_tags": "male vocals, emo trap, emo rap influence, melodic, autotuned singing, emotional themes, sad boy rap"
+                }
+            },
+            "House": {
+                "female": {
+                    "description": "Soulful, uplifting vocals with strong groove feel. Often sampled phrases or full songs with dance energy.",
+                    "suno_tags": "female vocals, soulful uplifting, groove feel, sampled phrases, dance energy, house"
+                },
+                "male": {
+                    "description": "Deep, resonant vocals with club energy. Often repetitive phrases with hypnotic effect.",
+                    "suno_tags": "male vocals, deep resonant, club energy, repetitive phrases, hypnotic, house"
+                },
+                "female_piano_house": {
+                    "description": "Classic piano house style with gospel-influenced belting. Euphoric melodies with strong harmonic progression.",
+                    "suno_tags": "female vocals, piano house, gospel-influenced belting, euphoric melodies, harmonic progression, classic house"
+                },
+                "male_chicago_house": {
+                    "description": "Raw, early house music with disco and soul influence. Often features minimal lyrics and focus on groove.",
+                    "suno_tags": "male vocals, chicago house, raw early, disco soul influence, minimal lyrics, groove focus, 80s house"
+                },
+                "male_deep_house_crooner": {
+                    "description": "Smooth, jazzy vocals for deep house. Often features live instrumentation and sophisticated arrangements.",
+                    "suno_tags": "male vocals, deep house crooner, smooth jazzy, live instrumentation, sophisticated arrangements, lounge house"
+                },
+                "male_tech_house": {
+                    "description": "Minimal vocals for tech house, often processed and rhythmic. Focus on texture and subtlety over melody.",
+                    "suno_tags": "male vocals, tech house, minimal vocals, processed rhythmic, texture subtlety, underground house"
+                }
+            },
+            "Techno": {
+                "female": {
+                    "description": "Minimal, repetitive vocal phrases. Often processed with effects and used as rhythmic element.",
+                    "suno_tags": "female vocals, minimal repetitive, processed effects, rhythmic element, techno"
+                },
+                "male": {
+                    "description": "Spoken word or command phrases. Robotic delivery with focus on rhythm over melody.",
+                    "suno_tags": "male vocals, spoken word, command phrases, robotic delivery, rhythmic focus, techno"
+                },
+                "female_berlin_minimal": {
+                    "description": "Ultra-minimal vocal snippets with long spaces between. Atmospheric rather than melodic.",
+                    "suno_tags": "female vocals, berlin minimal, vocal snippets, long spaces, atmospheric, techno"
+                },
+                "male_detroit_techno": {
+                    "description": "Futuristic, soulful techno with afrofuturist themes. Often features philosophical lyrics and sci-fi imagery.",
+                    "suno_tags": "male vocals, detroit techno, futuristic soulful, afrofuturist themes, philosophical lyrics, sci-fi imagery, juan atkins style"
+                },
+                "male_hard_techno": {
+                    "description": "Aggressive techno with shouted vocals and industrial influence. Often features political samples and dark atmosphere.",
+                    "suno_tags": "male vocals, hard techno, aggressive, shouted vocals, industrial influence, political samples, dark atmosphere"
+                },
+                "male_ambient_techno": {
+                    "description": "Atmospheric techno with ethereal vocals. Creates dreamlike states within dance framework.",
+                    "suno_tags": "male vocals, ambient techno, atmospheric, ethereal vocals, dreamlike states, dance framework, intelligent techno"
+                }
+            },
+            "Trance": {
+                "female": {
+                    "description": "Ethereal, soaring vocals with euphoric melodies. Often wordless vocalizations or uplifting lyrics.",
+                    "suno_tags": "female vocals, ethereal soaring, euphoric melodies, wordless vocalizations, uplifting, trance"
+                },
+                "male": {
+                    "description": "Anthemic vocals with strong emotional delivery. Often about unity, love, or spiritual themes.",
+                    "suno_tags": "male vocals, anthemic, emotional delivery, unity themes, spiritual, trance"
+                },
+                "female_uplifting_choir": {
+                    "description": "Multiple layered vocals creating choir-like effect. Soaring melodies with progressive build structure.",
+                    "suno_tags": "female vocals, uplifting choir, layered vocals, choir effect, soaring melodies, progressive build, trance"
+                },
+                "male_vocal_trance": {
+                    "description": "Trance focused on vocal performances with verse-chorus structure. Often features pop songwriting within trance framework.",
+                    "suno_tags": "male vocals, vocal trance, vocal performance focus, verse-chorus structure, pop songwriting, trance framework, commercial trance"
+                },
+                "male_goa_trance": {
+                    "description": "Psychedelic trance with Eastern influence and spiritual themes. Often features chanted vocals and ethnic samples.",
+                    "suno_tags": "male vocals, goa trance, psychedelic, eastern influence, spiritual themes, chanted vocals, ethnic samples"
+                },
+                "male_hard_trance": {
+                    "description": "Aggressive trance with distorted kicks and shouted vocals. 90s style with rave energy.",
+                    "suno_tags": "male vocals, hard trance, aggressive, distorted kicks, shouted vocals, 90s style, rave energy"
+                }
+            },
+            "Dubstep": {
+                "female": {
+                    "description": "Soulful vocals contrasted with heavy bass drops. Often chopped and processed in post-drop sections.",
+                    "suno_tags": "female vocals, soulful contrast, heavy bass, chopped processed, dubstep"
+                },
+                "male": {
+                    "description": "Aggressive delivery matching bass weight. Often minimal vocals with maximum impact.",
+                    "suno_tags": "male vocals, aggressive delivery, bass weight matching, minimal impact, dubstep"
+                },
+                "female_wobble_siren": {
+                    "description": "Vocal melodies that mimic dubstep wobble bass patterns. Melodic yet rhythmically complex.",
+                    "suno_tags": "female vocals, wobble siren, bass pattern mimicry, melodic rhythmic, dubstep"
+                },
+                "male_brostep": {
+                    "description": "Aggressive, maximalist dubstep with metal influence. Often features screamed vocals and intense drops.",
+                    "suno_tags": "male vocals, brostep, aggressive maximalist, metal influence, screamed vocals, intense drops, skrillex style"
+                },
+                "male_riddim": {
+                    "description": "Minimal dubstep with repetitive patterns and MC influence. Often features dancehall-style toasting.",
+                    "suno_tags": "male vocals, riddim, minimal dubstep, repetitive patterns, MC influence, dancehall toasting, underground"
+                },
+                "male_chillstep": {
+                    "description": "Melodic, atmospheric dubstep with emotional vocals. Often features indie and post-rock influence.",
+                    "suno_tags": "male vocals, chillstep, melodic atmospheric, emotional vocals, indie influence, post-rock, cinematic dubstep"
+                }
+            },
+            "Drum & Bass": {
+                "female": {
+                    "description": "Fast, fluid vocals matching breakbeat complexity. Often soulful with rapid delivery.",
+                    "suno_tags": "female vocals, fast fluid, breakbeat complexity, soulful rapid, drum & bass"
+                },
+                "male": {
+                    "description": "MC-style delivery or sung vocals. Focus on rhythm and energy matching high BPM.",
+                    "suno_tags": "male vocals, MC style, sung vocals, rhythm energy, high BPM, drum & bass"
+                },
+                "female_breakbeat_angel": {
+                    "description": "Vocal rhythms synchronized with amen break patterns. Technical delivery with soulful tone.",
+                    "suno_tags": "female vocals, breakbeat angel, amen break synchronization, technical delivery, soulful tone, drum & bass"
+                },
+                "male_jungle_mc": {
+                    "description": "Classic jungle MC with fast patter and dancehall influence. Often features sound system culture references.",
+                    "suno_tags": "male vocals, jungle mc, classic jungle, fast patter, dancehall influence, sound system culture, 90s dnb"
+                },
+                "male_liquid_funk": {
+                    "description": "Smooth, jazzy vocals for liquid funk D&B. Often features live instrumentation and soulful delivery.",
+                    "suno_tags": "male vocals, liquid funk, smooth jazzy, live instrumentation, soulful delivery, atmospheric dnb"
+                },
+                "male_neurofunk": {
+                    "description": "Dark, technical D&B with processed vocals. Often features sci-fi themes and complex rhythms.",
+                    "suno_tags": "male vocals, neurofunk, dark technical, processed vocals, sci-fi themes, complex rhythms, futuristic dnb"
+                }
+            },
+            "Ska": {
+                "female": {
+                    "description": "Bright, upbeat voice with horn-like phrasing and bouncy rhythms. Energetic delivery with occasional rude girl attitude.",
+                    "suno_tags": "female vocals, bright upbeat, horn-like phrasing, bouncy rhythms, energetic, rude girl attitude, skank rhythm"
+                },
+                "male": {
+                    "description": "Rough yet melodic voice with Jamaican influences. Upbeat delivery with focus on rhythm and horn section interaction.",
+                    "suno_tags": "male vocals, rough melodic, Jamaican influence, upbeat, rhythmic, horn section interaction, ska"
+                },
+                "female_skank_screamer": {
+                    "description": "Aggressive ska-punk style with shouted vocals over upbeat rhythms. Raw energy with clear enunciation despite intense delivery.",
+                    "suno_tags": "female vocals, ska-punk, shouted vocals, upbeat aggression, raw energy, clear enunciation, punk attitude"
+                },
+                "male_two_tone": {
+                    "description": "British 2-tone ska with social commentary. Often features clean vocals with punk influence and political themes.",
+                    "suno_tags": "male vocals, two tone, british ska, social commentary, clean vocals, punk influence, political themes, specials style"
+                },
+                "male_third_wave": {
+                    "description": "90s American ska-punk with pop influence. Often features horn solos and upbeat, humorous lyrics.",
+                    "suno_tags": "male vocals, third wave, 90s american, ska-punk, pop influence, horn solos, upbeat humorous, reel big fish style"
+                },
+                "male_rocksteady": {
+                    "description": "Slower ska predecessor with soulful delivery. Often romantic with doo-wop influence.",
+                    "suno_tags": "male vocals, rocksteady, slower ska, soulful delivery, romantic, doo-wop influence, jamaican 60s"
+                }
+            },
+            "Afrobeat": {
+                "female": {
+                    "description": "Powerful, rhythmic voice with West African inflections. Call-and-response patterns with complex polyrhythmic delivery.",
+                    "suno_tags": "female vocals, powerful rhythmic, West African inflections, call-and-response, polyrhythmic, traditional influence"
+                },
+                "male": {
+                    "description": "Charismatic delivery with storytelling focus. Smooth yet percussive phrasing with traditional African vocal techniques.",
+                    "suno_tags": "male vocals, charismatic, storytelling, smooth percussive, traditional African techniques, afrobeat"
+                },
+                "female_yodel_african": {
+                    "description": "Traditional African yodeling techniques with rapid register breaks and ululation. Complex rhythmic patterns with spiritual intensity.",
+                    "suno_tags": "female vocals, African yodeling, register breaks, ululation, complex rhythms, spiritual intensity, traditional"
+                },
+                "male_fela_kuti_style": {
+                    "description": "Political afrobeat with extended jams and social commentary. Often features Pidgin English and revolutionary themes.",
+                    "suno_tags": "male vocals, fela kuti style, political afrobeat, extended jams, social commentary, pidgin english, revolutionary"
+                },
+                "male_afropop": {
+                    "description": "Modern afrobeat with pop production and global appeal. Often features autotune and dancehall influence.",
+                    "suno_tags": "male vocals, afropop, modern afrobeat, pop production, global appeal, autotune, dancehall influence, wizkid style"
+                },
+                "male_highlife_singer": {
+                    "description": "Ghanaian highlife with guitar band influence. Often features sweet, melodic vocals and social themes.",
+                    "suno_tags": "male vocals, highlife singer, ghanaian, guitar band influence, sweet melodic, social themes, west african"
+                }
+            },
+            "Industrial Metal": {
+                "female": {
+                    "description": "Heavy processing, digital distortion, cold mechanical delivery, or aggressive screams.",
+                    "suno_tags": "female vocals, distorted, mechanical, cold, aggressive, processed, metallic"
+                },
+                "male": {
+                    "description": "Filtered, distorted voices, menacing whispers, or processed screams. Megaphone or radio aesthetic.",
+                    "suno_tags": "male vocals, distorted, aggressive, mechanical, cold, metallic, harsh"
+                },
+                "female_machine_gun": {
+                    "description": "Staccato vocal bursts mimicking machine rhythms. Mechanical, repetitive phrases with industrial noise elements.",
+                    "suno_tags": "female vocals, staccato bursts, machine rhythms, mechanical repetition, industrial noise, cold precision"
+                },
+                "male_fear_factory_style": {
+                    "description": "Industrial metal with clear verses and aggressive choruses. Often features robotic vocals and sci-fi themes.",
+                    "suno_tags": "male vocals, fear factory style, clear verses, aggressive choruses, robotic vocals, sci-fi themes, 90s industrial"
+                },
+                "male_ministry_aggression": {
+                    "description": "Angry, political industrial metal with punk attitude. Often features sampled speeches and distorted vocals.",
+                    "suno_tags": "male vocals, ministry aggression, angry political, punk attitude, sampled speeches, distorted vocals, industrial thrash"
+                },
+                "male_industrial_nu_metal": {
+                    "description": "Industrial metal with nu metal influence. Features rap-rock elements and teenage angst themes.",
+                    "suno_tags": "male vocals, industrial nu metal, nu metal influence, rap-rock elements, teenage angst, 2000s industrial"
+                }
+            },
+            "Art Pop": {
+                "female": {
+                    "description": "Experimental pop with avant-garde vocal techniques. Often features unconventional phrasing and extended techniques.",
+                    "suno_tags": "female vocals, experimental pop, avant-garde, unconventional phrasing, extended techniques, art pop"
+                },
+                "male": {
+                    "description": "Intellectual pop with complex arrangements and literary lyrics. Often features theatrical delivery and concept albums.",
+                    "suno_tags": "male vocals, intellectual pop, complex arrangements, literary lyrics, theatrical delivery, concept albums, art rock"
+                },
+                "female_avant_garde_pop": {
+                    "description": "Pushes pop boundaries with extreme vocal experimentation. Often features genre fusion and conceptual approach.",
+                    "suno_tags": "female vocals, avant garde pop, boundary pushing, extreme experimentation, genre fusion, conceptual, bjork style"
+                },
+                "male_baroque_pop_master": {
+                    "description": "Ornate pop with classical instrumentation and complex arrangements. Often features high tenor range and poetic lyrics.",
+                    "suno_tags": "male vocals, baroque pop master, ornate pop, classical instrumentation, complex arrangements, high tenor, poetic lyrics"
+                },
+                "male_chamber_pop": {
+                    "description": "Intimate pop with string arrangements and acoustic focus. Often features detailed production and emotional depth.",
+                    "suno_tags": "male vocals, chamber pop, intimate pop, string arrangements, acoustic focus, detailed production, emotional depth"
+                },
+                "male_freak_folk": {
+                    "description": "Experimental folk-pop with psychedelic and avant-garde elements. Often features unusual vocal techniques and mystical themes.",
+                    "suno_tags": "male vocals, freak folk, experimental folk-pop, psychedelic, avant-garde, unusual vocal techniques, mystical themes"
+                }
+            },
+            "Neo-Psychedelia": {
+                "female": {
+                    "description": "Dreamy, reverbed vocals with psychedelic influence. Often features abstract lyrics and atmospheric production.",
+                    "suno_tags": "female vocals, dreamy reverbed, psychedelic influence, abstract lyrics, atmospheric production, neo-psychedelia"
+                },
+                "male": {
+                    "description": "Hypnotic vocals with psychedelic rock influence. Often features extended jams and mind-altering themes.",
+                    "suno_tags": "male vocals, hypnotic, psychedelic rock influence, extended jams, mind-altering themes, neo-psychedelia"
+                },
+                "female_psych_folk": {
+                    "description": "Psychedelic folk with ethereal vocals and nature themes. Often features acoustic instrumentation and mystical lyrics.",
+                    "suno_tags": "female vocals, psych folk, psychedelic folk, ethereal vocals, nature themes, acoustic instrumentation, mystical lyrics"
+                },
+                "male_dream_pop_psych": {
+                    "description": "Neo-psychedelia with dream pop influence. Features hazy vocals and shimmering guitar textures.",
+                    "suno_tags": "male vocals, dream pop psych, dream pop influence, hazy vocals, shimmering guitars, atmospheric, neo-psychedelic"
+                },
+                "male_psych_rock_revival": {
+                    "description": "Modern psychedelic rock with classic 60s/70s influence. Often features extended solos and vintage production.",
+                    "suno_tags": "male vocals, psych rock revival, modern psychedelic, classic influence, extended solos, vintage production, tame impala style"
+                },
+                "male_space_rock": {
+                    "description": "Psychedelic rock with sci-fi themes and atmospheric focus. Often features long, immersive tracks and cosmic imagery.",
+                    "suno_tags": "male vocals, space rock, sci-fi themes, atmospheric focus, immersive tracks, cosmic imagery, psychedelic"
+                }
+            },
+            "Post-Rock": {
+                "female": {
+                    "description": "Often instrumental, but when vocals appear they are ethereal and textural. Focus on atmosphere over lyrics.",
+                    "suno_tags": "female vocals, ethereal textural, atmospheric, instrumental focus, post-rock"
+                },
+                "male": {
+                    "description": "Spoken word or whispered vocals in post-rock context. Often used as texture within cinematic arrangements.",
+                    "suno_tags": "male vocals, spoken word, whispered, textural, cinematic arrangements, post-rock"
+                },
+                "female_post_rock_choir": {
+                    "description": "Wordless vocalizations used as orchestral element. Creates emotional crescendos without lyrical content.",
+                    "suno_tags": "female vocals, post rock choir, wordless vocalizations, orchestral element, emotional crescendos, cinematic, godspeed style"
+                },
+                "male_post_rock_narrator": {
+                    "description": "Spoken word samples or poetic narration over post-rock soundscapes. Often philosophical or political.",
+                    "suno_tags": "male vocals, post rock narrator, spoken word samples, poetic narration, soundscapes, philosophical political, mogwai style"
+                },
+                "male_crescendo_core": {
+                    "description": "Post-rock with dramatic loud-soft dynamics and emotional climaxes. Often features screamed vocals at peaks.",
+                    "suno_tags": "male vocals, crescendo core, dramatic dynamics, emotional climaxes, screamed vocals, post-rock, explosive"
+                },
+                "male_ambient_post_rock": {
+                    "description": "Atmospheric post-rock with minimal vocals. Focus on texture and gradual development.",
+                    "suno_tags": "male vocals, ambient post rock, atmospheric, minimal vocals, texture, gradual development, cinematic"
+                }
+            }
+        }
+    }
+}

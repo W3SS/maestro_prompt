@@ -1,0 +1,443 @@
+{
+  "genres": {
+    "mainstream_clusters": [
+      "Pop",
+      "Hip-Hop",
+      "EDM",
+      "Rock",
+      "Latin",
+      "R&B",
+      "Country",
+      "Metal",
+      "Jazz",
+      "Blues",
+      "Classical",
+      "Reggae",
+      "Soul",
+      "Funk",
+      "Disco",
+      "Folk",
+      "Punk",
+      "House",
+      "Techno",
+      "Trance",
+      "Dubstep",
+      "Drum & Bass",
+      "Gospel",
+      "Ska",
+      "Afrobeat",
+      "Grunge",
+      "Indie",
+      "Reggaeton",
+      "Ambient"
+    ],
+    "niche_clusters": [
+      "Djent",
+      "Hyperpop",
+      "IDM",
+      "Tech Death",
+      "Shoegaze",
+      "Math Rock",
+      "Industrial",
+      "Vaporwave",
+      "Glitch",
+      "Breakcore",
+      "Noise",
+      "Grindcore",
+      "Deathcore",
+      "Drone",
+      "Doom Metal",
+      "Black Metal",
+      "Post-Hardcore",
+      "Gabber",
+      "Hardstyle",
+      "Chiptune",
+      "Synthwave",
+      "Darkwave",
+      "EBM (Electronic Body Music)",
+      "Sludge",
+      "Crust Punk",
+      "Plunderphonics",
+      "Lowercase",
+      "Speedcore",
+      "Dungeon Synth"
+    ],
+    "fusion_recipes": [
+      {
+        "name": "Thall",
+        "formula": "Djent + Ambience + Dissonance",
+        "key_elements": "Bending guitars, reverb washes, silence, pitch-shifted delays."
+      },
+      {
+        "name": "Trap Metal",
+        "formula": "Trap 808s + Screaming Vocals + Industrial Noise",
+        "key_elements": "Distortion, simple flow, high energy, clipped bass."
+      },
+      {
+        "name": "Glitchcore (Hyperpop)",
+        "formula": "Pop Melodies + IDM Glitches + Pitch shifting",
+        "key_elements": "Sped up vocals, bitcrushing, A.D.D. arrangement, bubblegum synths."
+      },
+      {
+        "name": "Dungeon Synth",
+        "formula": "Black Metal Atmosphere + Lo-Fi Synths + Folk",
+        "key_elements": "Medieval scales, low fidelity, repetitive, fantasy themes."
+      },
+      {
+        "name": "Jazz-Hop (Lofi)",
+        "formula": "Boom Bap Drums + Jazz Piano Samples + Vinyl Crackle",
+        "key_elements": "Extended chords (9ths, 11ths), swing feel, relaxed tempo."
+      },
+      {
+        "name": "Blackgaze",
+        "formula": "Black Metal Blast Beats + Shoegaze Wall of Sound",
+        "key_elements": "Tremolo picking, major key melodies, buried vocals, emotional crescendo."
+      },
+      {
+        "name": "Mathcore",
+        "formula": "Hardcore Punk + Math Rock Polyrhythms + Jazz Fusion",
+        "key_elements": "Dissonant chords, frequent time signature changes, chaotic panic chords."
+      },
+      {
+        "name": "Synthwave Metal",
+        "formula": "80s Retro Synths + Heavy Metal Rhythm Guitars",
+        "key_elements": "Gated reverb drums, arpeggiated basslines, palm-muted chugs."
+      },
+      {
+        "name": "Breakcore",
+        "formula": "Jungle/DnB Breaks (Amen Break) + IDM Chaos + Anime Samples",
+        "key_elements": "Extremely high BPM, chopped breaks, glitch artifacts, aggressive sampling."
+      },
+      {
+        "name": "Nu-Metalcore",
+        "formula": "Metalcore Riffs + Nu-Metal Bounce + Pop Production",
+        "key_elements": "Drop tunings, hip-hop grooves, electronic backing tracks, catchy choruses."
+      },
+      {
+        "name": "Phonk (Drift)",
+        "formula": "Memphis Rap Vocals + Cowbells + Trap Beats + High Distortion",
+        "key_elements": "Sidechain compression, lo-fi grit, repetitive vocal hooks, aggressive bass."
+      },
+      {
+        "name": "Deconstructed Club",
+        "formula": "Club Rhythms + Industrial Sound Design + Silence",
+        "key_elements": "Metallic textures, non-linear percussion, glass breaking sounds, cold atmosphere."
+      },
+      {
+        "name": "Midwest Emo",
+        "formula": "Indie Rock + Math Rock Tapping + Emotional Vocals",
+        "key_elements": "Clean guitar tapping, open tunings (FACGCE), dynamic shifts, raw lyrics."
+      },
+      {
+        "name": "Witch House",
+        "formula": "Trap Beats + Goth Atmosphere + Chopped & Screwed",
+        "key_elements": "Sawtooth bass, occult themes, very slow tempo, heavy reverb."
+      },
+      {
+        "name": "Folktronica",
+        "formula": "Acoustic Instruments + Electronic Glitches/Beats",
+        "key_elements": "Organic textures mixed with digital artifacts, intimate vocals, granular synthesis."
+      },
+      {
+        "name": "Future Funk",
+        "formula": "City Pop Samples + French House Filters + Disco Beats",
+        "key_elements": "Sidechain pumping, anime aesthetic, upbeat grooves, slap bass samples."
+      },
+      {
+        "name": "Kawaii Metal",
+        "formula": "J-Pop Melodies + Death Metal Instrumentation",
+        "key_elements": "Idol vocals, brutal breakdowns, synthesizers, high energy."
+      },
+      {
+        "name": "Post-Rock",
+        "formula": "Rock Instrumentation + Classical Song Structure + Ambient",
+        "key_elements": "Lack of vocals, gradual build-ups, tremolo guitars, cinematic climaxes."
+      },
+      {
+        "name": "Darkwave",
+        "formula": "New Wave + Gothic Rock + Minor Keys",
+        "key_elements": "Deep vocals, chorus-laden guitars, drum machines, melancholic synths."
+      },
+      {
+        "name": "Slamming Brutal Death Metal (Slam)",
+        "formula": "Death Metal + Hardcore Slow Breakdowns",
+        "key_elements": "Chromatic palm-muted riffs, guttural vocals, tin-can snare tone, slow grooves."
+      },
+      {
+        "name": "Vaporwave",
+        "formula": "Elevator Music/Smooth Jazz + Slowed Down + Effects",
+        "key_elements": "Nostalgia, consumerism critique, sax samples, heavy delay/reverb."
+      },
+      {
+        "name": "Electro-Swing",
+        "formula": "Vintage Swing/Jazz + House Beats",
+        "key_elements": "Brass sections, 4-on-the-floor beat, vintage vocal filters, energetic bass."
+      },
+      {
+        "name": "Cloud Rap",
+        "formula": "Trap Drums + Ethereal/Ambient Pads + Lo-Fi Vocals",
+        "key_elements": "Dreamy atmosphere, abstract lyrics, hazy production, heavy reverb."
+      },
+      {
+        "name": "Hardwave",
+        "formula": "Wave/Witch House + Hardstyle Leads + Trap Beats",
+        "key_elements": "Euphoric supersaw melodies, emotional breakdowns, heavy 808s, futuristic vibe."
+      },
+      {
+        "name": "Neoclassical Darkwave",
+        "formula": "Classical Instrumentation + Industrial/Gothic Atmosphere",
+        "key_elements": "Operatic vocals, strings, orchestral percussion, dark ambient drones."
+      },
+      {
+        "name": "Sludge Pop",
+        "formula": "Sludge/Doom Metal Tones + Pop Song Structures",
+        "key_elements": "Fuzz-heavy guitars, slow tempos, melodic vocals, massive wall of sound."
+      },
+      {
+        "name": "Chiptune Rock (Nintendocore)",
+        "formula": "8-bit/Gameboy Synths + Rock/Metal Drums & Guitars",
+        "key_elements": "Square waves, arpeggios, high energy, nostalgia, punk attitude."
+      },
+      {
+        "name": "Industrial Techno",
+        "formula": "Techno Repetition + Industrial Noise/Distortion",
+        "key_elements": "Metallic kicks, cavernous reverb, lack of melody, oppressive atmosphere."
+      },
+      {
+        "name": "Progressive Soul",
+        "formula": "R&B/Soul Vocals + Prog Rock Complexity",
+        "key_elements": "Odd time signatures, polymeters, virtuoso bass, lush harmonies."
+      },
+      {
+        "name": "Gregorian Trap",
+        "formula": "Monk Chants/Choirs + Trap Beats",
+        "key_elements": "Sacred atmosphere mixed with 808s, reverb, epic scale."
+      },
+      {
+        "name": "Latin Trap",
+        "formula": "Trap Beats + Reggaeton Dembow Influence + Spanish Vocals",
+        "key_elements": "Sub-bass, habanera rhythm hints, urban lyrics, minimal production."
+      },
+      {
+        "name": "Dream Trap",
+        "formula": "Dreampop Textures + Trap Hi-Hats/Snares",
+        "key_elements": "Washed out guitars, rolling hi-hats, floating vocals, melancholic bliss."
+      },
+      {
+        "name": "Gorenoise",
+        "formula": "Grindcore + Extreme Distortion + Digital Clipping",
+        "key_elements": "Incomprehensible vocals, drum machine blasts, wall of static, chaos."
+      },
+      {
+        "name": "Baroque Pop",
+        "formula": "Pop/Rock + Orchestral/Chamber Instrumentation",
+        "key_elements": "Harpsichords, string quartets, complex arrangements, theatrical vocals."
+      },
+      {
+        "name": "Space Rock",
+        "formula": "Psych Rock + Sci-Fi Themes + Synthesizers",
+        "key_elements": "Delay effects, long instrumental passages, futuristic lyrics, floating grooves."
+      },
+      {
+        "name": "Cybergrind",
+        "formula": "Grindcore + Gabber Kicks + Glitch Electronics",
+        "key_elements": "Machine-gun drum programming, glitch vocals, extreme tempo, digital chaos."
+      },
+      {
+        "name": "Alien Deathcore",
+        "formula": "Deathcore Breakdowns + Sci-Fi Synth Leads (Shred)",
+        "key_elements": "Sweep picking synth leads, stutter edits, alien sound effects, deep growls."
+      },
+      {
+        "name": "Neuro-Hop",
+        "formula": "Neurofunk Bass Design + Hip Hop Tempo",
+        "key_elements": "Heavily distorted reese bass, broken beats, dark atmosphere, glitch fills."
+      },
+      {
+        "name": "Flamenco Metal",
+        "formula": "Flamenco Guitar Techniques + Metal Distortion & Drums",
+        "key_elements": "Nylon string rasgueado, phrygian dominant scale, blast beats, palmas (claps)."
+      },
+      {
+        "name": "Cinematic Djent",
+        "formula": "Djent Rhythms + Film Score Orchestration",
+        "key_elements": "Syncopated chugs, massive brass sections, epic percussion, Hans Zimmer vibes."
+      },
+      {
+        "name": "Acid Techno",
+        "formula": "Minimal Techno Beat + Roland TB-303",
+        "key_elements": "Squelchy resonant basslines, repetitive hypnotic groove, evolving filter sweeps."
+      },
+      {
+        "name": "Funk Metal",
+        "formula": "Funk Slap Bass + Heavy Metal Riffs",
+        "key_elements": "Groove-oriented drums, slap bass solos, syncopated vocals, high energy."
+      },
+      {
+        "name": "Gothabilly",
+        "formula": "Rockabilly Swing + Goth Rock Themes",
+        "key_elements": "Upright slap bass, reverb-drenched guitars, spooky lyrics, horror aesthetic."
+      },
+      {
+        "name": "Psybient (Psychill)",
+        "formula": "Psytrance Textures + Downtempo/Ambient Beats",
+        "key_elements": "Trippy synth layers, slow tempo, ethnic samples, dub delay effects."
+      },
+      {
+        "name": "Drone Metal",
+        "formula": "Doom Metal + Minimalist Drone Music",
+        "key_elements": "Extreme sustain, ultra-slow tempo, massive amplification, lack of traditional rhythm."
+      },
+      {
+        "name": "Glitch Hop",
+        "formula": "Hip Hop Beats + IDM/Glitch Editing",
+        "key_elements": "Swing rhythm, digital artifacts, laser sounds, wobbling basslines."
+      },
+      {
+        "name": "Electro-Industrial",
+        "formula": "EBM (Electronic Body Music) + Distorted Vocals + Complex Layering",
+        "key_elements": "Aggressive beats, cybernetic themes, dense production, harsh synths."
+      },
+      {
+        "name": "Math Pop",
+        "formula": "Indie Pop Melodies + Math Rock Time Signatures",
+        "key_elements": "Twinkly guitars, catchy hooks, unexpected rhythmic turns, clean production."
+      },
+      {
+        "name": "Jazz Noir (Dark Jazz)",
+        "formula": "Slow Jazz + Dark Ambient Atmosphere",
+        "key_elements": "Brush drums, low saxophone, rain sounds, melancholic double bass, doom pace."
+      },
+      {
+        "name": "Aggrotech",
+        "formula": "Techno/Trance Leads + Harsh Industrial Vocals",
+        "key_elements": "Terror EBM beats, distorted screaming, supersaw leads, horror movie samples."
+      },
+      {
+        "name": "Tribal Industrial",
+        "formula": "Industrial Metal + Tribal Percussion",
+        "key_elements": "Machine beats mixed with tom-toms/djembes, ritualistic chanting, raw aggression."
+      },
+      {
+        "name": "Symphonic Black Metal",
+        "formula": "Black Metal + Full Orchestra + Choirs",
+        "key_elements": "High-speed tremolo, blast beats, majestic string sections, operatic vocals."
+      },
+      {
+        "name": "Prog-Hop",
+        "formula": "Progressive Rock Instrumentation + Hip Hop Flow",
+        "key_elements": "Live drums, complex time signatures, conscious rap, jazz fusion keys."
+      },
+      {
+        "name": "Complextro",
+        "formula": "Electro House + Chiptune + Glitch Editing",
+        "key_elements": "Rapidly switching bass patches, video game noises, heavy sidechain, 128 BPM."
+      },
+      {
+        "name": "Doom Jazz",
+        "formula": "Doom Metal Sludge + Free Jazz Chaos",
+        "key_elements": "Slow heavy riffs, dissonant saxophone solos, noir atmosphere, druggy vibe."
+      },
+      {
+        "name": "Stoner Doom",
+        "formula": "Blues + Doom Metal",
+        "key_elements": "Fuzz distortion, pentatonic riffs played slowly, heavy bass, retro vibe."
+      },
+      {
+        "name": "Deathstep",
+        "formula": "Dubstep + Death Metal",
+        "key_elements": "Machine-gun bass, blast beats, growls, extreme distortion, mosh-pit energy."
+      },
+      {
+        "name": "Folk Metal",
+        "formula": "Folk + Metal",
+        "key_elements": "Traditional instruments (flute, violin) mixed with distorted electric guitars."
+      },
+      {
+        "name": "Gospel House",
+        "formula": "Gospel + House",
+        "key_elements": "Powerful choir vocals, piano chords, 4-on-the-floor beat, uplifting lyrics."
+      },
+      {
+        "name": "Afro House",
+        "formula": "Afrobeat + House",
+        "key_elements": "Complex polyrhythms, tribal percussion, deep bass, soulful chanting."
+      },
+      {
+        "name": "Ska Punk",
+        "formula": "Ska + Punk",
+        "key_elements": "Upstroke guitar rhythm, brass section (horns), fast punk tempo, walking bass."
+      },
+      {
+        "name": "Noise Rock",
+        "formula": "Noise + Rock",
+        "key_elements": "Atonal riffs, feedback usage, chaotic drumming, unconventional song structures."
+      },
+      {
+        "name": "Happy Hardcore",
+        "formula": "Pop + Gabber/Hardcore",
+        "key_elements": "Very fast tempo (160+ BPM), pitched-up vocals, euphoric major chords."
+      },
+      {
+        "name": "Liquid DnB",
+        "formula": "Drum & Bass + Soul/R&B",
+        "key_elements": "Smooth breakbeats, melodic synthesizers, emotive vocal samples, deep bass."
+      },
+      {
+        "name": "Neoclassical Metal",
+        "formula": "Classical + Metal",
+        "key_elements": "Virtuoso shredding, arpeggios, harmonic minor scales, complex counterpoint."
+      },
+      {
+        "name": "Dub Techno",
+        "formula": "Techno + Ambient/Dub",
+        "key_elements": "Tape delay, heavy reverb chords, static noise, repetitive deep groove."
+      },
+      {
+        "name": "Gqom",
+        "formula": "House + African Rhythms + Dark Minimalism",
+        "key_elements": "Broken beats, dark atmosphere, repetitive vocal chants, minimal synths."
+      },
+      {
+        "name": "Grungegaze",
+        "formula": "Grunge + Shoegaze",
+        "key_elements": "Heavy distorted riffs, buried vocals, ethereal textures, loud-quiet dynamics."
+      },
+      {
+        "name": "Digital Hardcore",
+        "formula": "Hardcore Punk + Breakcore/Gabber",
+        "key_elements": "Political lyrics, shouted vocals, distorted breakbeats, punk aggression."
+      },
+      {
+        "name": "Funkot",
+        "formula": "House + Funk + High BPM",
+        "key_elements": "Very fast tempo (180+ BPM), cowbells, 'hard' bassline, playful melodies."
+      },
+      {
+        "name": "Post-Metal",
+        "formula": "Post-Rock + Sludge/Doom",
+        "key_elements": "Atmospheric buildup, heavy crescendos, textured guitars, long song durations."
+      },
+      {
+        "name": "Skramz (Screamo)",
+        "formula": "Post-Hardcore + Emo + Chaos",
+        "key_elements": "Emotional screaming, melodic guitars turning chaotic, dynamic shifts."
+      },
+      {
+        "name": "French House",
+        "formula": "House + Disco + Filter Effects",
+        "key_elements": "Heavy filter sweeps (phaser/low-pass), disco samples, sidechain compression."
+      },
+      {
+        "name": "Riddim (Dubstep)",
+        "formula": "Dubstep + Minimal Repetition",
+        "key_elements": "Triplet flow, metallic bass sounds, repetitive loop-based drops, swampy vibe."
+      },
+      {
+        "name": "Color Bass",
+        "formula": "Dubstep + Melodic/Harmonic Vocoder Chords",
+        "key_elements": "Bright melodic chords, vocoded bass growls, arpeggios, high-definition sound."
+      }
+    ]
+  }
+}
