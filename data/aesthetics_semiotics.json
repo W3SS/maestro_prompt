@@ -2615,6 +2615,43 @@
                 "absurd"
             ],
             "dynamics_profile": "Yuppie riots, cubicle rebellions"
+        },
+        "mythological_epic": {
+            "references": [
+                "Clash of the Titans",
+                "Immortals",
+                "Hercules",
+                "Jason and the Argonauts",
+                "Percy Jackson"
+            ],
+            "directorial_tone": "Harryhausen's stop-motion magic, Greek tragedy scale, god interference",
+            "sonic_palette": [
+                "epic",
+                "mythic",
+                "bronze",
+                "olympian"
+            ],
+            "audio_synesthesia": [
+                "Olympian choir",
+                "Bronze-age brass",
+                "Monster roars",
+                "Divine thunder"
+            ],
+            "semiotic_signifiers": [
+                "Golden fleece",
+                "Medusa's gaze",
+                "Mt. Olympus",
+                "Oracle visions"
+            ],
+            "visual_mood": "Mythic grandeur, divine intervention, heroic quests",
+            "lyrical_themes": [
+                "heroism",
+                "fate",
+                "gods",
+                "prophecy",
+                "glory"
+            ],
+            "dynamics_profile": "Epic orchestral, divine crescendos"
         }
-    ]
+    }
 }

@@ -4,6 +4,8 @@ import time
 import re
 import pandas as pd
 import requests
+import argparse
+import random
 
 # --- 1. CONFIGURAÇÃO DO OLLAMA ---
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -380,6 +382,94 @@ class MaestroDataLoader:
         
         return "\n".join(context_parts)
 
+class MaestroAlbumArchitect:
+    """Projeta álbuns inteiros com diversidade de gêneros sob uma estética comum"""
+    
+    def __init__(self, data_loader):
+        self.data_loader = data_loader
+
+    def design_album(self, archetype_id, album_title=None, num_tracks=10):
+        print(f"\n🎨 Designing album for archetype: {archetype_id}...")
+        
+        archetypes = self.data_loader.aesthetics_semiotics.get('pop_culture_archetypes', {})
+        if archetype_id not in archetypes:
+            # Tenta busca aproximada
+            archetype_id = next((k for k in archetypes if archetype_id.lower() in k.lower()), archetype_id)
+            
+        archetype = archetypes.get(archetype_id)
+        if not archetype:
+            print(f"❌ Archetype {archetype_id} not found.")
+            return None
+
+        prompt = f"""
+        ROLE: You are the MAESTRO ALBUM ARCHITECT.
+        ARCHETYPE: {archetype_id}
+        DIRECTORIAL TONE: {archetype['directorial_tone']}
+        LYRICAL THEMES: {', '.join(archetype['lyrical_themes'])}
+        SONIC PALETTE: {', '.join(archetype['sonic_palette'])}
+        
+        TASK:
+        Design a concept album with {num_tracks} tracks.
+        For each track, suggest a title, a specific narrative theme, and a GENRE.
+        The GENRES must be diverse (at least 5 different genres/sub-genres across the album) but must still fit the aesthetic palette.
+        Example for 'cosmic_horror': Cyber-Djent, Dark Ambient, Post-Metal, Industrial Techno, Ethereal Doom.
+        
+        OUTPUT FORMAT (JSON ONLY):
+        {{
+            "album_title": "{album_title if album_title else 'Refined Album Title'}",
+            "narrative_concept": "Brief overarching story/atmosphere",
+            "tracks": [
+                {{
+                    "track_num": 1,
+                    "title": "Song Title",
+                    "theme": "Detailed lyrical inspiration",
+                    "genre": "Specific Genre",
+                    "mood": "Specific emotional state"
+                }},
+                ...
+            ]
+        }}
+        """
+
+        payload = {
+            "model": MODEL_NAME,
+            "prompt": prompt,
+            "stream": False,
+            "format": "json",
+            "options": {"temperature": 0.8, "num_ctx": 4096}
+        }
+
+        try:
+            response = requests.post(OLLAMA_URL, json=payload, timeout=60)
+            response.raise_for_status()
+            data = json.loads(clean_json_response(response.json()['response']))
+            
+            # Converte para DataFrame compatível com V2
+            rows = []
+            final_album_title = data.get('album_title', album_title or archetype_id)
+            for track in data.get('tracks', []):
+                rows.append({
+                    'album': final_album_title,
+                    'titulo': track.get('title'),
+                    'tema': track.get('theme'),
+                    'genero': track.get('genre'),
+                    'mood': track.get('mood'),
+                    'estetica': archetype_id,
+                    'status': 'pending',
+                    'processada': 'nao',
+                    'observacoes': f"Narrative: {data.get('narrative_concept')}"
+                })
+            
+            new_df = pd.DataFrame(rows)
+            output_csv = f"album_{archetype_id}_draft.csv"
+            new_df.to_csv(output_csv, index=False)
+            print(f"✅ Album designed! Draft saved to: {output_csv}")
+            return output_csv
+
+        except Exception as e:
+            print(f"❌ Error designing album: {e}")
+            return None
+
 
 # --- 4. SYSTEM PROMPT (MAESTRO AI - Enhanced) ---
 def get_ollama_prompt(tema, estetica_usuario, maestro_context):
@@ -699,15 +789,29 @@ def export_lyrics_to_markdown(json_path='suno_batch_v2.json', output_dir='lyrics
 
 
 if __name__ == "__main__":
-    # Agora o padrão é o CSV V2 com novas colunas
-    result = gerar_lote_ollama('fila_suno_v2.csv')
+    parser = argparse.ArgumentParser(description="Maestro AI: Orchestrator for Suno v5")
+    parser.add_argument("--mode", choices=["songs", "albums"], default="songs", help="Mode: generate songs from CSV or design new albums")
+    parser.add_argument("--csv", default="fila_suno_v2.csv", help="CSV path for songs mode")
+    parser.add_argument("--archetype", help="Archetype ID for album mode")
+    parser.add_argument("--tracks", type=int, default=10, help="Number of tracks for album mode")
+    parser.add_argument("--title", help="Custom album title")
     
-    # Exporta letras para markdown após geração
-    if result:
-        print("\n🎵 Exportando letras para arquivos Markdown...")
-        export_lyrics_to_markdown()
+    args = parser.parse_args()
     
-    # Exporta letras para markdown após geração
-    if result:
-        print("\n🎵 Exportando letras para arquivos Markdown...")
-        export_lyrics_to_markdown()
+    data_loader = MaestroDataLoader()
+    
+    if args.mode == "albums":
+        if not args.archetype:
+            print("❌ Error: --archetype is required in 'albums' mode.")
+            print(f"Available archetypes: {', '.join(list(data_loader.aesthetics_semiotics.get('pop_culture_archetypes', {}).keys())[:10])}...")
+        else:
+            architect = MaestroAlbumArchitect(data_loader)
+            architect.design_album(args.archetype, album_title=args.title, num_tracks=args.tracks)
+    else:
+        # Default: Songs mode
+        result = gerar_lote_ollama(args.csv)
+        
+        # Exporta letras para markdown após geração
+        if result:
+            print("\n🎵 Exportando letras para arquivos Markdown...")
+            export_lyrics_to_markdown()

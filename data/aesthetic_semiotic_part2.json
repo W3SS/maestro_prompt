@@ -1,0 +1,3999 @@
+{
+    "pop_culture_archetypes": {
+        "dystopian_rebellion": {
+            "references": [
+                "1984",
+                "The Matrix",
+                "V for Vendetta",
+                "Blade Runner",
+                "Mr. Robot"
+            ],
+            "directorial_tone": "Villeneuve-esque scale, Orwellian paranoia, hacker-manifesto urgency",
+            "sonic_palette": [
+                "industrial",
+                "cold",
+                "metallic",
+                "cyber"
+            ],
+            "audio_synesthesia": [
+                "Analogue synth distortion",
+                "Glitchy bit-crushed transients",
+                "Distant siren-like drones"
+            ],
+            "semiotic_signifiers": [
+                "Hacker terminals",
+                "Riot police",
+                "System-failure alerts",
+                "Flickering neon resistance signs"
+            ],
+            "visual_mood": "Oppressive surveillance vs. underground resistance",
+            "lyrical_themes": [
+                "freedom",
+                "control",
+                "awakening",
+                "identity",
+                "rebellion"
+            ],
+            "dynamics_profile": "Staccato, urgent, mechanical repetition"
+        },
+        "cosmic_horror": {
+            "references": [
+                "Lovecraft",
+                "Annihilation",
+                "Event Horizon",
+                "The Void",
+                "Color Out of Space"
+            ],
+            "directorial_tone": "Lynchian ambiguity, incomprehensible scale, slow-burn dread",
+            "sonic_palette": [
+                "abyssal",
+                "droning",
+                "cavernous",
+                "ethereal"
+            ],
+            "audio_synesthesia": [
+                "Sub-bass pressure (felt not heard)",
+                "Reverse-reverb tails",
+                "Inhuman granular textures"
+            ],
+            "semiotic_signifiers": [
+                "Non-euclidean geometry",
+                "Ancient monoliths",
+                "The eye in the void",
+                "Forbidden manuscripts"
+            ],
+            "visual_mood": "Incomprehensible vastness, dread of the unknown",
+            "lyrical_themes": [
+                "insignificance",
+                "madness",
+                "void",
+                "ancient",
+                "forbidden"
+            ],
+            "dynamics_profile": "Slow movement, unpredictable swells, oppressive sustain"
+        },
+        "cyberpunk_noir": {
+            "references": [
+                "Blade Runner",
+                "Neuromancer",
+                "Ghost in the Shell",
+                "Akira",
+                "Altered Carbon"
+            ],
+            "directorial_tone": "Ridley Scott's rain-soaked gloom, tech-noir melancholy",
+            "sonic_palette": [
+                "cyber",
+                "glossy",
+                "retro",
+                "sharp"
+            ],
+            "audio_synesthesia": [
+                "Neon-bright high end",
+                "Wet pavement reverb",
+                "Digital artifacts on clean signals"
+            ],
+            "semiotic_signifiers": [
+                "Rain-soaked alleys",
+                "Synthetic limb glitches",
+                "Flying cars over smog",
+                "Noodle bar steam"
+            ],
+            "visual_mood": "Neon-lit decay, rain-soaked streets, corporate dystopia",
+            "lyrical_themes": [
+                "identity",
+                "memory",
+                "technology",
+                "humanity",
+                "urban decay"
+            ],
+            "dynamics_profile": "Driving 80s bassline, syncopated digital percussion"
+        },
+        "dark_fantasy": {
+            "references": [
+                "Dark Souls",
+                "Berserk",
+                "Game of Thrones",
+                "The Witcher",
+                "Elden Ring"
+            ],
+            "directorial_tone": "Miyazaki's decaying beauty, brutal medieval realism, tragic grandeur",
+            "sonic_palette": [
+                "epic",
+                "sacred",
+                "brutal",
+                "cavernous"
+            ],
+            "audio_synesthesia": [
+                "Wall-of-sound orchestration",
+                "Metallic sword-clash percussion",
+                "Hollow grand piano"
+            ],
+            "semiotic_signifiers": [
+                "Cursed crowns",
+                "Fallen statues",
+                "Bonfires in the dark",
+                "Eclipse of the sun"
+            ],
+            "visual_mood": "Medieval darkness, cursed lands, fallen kingdoms",
+            "lyrical_themes": [
+                "fate",
+                "sacrifice",
+                "honor",
+                "corruption",
+                "rebirth"
+            ],
+            "dynamics_profile": "Epic swells, crushing breakdowns, sudden lulls"
+        },
+        "existential_crisis": {
+            "references": [
+                "Fight Club",
+                "Donnie Darko",
+                "The Truman Show",
+                "Eternal Sunshine",
+                "Being John Malkovich"
+            ],
+            "directorial_tone": "Fincher's gritty precision, surreal suburban malaise",
+            "sonic_palette": [
+                "chaotic",
+                "broken",
+                "intimate",
+                "hollow"
+            ],
+            "audio_synesthesia": [
+                "Binaural whispers",
+                "Tape-stop effects",
+                "Distant muffled radio signals"
+            ],
+            "semiotic_signifiers": [
+                "Broken mirrors",
+                "Unspooling cassette tapes",
+                "The set behind the wall",
+                "Identical suits"
+            ],
+            "visual_mood": "Reality fragments, identity dissolution, mental landscapes",
+            "lyrical_themes": [
+                "identity",
+                "purpose",
+                "reality",
+                "isolation",
+                "transformation"
+            ],
+            "dynamics_profile": "Manic tempo shifts, intimate close-mic sections"
+        },
+        "gothic_romance": {
+            "references": [
+                "Crimson Peak",
+                "Interview with the Vampire",
+                "Wuthering Heights",
+                "Rebecca",
+                "Dracula"
+            ],
+            "directorial_tone": "Del Toro's baroque aesthetics, Victorian sensuality, ghost-story elegance",
+            "sonic_palette": [
+                "ethereal",
+                "warm",
+                "spooky",
+                "lush"
+            ],
+            "audio_synesthesia": [
+                "Silky violin runs",
+                "Velvet-thick bass",
+                "Grand hall hall-reverb"
+            ],
+            "semiotic_signifiers": [
+                "Bleeding walls",
+                "Red velvet",
+                "Forgotten letters",
+                "Cobwebbed chandeliers"
+            ],
+            "visual_mood": "Decaying mansions, forbidden love, supernatural passion",
+            "lyrical_themes": [
+                "obsession",
+                "death",
+                "eternal love",
+                "tragedy",
+                "beauty"
+            ],
+            "dynamics_profile": "Swaying waltz-like rhythm, passionate crescendos"
+        },
+        "surrealist_dreamscape": {
+            "references": [
+                "Mulholland Drive",
+                "The Holy Mountain",
+                "Twin Peaks",
+                "Inception",
+                "Eraserhead"
+            ],
+            "directorial_tone": "Lynchian oddity, Jodorowsky's mysticism, dream-logic flow",
+            "sonic_palette": [
+                "dreamy",
+                "chaotic",
+                "hazy",
+                "submerged"
+            ],
+            "audio_synesthesia": [
+                "Backwards-masked vocals",
+                "Warped vinyl flutter",
+                "Static-noise transitions"
+            ],
+            "semiotic_signifiers": [
+                "Red curtains",
+                "Incongruous objects",
+                "Infinite blue keys",
+                "The white room"
+            ],
+            "visual_mood": "Incongruous imagery, subverted reality, subconscious leaks",
+            "lyrical_themes": [
+                "dreams",
+                "puzzles",
+                "subconscious",
+                "duality",
+                "non-linear time"
+            ],
+            "dynamics_profile": "Ebbing and flowing, sudden unpredictable loud events"
+        },
+        "neo_noir_detective": {
+            "references": [
+                "Chinatown",
+                "Se7en",
+                "Drive",
+                "L.A. Confidential",
+                "Sin City"
+            ],
+            "directorial_tone": "Hard-boiled cynicism, slow-burn investigation, rain-soaked gloom",
+            "sonic_palette": [
+                "warm",
+                "dusty",
+                "sharp",
+                "dark"
+            ],
+            "audio_synesthesia": [
+                "Breathy saxophone",
+                "Snares with long-gate reverb",
+                "Low-end jazz-bass pulse"
+            ],
+            "semiotic_signifiers": [
+                "Venetian blinds",
+                "Cigarette smoke clouds",
+                "Blood on asphalt",
+                "Manila envelopes"
+            ],
+            "visual_mood": "Morally grey, rain-soaked, urban decay, high contrast shadow",
+            "lyrical_themes": [
+                "corruption",
+                "guilt",
+                "mystery",
+                "consequence",
+                "moral ambiguity"
+            ],
+            "dynamics_profile": "Steady, rhythmic walking-pace, occasional explosive tension"
+        },
+        "space_opera_voyage": {
+            "references": [
+                "Dune",
+                "Star Wars",
+                "Interstellar",
+                "Foundation",
+                "The Expanse"
+            ],
+            "directorial_tone": "Kubrick's clinical awe, grand-scale cinematic vistas, messianic journey",
+            "sonic_palette": [
+                "epic",
+                "abyssal",
+                "sacred",
+                "shimmering"
+            ],
+            "audio_synesthesia": [
+                "Massive brass-hybrid swells",
+                "Cosmic granular noise",
+                "Ethnic-instrument fusions"
+            ],
+            "semiotic_signifiers": [
+                "Desert planets",
+                "Stairways to stars",
+                "Monolithic starships",
+                "Ancient prophecies"
+            ],
+            "visual_mood": "Grand scale, ancient futurism, celestial destiny",
+            "lyrical_themes": [
+                "destiny",
+                "legacy",
+                "humanity",
+                "scale",
+                "discovery"
+            ],
+            "dynamics_profile": "Cinematic build-ups, massive half-time drops"
+        },
+        "body_horror_transformation": {
+            "references": [
+                "The Fly",
+                "Tetsuo: The Iron Man",
+                "Annihilation",
+                "Society",
+                "Akira"
+            ],
+            "directorial_tone": "Cronenberg's visceral biology, industrial machine-flesh fusion",
+            "sonic_palette": [
+                "visceral",
+                "fuzzy",
+                "broken",
+                "distorted"
+            ],
+            "audio_synesthesia": [
+                "Wet/organic squelching textures",
+                "Metallic grinding harmonics",
+                "Shattered vocal layers"
+            ],
+            "semiotic_signifiers": [
+                "Synthetic skin Grafting",
+                "Exposed circuitry-muscles",
+                "Biological mutations",
+                "Medical horror"
+            ],
+            "visual_mood": "Visceral, biological distortion, machinery merging with flesh",
+            "lyrical_themes": [
+                "mutation",
+                "pain",
+                "identity",
+                "evolution",
+                "violation"
+            ],
+            "dynamics_profile": "Irregular, spasms of high energy, heavy impact"
+        },
+        "steampunk_industrial": {
+            "references": [
+                "Bioshock",
+                "Arcane",
+                "Steamboy",
+                "Dishonored",
+                "The City of Lost Children"
+            ],
+            "directorial_tone": "Victorian futurism, coal-powered grit, clockwork elegance",
+            "sonic_palette": [
+                "industrial",
+                "warm",
+                "metallic",
+                "dusty"
+            ],
+            "audio_synesthesia": [
+                "Escaping steam noise",
+                "Heavy clockwork clicking",
+                "Brass-section stabs"
+            ],
+            "semiotic_signifiers": [
+                "Brass gears",
+                "Top hats and goggles",
+                "Coal smoke stacks",
+                "Underwater cities"
+            ],
+            "visual_mood": "Grit-meets-glamour, coal-powered technology, ornate machinery",
+            "lyrical_themes": [
+                "progress",
+                "class struggle",
+                "invention",
+                "power",
+                "legacy"
+            ],
+            "dynamics_profile": "Mechanical, rhythmic like an engine, driving"
+        },
+        "samurai_western": {
+            "references": [
+                "Yojimbo",
+                "A Fistful of Dollars",
+                "The Mandalorian",
+                "Ghost Dog",
+                "Kill Bill"
+            ],
+            "directorial_tone": "Kurosawa's visual poise, Leone's extreme close-ups, honor-bound brevity",
+            "sonic_palette": [
+                "minimal",
+                "sharp",
+                "organic",
+                "raw"
+            ],
+            "audio_synesthesia": [
+                "Whistling wind ambience",
+                "Single-pluck guitar tension",
+                "Sudden loud percussion hits"
+            ],
+            "semiotic_signifiers": [
+                "Katana vs Revolver",
+                "Pancho in the dust",
+                "Lone traveler path",
+                "Blood on snow"
+            ],
+            "visual_mood": "Minimalist, tense, morally complex, wide-open spaces",
+            "lyrical_themes": [
+                "honor",
+                "revenge",
+                "isolation",
+                "code",
+                "prowess"
+            ],
+            "dynamics_profile": "Long tension silences, sudden explosive bursts"
+        },
+        "slasher_chase": {
+            "references": [
+                "Halloween",
+                "Friday the 13th",
+                "It Follows",
+                "Scream",
+                "Texas Chainsaw Massacre"
+            ],
+            "directorial_tone": "Carpenter's synthesizers, relentless pursuit, voyeuristic camera",
+            "sonic_palette": [
+                "tense",
+                "pulsating",
+                "sharp",
+                "manic"
+            ],
+            "audio_synesthesia": [
+                "Heartbeat-pulse bass",
+                "Breath-sound samples",
+                "Piercing high-synth stabs"
+            ],
+            "semiotic_signifiers": [
+                "Masked visage",
+                "First-person perspective",
+                "The final girl",
+                "Broken phone lines"
+            ],
+            "visual_mood": "Suburban nightmare, relentless pursuit, hidden threats",
+            "lyrical_themes": [
+                "fear",
+                "predator",
+                "survival",
+                "trauma",
+                "inevitable doom"
+            ],
+            "dynamics_profile": "Driving 4/4 pulse, building tension, chaotic climax"
+        },
+        "eldritch_victorian": {
+            "references": [
+                "Bloodborne",
+                "Penny Dreadful",
+                "Sherlock Holmes (Dark versions)",
+                "The Terror",
+                "Lovecraft Country"
+            ],
+            "directorial_tone": "Gothic dread, ancient forbidden knowledge, scholarly madness",
+            "sonic_palette": [
+                "cavernous",
+                "sacred",
+                "spooky",
+                "abyssal"
+            ],
+            "audio_synesthesia": [
+                "Pipe-organ swells",
+                "Distant choral chanting",
+                "Scraping cello textures"
+            ],
+            "semiotic_signifiers": [
+                "Ancient runes",
+                "Foggy London streets",
+                "Medical-ritual tools",
+                "Moonlight ritual"
+            ],
+            "visual_mood": "Decaying aristocracy, hidden rituals, scholarly madness",
+            "lyrical_themes": [
+                "madness",
+                "blood",
+                "ancestry",
+                "forbidden truth",
+                "curses"
+            ],
+            "dynamics_profile": "Orchestral build-ups, liturgical weight"
+        },
+        "vaporwave_liminal": {
+            "references": [
+                "Backrooms",
+                "Dreamcore",
+                "Eternal Sunshine",
+                "Severance",
+                "The Shining's Ballroom"
+            ],
+            "directorial_tone": "Nostalgic uncanny, liminal space loneliness, corporate-purgatory",
+            "sonic_palette": [
+                "vapor",
+                "hollow",
+                "hazy",
+                "glossy"
+            ],
+            "audio_synesthesia": [
+                "Muffled mall-music reverb",
+                "Slightly detuned melodies",
+                "Empty-room echo"
+            ],
+            "semiotic_signifiers": [
+                "Endless yellow hallways",
+                "Office ceiling lights",
+                "Deserted shopping malls",
+                "Static-noise VHS"
+            ],
+            "visual_mood": "Eerie nostalgia, empty spaces that should be filled, consumerist ghosts",
+            "lyrical_themes": [
+                "memory",
+                "isolation",
+                "nostalgia",
+                "unreality",
+                "routine"
+            ],
+            "dynamics_profile": "Looping, repetitive, slightly slowing down"
+        },
+        "high_octane_chase": {
+            "references": [
+                "Mad Max: Fury Road",
+                "Fast & Furious",
+                "Baby Driver",
+                "John Wick",
+                "Bullitt"
+            ],
+            "directorial_tone": "Relentless momentum, kinetic action, sensory overload",
+            "sonic_palette": [
+                "punchy",
+                "raw",
+                "industrial",
+                "kinetic"
+            ],
+            "audio_synesthesia": [
+                "Engine-rev harmonics",
+                "Burning rubber screech-synths",
+                "Rapid-fire percussion"
+            ],
+            "semiotic_signifiers": [
+                "Nitro flames",
+                "Shattered glass",
+                "Asphalt heat-haze",
+                "Revving engines"
+            ],
+            "visual_mood": "Pure momentum, sensory overload, survival grit",
+            "lyrical_themes": [
+                "speed",
+                "power",
+                "momentum",
+                "adrenaline",
+                "escape"
+            ],
+            "dynamics_profile": "Constant high energy, rapid transients"
+        },
+        "solarpunk_utopia": {
+            "references": [
+                "Studio Ghibli (Castle in the Sky)",
+                "The Fifth Element",
+                "Mirror's Edge Catalyst",
+                "The Culture series",
+                "The Jetsons (reimagined)"
+            ],
+            "directorial_tone": "Miyazaki's harmonious nature-tech fusion, utopian optimism, clean-line futurism",
+            "sonic_palette": [
+                "clean",
+                "organic",
+                "shimmering",
+                "warm"
+            ],
+            "audio_synesthesia": [
+                "Crystalline arpeggiators",
+                "Wind-chime percussion",
+                "Solar-flare filter sweeps"
+            ],
+            "semiotic_signifiers": [
+                "Vertical gardens on skyscrapers",
+                "Renewable energy grids",
+                "Solar-panel art",
+                "Community hubs in nature"
+            ],
+            "visual_mood": "Bright, hopeful, nature-integrated technology, sustainable futurism",
+            "lyrical_themes": [
+                "harmony",
+                "progress",
+                "community",
+                "sustainability",
+                "hope"
+            ],
+            "dynamics_profile": "Uplifting builds, clean drops, steady positive energy"
+        },
+        "magical_girl_transformation": {
+            "references": [
+                "Sailor Moon",
+                "Cardcaptor Sakura",
+                "Madoka Magica",
+                "Pretty Cure",
+                "Revolutionary Girl Utena"
+            ],
+            "directorial_tone": "Sparkling shoujo aesthetic, emotional sincerity, dramatic transformation sequences",
+            "sonic_palette": [
+                "sparkling",
+                "cute",
+                "epic",
+                "melodic"
+            ],
+            "audio_synesthesia": [
+                "Twinkling bell sounds",
+                "Orchestral swells with pop sensibility",
+                "Magical-girl chant vocals"
+            ],
+            "semiotic_signifiers": [
+                "Transformation sequences",
+                "Magical wands/staffs",
+                "School uniforms with magical accessories",
+                "Sparkling tears"
+            ],
+            "visual_mood": "Colorful, glittery, emotionally intense, friendship-powered",
+            "lyrical_themes": [
+                "friendship",
+                "love",
+                "hope",
+                "transformation",
+                "destiny"
+            ],
+            "dynamics_profile": "Dramatic build-up to explosive chorus, dynamic shifts"
+        },
+        "atompunk_retrofuture": {
+            "references": [
+                "Fallout",
+                "The Jetsons (original)",
+                "Buck Rogers",
+                "Sky Captain and the World of Tomorrow",
+                "The Rocketeer"
+            ],
+            "directorial_tone": "1950s futurism optimism, art-deco space age, cold-war paranoia aesthetic",
+            "sonic_palette": [
+                "retro",
+                "warm",
+                "jazzy",
+                "spacey"
+            ],
+            "audio_synesthesia": [
+                "Theremin melodies",
+                "Vintage sci-fi synth bleeps",
+                "Lounge-jazz drum brushes"
+            ],
+            "semiotic_signifiers": [
+                "Flying cars with tailfins",
+                "Atomic age logos",
+                "Bubble helmets",
+                "Ray guns"
+            ],
+            "visual_mood": "Nostalgic futurism, optimistic space age, clean mid-century design",
+            "lyrical_themes": [
+                "progress",
+                "space",
+                "atomic age",
+                "optimism",
+                "adventure"
+            ],
+            "dynamics_profile": "Swing rhythm, space-age theremin leads, lounge feel"
+        },
+        "zombie_apocalypse": {
+            "references": [
+                "The Walking Dead",
+                "28 Days Later",
+                "Dawn of the Dead",
+                "World War Z",
+                "The Last of Us"
+            ],
+            "directorial_tone": "Survival horror realism, societal collapse, desperate human drama",
+            "sonic_palette": [
+                "tense",
+                "decaying",
+                "chaotic",
+                "raw"
+            ],
+            "audio_synesthesia": [
+                "Heart-monitor flatline tones",
+                "Distant zombie moans",
+                "Broken-glass percussion"
+            ],
+            "semiotic_signifiers": [
+                "Abandoned hospitals",
+                "Barricaded shelters",
+                "Supply scarcity",
+                "Fading humanity"
+            ],
+            "visual_mood": "Post-apocalyptic decay, survival urgency, human vs. inhuman",
+            "lyrical_themes": [
+                "survival",
+                "loss",
+                "humanity",
+                "infection",
+                "hope"
+            ],
+            "dynamics_profile": "Tense quiet moments, sudden chaotic outbursts"
+        },
+        "cyber_goth_rave": {
+            "references": [
+                "The Matrix Reloaded (club scene)",
+                "Tekkonkinkreet",
+                "Akira (capsule gang)",
+                "Cyberpunk 2077 (afterlife)"
+            ],
+            "directorial_tone": "Underground club energy, digital-anarchy aesthetics, neon-tribal fusion",
+            "sonic_palette": [
+                "industrial",
+                "electronic",
+                "aggressive",
+                "rhythmic"
+            ],
+            "audio_synesthesia": [
+                "Distorted gabber kicks",
+                "Glitch-hop breakbeats",
+                "Cyborg-vocoder chants"
+            ],
+            "semiotic_signifiers": [
+                "LED face masks",
+                "PVC and neon fashion",
+                "Underground warehouse parties",
+                "Digital graffiti"
+            ],
+            "visual_mood": "Neon darkness, sweat-and-circuitry, underground rebellion",
+            "lyrical_themes": [
+                "digital",
+                "freedom",
+                "body",
+                "machine",
+                "ecstasy"
+            ],
+            "dynamics_profile": "Four-on-the-floor industrial, breakdowns with glitch effects"
+        },
+        "pirate_adventure": {
+            "references": [
+                "Pirates of the Caribbean",
+                "One Piece",
+                "Treasure Island",
+                "Black Sails",
+                "Assassin's Creed IV: Black Flag"
+            ],
+            "directorial_tone": "Swashbuckling adventure, sea-bound freedom, treasure-hunt excitement",
+            "sonic_palette": [
+                "epic",
+                "organic",
+                "rhythmic",
+                "acoustic"
+            ],
+            "audio_synesthesia": [
+                "Sea-shanty choruses",
+                "Ship-rigging creak samples",
+                "Epic horn sections"
+            ],
+            "semiotic_signifiers": [
+                "Treasure maps",
+                "Jolly Roger flags",
+                "Ship battles",
+                "Hidden coves"
+            ],
+            "visual_mood": "High seas adventure, tropical islands, golden-age piracy",
+            "lyrical_themes": [
+                "freedom",
+                "treasure",
+                "sea",
+                "brotherhood",
+                "adventure"
+            ],
+            "dynamics_profile": "Swashbuckling rhythms, epic orchestral swells, sea-chanty cadence"
+        },
+        "mecha_combat": {
+            "references": [
+                "Neon Genesis Evangelion",
+                "Pacific Rim",
+                "Gundam",
+                "Transformers",
+                "Voltron"
+            ],
+            "directorial_tone": "Giant robot scale, pilot-cockpit intimacy, mechanical-warfare brutality",
+            "sonic_palette": [
+                "industrial",
+                "epic",
+                "metallic",
+                "synth"
+            ],
+            "audio_synesthesia": [
+                "Hydraulic piston sounds as percussion",
+                "Transforming robot sfx",
+                "Cockpit warning alarms"
+            ],
+            "semiotic_signifiers": [
+                "Pilot cockpits",
+                "Giant robot silhouettes",
+                "Energy weapon charging",
+                "Mechanical destruction"
+            ],
+            "visual_mood": "Giant scale warfare, human-machine interface, technological awe",
+            "lyrical_themes": [
+                "war",
+                "technology",
+                "humanity",
+                "scale",
+                "sacrifice"
+            ],
+            "dynamics_profile": "Heavy mechanical rhythms, epic orchestral-mecha hybrid drops"
+        },
+        "time_travel_paradox": {
+            "references": [
+                "Back to the Future",
+                "Primer",
+                "Looper",
+                "Doctor Who",
+                "Dark"
+            ],
+            "directorial_tone": "Complex timeline weaving, causality confusion, temporal-displacement unease",
+            "sonic_palette": [
+                "trippy",
+                "complex",
+                "glitchy",
+                "nostalgic"
+            ],
+            "audio_synesthesia": [
+                "Tape-rewind effects",
+                "Multiple tempo layers",
+                "Chronological-disorder glitches"
+            ],
+            "semiotic_signifiers": [
+                "Time machines",
+                "Paradox warnings",
+                "Historical anachronisms",
+                "Timeline fractures"
+            ],
+            "visual_mood": "Temporal dislocation, multiple eras overlapping, causality confusion",
+            "lyrical_themes": [
+                "time",
+                "memory",
+                "destiny",
+                "paradox",
+                "change"
+            ],
+            "dynamics_profile": "Complex time signatures, sudden era shifts in sound"
+        },
+        "superhero_origin": {
+            "references": [
+                "Spider-Man",
+                "Batman Begins",
+                "Iron Man",
+                "X-Men",
+                "My Hero Academia"
+            ],
+            "directorial_tone": "Heroic journey, power-discovery awe, responsibility burden",
+            "sonic_palette": [
+                "epic",
+                "emotional",
+                "powerful",
+                "cinematic"
+            ],
+            "audio_synesthesia": [
+                "Heroic brass themes",
+                "Power-unleash sound effects",
+                "Emotional string arrangements"
+            ],
+            "semiotic_signifiers": [
+                "Radioactive symbols",
+                "Costume creation",
+                "First flight/leap",
+                "Moral choice moments"
+            ],
+            "visual_mood": "Dawn of power, cityscape heroism, personal tragedy to heroism",
+            "lyrical_themes": [
+                "power",
+                "responsibility",
+                "identity",
+                "justice",
+                "sacrifice"
+            ],
+            "dynamics_profile": "Building to epic crescendos, heroic theme reprisals"
+        },
+        "alien_invasion": {
+            "references": [
+                "Independence Day",
+                "War of the Worlds",
+                "District 9",
+                "Arrival",
+                "They Live"
+            ],
+            "directorial_tone": "First contact terror, global-scale threat, human-unity-under-pressure",
+            "sonic_palette": [
+                "epic",
+                "otherworldly",
+                "tense",
+                "chaotic"
+            ],
+            "audio_synesthesia": [
+                "Alien ship drones",
+                "Mass panic crowd sounds",
+                "Otherworldly communication signals"
+            ],
+            "semiotic_signifiers": [
+                "Giant alien ships",
+                "World landmarks destroyed",
+                "Human resistance",
+                "First contact protocols"
+            ],
+            "visual_mood": "Global threat scale, technological awe, human resilience",
+            "lyrical_themes": [
+                "invasion",
+                "unity",
+                "survival",
+                "fear",
+                "humanity"
+            ],
+            "dynamics_profile": "Tense build-ups to explosive action sequences"
+        },
+        "post_apocalyptic_wanderer": {
+            "references": [
+                "The Road",
+                "Mad Max",
+                "The Last of Us",
+                "Fallout",
+                "Book of Eli"
+            ],
+            "directorial_tone": "Lonely journey through ruins, survival minimalism, found-humanity moments",
+            "sonic_palette": [
+                "desolate",
+                "minimal",
+                "raw",
+                "acoustic"
+            ],
+            "audio_synesthesia": [
+                "Wind-through-ruins ambience",
+                "Scavenged-instrument sounds",
+                "Distant thunder echoes"
+            ],
+            "semiotic_signifiers": [
+                "Deserted highways",
+                "Gas masks",
+                "Scavenged supplies",
+                "Ruined cities"
+            ],
+            "visual_mood": "Earth-after-man, survival minimalism, stark beauty in decay",
+            "lyrical_themes": [
+                "survival",
+                "memory",
+                "loneliness",
+                "hope",
+                "scars"
+            ],
+            "dynamics_profile": "Sparse, atmospheric, sudden survivalist urgency"
+        },
+        "viking_saga": {
+            "references": [
+                "Vikings",
+                "The Northman",
+                "God of War (2018)",
+                "Valhalla Rising",
+                "How to Train Your Dragon"
+            ],
+            "directorial_tone": "Nordic epic brutality, mythological grandeur, honor-and-vengeance cycles",
+            "sonic_palette": [
+                "epic",
+                "tribal",
+                "cold",
+                "acoustic"
+            ],
+            "audio_synesthesia": [
+                "War horn calls",
+                "Shield-wall percussion",
+                "Old Norse chants"
+            ],
+            "semiotic_signifiers": [
+                "Longships",
+                "Runestones",
+                "Blood eagles",
+                "Great halls"
+            ],
+            "visual_mood": "Frozen north landscapes, brutal combat, mythological intervention",
+            "lyrical_themes": [
+                "honor",
+                "vengeance",
+                "glory",
+                "death",
+                "legacy"
+            ],
+            "dynamics_profile": "Pounding war drums, epic folk-metal hybrid energy"
+        },
+        "spy_thriller": {
+            "references": [
+                "James Bond",
+                "Mission: Impossible",
+                "John le Carré adaptations",
+                "The Americans",
+                "Kingsman"
+            ],
+            "directorial_tone": "High-stakes espionage, global intrigue, sophisticated danger",
+            "sonic_palette": [
+                "tense",
+                "sophisticated",
+                "driving",
+                "mysterious"
+            ],
+            "audio_synesthesia": [
+                "Suspenseful string ostinatos",
+                "Silenced-gunshot percussion",
+                "Crackling radio transmissions"
+            ],
+            "semiotic_signifiers": [
+                "Hidden cameras",
+                "Dead drops",
+                "High-tech gadgets",
+                "Globe-trotting locations"
+            ],
+            "visual_mood": "International intrigue, shadowy organizations, sophisticated danger",
+            "lyrical_themes": [
+                "betrayal",
+                "loyalty",
+                "secrets",
+                "patriotism",
+                "deception"
+            ],
+            "dynamics_profile": "Tense build-ups, driving rhythms, sophisticated action sequences"
+        },
+        "heist_caper": {
+            "references": [
+                "Ocean's Eleven",
+                "Heat",
+                "Baby Driver",
+                "The Italian Job",
+                "Money Heist"
+            ],
+            "directorial_tone": "Precision planning, stylish execution, team-dynamic chemistry",
+            "sonic_palette": [
+                "cool",
+                "rhythmic",
+                "tense",
+                "jazzy"
+            ],
+            "audio_synesthesia": [
+                "Stopwatch-tick percussion",
+                "Smooth jazz riffs",
+                "Precision-timing syncopation"
+            ],
+            "semiotic_signifiers": [
+                "Blueprints",
+                "Security camera feeds",
+                "Getaway cars",
+                "Disguises"
+            ],
+            "visual_mood": "Stylish criminality, precision timing, high-stakes theft",
+            "lyrical_themes": [
+                "planning",
+                "teamwork",
+                "risk",
+                "reward",
+                "escape"
+            ],
+            "dynamics_profile": "Tight rhythmic precision, build to heist-execution climax"
+        },
+        "martial_arts_epic": {
+            "references": [
+                "Crouching Tiger, Hidden Dragon",
+                "Enter the Dragon",
+                "Kill Bill",
+                "The Raid",
+                "Kung Fu Panda"
+            ],
+            "directorial_tone": "Eastern philosophy meets physical mastery, honor-bound combat, spiritual warfare",
+            "sonic_palette": [
+                "epic",
+                "acoustic",
+                "percussive",
+                "spiritual"
+            ],
+            "audio_synesthesia": [
+                "Silk-rip percussion",
+                "Bamboo-flute melodies",
+                "Sword-clash metal harmonics"
+            ],
+            "semiotic_signifiers": [
+                "Training montages",
+                "Ancient scrolls",
+                "Bamboo forests",
+                "Dojo spaces"
+            ],
+            "visual_mood": "Eastern aesthetics, physical discipline, spiritual combat",
+            "lyrical_themes": [
+                "discipline",
+                "mastery",
+                "honor",
+                "revenge",
+                "enlightenment"
+            ],
+            "dynamics_profile": "Dynamic fight-scene rhythms, sudden silences, explosive action"
+        },
+        "haunted_house_gothic": {
+            "references": [
+                "The Haunting of Hill House",
+                "The Shining",
+                "The Conjuring",
+                "Resident Evil 7",
+                "Silent Hill"
+            ],
+            "directorial_tone": "Domestic horror, psychological hauntings, architectural malevolence",
+            "sonic_palette": [
+                "creepy",
+                "hollow",
+                "tense",
+                "ambient"
+            ],
+            "audio_synesthesia": [
+                "Floorboard-creak rhythms",
+                "Ghost-whisper vocal processing",
+                "Distant-child laughter loops"
+            ],
+            "semiotic_signifiers": [
+                "Moving furniture",
+                "Blood-stained walls",
+                "Family portraits with changing faces",
+                "Sealed rooms"
+            ],
+            "visual_mood": "Architectural horror, domestic spaces turned sinister, psychological haunting",
+            "lyrical_themes": [
+                "ghosts",
+                "family",
+                "memory",
+                "trauma",
+                "house"
+            ],
+            "dynamics_profile": "Creeping tension, sudden jump-scare bursts, oppressive atmosphere"
+        },
+        "crystal_fantasy": {
+            "references": [
+                "The Dark Crystal",
+                "Final Fantasy (crystal motifs)",
+                "She-Ra (Princess of Power)",
+                "Crystal-based anime",
+                "Steven Universe"
+            ],
+            "directorial_tone": "Gemstone aesthetics, light-refraction beauty, magical-mineral power",
+            "sonic_palette": [
+                "crystalline",
+                "magical",
+                "shimmering",
+                "delicate"
+            ],
+            "audio_synesthesia": [
+                "Glass arpeggiators",
+                "Crystal-chime percussion",
+                "Prism-light filter sweeps"
+            ],
+            "semiotic_signifiers": [
+                "Magic crystals",
+                "Crystal castles",
+                "Light refraction patterns",
+                "Gemstone guardians"
+            ],
+            "visual_mood": "Luminous crystal landscapes, magical mineralogy, light-based magic",
+            "lyrical_themes": [
+                "light",
+                "clarity",
+                "power",
+                "purity",
+                "refraction"
+            ],
+            "dynamics_profile": "Sparkling high-end, crystal-clear transients, magical builds"
+        },
+        "bio_mechanical_horror": {
+            "references": [
+                "The Thing",
+                "Dead Space",
+                "Scorn",
+                "The Fly",
+                "Alien resurrection"
+            ],
+            "directorial_tone": "Organic-mechanical fusion horror, biological violation, industrial flesh",
+            "sonic_palette": [
+                "visceral",
+                "industrial",
+                "wet",
+                "metallic"
+            ],
+            "audio_synesthesia": [
+                "Hydraulic-squelch hybrids",
+                "Rusted-metal scraping",
+                "Pulsating organic drones"
+            ],
+            "semiotic_signifiers": [
+                "Exposed bio-mechanical insides",
+                "Rusted surgical tools",
+                "Flesh-metal interfaces",
+                "Industrial birthing chambers"
+            ],
+            "visual_mood": "Industrial organic horror, flesh-meets-machine nightmare, biological factories",
+            "lyrical_themes": [
+                "fusion",
+                "violation",
+                "creation",
+                "abomination",
+                "factory"
+            ],
+            "dynamics_profile": "Irregular mechanical rhythms, wet organic impacts"
+        },
+        "urban_fantasy": {
+            "references": [
+                "Harry Potter",
+                "Percy Jackson",
+                "The Mortal Instruments",
+                "Dresden Files",
+                "American Gods"
+            ],
+            "directorial_tone": "Magic hidden in plain sight, modern-mythology collision, secret societies",
+            "sonic_palette": [
+                "magical",
+                "urban",
+                "mysterious",
+                "contemporary"
+            ],
+            "audio_synesthesia": [
+                "Orchestral elements over city sounds",
+                "Spell-casting vocal effects",
+                "Hidden-portal ambient noise"
+            ],
+            "semiotic_signifiers": [
+                "Hidden magical shops in alleys",
+                "Mythical creatures in subway",
+                "Ancient runes on skyscrapers",
+                "Secret society symbols"
+            ],
+            "visual_mood": "Modern city with magical underlayer, hidden worlds within our own",
+            "lyrical_themes": [
+                "magic",
+                "secrets",
+                "mythology",
+                "hidden",
+                "modern"
+            ],
+            "dynamics_profile": "Contemporary rhythms with magical orchestral flourishes"
+        },
+        "desert_mysticism": {
+            "references": [
+                "Dune",
+                "The Mummy",
+                "Prince of Persia",
+                "Lawrence of Arabia",
+                "Mad Max: Fury Road"
+            ],
+            "directorial_tone": "Vast empty spaces, ancient desert secrets, survival spiritualism",
+            "sonic_palette": [
+                "expansive",
+                "ethnic",
+                "dry",
+                "mystical"
+            ],
+            "audio_synesthesia": [
+                "Duduk melodies",
+                "Sand-wind textures",
+                "Desert-trance percussion"
+            ],
+            "semiotic_signifiers": [
+                "Oasis mirages",
+                "Ancient desert ruins",
+                "Sand dunes at sunset",
+                "Desert caravans"
+            ],
+            "visual_mood": "Endless desert horizons, ancient civilizations buried in sand, survival mysticism",
+            "lyrical_themes": [
+                "survival",
+                "prophecy",
+                "desert",
+                "ancient",
+                "journey"
+            ],
+            "dynamics_profile": "Expansive, slow-building, ethnic-instrument driven"
+        },
+        "ocean_depth_horror": {
+            "references": [
+                "The Abyss",
+                "Underwater",
+                "Sphere",
+                "Subnautica",
+                "20,000 Leagues Under the Sea"
+            ],
+            "directorial_tone": "Deep sea pressure, aquatic alien life, submerged isolation",
+            "sonic_palette": [
+                "submerged",
+                "pressure",
+                "dark",
+                "flowing"
+            ],
+            "audio_synesthesia": [
+                "Sonar pings as percussion",
+                "Deep-sea creature calls",
+                "Pressure-chamber release sounds"
+            ],
+            "semiotic_signifiers": [
+                "Deep-sea submarines",
+                "Bioluminescent creatures",
+                "Abyssal trenches",
+                "Pressure suits"
+            ],
+            "visual_mood": "Lightless ocean depths, crushing pressure, alien aquatic life",
+            "lyrical_themes": [
+                "depth",
+                "pressure",
+                "unknown",
+                "ocean",
+                "isolation"
+            ],
+            "dynamics_profile": "Slow, pressure-building, sudden deep-impact events"
+        },
+        "retro_computer_hacking": {
+            "references": [
+                "Hackers",
+                "Sneakers",
+                "WarGames",
+                "Mr. Robot (90s aesthetic)",
+                "Ready Player One"
+            ],
+            "directorial_tone": "90s cyber nostalgia, dial-up era hacking, digital frontier excitement",
+            "sonic_palette": [
+                "digital",
+                "retro",
+                "glitchy",
+                "driving"
+            ],
+            "audio_synesthesia": [
+                "Dial-up modem sounds",
+                "CRT monitor static",
+                "Floppy disk drive clicks"
+            ],
+            "semiotic_signifiers": [
+                "Green-on-black terminals",
+                "Bulky CRT monitors",
+                "Floppy disks",
+                "Phone phreaking boxes"
+            ],
+            "visual_mood": "90s cyberpunk, pre-internet hacking, digital frontier aesthetics",
+            "lyrical_themes": [
+                "information",
+                "access",
+                "digital",
+                "freedom",
+                "code"
+            ],
+            "dynamics_profile": "Driving electronic beats with retro-computer glitches"
+        },
+        "psychedelic_rock_opera": {
+            "references": [
+                "The Wall",
+                "Tommy",
+                "Yellow Submarine",
+                "Across the Universe",
+                "Moulin Rouge!"
+            ],
+            "directorial_tone": "Rock musical extravaganza, psychedelic narrative, theatrical rock excess",
+            "sonic_palette": [
+                "trippy",
+                "rock",
+                "theatrical",
+                "experimental"
+            ],
+            "audio_synesthesia": [
+                "Phaser-drenched guitars",
+                "Orchestral rock arrangements",
+                "Narrative vocal delivery"
+            ],
+            "semiotic_signifiers": [
+                "Rock opera staging",
+                "Psychedelic visuals",
+                "Theatrical costumes",
+                "Concept album storytelling"
+            ],
+            "visual_mood": "Rock theatricality, psychedelic dream sequences, musical storytelling",
+            "lyrical_themes": [
+                "story",
+                "mind",
+                "society",
+                "love",
+                "revolution"
+            ],
+            "dynamics_profile": "Dramatic rock builds, theatrical shifts, psychedelic breakdowns"
+        },
+        "cold_war_espionage": {
+            "references": [
+                "Tinker Tailor Soldier Spy",
+                "The Americans",
+                "Bridge of Spies",
+                "Atomic Blonde",
+                "The Spy Who Came in from the Cold"
+            ],
+            "directorial_tone": "Paranoia realism, ideological conflict, shadow-war tension",
+            "sonic_palette": [
+                "tense",
+                "minimal",
+                "cold",
+                "atmospheric"
+            ],
+            "audio_synesthesia": [
+                "Typewriter percussion",
+                "Clandestine meeting ambience",
+                "Radio static transitions"
+            ],
+            "semiotic_signifiers": [
+                "Dead drops in parks",
+                "Microfilm",
+                "Trench coats in rain",
+                "Embassy parties"
+            ],
+            "visual_mood": "Grey-scale tension, ideological divide, shadowy meetings",
+            "lyrical_themes": [
+                "loyalty",
+                "betrayal",
+                "ideology",
+                "secrets",
+                "war"
+            ],
+            "dynamics_profile": "Tense minimalism, sudden reveals, cold atmospheric tension"
+        },
+        "fairytale_dark_revision": {
+            "references": [
+                "Pan's Labyrinth",
+                "The Brothers Grimm (film)",
+                "Into the Woods",
+                "Maleficent",
+                "The Wolf Among Us"
+            ],
+            "directorial_tone": "Grimm brothers' original darkness, childhood story deconstruction, magical realism horror",
+            "sonic_palette": [
+                "magical",
+                "dark",
+                "acoustic",
+                "creepy"
+            ],
+            "audio_synesthesia": [
+                "Music box melodies turned sinister",
+                "Fairy-tale narration",
+                "Woodland creature sounds distorted"
+            ],
+            "semiotic_signifiers": [
+                "Darkened forests",
+                "Twisted fairy tale creatures",
+                "Broken magic mirrors",
+                "Grimm storybook illustrations"
+            ],
+            "visual_mood": "Dark enchanted forests, twisted fairy tales, magical realism horror",
+            "lyrical_themes": [
+                "childhood",
+                "darkness",
+                "magic",
+                "morality",
+                "stories"
+            ],
+            "dynamics_profile": "Storybook narrative flow, dark magical swells, childhood innocence corrupted"
+        },
+        "bubblegum_pop_nightmare": {
+            "references": [
+                "Black Mirror (Fifteen Million Merits)",
+                "Perfect Blue",
+                "Paprika",
+                "The Idol",
+                "Pop Star: Never Stop Never Stopping"
+            ],
+            "directorial_tone": "Pop industry satire, bright colors masking darkness, celebrity psychosis",
+            "sonic_palette": [
+                "sweet",
+                "synthetic",
+                "bright",
+                "uncanny"
+            ],
+            "audio_synesthesia": [
+                "Hyper-compressed pop vocals",
+                "Sugar-sweet synth melodies",
+                "Underneath-the-surface noise"
+            ],
+            "semiotic_signifiers": [
+                "Stage makeup cracking",
+                "Pop star mannequins",
+                "Recording studio isolation",
+                "Fame-induced paranoia"
+            ],
+            "visual_mood": "Bright pop aesthetics revealing dark underbelly, celebrity as commodity",
+            "lyrical_themes": [
+                "fame",
+                "artifice",
+                "control",
+                "identity",
+                "consumption"
+            ],
+            "dynamics_profile": "Perfect pop production with unsettling undertones, sudden genre breaks"
+        },
+        "dieselpunk_war": {
+            "references": [
+                "Wolfenstein",
+                "Iron Sky",
+                "Sky Captain and the World of Tomorrow",
+                "The Rocketeer",
+                "Captain America: The First Avenger"
+            ],
+            "directorial_tone": "WWII-era futurism, diesel-powered technology, alternate-history warfare",
+            "sonic_palette": [
+                "industrial",
+                "military",
+                "retro",
+                "powerful"
+            ],
+            "audio_synesthesia": [
+                "Diesel-engine rhythms",
+                "Propeller plane sounds",
+                "Marching band gone industrial"
+            ],
+            "semiotic_signifiers": [
+                "Diesel-powered mechs",
+                "Propaganda posters",
+                "Art deco war machines",
+                "Alternate-history weapons"
+            ],
+            "visual_mood": "WWII aesthetic with advanced diesel tech, art deco warfare, alternate 1940s",
+            "lyrical_themes": [
+                "war",
+                "technology",
+                "power",
+                "resistance",
+                "history"
+            ],
+            "dynamics_profile": "Marching industrial rhythms, diesel-powered engine drive"
+        },
+        "virtual_reality_paradise": {
+            "references": [
+                "The Matrix",
+                "Ready Player One",
+                "TRON",
+                "Sword Art Online",
+                "Existenz"
+            ],
+            "directorial_tone": "Digital world beauty, reality-questioning, virtual-utopia aesthetics",
+            "sonic_palette": [
+                "digital",
+                "clean",
+                "ethereal",
+                "synthetic"
+            ],
+            "audio_synesthesia": [
+                "Perfect digital reverbs",
+                "UI sound effects as percussion",
+                "Virtual-world ambient pads"
+            ],
+            "semiotic_signifiers": [
+                "Digital avatars",
+                "Floating data streams",
+                "Perfect virtual landscapes",
+                "Reality-glitching artifacts"
+            ],
+            "visual_mood": "Perfect digital worlds, virtual reality aesthetics, reality vs simulation",
+            "lyrical_themes": [
+                "reality",
+                "digital",
+                "escape",
+                "perfection",
+                "simulation"
+            ],
+            "dynamics_profile": "Clean digital transients, virtual-world sheen, glitch interruptions"
+        },
+        "alchemical_mystery": {
+            "references": [
+                "Fullmetal Alchemist",
+                "The Alchemist (novel adaptations)",
+                "The Name of the Rose",
+                "Jonathan Strange & Mr Norrell",
+                "The Witcher (alchemy elements)"
+            ],
+            "directorial_tone": "Ancient knowledge pursuit, transformation mysteries, esoteric study atmosphere",
+            "sonic_palette": [
+                "mysterious",
+                "ancient",
+                "chemical",
+                "scholarly"
+            ],
+            "audio_synesthesia": [
+                "Glass beaker sounds",
+                "Ancient manuscript page turns",
+                "Alchemical transformation foley"
+            ],
+            "semiotic_signifiers": [
+                "Alchemical symbols",
+                "Ancient laboratories",
+                "Transmutation circles",
+                "Philosopher's stone"
+            ],
+            "visual_mood": "Medieval laboratories, esoteric knowledge, transformation mysteries",
+            "lyrical_themes": [
+                "transformation",
+                "knowledge",
+                "forbidden",
+                "elements",
+                "power"
+            ],
+            "dynamics_profile": "Methodical, process-oriented, sudden transformative moments"
+        },
+        "yakuza_crime_drama": {
+            "references": [
+                "Yakuza games",
+                "Tokyo Vice",
+                "Outrage",
+                "The Way of the Dragon",
+                "Giri/Haji"
+            ],
+            "directorial_tone": "Japanese organized crime realism, honor-among-thieves, urban-underworld tension",
+            "sonic_palette": [
+                "tense",
+                "urban",
+                "minimal",
+                "sharp"
+            ],
+            "audio_synesthesia": [
+                "Tatami-mat footsteps",
+                "Sake bottle clinks",
+                "Rain-on-neon street sounds"
+            ],
+            "semiotic_signifiers": [
+                "Full-body tattoos",
+                "Yakuza offices",
+                "Hostess clubs",
+                "Ritual finger-cutting"
+            ],
+            "visual_mood": "Tokyo underworld, nighttime streets, organized crime hierarchy",
+            "lyrical_themes": [
+                "honor",
+                "loyalty",
+                "family",
+                "crime",
+                "tradition"
+            ],
+            "dynamics_profile": "Tense minimalist builds, sudden violent outbursts"
+        },
+        "lost_civilization": {
+            "references": [
+                "Atlantis: The Lost Empire",
+                "Indiana Jones",
+                "Tomb Raider",
+                "Journey to the Center of the Earth",
+                "The Lost City of Z"
+            ],
+            "directorial_tone": "Ancient discovery wonder, forgotten-empire grandeur, exploration adventure",
+            "sonic_palette": [
+                "epic",
+                "ancient",
+                "mysterious",
+                "expansive"
+            ],
+            "audio_synesthesia": [
+                "Ancient chant samples",
+                "Lost-city echo chambers",
+                "Exploration discovery swells"
+            ],
+            "semiotic_signifiers": [
+                "Ancient ruins in jungles",
+                "Forgotten languages",
+                "Archaeological digs",
+                "Lost technology"
+            ],
+            "visual_mood": "Hidden civilizations, archaeological discovery, ancient wonders",
+            "lyrical_themes": [
+                "discovery",
+                "ancient",
+                "lost",
+                "civilization",
+                "exploration"
+            ],
+            "dynamics_profile": "Discovery build-ups, ancient ceremonial rhythms, epic reveals"
+        },
+        "cyber_prep_aesthetic": {
+            "references": [
+                "Mirror's Edge",
+                "The Fifth Element (cleaner parts)",
+                "Logan's Run",
+                "Equilibrium",
+                "Severance (corporate utopia)"
+            ],
+            "directorial_tone": "Corporate utopia sterility, clean-tech futurism, surface-perfection dystopia",
+            "sonic_palette": [
+                "clean",
+                "sterile",
+                "synthetic",
+                "bright"
+            ],
+            "audio_synesthesia": [
+                "White-noise ambience",
+                "Glass-and-metal percussion",
+                "Synthetic string pads"
+            ],
+            "semiotic_signifiers": [
+                "White minimalist offices",
+                "Corporate logos everywhere",
+                "Clean-tech interfaces",
+                "Uniform fashion"
+            ],
+            "visual_mood": "Corporate utopia, sterile perfection, clean-tech dystopia",
+            "lyrical_themes": [
+                "perfection",
+                "control",
+                "corporate",
+                "surface",
+                "order"
+            ],
+            "dynamics_profile": "Clean, precise, rhythmically perfect with underlying tension"
+        },
+        "ice_age_survival": {
+            "references": [
+                "The Day After Tomorrow",
+                "Ice Age (darker interpretations)",
+                "The Road (snow version)",
+                "Snowpiercer",
+                "30 Days of Night"
+            ],
+            "directorial_tone": "Frozen world survival, eternal winter beauty, climate disaster aftermath",
+            "sonic_palette": [
+                "cold",
+                "expansive",
+                "desolate",
+                "crystal"
+            ],
+            "audio_synesthesia": [
+                "Ice-cracking percussion",
+                "Blizzard wind textures",
+                "Frozen-echo reverb"
+            ],
+            "semiotic_signifiers": [
+                "Frozen cities",
+                "Snow-covered landmarks",
+                "Survival bunkers",
+                "Ice formations"
+            ],
+            "visual_mood": "Frozen apocalypse, eternal winter, survival against cold",
+            "lyrical_themes": [
+                "cold",
+                "survival",
+                "winter",
+                "isolation",
+                "freeze"
+            ],
+            "dynamics_profile": "Slow frozen movements, sudden ice-cracking impacts, blizzard intensity"
+        },
+        "kaiju_attack": {
+            "references": [
+                "Godzilla",
+                "Pacific Rim",
+                "Cloverfield",
+                "King Kong",
+                "Attack on Titan"
+            ],
+            "directorial_tone": "Giant monster scale, city-destruction chaos, human-perspective awe",
+            "sonic_palette": [
+                "massive",
+                "destructive",
+                "epic",
+                "chaotic"
+            ],
+            "audio_synesthesia": [
+                "Giant footstep impacts",
+                "Monster roars as bass drops",
+                "Building-collapse foley"
+            ],
+            "semiotic_signifiers": [
+                "Giant monster silhouettes",
+                "Destroyed cityscapes",
+                "Military response",
+                "Scale perspective shots"
+            ],
+            "visual_mood": "Colossal scale destruction, monster vs city, human insignificance",
+            "lyrical_themes": [
+                "scale",
+                "destruction",
+                "monster",
+                "city",
+                "survival"
+            ],
+            "dynamics_profile": "Massive impacts, epic monster themes, chaotic destruction sequences"
+        },
+        "space_colony_conflict": {
+            "references": [
+                "The Expanse",
+                "Alien (colony aspects)",
+                "Outland",
+                "Red Mars",
+                "Starcraft"
+            ],
+            "directorial_tone": "Frontier colony realism, resource conflict, isolated-space tension",
+            "sonic_palette": [
+                "industrial",
+                "isolated",
+                "tense",
+                "metallic"
+            ],
+            "audio_synesthesia": [
+                "Space-station hum",
+                "Airlock cycling sounds",
+                "Zero-gravity movement foley"
+            ],
+            "semiotic_signifiers": [
+                "Space habitats",
+                "Resource mining",
+                "Colony politics",
+                "Isolated frontier outposts"
+            ],
+            "visual_mood": "Space colony realism, frontier conflict, isolated habitats",
+            "lyrical_themes": [
+                "colony",
+                "frontier",
+                "resources",
+                "isolation",
+                "conflict"
+            ],
+            "dynamics_profile": "Isolated tension, sudden colony-crisis events, industrial space rhythms"
+        },
+        "neon_synthwave_drive": {
+            "references": [
+                "Drive",
+                "Kavinsky music videos",
+                "Hotline Miami",
+                "The Guest",
+                "Turbo Kid"
+            ],
+            "directorial_tone": "80s retro-futurism nostalgia, night-driving aesthetics, synth-pop melancholy",
+            "sonic_palette": [
+                "retro",
+                "synthetic",
+                "driving",
+                "nostalgic"
+            ],
+            "audio_synesthesia": [
+                "FM synth basslines",
+                "Gated reverb snares",
+                "Neon-glow pad sweeps"
+            ],
+            "semiotic_signifiers": [
+                "Night driving",
+                "Neon signs",
+                "VHS aesthetics",
+                "Retro sports cars"
+            ],
+            "visual_mood": "80s night driving, neon-drenched streets, retro-futurism",
+            "lyrical_themes": [
+                "night",
+                "drive",
+                "memory",
+                "loneliness",
+                "city"
+            ],
+            "dynamics_profile": "Driving 4/4 beats, nostalgic synth leads, night-driving atmosphere"
+        },
+        "body_modification_cult": {
+            "references": [
+                "Repo! The Genetic Opera",
+                "The Island of Dr. Moreau",
+                "Splice",
+                "Gattaca",
+                "The Neon Demon"
+            ],
+            "directorial_tone": "Body modification obsession, perfection cult aesthetics, surgical horror",
+            "sonic_palette": [
+                "surgical",
+                "glossy",
+                "unnatural",
+                "sterile"
+            ],
+            "audio_synesthesia": [
+                "Surgical tool sounds",
+                "Plastic-smooth synth textures",
+                "Heartbeat monitors as rhythm"
+            ],
+            "semiotic_signifiers": [
+                "Surgical theaters",
+                "Body modification tools",
+                "Perfection cult symbols",
+                "Genetic modification"
+            ],
+            "visual_mood": "Surgical perfection, body modification obsession, glossy unnatural beauty",
+            "lyrical_themes": [
+                "perfection",
+                "body",
+                "modification",
+                "unnatural",
+                "beauty"
+            ],
+            "dynamics_profile": "Precise surgical rhythms, glossy surfaces with underlying horror"
+        },
+        "wild_west_supernatural": {
+            "references": [
+                "The Dark Tower",
+                "Westworld (supernatural elements)",
+                "Jonah Hex",
+                "Bone Tomahawk",
+                "The Pale Blue Eye"
+            ],
+            "directorial_tone": "Western horror fusion, frontier supernatural, cowboy mythos meets occult",
+            "sonic_palette": [
+                "western",
+                "supernatural",
+                "dusty",
+                "haunting"
+            ],
+            "audio_synesthesia": [
+                "Ghost-town wind",
+                "Twisted harmonica melodies",
+                "Occult ritual chants in western setting"
+            ],
+            "semiotic_signifiers": [
+                "Haunted ghost towns",
+                "Occult symbols on wanted posters",
+                "Supernatural outlaws",
+                "Cursed gold"
+            ],
+            "visual_mood": "Western horror, supernatural frontier, haunted deserts",
+            "lyrical_themes": [
+                "frontier",
+                "ghosts",
+                "curses",
+                "outlaw",
+                "supernatural"
+            ],
+            "dynamics_profile": "Western rhythms with supernatural elements, haunting atmospheric breaks"
+        },
+        "digital_afterlife": {
+            "references": [
+                "Black Mirror (San Junipero)",
+                "Upload",
+                "The Peripheral",
+                "Soul",
+                "The Matrix (afterlife theories)"
+            ],
+            "directorial_tone": "Digital consciousness themes, afterlife as technology, virtual eternity",
+            "sonic_palette": [
+                "ethereal",
+                "digital",
+                "heavenly",
+                "synthetic"
+            ],
+            "audio_synesthesia": [
+                "Digital angelic choirs",
+                "Server-hum ambience",
+                "Upload-transition effects"
+            ],
+            "semiotic_signifiers": [
+                "Digital clouds",
+                "Upload interfaces",
+                "Virtual heavens",
+                "Consciousness transfer"
+            ],
+            "visual_mood": "Digital paradise, virtual afterlife, consciousness as data",
+            "lyrical_themes": [
+                "afterlife",
+                "digital",
+                "consciousness",
+                "eternity",
+                "upload"
+            ],
+            "dynamics_profile": "Ethereal digital soundscapes, upload-transition effects, heavenly synthetic textures"
+        },
+        "ancient_robot_relics": {
+            "references": [
+                "Horizon Zero Dawn",
+                "Nier: Automata",
+                "The Mitchells vs. The Machines (ancient aspects)",
+                "Castle in the Sky",
+                "Stray"
+            ],
+            "directorial_tone": "Ancient technology mystery, robot archaeology, machine ruins as nature",
+            "sonic_palette": [
+                "ancient",
+                "mechanical",
+                "organic",
+                "mysterious"
+            ],
+            "audio_synesthesia": [
+                "Ancient machine activation sounds",
+                "Rusty robot movements",
+                "Nature-reclaimed technology foley"
+            ],
+            "semiotic_signifiers": [
+                "Ancient robot ruins",
+                "Overgrown machinery",
+                "Forgotten robot civilizations",
+                "Technology as archaeology"
+            ],
+            "visual_mood": "Ancient machine ruins, nature reclaiming technology, robot archaeology",
+            "lyrical_themes": [
+                "ancient",
+                "machine",
+                "ruins",
+                "forgotten",
+                "technology"
+            ],
+            "dynamics_profile": "Ancient machine rhythms, organic-mechanical fusion, discovery swells"
+        },
+        "haunted_forest_folk": {
+            "references": [
+                "The Witch",
+                "Midsommar",
+                "The Ritual",
+                "Over the Garden Wall",
+                "The Blair Witch Project"
+            ],
+            "directorial_tone": "Folk horror atmosphere, forest-dwelling cults, natural-world malevolence",
+            "sonic_palette": [
+                "organic",
+                "creepy",
+                "folk",
+                "natural"
+            ],
+            "audio_synesthesia": [
+                "Forest creature calls",
+                "Folk instruments turned sinister",
+                "Ritual chanting in woods"
+            ],
+            "semiotic_signifiers": [
+                "Ancient trees with faces",
+                "Forest altars",
+                "Folk ritual items",
+                "Animal masks"
+            ],
+            "visual_mood": "Haunted forests, folk horror rituals, natural-world terror",
+            "lyrical_themes": [
+                "forest",
+                "ritual",
+                "folk",
+                "nature",
+                "cult"
+            ],
+            "dynamics_profile": "Organic forest rhythms, ritualistic builds, folk horror atmosphere"
+        },
+        "corporate_espionage_cyber": {
+            "references": [
+                "Deus Ex",
+                "Cyberpunk 2077 (corporate wars)",
+                "Syndicate",
+                "Inception (corporate espionage)",
+                "The Circle"
+            ],
+            "directorial_tone": "Corporate warfare futurism, high-stakes data theft, boardroom-to-battlefield",
+            "sonic_palette": [
+                "corporate",
+                "cyber",
+                "tense",
+                "sleek"
+            ],
+            "audio_synesthesia": [
+                "Data-stream sounds",
+                "Corporate elevator music distorted",
+                "Sleek weapon SFX"
+            ],
+            "semiotic_signifiers": [
+                "Corporate headquarters",
+                "Data theft devices",
+                "Boardroom confrontations",
+                "Cyber-enhanced executives"
+            ],
+            "visual_mood": "Corporate futurism, data as weapon, sleek cyber-espionage",
+            "lyrical_themes": [
+                "corporate",
+                "data",
+                "espionage",
+                "power",
+                "information"
+            ],
+            "dynamics_profile": "Sleek corporate rhythms, data-stream textures, tense espionage builds"
+        },
+        "dream_eater_nightmare": {
+            "references": [
+                "Paprika",
+                "Inception (dream layers)",
+                "The Cell",
+                "Dreamscape",
+                "Silent Hill (dream aspects)"
+            ],
+            "directorial_tone": "Dream invasion horror, subconscious exploration, nightmare logic",
+            "sonic_palette": [
+                "dreamy",
+                "unsettling",
+                "surreal",
+                "subconscious"
+            ],
+            "audio_synesthesia": [
+                "Dream-distortion effects",
+                "Subconscious whisper layers",
+                "Reality-warping audio transitions"
+            ],
+            "semiotic_signifiers": [
+                "Dream catchers corrupted",
+                "Subconscious landscapes",
+                "Nightmare creatures",
+                "Dream-invasion technology"
+            ],
+            "visual_mood": "Dream world horror, subconscious exploration, nightmare logic",
+            "lyrical_themes": [
+                "dreams",
+                "subconscious",
+                "nightmare",
+                "invasion",
+                "mind"
+            ],
+            "dynamics_profile": "Dream-like flows, sudden nightmare intrusions, subconscious rhythm shifts"
+        },
+        "zero_gravity_ballet": {
+            "references": [
+                "2001: A Space Odyssey",
+                "Gravity",
+                "The Expanse (space battle choreography)",
+                "Ad Astra",
+                "Interstellar (docking scene)"
+            ],
+            "directorial_tone": "Space movement elegance, zero-G choreography, orbital mechanics as dance",
+            "sonic_palette": [
+                "weightless",
+                "graceful",
+                "spatial",
+                "cinematic"
+            ],
+            "audio_synesthesia": [
+                "Silence punctuated by precise sounds",
+                "Orbital mechanics as rhythm",
+                "Space-suit movement foley"
+            ],
+            "semiotic_signifiers": [
+                "Space stations",
+                "Zero-G movement",
+                "Orbital mechanics",
+                "Space suit choreography"
+            ],
+            "visual_mood": "Zero gravity elegance, orbital ballet, space as dance floor",
+            "lyrical_themes": [
+                "space",
+                "gravity",
+                "movement",
+                "orbit",
+                "dance"
+            ],
+            "dynamics_profile": "Weightless rhythms, precise movement sounds, orbital mechanics as tempo"
+        },
+        "bio_luminescent_abyss": {
+            "references": [
+                "The Abyss (light creatures)",
+                "Avatar (bioluminescent forest)",
+                "Subnautica (deep glow)",
+                "Annihilation (shimmer)",
+                "Life of Pi (bioluminescent ocean)"
+            ],
+            "directorial_tone": "Deep sea light shows, biological illumination, underwater wonder",
+            "sonic_palette": [
+                "deep",
+                "glowing",
+                "liquid",
+                "mysterious"
+            ],
+            "audio_synesthesia": [
+                "Bioluminescent creature sounds",
+                "Underwater light-show effects",
+                "Deep-sea current drones"
+            ],
+            "semiotic_signifiers": [
+                "Glowing deep-sea creatures",
+                "Bioluminescent plants",
+                "Light in darkness",
+                "Underwater illumination"
+            ],
+            "visual_mood": "Deep sea light, biological illumination, underwater wonder",
+            "lyrical_themes": [
+                "light",
+                "deep",
+                "sea",
+                "glow",
+                "biology"
+            ],
+            "dynamics_profile": "Deep liquid movements, glowing sound events, underwater current rhythms"
+        },
+        "memory_palace_architecture": {
+            "references": [
+                "Inception (architecture bending)",
+                "The Cell (memory palaces)",
+                "Hannibal (mind palace)",
+                "Doctor Strange (mirror dimension)",
+                "The Adjustment Bureau"
+            ],
+            "directorial_tone": "Mental architecture manipulation, memory-as-structure, mind-space exploration",
+            "sonic_palette": [
+                "architectural",
+                "mental",
+                "shifting",
+                "cerebral"
+            ],
+            "audio_synesthesia": [
+                "Architectural shifting sounds",
+                "Memory-recall audio flashes",
+                "Mental-space reverberation"
+            ],
+            "semiotic_signifiers": [
+                "Shifting architecture",
+                "Memory corridors",
+                "Mental palaces",
+                "Cognitive maps"
+            ],
+            "visual_mood": "Mind as architecture, memory palaces, shifting mental spaces",
+            "lyrical_themes": [
+                "memory",
+                "mind",
+                "architecture",
+                "thought",
+                "palace"
+            ],
+            "dynamics_profile": "Architectural rhythm structures, memory-flash transitions, mental-space exploration"
+        },
+        "cassette_futurism": {
+            "references": [
+                "Stranger Things (80s tech)",
+                "Halt and Catch Fire",
+                "The Americans (80s espionage tech)",
+                "Kung Fury",
+                "Turbo Kid"
+            ],
+            "directorial_tone": "80s technology nostalgia, analog-digital transition, cassette-tape futurism",
+            "sonic_palette": [
+                "analog",
+                "warm",
+                "retro",
+                "tape"
+            ],
+            "audio_synesthesia": [
+                "Cassette tape hiss",
+                "Analog synth warmth",
+                "CRT screen hum"
+            ],
+            "semiotic_signifiers": [
+                "Cassette tapes",
+                "Floppy disks",
+                "Analog synthesizers",
+                "80s computer aesthetics"
+            ],
+            "visual_mood": "80s technology futurism, analog-digital transition, cassette-tape aesthetics",
+            "lyrical_themes": [
+                "analog",
+                "digital",
+                "memory",
+                "tape",
+                "80s"
+            ],
+            "dynamics_profile": "Analog warmth, tape-saturated sounds, 80s rhythm machines"
+        },
+        "fungal_network_consciousness": {
+            "references": [
+                "Annihilation (fungus)",
+                "The Last of Us (cordyceps)",
+                "Mushroom-themed horror",
+                "Nausicaä of the Valley of the Wind",
+                "Avatar (neural network)"
+            ],
+            "directorial_tone": "Mycelium network intelligence, fungal consciousness, spore-based communication",
+            "sonic_palette": [
+                "organic",
+                "networked",
+                "spreading",
+                "fungal"
+            ],
+            "audio_synesthesia": [
+                "Fungal growth sounds",
+                "Mycelium network communication",
+                "Spore-release effects"
+            ],
+            "semiotic_signifiers": [
+                "Fungal networks",
+                "Mushroom forests",
+                "Spore communication",
+                "Mycelium intelligence"
+            ],
+            "visual_mood": "Fungal intelligence, mycelium networks, spore-based consciousness",
+            "lyrical_themes": [
+                "fungus",
+                "network",
+                "consciousness",
+                "spore",
+                "growth"
+            ],
+            "dynamics_profile": "Spreading fungal rhythms, networked sound textures, organic growth patterns"
+        },
+        "mirror_dimension_reflection": {
+            "references": [
+                "Doctor Strange (mirror dimension)",
+                "The Cell (reflection scenes)",
+                "Coraline (other world)",
+                "Silent Hill (mirror world)",
+                "Black Mirror (Black Museum reflection)"
+            ],
+            "directorial_tone": "Mirror world duality, reflection distortion, dimensional echo chambers",
+            "sonic_palette": [
+                "reflective",
+                "duplicate",
+                "distorted",
+                "echoing"
+            ],
+            "audio_synesthesia": [
+                "Mirror-break sounds",
+                "Reflection distortion effects",
+                "Echo chamber processing"
+            ],
+            "semiotic_signifiers": [
+                "Broken mirrors",
+                "Reflective surfaces",
+                "Mirror portals",
+                "Distorted reflections"
+            ],
+            "visual_mood": "Mirror dimension, reflection worlds, distorted duplicates",
+            "lyrical_themes": [
+                "reflection",
+                "mirror",
+                "duality",
+                "dimension",
+                "echo"
+            ],
+            "dynamics_profile": "Reflective echo patterns, mirror-break impacts, dimensional distortion"
+        },
+        "quantum_superposition_state": {
+            "references": [
+                "Quantum physics in film",
+                "The Peripheral (multiple states)",
+                "Coherence",
+                "Mr. Nobody",
+                "Everything Everywhere All at Once"
+            ],
+            "directorial_tone": "Quantum reality uncertainty, superposition states, multiple possibilities simultaneously",
+            "sonic_palette": [
+                "uncertain",
+                "layered",
+                "quantum",
+                "simultaneous"
+            ],
+            "audio_synesthesia": [
+                "Multiple audio states layered",
+                "Quantum superposition effects",
+                "Uncertainty principle in sound"
+            ],
+            "semiotic_signifiers": [
+                "Schrödinger's cat boxes",
+                "Quantum diagrams",
+                "Multiple reality states",
+                "Superposition symbols"
+            ],
+            "visual_mood": "Quantum uncertainty, multiple states, superposition reality",
+            "lyrical_themes": [
+                "quantum",
+                "reality",
+                "possibility",
+                "uncertainty",
+                "superposition"
+            ],
+            "dynamics_profile": "Layered simultaneous rhythms, quantum state collapses, uncertainty in sound"
+        },
+        "data_ghost_haunting": {
+            "references": [
+                "Ghost in the Shell (digital ghosts)",
+                "The Matrix (residual self-image)",
+                "Altered Carbon (stack ghosts)",
+                "Cyberpunk 2077 (digital ghosts)",
+                "Black Mirror (Be Right Back)"
+            ],
+            "directorial_tone": "Digital afterlife remnants, data ghosts in machines, AI memory haunting",
+            "sonic_palette": [
+                "digital",
+                "ghostly",
+                "static",
+                "memory"
+            ],
+            "audio_synesthesia": [
+                "Digital ghost whispers",
+                "Corrupted data sounds",
+                "Static memory fragments"
+            ],
+            "semiotic_signifiers": [
+                "Corrupted data streams",
+                "Digital graveyards",
+                "AI memory fragments",
+                "Ghost-in-machine interfaces"
+            ],
+            "visual_mood": "Digital haunting, data ghosts, machine memory remnants",
+            "lyrical_themes": [
+                "ghost",
+                "data",
+                "memory",
+                "digital",
+                "afterlife"
+            ],
+            "dynamics_profile": "Digital ghost rhythms, static memory fragments, corrupted data patterns"
+        },
+        "lunar_colony_isolation": {
+            "references": [
+                "Moon",
+                "Ad Astra",
+                "The Expanse (Luna)",
+                "2001: A Space Odyssey",
+                "Space: 1999"
+            ],
+            "directorial_tone": "Lunar base isolation, moon colony psychology, Earth-view nostalgia",
+            "sonic_palette": [
+                "isolated",
+                "lunar",
+                "cold",
+                "expansive"
+            ],
+            "audio_synesthesia": [
+                "Lunar base hum",
+                "Moon dust movement",
+                "Earth-view contemplation sounds"
+            ],
+            "semiotic_signifiers": [
+                "Lunar habitats",
+                "Earth in sky",
+                "Moon rover tracks",
+                "Isolation chambers"
+            ],
+            "visual_mood": "Lunar colony isolation, Earth nostalgia, moon base psychology",
+            "lyrical_themes": [
+                "moon",
+                "isolation",
+                "colony",
+                "Earth",
+                "distance"
+            ],
+            "dynamics_profile": "Isolated lunar rhythms, expansive silences, Earth-nostalgia moments"
+        },
+        "carnival_of_souls": {
+            "references": [
+                "Carnival of Souls (film)",
+                "Something Wicked This Way Comes",
+                "The Nightmare Before Christmas",
+                "Penny Dreadful: City of Angels",
+                "American Horror Story: Freak Show"
+            ],
+            "directorial_tone": "Carnival horror aesthetics, sinister funfair, merry-go-round madness",
+            "sonic_palette": [
+                "carnival",
+                "sinister",
+                "carousel",
+                "creepy"
+            ],
+            "audio_synesthesia": [
+                "Carnival music distorted",
+                "Carousel calliope gone wrong",
+                "Funhouse mirror sound effects"
+            ],
+            "semiotic_signifiers": [
+                "Creepy carnivals",
+                "Sinister clowns",
+                "Haunted funhouses",
+                "Carousel horses with evil eyes"
+            ],
+            "visual_mood": "Carnival horror, sinister amusement parks, funfair nightmares",
+            "lyrical_themes": [
+                "carnival",
+                "fun",
+                "horror",
+                "carousel",
+                "clown"
+            ],
+            "dynamics_profile": "Carnival rhythms twisted, carousel music corrupted, funhouse distortion"
+        },
+        "parallel_universe_collision": {
+            "references": [
+                "Fringe",
+                "The OA",
+                "Counterpart",
+                "Sliders",
+                "The One"
+            ],
+            "directorial_tone": "Multiple reality collision, parallel world interference, dimensional bleed-through",
+            "sonic_palette": [
+                "parallel",
+                "colliding",
+                "dimensional",
+                "layered"
+            ],
+            "audio_synesthesia": [
+                "Parallel world interference",
+                "Dimensional bleed-through sounds",
+                "Multiple reality layers"
+            ],
+            "semiotic_signifiers": [
+                "Reality fractures",
+                "Parallel world portals",
+                "Dimensional collisions",
+                "Alternate selves"
+            ],
+            "visual_mood": "Parallel universe collision, dimensional bleed-through, multiple realities",
+            "lyrical_themes": [
+                "parallel",
+                "universe",
+                "reality",
+                "collision",
+                "dimension"
+            ],
+            "dynamics_profile": "Colliding rhythm patterns, dimensional interference, parallel sound layers"
+        },
+        "biohacker_underground": {
+            "references": [
+                "Repo! The Genetic Opera",
+                "Gattaca (underground aspects)",
+                "Splice (illegal experiments)",
+                "The Fly (DIY science)",
+                "Lucy (early scenes)"
+            ],
+            "directorial_tone": "DIY genetic modification, underground biohacking, garage-science rebellion",
+            "sonic_palette": [
+                "organic",
+                "DIY",
+                "experimental",
+                "raw"
+            ],
+            "audio_synesthesia": [
+                "Home-lab equipment sounds",
+                "DIY genetic modification foley",
+                "Underground biohacker chatter"
+            ],
+            "semiotic_signifiers": [
+                "Home genetic labs",
+                "DIY biohacking tools",
+                "Underground science collectives",
+                "Illegal genetic modifications"
+            ],
+            "visual_mood": "DIY biohacking, underground genetic science, garage laboratory rebellion",
+            "lyrical_themes": [
+                "biohacking",
+                "DIY",
+                "genetic",
+                "underground",
+                "modification"
+            ],
+            "dynamics_profile": "DIY experimental rhythms, raw organic sounds, underground science energy"
+        },
+        "clockwork_universe": {
+            "references": [
+                "Hugo",
+                "The Invention of Hugo Cabret",
+                "Steampunk clockwork aesthetics",
+                "The Prestige (mechanical illusions)",
+                "Clockwork Orange (mechanical aspects)"
+            ],
+            "directorial_tone": "Clockwork mechanism aesthetics, gear-and-spring precision, mechanical universe theory",
+            "sonic_palette": [
+                "mechanical",
+                "precise",
+                "clockwork",
+                "ticking"
+            ],
+            "audio_synesthesia": [
+                "Clockwork gear sounds",
+                "Precision spring mechanics",
+                "Ticking as rhythm foundation"
+            ],
+            "semiotic_signifiers": [
+                "Intricate clockwork",
+                "Gear mechanisms",
+                "Clockwork universe models",
+                "Mechanical precision"
+            ],
+            "visual_mood": "Clockwork universe, gear-and-spring aesthetics, mechanical precision",
+            "lyrical_themes": [
+                "clockwork",
+                "mechanism",
+                "time",
+                "gear",
+                "precision"
+            ],
+            "dynamics_profile": "Precise clockwork rhythms, gear-interlock patterns, spring-tension builds"
+        },
+        "digital_forest_growth": {
+            "references": [
+                "Tron: Legacy (digital world)",
+                "The Matrix (construct forests)",
+                "Avatar (digital nature)",
+                "Annihilation (digital growth patterns)",
+                "Serial Experiments Lain"
+            ],
+            "directorial_tone": "Digital nature simulation, code-based ecosystems, virtual forest growth",
+            "sonic_palette": [
+                "digital",
+                "organic",
+                "growing",
+                "synthetic"
+            ],
+            "audio_synesthesia": [
+                "Digital tree growth sounds",
+                "Code-based ecosystem ambience",
+                "Virtual forest atmosphere"
+            ],
+            "semiotic_signifiers": [
+                "Digital trees",
+                "Code-based nature",
+                "Virtual ecosystems",
+                "Synthetic forests"
+            ],
+            "visual_mood": "Digital forests, code-based nature, virtual ecosystem growth",
+            "lyrical_themes": [
+                "digital",
+                "forest",
+                "growth",
+                "code",
+                "virtual"
+            ],
+            "dynamics_profile": "Digital growth patterns, synthetic organic rhythms, virtual ecosystem development"
+        },
+        "memory_wiping_procedure": {
+            "references": [
+                "Eternal Sunshine of the Spotless Mind",
+                "Total Recall",
+                "Dark City",
+                "Blade Runner 2049 (memory themes)",
+                "The Bourne Identity"
+            ],
+            "directorial_tone": "Memory alteration procedures, identity erasure, recollection-fragmentation horror",
+            "sonic_palette": [
+                "clinical",
+                "fragmenting",
+                "memory",
+                "erasing"
+            ],
+            "audio_synesthesia": [
+                "Memory-wipe machine sounds",
+                "Recollection fragmentation effects",
+                "Identity-erasure processing"
+            ],
+            "semiotic_signifiers": [
+                "Memory wipe machines",
+                "Fragmented recollections",
+                "Identity documents being destroyed",
+                "Memory clinics"
+            ],
+            "visual_mood": "Memory alteration clinics, identity erasure, recollection fragmentation",
+            "lyrical_themes": [
+                "memory",
+                "identity",
+                "erasure",
+                "recollection",
+                "wipe"
+            ],
+            "dynamics_profile": "Clinical memory-wipe rhythms, recollection fragmentation, identity-loss progression"
+        },
+        "arcane_library_mystery": {
+            "references": [
+                "The Name of the Rose",
+                "The Library of Babel",
+                "The Librarian films",
+                "Harry Potter (restricted section)",
+                "The Midnight Library"
+            ],
+            "directorial_tone": "Ancient library exploration, forbidden knowledge archives, book-based mystery",
+            "sonic_palette": [
+                "scholarly",
+                "ancient",
+                "dusty",
+                "mysterious"
+            ],
+            "audio_synesthesia": [
+                "Page-turning sounds",
+                "Ancient library ambience",
+                "Forbidden book whispers"
+            ],
+            "semiotic_signifiers": [
+                "Ancient libraries",
+                "Forbidden book sections",
+                "Scholarly research",
+                "Mysterious manuscripts"
+            ],
+            "visual_mood": "Ancient library mysteries, forbidden knowledge, scholarly exploration",
+            "lyrical_themes": [
+                "knowledge",
+                "books",
+                "library",
+                "forbidden",
+                "scholar"
+            ],
+            "dynamics_profile": "Scholarly research rhythms, ancient library atmosphere, forbidden knowledge reveals"
+        },
+        "floating_city_skylands": {
+            "references": [
+                "Bioshock Infinite",
+                "Final Fantasy (floating continents)",
+                "Avatar (Hallelujah Mountains)",
+                "The Legend of Zelda: Skyward Sword",
+                "Laputa: Castle in the Sky"
+            ],
+            "directorial_tone": "Floating city aesthetics, sky-island civilizations, altitude-based societies",
+            "sonic_palette": [
+                "airy",
+                "floating",
+                "height",
+                "cloud"
+            ],
+            "audio_synesthesia": [
+                "Floating city mechanics",
+                "Cloud atmosphere sounds",
+                "Altitude wind textures"
+            ],
+            "semiotic_signifiers": [
+                "Floating islands",
+                "Sky cities",
+                "Cloud-based civilizations",
+                "Altitude-based architecture"
+            ],
+            "visual_mood": "Floating cities in sky, sky-island civilizations, cloud-based societies",
+            "lyrical_themes": [
+                "sky",
+                "float",
+                "city",
+                "cloud",
+                "height"
+            ],
+            "dynamics_profile": "Floating rhythmic patterns, altitude-based soundscapes, cloud atmosphere"
+        },
+        "glass_architecture_future": {
+            "references": [
+                "The Giver (community)",
+                "Equilibrium (city design)",
+                "The Jetsons (glass future)",
+                "Fahrenheit 451 (future city)",
+                "Demolition Man (San Angeles)"
+            ],
+            "directorial_tone": "Transparent architecture futurism, glass-city aesthetics, see-through society themes",
+            "sonic_palette": [
+                "crystalline",
+                "transparent",
+                "futuristic",
+                "clean"
+            ],
+            "audio_synesthesia": [
+                "Glass construction sounds",
+                "Transparent material textures",
+                "Futuristic city ambience"
+            ],
+            "semiotic_signifiers": [
+                "Glass skyscrapers",
+                "Transparent walkways",
+                "See-through technology",
+                "Crystal-clear architecture"
+            ],
+            "visual_mood": "Glass architecture future, transparent cities, crystalline futurism",
+            "lyrical_themes": [
+                "glass",
+                "transparent",
+                "future",
+                "architecture",
+                "crystal"
+            ],
+            "dynamics_profile": "Crystalline clean rhythms, transparent sound textures, glass-future aesthetics"
+        },
+        "neon_jungle_cyber": {
+            "references": [
+                "Blade Runner 2049 (Las Vegas)",
+                "Cyberpunk 2077 (Pacific)",
+                "Alita: Battle Angel",
+                "Ghost in the Shell (city scenes)",
+                "The Fifth Element (city depth)"
+            ],
+            "directorial_tone": "Urban jungle cybernetics, neon-vegetation fusion, city-as-ecosystem",
+            "sonic_palette": [
+                "urban",
+                "jungle",
+                "neon",
+                "organic"
+            ],
+            "audio_synesthesia": [
+                "Neon jungle ambience",
+                "Urban vegetation sounds",
+                "City-as-ecosystem textures"
+            ],
+            "semiotic_signifiers": [
+                "Neon-lit jungles in cities",
+                "Urban overgrowth",
+                "Cyber-enhanced plants",
+                "City ecosystem fusion"
+            ],
+            "visual_mood": "Neon jungle cybernetics, urban vegetation, city-as-ecosystem",
+            "lyrical_themes": [
+                "jungle",
+                "urban",
+                "neon",
+                "ecosystem",
+                "cyber"
+            ],
+            "dynamics_profile": "Urban jungle rhythms, neon-organic fusion, city ecosystem soundscapes"
+        },
+        "holographic_ghost_town": {
+            "references": [
+                "Westworld (holographic elements)",
+                "Blade Runner 2049 (holographic advertisements)",
+                "The Congress",
+                "Ready Player One (VR worlds)",
+                "Ghost in the Shell (holographic city)"
+            ],
+            "directorial_tone": "Holographic remnant societies, ghost towns with digital echoes, abandoned VR spaces",
+            "sonic_palette": [
+                "holographic",
+                "ghostly",
+                "digital",
+                "abandoned"
+            ],
+            "audio_synesthesia": [
+                "Holographic flicker sounds",
+                "Digital echo chambers",
+                "Abandoned VR space ambience"
+            ],
+            "semiotic_signifiers": [
+                "Flickering holograms",
+                "Digital ghost towns",
+                "Abandoned VR landscapes",
+                "Holographic remnants"
+            ],
+            "visual_mood": "Holographic ghost towns, digital echoes of society, abandoned VR spaces",
+            "lyrical_themes": [
+                "hologram",
+                "ghost",
+                "digital",
+                "abandoned",
+                "echo"
+            ],
+            "dynamics_profile": "Holographic flicker rhythms, digital ghost atmospheres, abandoned space echoes"
+        },
+        "paper_reality_origami": {
+            "references": [
+                "Paprika (paper themes)",
+                "Coraline (paper doll world)",
+                "The Nightmare Before Christmas (paper aesthetics)",
+                "Kubo and the Two Strings",
+                "Everything Everywhere All at Once (paper cuts)"
+            ],
+            "directorial_tone": "Paper-based reality, origami world-building, fold-and-cut dimension aesthetics",
+            "sonic_palette": [
+                "paper",
+                "folded",
+                "delicate",
+                "crinkling"
+            ],
+            "audio_synesthesia": [
+                "Paper folding sounds",
+                "Origami creation foley",
+                "Paper-cut transitions"
+            ],
+            "semiotic_signifiers": [
+                "Origami creatures",
+                "Paper landscapes",
+                "Fold-based reality",
+                "Paper-cut dimensions"
+            ],
+            "visual_mood": "Paper reality, origami world-building, fold-and-cut dimensions",
+            "lyrical_themes": [
+                "paper",
+                "fold",
+                "origami",
+                "cut",
+                "delicate"
+            ],
+            "dynamics_profile": "Paper-fold rhythms, delicate origami patterns, paper-cut transitions"
+        },
+        "liquid_metal_transformation": {
+            "references": [
+                "Terminator 2: Judgment Day",
+                "The Abyss (pseudopod)",
+                "The Matrix Revolutions (Sentinel swarms)",
+                "X-Men 2 (Mystique transformations)",
+                "The Tomorrow War (White Spikes)"
+            ],
+            "directorial_tone": "Liquid metal shape-shifting, mercury-like transformation, fluid-state horror",
+            "sonic_palette": [
+                "liquid",
+                "metallic",
+                "shifting",
+                "mercury"
+            ],
+            "audio_synesthesia": [
+                "Liquid metal movement",
+                "Mercury-like transformation sounds",
+                "Fluid-state shifting textures"
+            ],
+            "semiotic_signifiers": [
+                "Liquid metal entities",
+                "Mercury-like transformations",
+                "Fluid-state shape-shifting",
+                "Metallic liquid forms"
+            ],
+            "visual_mood": "Liquid metal transformations, mercury-like shape-shifting, fluid-state horror",
+            "lyrical_themes": [
+                "liquid",
+                "metal",
+                "transformation",
+                "mercury",
+                "shape"
+            ],
+            "dynamics_profile": "Liquid metal rhythms, mercury-flow patterns, fluid transformation sequences"
+        },
+        "coral_reef_megastructure": {
+            "references": [
+                "Subnautica (alien coral)",
+                "The Abyss (alien structures)",
+                "Avatar (Pandora flora)",
+                "Annihilation (growth structures)",
+                "Star Wars (coral planets)"
+            ],
+            "directorial_tone": "Coral-based megastructures, organic alien architecture, reef-city civilizations",
+            "sonic_palette": [
+                "coral",
+                "organic",
+                "reef",
+                "alien"
+            ],
+            "audio_synesthesia": [
+                "Coral growth sounds",
+                "Reef-city ambience",
+                "Organic alien architecture foley"
+            ],
+            "semiotic_signifiers": [
+                "Coral megastructures",
+                "Reef-based cities",
+                "Organic alien architecture",
+                "Coral growth patterns"
+            ],
+            "visual_mood": "Coral reef megastructures, organic alien cities, reef-based civilizations",
+            "lyrical_themes": [
+                "coral",
+                "reef",
+                "organic",
+                "alien",
+                "architecture"
+            ],
+            "dynamics_profile": "Coral growth rhythms, reef-city soundscapes, organic alien architecture patterns"
+        },
+        "shadow_play_puppetry": {
+            "references": [
+                "The Adventures of Prince Achmed",
+                "Shadow (2018 film)",
+                "Kubo and the Two Strings",
+                "The Nightmare Before Christmas (shadow scenes)",
+                "Chinese shadow puppet traditions"
+            ],
+            "directorial_tone": "Shadow puppet aesthetics, silhouette storytelling, light-and-dark play",
+            "sonic_palette": [
+                "shadow",
+                "silhouette",
+                "puppet",
+                "contrast"
+            ],
+            "audio_synesthesia": [
+                "Shadow puppet movement",
+                "Silhouette storytelling sounds",
+                "Light-and-dark contrast effects"
+            ],
+            "semiotic_signifiers": [
+                "Shadow puppets",
+                "Silhouette storytelling",
+                "Light-and-dark play",
+                "Shadow theater"
+            ],
+            "visual_mood": "Shadow puppet aesthetics, silhouette narratives, light-and-dark storytelling",
+            "lyrical_themes": [
+                "shadow",
+                "puppet",
+                "silhouette",
+                "light",
+                "dark"
+            ],
+            "dynamics_profile": "Shadow puppet rhythms, silhouette narrative flow, light-dark contrast patterns"
+        },
+        "digital_rain_codefall": {
+            "references": [
+                "The Matrix (digital rain)",
+                "Ghost in the Shell (data streams)",
+                "TRON: Legacy (digital environments)",
+                "Cyberpunk 2077 (data rainfall)",
+                "Serial Experiments Lain"
+            ],
+            "directorial_tone": "Digital rainfall aesthetics, code-fall environments, data-stream precipitation",
+            "sonic_palette": [
+                "digital",
+                "rain",
+                "code",
+                "streaming"
+            ],
+            "audio_synesthesia": [
+                "Digital rain sounds",
+                "Code-fall textures",
+                "Data-stream precipitation"
+            ],
+            "semiotic_signifiers": [
+                "Digital rainfall",
+                "Falling code streams",
+                "Data precipitation",
+                "Code-based weather"
+            ],
+            "visual_mood": "Digital rain environments, code-fall aesthetics, data-stream precipitation",
+            "lyrical_themes": [
+                "digital",
+                "rain",
+                "code",
+                "data",
+                "stream"
+            ],
+            "dynamics_profile": "Digital rainfall rhythms, code-fall patterns, data-stream precipitation textures"
+        },
+        "magnetic_field_distortion": {
+            "references": [
+                "The Core",
+                "The Tomorrow War (time storm)",
+                "Interstellar (wormhole)",
+                "The Abyss (energy fields)",
+                "Arrival (alien technology)"
+            ],
+            "directorial_tone": "Magnetic field manipulation, force-distortion aesthetics, electromagnetic horror",
+            "sonic_palette": [
+                "magnetic",
+                "distorted",
+                "field",
+                "electromagnetic"
+            ],
+            "audio_synesthesia": [
+                "Magnetic field distortion",
+                "Force manipulation sounds",
+                "Electromagnetic interference"
+            ],
+            "semiotic_signifiers": [
+                "Magnetic field visualizations",
+                "Force distortion patterns",
+                "Electromagnetic horror",
+                "Field manipulation"
+            ],
+            "visual_mood": "Magnetic field distortion, force manipulation aesthetics, electromagnetic horror",
+            "lyrical_themes": [
+                "magnetic",
+                "field",
+                "distortion",
+                "force",
+                "electromagnetic"
+            ],
+            "dynamics_profile": "Magnetic field rhythms, distortion patterns, electromagnetic interference textures"
+        },
+        "hive_mind_collective": {
+            "references": [
+                "Star Trek: The Borg",
+                "The Host (Stephenie Meyer)",
+                "Annihilation (the shimmer)",
+                "The X-Files (hive episodes)",
+                "Doctor Who (Cybermen)"
+            ],
+            "directorial_tone": "Collective consciousness horror, hive-mind assimilation, individual-identity loss",
+            "sonic_palette": [
+                "collective",
+                "hive",
+                "assimilation",
+                "chorus"
+            ],
+            "audio_synesthesia": [
+                "Hive mind communication",
+                "Collective consciousness sounds",
+                "Assimilation process foley"
+            ],
+            "semiotic_signifiers": [
+                "Hive mind networks",
+                "Collective consciousness",
+                "Assimilation technology",
+                "Individual identity loss"
+            ],
+            "visual_mood": "Hive mind collectives, assimilation horror, collective consciousness",
+            "lyrical_themes": [
+                "hive",
+                "collective",
+                "consciousness",
+                "assimilation",
+                "mind"
+            ],
+            "dynamics_profile": "Hive mind rhythms, collective chorus textures, assimilation progression"
+        },
+        "zero_point_energy": {
+            "references": [
+                "The Flash (Speed Force)",
+                "Doctor Who (time vortex)",
+                "The OA (movements)",
+                "Interstellar (tesseract)",
+                "The One (energy manipulation)"
+            ],
+            "directorial_tone": "Zero-point energy aesthetics, quantum vacuum fluctuations, foundational reality energy",
+            "sonic_palette": [
+                "energy",
+                "zero-point",
+                "quantum",
+                "foundational"
+            ],
+            "audio_synesthesia": [
+                "Zero-point energy sounds",
+                "Quantum vacuum fluctuations",
+                "Foundational reality energy textures"
+            ],
+            "semiotic_signifiers": [
+                "Zero-point energy visualizations",
+                "Quantum vacuum fluctuations",
+                "Foundational reality energy",
+                "Energy manipulation"
+            ],
+            "visual_mood": "Zero-point energy aesthetics, quantum vacuum fluctuations, foundational reality energy",
+            "lyrical_themes": [
+                "energy",
+                "zero-point",
+                "quantum",
+                "vacuum",
+                "foundation"
+            ],
+            "dynamics_profile": "Zero-point energy rhythms, quantum fluctuation patterns, foundational energy textures"
+        },
+        "mirror_maze_labyrinth": {
+            "references": [
+                "The Shining (hedge maze)",
+                "Mirror Maze attractions",
+                "Coraline (other mother's world)",
+                "Labyrinth (mirror scenes)",
+                "The Cell (maze sequences)"
+            ],
+            "directorial_tone": "Mirror maze confusion, reflection labyrinth horror, infinite-reflection trap",
+            "sonic_palette": [
+                "mirror",
+                "maze",
+                "reflection",
+                "confusing"
+            ],
+            "audio_synesthesia": [
+                "Mirror maze ambience",
+                "Infinite reflection sounds",
+                "Labyrinth confusion effects"
+            ],
+            "semiotic_signifiers": [
+                "Mirror mazes",
+                "Infinite reflections",
+                "Labyrinth confusion",
+                "Reflection traps"
+            ],
+            "visual_mood": "Mirror maze labyrinths, infinite reflections, confusing reflection traps",
+            "lyrical_themes": [
+                "mirror",
+                "maze",
+                "reflection",
+                "labyrinth",
+                "confusion"
+            ],
+            "dynamics_profile": "Mirror maze rhythms, reflection confusion patterns, labyrinth navigation sounds"
+        },
+        "plastic_future_utopia": {
+            "references": [
+                "The Jetsons (plastic aesthetics)",
+                "Barbie (2023 film)",
+                "The Lego Movie",
+                "Wall-E (Buy n Large)",
+                "Idiocracy (future consumerism)"
+            ],
+            "directorial_tone": "Plastic-based futurism, synthetic utopia aesthetics, consumerist paradise dystopia",
+            "sonic_palette": [
+                "plastic",
+                "synthetic",
+                "utopian",
+                "consumerist"
+            ],
+            "audio_synesthesia": [
+                "Plastic material sounds",
+                "Synthetic utopia ambience",
+                "Consumerist paradise textures"
+            ],
+            "semiotic_signifiers": [
+                "Plastic architecture",
+                "Synthetic materials everywhere",
+                "Consumerist utopia",
+                "Plastic future aesthetics"
+            ],
+            "visual_mood": "Plastic future utopias, synthetic material paradise, consumerist dystopia",
+            "lyrical_themes": [
+                "plastic",
+                "synthetic",
+                "utopia",
+                "consumerist",
+                "future"
+            ],
+            "dynamics_profile": "Plastic synthetic rhythms, utopian consumerist soundscapes, future material textures"
+        },
+        "ash_world_apocalypse": {
+            "references": [
+                "The Road (ash landscapes)",
+                "Mad Max: Fury Road (ash storms)",
+                "Fallout (ash wastes)",
+                "The Book of Eli (ash-covered world)",
+                "Snowpiercer (ash outside)"
+            ],
+            "directorial_tone": "Ash-covered world aesthetics, post-volcanic apocalypse, grey-scale survival",
+            "sonic_palette": [
+                "ash",
+                "desolate",
+                "grey",
+                "apocalyptic"
+            ],
+            "audio_synesthesia": [
+                "Ash fall sounds",
+                "Grey-scale world ambience",
+                "Post-volcanic apocalypse textures"
+            ],
+            "semiotic_signifiers": [
+                "Ash-covered landscapes",
+                "Volcanic apocalypse remnants",
+                "Grey-scale survival",
+                "Ash world aesthetics"
+            ],
+            "visual_mood": "Ash-covered apocalypse, grey-scale survival, post-volcanic world",
+            "lyrical_themes": [
+                "ash",
+                "apocalypse",
+                "volcanic",
+                "grey",
+                "survival"
+            ],
+            "dynamics_profile": "Ash fall rhythms, grey-scale soundscapes, apocalyptic survival patterns"
+        },
+        "digital_tattoo_interface": {
+            "references": [
+                "Cyberpunk 2077 (cyberware)",
+                "Altered Carbon (cortical stack)",
+                "Ghost in the Shell (cyberization)",
+                "The Matrix (jack-in ports)",
+                "Upgrade (STEM implant)"
+            ],
+            "directorial_tone": "Digital tattoo interfaces, skin-based technology, body-as-interface aesthetics",
+            "sonic_palette": [
+                "digital",
+                "skin",
+                "interface",
+                "tattoo"
+            ],
+            "audio_synesthesia": [
+                "Digital tattoo activation",
+                "Skin-interface sounds",
+                "Body-as-technology foley"
+            ],
+            "semiotic_signifiers": [
+                "Digital tattoos",
+                "Skin interfaces",
+                "Body-as-technology",
+                "Interface aesthetics"
+            ],
+            "visual_mood": "Digital tattoo interfaces, skin-based technology, body-as-interface aesthetics",
+            "lyrical_themes": [
+                "digital",
+                "tattoo",
+                "interface",
+                "skin",
+                "body"
+            ],
+            "dynamics_profile": "Digital tattoo rhythms, skin-interface patterns, body-technology integration"
+        },
+        "crystal_cave_network": {
+            "references": [
+                "Journey to the Center of the Earth",
+                "The Crystal Maze",
+                "Final Fantasy (crystal caves)",
+                "The Dark Crystal (crystal chamber)",
+                "Subnautica (crystal caves)"
+            ],
+            "directorial_tone": "Crystal cave exploration, gemstone network aesthetics, underground crystal civilizations",
+            "sonic_palette": [
+                "crystal",
+                "cave",
+                "gemstone",
+                "underground"
+            ],
+            "audio_synesthesia": [
+                "Crystal cave echoes",
+                "Gemstone network sounds",
+                "Underground crystal ambience"
+            ],
+            "semiotic_signifiers": [
+                "Crystal caves",
+                "Gemstone networks",
+                "Underground crystal civilizations",
+                "Crystal formations"
+            ],
+            "visual_mood": "Crystal cave networks, gemstone underground worlds, crystal civilization aesthetics",
+            "lyrical_themes": [
+                "crystal",
+                "cave",
+                "gemstone",
+                "underground",
+                "network"
+            ],
+            "dynamics_profile": "Crystal cave rhythms, gemstone network patterns, underground exploration sounds"
+        },
+        "frequency_manipulation_cult": {
+            "references": [
+                "The OA (sound movements)",
+                "Doctor Who (the silence)",
+                "A Clockwork Orange (Ludovico technique)",
+                "The Wave (2019 film)",
+                "They Live (signal)"
+            ],
+            "directorial_tone": "Frequency-based mind control, sound manipulation cults, auditory reality alteration",
+            "sonic_palette": [
+                "frequency",
+                "manipulation",
+                "cult",
+                "auditory"
+            ],
+            "audio_synesthesia": [
+                "Frequency manipulation sounds",
+                "Mind control audio",
+                "Auditory reality alteration effects"
+            ],
+            "semiotic_signifiers": [
+                "Frequency cult symbols",
+                "Sound manipulation devices",
+                "Auditory mind control",
+                "Frequency-based reality"
+            ],
+            "visual_mood": "Frequency manipulation cults, sound-based mind control, auditory reality alteration",
+            "lyrical_themes": [
+                "frequency",
+                "sound",
+                "manipulation",
+                "cult",
+                "mind"
+            ],
+            "dynamics_profile": "Frequency manipulation rhythms, cult sound patterns, auditory control progression"
+        },
+        "neon_sign_language": {
+            "references": [
+                "Blade Runner (neon aesthetics)",
+                "Cyberpunk 2077 (neon city)",
+                "The Fifth Element (city signs)",
+                "Tokyo nightlife aesthetics",
+                "Enter the Void (Tokyo neon)"
+            ],
+            "directorial_tone": "Neon sign communication, light-based language, city-sign semiotics",
+            "sonic_palette": [
+                "neon",
+                "sign",
+                "light",
+                "urban"
+            ],
+            "audio_synesthesia": [
+                "Neon sign flicker",
+                "Light-based language sounds",
+                "City-sign communication"
+            ],
+            "semiotic_signifiers": [
+                "Neon signs",
+                "Light-based language",
+                "City-sign semiotics",
+                "Urban light communication"
+            ],
+            "visual_mood": "Neon sign language, light-based communication, urban sign semiotics",
+            "lyrical_themes": [
+                "neon",
+                "sign",
+                "light",
+                "language",
+                "urban"
+            ],
+            "dynamics_profile": "Neon sign rhythms, light-language patterns, urban communication soundscapes"
+        },
+        "holographic_fashion_show": {
+            "references": [
+                "The Fifth Element (fashion show)",
+                "Cyberpunk 2077 (style)",
+                "The Jetsons (future fashion)",
+                "Blade Runner 2049 (holographic companions)",
+                "The Congress (digital celebrities)"
+            ],
+            "directorial_tone": "Holographic fashion aesthetics, digital couture, future-style extravagance",
+            "sonic_palette": [
+                "holographic",
+                "fashion",
+                "digital",
+                "extravagant"
+            ],
+            "audio_synesthesia": [
+                "Holographic fashion show sounds",
+                "Digital couture creation",
+                "Future-style extravagance textures"
+            ],
+            "semiotic_signifiers": [
+                "Holographic fashion shows",
+                "Digital couture",
+                "Future-style aesthetics",
+                "Fashion technology"
+            ],
+            "visual_mood": "Holographic fashion shows, digital couture, future-style extravagance",
+            "lyrical_themes": [
+                "holographic",
+                "fashion",
+                "digital",
+                "couture",
+                "style"
+            ],
+            "dynamics_profile": "Holographic fashion rhythms, digital couture patterns, style extravagance sequences"
+        },
+        "data_stream_surfing": {
+            "references": [
+                "TRON",
+                "The Matrix (training programs)",
+                "Cyberpunk 2077 (netrunning)",
+                "Ghost in the Shell (cyberbrain diving)",
+                "Serial Experiments Lain"
+            ],
+            "directorial_tone": "Data stream navigation, information surfing, digital current riding",
+            "sonic_palette": [
+                "data",
+                "stream",
+                "surfing",
+                "digital"
+            ],
+            "audio_synesthesia": [
+                "Data stream surfing sounds",
+                "Information current textures",
+                "Digital wave riding"
+            ],
+            "semiotic_signifiers": [
+                "Data streams",
+                "Information surfing",
+                "Digital currents",
+                "Stream navigation"
+            ],
+            "visual_mood": "Data stream surfing, information current navigation, digital wave riding",
+            "lyrical_themes": [
+                "data",
+                "stream",
+                "surfing",
+                "information",
+                "digital"
+            ],
+            "dynamics_profile": "Data stream rhythms, surfing patterns, digital current navigation"
+        },
+        "mirror_universe_evil": {
+            "references": [
+                "Star Trek (Mirror Universe)",
+                "Doctor Who (evil versions)",
+                "Loki (variants)",
+                "The OA (dimensions)",
+                "Fringe (alternate universe)"
+            ],
+            "directorial_tone": "Mirror universe evil counterparts, dark reflection societies, opposite-moral dimensions",
+            "sonic_palette": [
+                "mirror",
+                "evil",
+                "dark",
+                "opposite"
+            ],
+            "audio_synesthesia": [
+                "Mirror universe distortion",
+                "Evil counterpart sounds",
+                "Dark reflection audio"
+            ],
+            "semiotic_signifiers": [
+                "Mirror universes",
+                "Evil counterparts",
+                "Dark reflections",
+                "Opposite moral dimensions"
+            ],
+            "visual_mood": "Mirror universe evil, dark reflection societies, opposite-moral dimensions",
+            "lyrical_themes": [
+                "mirror",
+                "evil",
+                "universe",
+                "dark",
+                "reflection"
+            ],
+            "dynamics_profile": "Mirror universe rhythms, evil counterpart patterns, dark reflection soundscapes"
+        },
+        "liquid_crystal_display": {
+            "references": [
+                "Tron: Legacy (digital world)",
+                "The Matrix (code rain)",
+                "Ghost in the Shell (digital displays)",
+                "Cyberpunk 2077 (holograms)",
+                "Blade Runner 2049 (holographic interfaces)"
+            ],
+            "directorial_tone": "Liquid crystal display aesthetics, flowing digital screens, fluid interface technology",
+            "sonic_palette": [
+                "liquid",
+                "crystal",
+                "display",
+                "fluid"
+            ],
+            "audio_synesthesia": [
+                "Liquid crystal sounds",
+                "Flowing digital screen textures",
+                "Fluid interface technology foley"
+            ],
+            "semiotic_signifiers": [
+                "Liquid crystal displays",
+                "Flowing digital screens",
+                "Fluid interfaces",
+                "Crystal-based technology"
+            ],
+            "visual_mood": "Liquid crystal display aesthetics, flowing digital screens, fluid interface technology",
+            "lyrical_themes": [
+                "liquid",
+                "crystal",
+                "display",
+                "fluid",
+                "interface"
+            ],
+            "dynamics_profile": "Liquid crystal rhythms, flowing display patterns, fluid interface sounds"
+        },
+        "zero_waste_utopia": {
+            "references": [
+                "Wall-E (Axiom)",
+                "The Giver (community)",
+                "Equilibrium (society)",
+                "Logan's Run (utopia)",
+                "The Jetsons (future efficiency)"
+            ],
+            "directorial_tone": "Zero waste society aesthetics, perfect resource management, efficiency utopia dystopia",
+            "sonic_palette": [
+                "efficient",
+                "clean",
+                "waste-free",
+                "utopian"
+            ],
+            "audio_synesthesia": [
+                "Zero waste society sounds",
+                "Perfect resource management audio",
+                "Efficiency utopia textures"
+            ],
+            "semiotic_signifiers": [
+                "Zero waste systems",
+                "Perfect resource management",
+                "Efficiency utopia",
+                "Waste-free society"
+            ],
+            "visual_mood": "Zero waste utopias, perfect resource management, efficiency society dystopia",
+            "lyrical_themes": [
+                "zero",
+                "waste",
+                "efficiency",
+                "utopia",
+                "resource"
+            ],
+            "dynamics_profile": "Efficient rhythms, waste-free soundscapes, utopian resource management patterns"
+        },
+        "digital_graffiti_rebellion": {
+            "references": [
+                "The Fifth Element (graffiti future)",
+                "Cyberpunk 2077 (street art)",
+                "Blade Runner (urban decay art)",
+                "The Matrix (resistance symbols)",
+                "Children of Men (street art)"
+            ],
+            "directorial_tone": "Digital graffiti aesthetics, augmented reality street art, digital rebellion through art",
+            "sonic_palette": [
+                "digital",
+                "graffiti",
+                "rebellion",
+                "street"
+            ],
+            "audio_synesthesia": [
+                "Digital graffiti creation",
+                "Augmented reality art sounds",
+                "Street rebellion audio textures"
+            ],
+            "semiotic_signifiers": [
+                "Digital graffiti",
+                "Augmented reality street art",
+                "Digital rebellion symbols",
+                "Street art technology"
+            ],
+            "visual_mood": "Digital graffiti rebellion, augmented reality street art, digital art as resistance",
+            "lyrical_themes": [
+                "digital",
+                "graffiti",
+                "rebellion",
+                "art",
+                "street"
+            ],
+            "dynamics_profile": "Digital graffiti rhythms, street art rebellion patterns, augmented reality art sounds"
+        },
+        "molecular_gastronomy_future": {
+            "references": [
+                "The Fifth Element (food pills)",
+                "The Jetsons (future food)",
+                "Cloudy with a Chance of Meatballs",
+                "Star Trek (replicators)",
+                "Snowpiercer (protein bars)"
+            ],
+            "directorial_tone": "Molecular gastronomy futurism, food science aesthetics, culinary technology dystopia/utopia",
+            "sonic_palette": [
+                "molecular",
+                "gastronomy",
+                "food",
+                "scientific"
+            ],
+            "audio_synesthesia": [
+                "Molecular gastronomy sounds",
+                "Food science foley",
+                "Culinary technology textures"
+            ],
+            "semiotic_signifiers": [
+                "Molecular gastronomy",
+                "Food science technology",
+                "Future culinary aesthetics",
+                "Scientific food preparation"
+            ],
+            "visual_mood": "Molecular gastronomy future, food science aesthetics, culinary technology society",
+            "lyrical_themes": [
+                "molecular",
+                "gastronomy",
+                "food",
+                "science",
+                "culinary"
+            ],
+            "dynamics_profile": "Molecular gastronomy rhythms, food science patterns, culinary technology soundscapes"
+        },
+        "light_pollution_city": {
+            "references": [
+                "Blade Runner (night city)",
+                "Cyberpunk 2077 (Night City)",
+                "The Fifth Element (city lights)",
+                "Tokyo nightscapes",
+                "Enter the Void (Tokyo lights)"
+            ],
+            "directorial_tone": "Light pollution aesthetics, never-dark cities, artificial-light society",
+            "sonic_palette": [
+                "light",
+                "pollution",
+                "city",
+                "artificial"
+            ],
+            "audio_synesthesia": [
+                "Light pollution ambience",
+                "Never-dark city sounds",
+                "Artificial light society textures"
+            ],
+            "semiotic_signifiers": [
+                "Light pollution",
+                "Never-dark cities",
+                "Artificial light societies",
+                "City light aesthetics"
+            ],
+            "visual_mood": "Light pollution cities, never-dark urban landscapes, artificial-light societies",
+            "lyrical_themes": [
+                "light",
+                "pollution",
+                "city",
+                "artificial",
+                "night"
+            ],
+            "dynamics_profile": "Light pollution rhythms, never-dark city soundscapes, artificial light patterns"
+        },
+        "digital_archaeology_site": {
+            "references": [
+                "Ready Player One (OASIS archaeology)",
+                "The Matrix (old code)",
+                "Cyberpunk 2077 (databanks)",
+                "Tron: Legacy (digital world ruins)",
+                "Blade Runner 2049 (memory archaeology)"
+            ],
+            "directorial_tone": "Digital archaeology, data ruin exploration, information-age relics",
+            "sonic_palette": [
+                "digital",
+                "archaeology",
+                "ruin",
+                "data"
+            ],
+            "audio_synesthesia": [
+                "Digital archaeology sounds",
+                "Data ruin exploration",
+                "Information-age relic textures"
+            ],
+            "semiotic_signifiers": [
+                "Digital archaeology sites",
+                "Data ruins",
+                "Information-age relics",
+                "Digital artifact excavation"
+            ],
+            "visual_mood": "Digital archaeology, data ruin exploration, information-age relic sites",
+            "lyrical_themes": [
+                "digital",
+                "archaeology",
+                "data",
+                "ruin",
+                "information"
+            ],
+            "dynamics_profile": "Digital archaeology rhythms, data ruin patterns, information-age excavation sounds"
+        },
+        "prism_light_fracturing": {
+            "references": [
+                "Doctor Strange (mirror dimension fracturing)",
+                "Interstellar (tesseract light)",
+                "The OA (prism movements)",
+                "Annihilation (prism effects)",
+                "The Cell (light fracturing)"
+            ],
+            "directorial_tone": "Prism light fracturing aesthetics, spectrum-splitting visuals, light-dispersion beauty",
+            "sonic_palette": [
+                "prism",
+                "light",
+                "fracturing",
+                "spectrum"
+            ],
+            "audio_synesthesia": [
+                "Prism light fracturing sounds",
+                "Spectrum-splitting audio",
+                "Light-dispersion textures"
+            ],
+            "semiotic_signifiers": [
+                "Prism light effects",
+                "Spectrum fracturing",
+                "Light dispersion patterns",
+                "Prism aesthetics"
+            ],
+            "visual_mood": "Prism light fracturing, spectrum-splitting visuals, light-dispersion beauty",
+            "lyrical_themes": [
+                "prism",
+                "light",
+                "fracturing",
+                "spectrum",
+                "dispersion"
+            ],
+            "dynamics_profile": "Prism light rhythms, spectrum fracturing patterns, light-dispersion soundscapes"
+        },
+        "quantum_entanglement_romance": {
+            "references": [
+                "The Butterfly Effect (connection)",
+                "The Lake House",
+                "Your Name",
+                "The Time Traveler's Wife",
+                "Interstellar (love across dimensions)"
+            ],
+            "directorial_tone": "Quantum entanglement love stories, connection across distances/spacetime, physics-based romance",
+            "sonic_palette": [
+                "quantum",
+                "entanglement",
+                "romantic",
+                "connected"
+            ],
+            "audio_synesthesia": [
+                "Quantum entanglement sounds",
+                "Connection across distance audio",
+                "Physics-based romance textures"
+            ],
+            "semiotic_signifiers": [
+                "Quantum entanglement",
+                "Connection across spacetime",
+                "Physics-based love",
+                "Entangled particles"
+            ],
+            "visual_mood": "Quantum entanglement romance, connection across distances, physics-based love stories",
+            "lyrical_themes": [
+                "quantum",
+                "entanglement",
+                "love",
+                "connection",
+                "distance"
+            ],
+            "dynamics_profile": "Quantum entanglement rhythms, connection patterns, romance-across-distance soundscapes"
+        },
+        "digital_pet_companion": {
+            "references": [
+                "Black Mirror (robot pets)",
+                "A.I. Artificial Intelligence (robot child)",
+                "Blade Runner 2049 (Joi)",
+                "Her (OS relationship)",
+                "The Jetsons (robot maid)"
+            ],
+            "directorial_tone": "Digital pet companionship, AI companion relationships, synthetic friendship aesthetics",
+            "sonic_palette": [
+                "digital",
+                "pet",
+                "companion",
+                "synthetic"
+            ],
+            "audio_synesthesia": [
+                "Digital pet sounds",
+                "AI companion communication",
+                "Synthetic friendship textures"
+            ],
+            "semiotic_signifiers": [
+                "Digital pets",
+                "AI companions",
+                "Synthetic friendships",
+                "Companion technology"
+            ],
+            "visual_mood": "Digital pet companionship, AI companion relationships, synthetic friendship aesthetics",
+            "lyrical_themes": [
+                "digital",
+                "pet",
+                "companion",
+                "AI",
+                "friendship"
+            ],
+            "dynamics_profile": "Digital pet rhythms, companion communication patterns, synthetic friendship soundscapes"
+        },
+        "mirror_water_reflection": {
+            "references": [
+                "The Shape of Water",
+                "Pan's Labyrinth (water scenes)",
+                "The Abyss (water aesthetics)",
+                "Avatar (water tribes)",
+                "Life of Pi (water reflections)"
+            ],
+            "directorial_tone": "Mirror-like water surfaces, perfect reflections on water, liquid mirror aesthetics",
+            "sonic_palette": [
+                "water",
+                "mirror",
+                "reflection",
+                "liquid"
+            ],
+            "audio_synesthesia": [
+                "Mirror water sounds",
+                "Perfect reflection audio",
+                "Liquid mirror textures"
+            ],
+            "semiotic_signifiers": [
+                "Mirror-like water",
+                "Perfect water reflections",
+                "Liquid mirrors",
+                "Water surface aesthetics"
+            ],
+            "visual_mood": "Mirror water reflections, perfect liquid surfaces, water as mirror aesthetics",
+            "lyrical_themes": [
+                "water",
+                "mirror",
+                "reflection",
+                "liquid",
+                "surface"
+            ],
+            "dynamics_profile": "Mirror water rhythms, reflection patterns, liquid surface soundscapes"
+        },
+        "data_harvesting_farm": {
+            "references": [
+                "The Matrix (human battery farm)",
+                "Black Mirror (data harvesting)",
+                "Cyberpunk 2077 (corporate data mining)",
+                "The Circle",
+                "Snowden (data surveillance)"
+            ],
+            "directorial_tone": "Data harvesting aesthetics, information farming, digital crop cultivation",
+            "sonic_palette": [
+                "data",
+                "harvesting",
+                "farm",
+                "digital"
+            ],
+            "audio_synesthesia": [
+                "Data harvesting sounds",
+                "Information farming audio",
+                "Digital crop cultivation textures"
+            ],
+            "semiotic_signifiers": [
+                "Data farms",
+                "Information harvesting",
+                "Digital crops",
+                "Data cultivation"
+            ],
+            "visual_mood": "Data harvesting farms, information agriculture, digital crop cultivation",
+            "lyrical_themes": [
+                "data",
+                "harvesting",
+                "farm",
+                "information",
+                "digital"
+            ],
+            "dynamics_profile": "Data harvesting rhythms, farming patterns, digital cultivation soundscapes"
+        },
+        "crystal_radio_transmission": {
+            "references": [
+                "World War Z (radio broadcasts)",
+                "The War of the Worlds (radio drama)",
+                "Contact (radio signals)",
+                "The Twilight Zone (radio aesthetics)",
+                "Fallout (radio stations)"
+            ],
+            "directorial_tone": "Crystal radio aesthetics, analog signal transmission, vintage communication technology",
+            "sonic_palette": [
+                "crystal",
+                "radio",
+                "transmission",
+                "analog"
+            ],
+            "audio_synesthesia": [
+                "Crystal radio sounds",
+                "Analog signal transmission",
+                "Vintage communication technology foley"
+            ],
+            "semiotic_signifiers": [
+                "Crystal radios",
+                "Analog signals",
+                "Vintage communication",
+                "Radio transmission aesthetics"
+            ],
+            "visual_mood": "Crystal radio transmission, analog signal aesthetics, vintage communication technology",
+            "lyrical_themes": [
+                "crystal",
+                "radio",
+                "transmission",
+                "analog",
+                "signal"
+            ],
+            "dynamics_profile": "Crystal radio rhythms, transmission patterns, analog communication soundscapes"
+        },
+        "digital_weather_control": {
+            "references": [
+                "The Day After Tomorrow (climate control)",
+                "Geostorm",
+                "The Matrix (weather programs)",
+                "Star Trek (weather modification)",
+                "Cloudy with a Chance of Meatballs"
+            ],
+            "directorial_tone": "Digital weather manipulation, climate control aesthetics, atmospheric engineering",
+            "sonic_palette": [
+                "digital",
+                "weather",
+                "control",
+                "atmospheric"
+            ],
+            "audio_synesthesia": [
+                "Digital weather control sounds",
+                "Climate manipulation audio",
+                "Atmospheric engineering textures"
+            ],
+            "semiotic_signifiers": [
+                "Weather control technology",
+                "Climate manipulation",
+                "Atmospheric engineering",
+                "Digital weather systems"
+            ],
+            "visual_mood": "Digital weather control, climate manipulation aesthetics, atmospheric engineering",
+            "lyrical_themes": [
+                "digital",
+                "weather",
+                "control",
+                "climate",
+                "atmospheric"
+            ],
+            "dynamics_profile": "Digital weather rhythms, control patterns, atmospheric engineering soundscapes"
+        },
+        "mirror_smoke_illusion": {
+            "references": [
+                "The Prestige (magic illusions)",
+                "Now You See Me (magic shows)",
+                "The Illusionist",
+                "Doctor Strange (mystic arts)",
+                "The Cell (smoke and mirrors)"
+            ],
+            "directorial_tone": "Smoke and mirror illusions, magical deception aesthetics, illusionist performance",
+            "sonic_palette": [
+                "mirror",
+                "smoke",
+                "illusion",
+                "magical"
+            ],
+            "audio_synesthesia": [
+                "Mirror smoke sounds",
+                "Illusion performance audio",
+                "Magical deception textures"
+            ],
+            "semiotic_signifiers": [
+                "Smoke and mirrors",
+                "Magical illusions",
+                "Illusionist performances",
+                "Deception aesthetics"
+            ],
+            "visual_mood": "Smoke and mirror illusions, magical deception aesthetics, illusionist performances",
+            "lyrical_themes": [
+                "mirror",
+                "smoke",
+                "illusion",
+                "magic",
+                "deception"
+            ],
+            "dynamics_profile": "Illusion rhythms, smoke and mirror patterns, magical performance soundscapes"
+        }
+    }
+}
