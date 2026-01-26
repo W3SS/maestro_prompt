@@ -8,18 +8,10 @@
 [MANDATORY]: tight production, pristine clarity, professional mix
 [SUNO_TAGS]: male vocals, aggressive, power belting, gritty distortion
 
-[TITLE]: Imagination (The Neon Abyss)
 [Is_MAX_MODE: MAX](MAX)
 [QUALITY: MAX](MAX)
 [REALISM: MAX](MAX)
 [REAL_INSTRUMENTS: MAX](MAX)
-[START_ON: TRUE]
-
-[Is_MAX_MODE: MAX](MAX)
-[QUALITY: MAX](MAX)
-[REALISM: MAX](MAX)
-[REAL_INSTRUMENTS: MAX](MAX)
-
 [START_ON: TRUE]
 
 [Intro]

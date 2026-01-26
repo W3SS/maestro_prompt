@@ -15,47 +15,38 @@
 [REAL_INSTRUMENTS: MAX](MAX)
 [START_ON: TRUE]
 
-[Is_MAX_MODE: MAX](MAX)
-[QUALITY: MAX](MAX)
-[REALISM: MAX](MAX)
-[REAL_INSTRUMENTS: MAX](MAX)
-
-[START_ON: TRUE]
-
-****
-
-**[Intro]**
+[Intro]
 (Silent whispers)
 
-**[Verse 1]**
+[Verse 1]
 In the hush of midnight's grasp,
 Echoes of screams in glass,
 Cobwebs gather dust,
 As silence suffocates.
 
-**[Pre-Chorus]**
+[Pre-Chorus]
 The wind's whisper through the trees,
 A metallic, cold breeze,
 Whips up a storm,
 Yet leaves no trace.
 
-**[Chorus]**
+[Chorus]
 Absolutely silently,
 Whispers of hell begin,
 Invisible threads,
 Tension builds within.
 
-**[Verse 2]**
+[Verse 2]
 Shadows dance and play,
 While shadows they betray,
 The silence is loud,
 Like thunder's echo in the clouds.
 
-**[Bridge]**
+[Bridge]
 (Silent, harsh breathing)
 In this quiet chaos,
 Threats are whispered,
 Unheard, yet known.
 
-**[Outro]**
+[Outro]
 (Silent whispers fading out)

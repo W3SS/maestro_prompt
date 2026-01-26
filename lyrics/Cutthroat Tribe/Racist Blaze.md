@@ -15,13 +15,6 @@
 [REAL_INSTRUMENTS: MAX](MAX)
 [START_ON: TRUE]
 
-[Is_MAX_MODE: MAX](MAX)
-[QUALITY: MAX](MAX)
-[REALISM: MAX](MAX)
-[REAL_INSTRUMENTS: MAX](MAX)
-
-[START_ON: TRUE]
-
 [Intro]
 A thunderous roar, echoes of the past,
 In shadows cast by hate's relentless grasp.

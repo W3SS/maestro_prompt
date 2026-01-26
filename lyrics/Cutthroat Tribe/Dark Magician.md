@@ -15,16 +15,9 @@
 [REAL_INSTRUMENTS: MAX](MAX)
 [START_ON: TRUE]
 
-[Is_MAX_MODE: MAX](MAX)
-[QUALITY: MAX](MAX)
-[REALISM: MAX](MAX)
-[REAL_INSTRUMENTS: MAX](MAX)
-
-[START_ON: TRUE]
-
 [Intro]
 (Instrumental)
-	(Gritty, overdriven guitars build up, drums pound in Locrian mode, bass rumbles beneath like a dark tide.)
+ (Gritty, overdriven guitars build up, drums pound in Locrian mode, bass rumbles beneath like a dark tide.)
 
 [Verse 1]
 In the shadowed halls of arcane lore,

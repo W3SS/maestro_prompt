@@ -440,13 +440,19 @@ class MaestroAlbumArchitect:
         }
 
         try:
-            response = requests.post(OLLAMA_URL, json=payload, timeout=60)
+            print(f"      🚀 Sending request to Ollama ({MODEL_NAME})...")
+            start_req = time.time()
+            response = requests.post(OLLAMA_URL, json=payload, timeout=1300)
             response.raise_for_status()
+            print(f"      ✅ LLM Response received in {time.time() - start_req:.2f}s")
+            
             data = json.loads(clean_json_response(response.json()['response']))
+            print(f"      🌟 Album Narrative: {data.get('narrative_concept', 'N/A')[:100]}...")
             
             # Converte para DataFrame compatível com V2
             rows = []
             final_album_title = data.get('album_title', album_title or archetype_id)
+            print(f"      📝 Tracking {len(data.get('tracks', []))} tracks based on architecture.")
             for track in data.get('tracks', []):
                 rows.append({
                     'album': final_album_title,
@@ -461,10 +467,32 @@ class MaestroAlbumArchitect:
                 })
             
             new_df = pd.DataFrame(rows)
-            output_csv = f"album_{archetype_id}_draft.csv"
-            new_df.to_csv(output_csv, index=False)
-            print(f"✅ Album designed! Draft saved to: {output_csv}")
-            return output_csv
+            
+            # Centraliza no CSV padrão com deduplicação
+            central_csv = "fila_suno_v2.csv"
+            
+            if os.path.exists(central_csv):
+                existing_df = pd.read_csv(central_csv)
+                # Deduplicação: verifica se (album, titulo) já existe
+                existing_keys = set(zip(existing_df['album'], existing_df['titulo']))
+                new_rows_filtered = [
+                    row for row in rows 
+                    if (row['album'], row['titulo']) not in existing_keys
+                ]
+                
+                if new_rows_filtered:
+                    filtered_df = pd.DataFrame(new_rows_filtered)
+                    combined_df = pd.concat([existing_df, filtered_df], ignore_index=True)
+                    combined_df.to_csv(central_csv, index=False)
+                    print(f"✅ Album designed! {len(new_rows_filtered)} new tracks added to {central_csv}")
+                    print(f"   ⚠️  {len(rows) - len(new_rows_filtered)} duplicate tracks skipped")
+                else:
+                    print(f"⚠️  All {len(rows)} tracks already exist in {central_csv}. No changes made.")
+            else:
+                new_df.to_csv(central_csv, index=False)
+                print(f"✅ Album designed! {len(rows)} tracks saved to new {central_csv}")
+            
+            return central_csv
 
         except Exception as e:
             print(f"❌ Error designing album: {e}")
@@ -516,9 +544,19 @@ def get_ollama_prompt(tema, estetica_usuario, maestro_context):
 
 # --- 5. FUNÇÃO DE GERAÇÃO (REQUEST HTTP) ---
 def clean_json_response(text):
-    """Limpa markdown que LLMs locais adoram colocar"""
+    """Limpa markdown e tenta corrigir malformações comuns de JSON de LLMs"""
+    # Remove blocos de código markdown
     text = re.sub(r'```json\s*', '', text)
     text = re.sub(r'```\s*$', '', text)
+    
+    # Remove vírgulas extras no final de arrays/objetos
+    text = re.sub(r',\s*([\]}])', r'\1', text)
+    
+    # Tenta extrair apenas o que está entre chaves se houver lixo fora
+    match = re.search(r'(\{.*\})', text, re.DOTALL)
+    if match:
+        text = match.group(1)
+        
     return text.strip()
 
 def gerar_lote_ollama(csv_path):
@@ -527,8 +565,10 @@ def gerar_lote_ollama(csv_path):
     print("📚 Loading comprehensive music database...")
     
     # Inicializa o carregador de dados
+    print("📂 Loading Maestro Knowledge Clusters...")
     data_loader = MaestroDataLoader()
-    print("✅ Database loaded successfully!\n")
+    print("✅ Database loaded successfully! (Archetypes, Instruments, Scales, Harmonics)")
+    print("-" * 50)
     
     if not os.path.exists(csv_path):
         print(f"❌ Erro: Arquivo {csv_path} não encontrado.")
@@ -567,6 +607,12 @@ def gerar_lote_ollama(csv_path):
     
     print(f"\n📊 Status: {len(df_pendentes)} músicas pendentes de {len(df)} totais")
     
+    # Validação básica de integridade
+    required_cols = ['album', 'tema', 'estetica', 'genero']
+    missing = [c for c in required_cols if c not in df.columns]
+    if missing:
+        print(f"⚠️  Validation Warning: Missing columns {missing}. Some features may be degraded.")
+
     # Agrupa por álbum para manter consistência temática
     albums = df_pendentes['album'].unique()
     print(f"📀 Álbuns na fila: {', '.join(albums)}\n")
@@ -619,16 +665,26 @@ def gerar_lote_ollama(csv_path):
             }
 
             try:
-                start_time = time.time()
-                response = requests.post(OLLAMA_URL, json=payload, timeout=180)
+                print(f"      🚀 Sending request to Ollama ({MODEL_NAME})...")
+                start_req = time.time()
+                response = requests.post(OLLAMA_URL, json=payload, timeout=1300)
                 response.raise_for_status()
                 
+                duration = time.time() - start_req
+                print(f"      ✨ [TIME] Request completed in {duration:.2f}s")
+                
                 # Parsing
+                print("      ⚙️  Parsing LLM response...")
                 result_json = response.json()
                 raw_text = clean_json_response(result_json['response'])
                 data = json.loads(raw_text)
                 
+                # Validation of required fields
+                if not data.get('style_prompt') or not data.get('lyrics'):
+                    print("      ⚠️  Warning: LLM returned incomplete data (missing prompt or lyrics)")
+                
                 # Pós-processamento (Injeção de Headers MAX MODE)
+                print("      💉 Injecting MAX_MODE headers...")
                 style_clean = data.get('style_prompt', '').replace(MAX_MODE_HEADER, "").strip()
                 final_style = f"{MAX_MODE_HEADER}\n{style_clean}"
                 if len(final_style) > MAX_STYLE_CHARS:
@@ -672,7 +728,6 @@ def gerar_lote_ollama(csv_path):
                 # Atualiza o CSV após cada música processada
                 df.to_csv(csv_path, index=False)
                 
-                duration = time.time() - start_time
                 print(f"      ✅ Sucesso em {duration:.2f}s! Marcada como processada.")
 
             except requests.exceptions.Timeout:
