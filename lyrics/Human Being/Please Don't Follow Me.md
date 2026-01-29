@@ -15,15 +15,6 @@
 [REAL_INSTRUMENTS: MAX](MAX)
 [START_ON: TRUE]
 
-[Is_MAX_MODE: MAX](MAX)
-[QUALITY: MAX](MAX)
-[REALISM: MAX](MAX)
-[REAL_INSTRUMENTS: MAX](MAX)
-
-[START_ON: TRUE]
-
-START_ON:
-
 [Intro]
 (Instrumental) Heavy distorted guitar riff, pounding drums
 
