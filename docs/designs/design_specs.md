@@ -5,16 +5,19 @@
 ### Color Palette (Dark Mode)
 
 **Primary Colors:**
+
 - Primary: `#6366f1` (Indigo) - Creative energy
 - Secondary: `#8b5cf6` (Purple) - Musical innovation
 - Accent: `#ec4899` (Pink) - AI-powered magic
 
 **Status Colors:**
+
 - Success: `#10b981` (Green)
 - Warning: `#f59e0b` (Amber)
 - Error: `#ef4444` (Red)
 
 **Background:**
+
 - Background: `#0f172a` (Slate 900)
 - Surface: `#1e293b` (Slate 800)
 - Text: `#f1f5f9` (Slate 100)
@@ -38,6 +41,7 @@
 **Background:** Dark slate `#1e293b`
 
 **Header:**
+
 - Text: "🎭 Album Designer"
 - Font: Inter, white color
 - Size: 24px, bold
@@ -66,6 +70,7 @@
    - Thumb: White circle with shadow
 
 **Generate Button:**
+
 - Text: "✨ Generate Album"
 - Style: Large gradient button (indigo to purple)
 - Position: Bottom of panel
@@ -78,6 +83,7 @@
 **Background:** Darker slate `#0f172a`
 
 **Album Card:**
+
 - Background: Glass morphism effect
   - Backdrop blur: 12px
   - Border: 1px solid rgba(255,255,255,0.1)
@@ -85,12 +91,14 @@
   - Shadow: 0 8px 32px rgba(0,0,0,0.3)
 
 **Album Title:**
+
 - Text: "Neon Odyssey"
 - Font: Inter, bold, white
 - Size: 32px
 - Margin bottom: 24px
 
 **Track Cards (3 visible):**
+
 - **Layout:** Stacked vertically, 16px gap
 - **Background:** Dark with subtle border glow
   - Color: rgba(30, 41, 59, 0.8)
@@ -122,6 +130,7 @@
   - Border glow: Brighter indigo
 
 **Footer:**
+
 - Badge: "Powered by Gemini"
 - Position: Bottom right
 - Size: Small (10px font)
@@ -140,10 +149,12 @@
 **Background:** Dark slate `#1e293b`
 
 **Header:**
+
 - Text: "📦 Batches"
 - Font: Inter, white, 24px bold
 
 **New Batch Button:**
+
 - Text: "+ New Batch"
 - Style: Indigo gradient
 - Width: 100%
@@ -154,6 +165,7 @@
 **Batch Cards (List of 3):**
 
 Each card:
+
 - **Background:** rgba(15, 23, 42, 0.6)
 - **Border:** 1px solid rgba(255,255,255,0.1)
 - **Padding:** 12px
@@ -161,24 +173,27 @@ Each card:
 - **Margin bottom:** 8px
 
 Card content:
+
 1. **Title** (e.g., "Summer 2024")
    - Font: 16px, medium weight, white
-   
+
 2. **Status Badge:**
    - PENDING: `● PENDING` (yellow `#f59e0b`)
    - PROCESSING: `● PROCESSING` (blue `#3b82f6`, spinner animation)
    - COMPLETED: `✓ COMPLETED` (green `#10b981`)
    - Font: 12px, inline with title
-   
+
 3. **Track Count:**
    - Text: "12 tracks" (gray `#94a3b8`, 14px)
    - Position: Below title
 
 **Hover Effect:**
+
 - Subtle glow: 0 0 12px rgba(99, 102, 241, 0.3)
 - Cursor: pointer
 
 **Active Selection:**
+
 - Left border: 3px solid indigo `#6366f1`
 - Background: Slightly lighter
 
@@ -187,6 +202,7 @@ Card content:
 **Background:** Darker slate `#0f172a`
 
 **Batch Detail Header:**
+
 - **Title:** "Summer 2024"
   - Font: 28px, bold, white
   
@@ -202,23 +218,25 @@ Card content:
 **Track List (4-5 items):**
 
 Each track row:
+
 - **Height:** 48px
 - **Padding:** 12px
 - **Border bottom:** 1px solid rgba(255,255,255,0.05)
 
 Row content:
+
 1. **Drag Handle:**
    - Icon: Six dots (vertical)
    - Color: Gray
    - Position: Left (8px from edge)
-   
+
 2. **Music Icon:** 🎵
    - Position: 32px from left
-   
+
 3. **Track Title:**
    - Font: 14px, white
    - Position: 60px from left
-   
+
 4. **Duration:**
    - Font: 14px, gray
    - Position: Right aligned
@@ -237,7 +255,7 @@ Three buttons:
    - Background: rgba(139, 92, 246, 0.3)
    - Text: Gray
    - Cursor: not-allowed
-   
+
 3. **"✕ Cancel"** (Red outline)
    - Background: Transparent
    - Border: 1px solid `#ef4444`
@@ -278,6 +296,7 @@ Button spacing: 12px gap between each
 ## Component Library Reference
 
 **Shared Components:**
+
 - `<Card />` - Glass morphism container
 - `<Button />` - Primary, secondary, ghost variants
 - `<Badge />` - Status indicators
@@ -287,6 +306,7 @@ Button spacing: 12px gap between each
 - `<Modal />` - Overlay dialogs
 
 **Animations:**
+
 - Framer Motion for smooth transitions
 - Stagger animations on lists
 - Pulse/spinner for loading states
