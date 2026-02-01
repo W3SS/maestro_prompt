@@ -16,6 +16,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Any, Optional, List
 
+from src.ports.output.context_loader_port import IContextLoader
+
 
 # Custom Exception
 class ContextError(Exception):
@@ -32,7 +34,7 @@ class ContextConfig:
     cache_ttl: int = 3600  # seconds (1 hour)
 
 
-class ContextManager:
+class ContextManager(IContextLoader):
     """
     Smart context manager for Maestro AI.
     
