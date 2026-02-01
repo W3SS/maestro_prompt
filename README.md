@@ -2,10 +2,12 @@
 
 > **Transform music creation with AI-powered album design using local LLMs and Test-Driven Development**
 
+[![CI](https://github.com/W3SS/maestro_prompt/actions/workflows/ci.yml/badge.svg)](https://github.com/W3SS/maestro_prompt/actions/workflows/ci.yml)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://img.shields.io/badge/tests-30%20passed-brightgreen.svg)](tests/)
-[![Coverage](https://img.shields.io/badge/coverage-91%25-green.svg)](htmlcov/)
+[![Tests](https://img.shields.io/badge/tests-35%20passed-brightgreen.svg)](tests/)
+[![Coverage](https://img.shields.io/badge/coverage-98.6%25-brightgreen.svg)](htmlcov/)
 [![Architecture](https://img.shields.io/badge/architecture-hexagonal-purple.svg)](#architecture)
+[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
 ## 🎯 Vision
 
@@ -114,11 +116,11 @@ This project follows strict TDD (RED-GREEN-REFACTOR):
 
 | Metric | Value |
 |--------|-------|
-| Total Tests | 32 |
-| Passed | 30 |
+| Total Tests | 37 |
+| Passed | 35 |
 | Skipped | 2 |
-| Coverage | 91.67% |
-| Test/Code Ratio | 1.37:1 |
+| Coverage | 98.63% |
+| Test/Code Ratio | 1.5:1 |
 
 See [TDD_REPORT.md](docs/TDD_REPORT.md) for development journey.
 
