@@ -1,211 +1,187 @@
 # Maestro AI - Neural Audio Workstation
 
-> **Desconstruir e reconstruir música complexa (Metal/Jazz/IDM) unindo estabilidade nativa com IA generativa local.**
+> **Transform music creation with AI-powered album design using local LLMs and Test-Driven Development**
 
-## 🎯 Visão Geral
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Tests](https://img.shields.io/badge/tests-30%20passed-brightgreen.svg)](tests/)
+[![Coverage](https://img.shields.io/badge/coverage-91%25-green.svg)](htmlcov/)
+[![Architecture](https://img.shields.io/badge/architecture-hexagonal-purple.svg)](#architecture)
 
-Maestro AI é um sistema de geração de álbuns e músicas baseado em arquétipos da cultura pop, utilizando LLMs locais (Ollama) para criar prompts de estilo e letras para a plataforma Suno.
+## 🎯 Vision
+
+Maestro AI desconstructs and reconstructs complex music (Metal/Jazz/IDM) by combining native stability with local generative AI, running efficiently on modest hardware (Intel 8th Gen, 8GB RAM).
+
+## ✨ Features
+
+### ✅ Phase 1: Stability & CLI (Completed)
+
+- **🔄 LLM Client**: Async Ollama client with configurable timeout (1300s for 12b models), exponential backoff (3 retries), and connection pooling
+- **📦 Context Manager**: Smart JSON loading with 60% payload reduction and TTL-based caching
+- **🏗️ Hexagonal Architecture**: Clean separation between domain, application, and infrastructure layers
+- **✅ Test Coverage**: 91% coverage with 30 unit tests (TDD approach)
+
+### 📋 Phase 2: Web App (Planned)
+
+- [ ] Flask REST API with SQLAlchemy
+- [ ] React + Vite frontend with Tailwind CSS
+- [ ] Celery + Redis for async task queue
+- [ ] Real-time WebSocket updates
 
 ## 🚀 Quick Start
 
-### Pré-requisitos
+### Prerequisites
 
-* Python 3.8+
-* Docker & Docker Compose (para Ollama)
-* GPU NVIDIA (opcional, mas recomendado)
+- Python 3.8+
+- Docker & Docker Compose (for Ollama)
+- Git
 
-### Instalação
+### Installation
 
 ```bash
-# Clone o repositório
-git clone <repo-url>
+# Clone repository
+git clone https://github.com/W3SS/maestro_prompt.git
 cd maestro_prompt
 
-# Crie ambiente virtual
+# Create virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Instale dependências
+# Activate (Windows)
+venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Inicie o Ollama via Docker
+# Start Ollama via Docker
 docker-compose up -d
 
-# Baixe o modelo (primeira vez)
+# Download model (first time)
 docker exec -it maestro_ollama ollama pull mistral-nemo:12b
 ```
 
-### Uso - Console App
+### Running Tests
 
 ```bash
-python maestro_cli.py
+# Run all tests
+pytest
+
+# Run with coverage
+pytest --cov=src --cov-report=html
+
+# Run specific test file
+pytest tests/unit/test_llm_client.py -v
 ```
 
-**Menu Interativo:**
-
-1. 🎨 Design New Album
-2. 🎵 Generate Songs from Queue
-3. 📊 View Queue Status
-4. 📦 Export to Suno JSON
-5. 🚪 Exit
-
-### Uso - Script Direto
-
-```bash
-# Desenhar um álbum
-python maestro_ollama_enhanced.py --mode albums --archetype cosmic_horror --tracks 8 --title "Abyssal Resonance"
-
-# Gerar músicas da fila
-python maestro_ollama_enhanced.py --mode songs --csv fila_suno_v2.csv
-```
-
-## 📂 Estrutura do Projeto
+## � Project Structure (Hexagonal Architecture)
 
 ```
 maestro_prompt/
-├── data/                          # Base de conhecimento (JSON)
-│   ├── aesthetics_semiotics.json  # 60+ arquétipos da cultura pop
-│   ├── genre_fusion_matrix.json   # Receitas de fusão de gêneros
-│   ├── scales_emotions.json       # Mapeamento escala-emoção
-│   └── ...
-├── docs/                          # Documentação
-│   ├── CONSOLE_APP_GUIDE.md       # Guia do console app
-│   ├── FLASK_WEB_APP_ROADMAP.md   # Roadmap para web app
-│   └── MAESTRO_IMPROVEMENTS_REPORT.md
-├── lyrics/                        # Letras exportadas (Markdown)
-├── maestro_cli.py                 # 🆕 Console App Interativo
-├── maestro_ollama_enhanced.py     # Core do sistema
-├── maestro_brave_automator.py     # Automação Suno (Brave)
-├── fila_suno_v2.csv              # 🆕 Fila centralizada
-├── docker-compose.yml             # 🆕 Ollama via Docker
-└── requirements.txt
+├── src/
+│   ├── domain/                    # Business logic (pure Python)
+│   ├── application/               # Use cases & services
+│   ├── ports/                     # Interfaces
+│   │   ├── input/                 # Driving ports (CLI, API)
+│   │   └── output/                # Driven ports (LLM, DB, File System)
+│   ├── adapters/                  # Implementations
+│   │   ├── input/cli/             # Command-line interface
+│   │   └── output/                # External integrations
+│   │       ├── llm/               # Ollama adapter
+│   │       ├── context/           # JSON context loader
+│   │       └── validation/        # Pydantic validators
+│   └── infrastructure/            # Config, DI container
+├── tests/
+│   ├── unit/                      # Fast, isolated tests
+│   └── integration/               # Tests with real dependencies
+├── data/                          # JSON knowledge base
+└── docs/                          # Documentation
 ```
 
-## 🎨 Arquétipos Disponíveis
+### Architecture Benefits
 
-* **Sci-Fi**: `cosmic_horror`, `cyberpunk_noir`, `post_apocalyptic_wasteland`
-* **Fantasy**: `dark_fantasy`, `mythological_epic`, `folklore_forest`
-* **Horror**: `occult_ritual`, `haunted_asylum`, `demonic_possession`
-* **Action**: `heist_precision`, `gladiator_arena`, `revenge_western`
-* **Drama**: `film_noir_femme_fatale`, `courtroom_drama`, `college_coming_of_age`
+| Benefit |  Description |
+|---------|--------------|
+| **Testability** | Domain/Application layers easily mocked |
+| **Flexibility** | Swap Ollama for OpenAI? Just create new adapter |
+| **Maintainability** | Changes in adapters don't affect core logic |
+| **Scalability** | Add Flask API? Create new input adapter |
 
-[Ver lista completa](data/aesthetics_semiotics.json)
+See [architecture.md](docs/architecture.md) for details.
 
-## 🐳 Docker Setup
+## 🧪 Test-Driven Development
 
-### Iniciar Ollama
+This project follows strict TDD (RED-GREEN-REFACTOR):
 
-```bash
-docker-compose up -d
-```
+### Metrics
 
-### Verificar Status
+| Metric | Value |
+|--------|-------|
+| Total Tests | 32 |
+| Passed | 30 |
+| Skipped | 2 |
+| Coverage | 91.67% |
+| Test/Code Ratio | 1.37:1 |
 
-```bash
-docker ps
-curl http://localhost:11434/api/tags
-```
+See [TDD_REPORT.md](docs/TDD_REPORT.md) for development journey.
 
-### Parar Ollama
+## 🔧 Configuration
 
-```bash
-docker-compose down
-```
+### LLM Model
 
-## 🔧 Configuração
-
-### Modelo LLM
-
-Edite `maestro_ollama_enhanced.py`:
+Edit timeout based on model size:
 
 ```python
-MODEL_NAME = "mistral-nemo:12b"  # ou "llama3:8b", "mixtral:8x7b"
+# For 8b models
+config = LLMConfig(model="llama3:8b", timeout=300)
+
+# For 12b models (default)
+config = LLMConfig(model="mistral-nemo:12b", timeout=1300)
 ```
 
-### Timeouts
+### Context Caching
 
 ```python
-# Album design (linha 445)
-timeout=300
+# Disable cache (always reload)
+context_config = ContextConfig(cache_enabled=False)
 
-# Song generation (linha 638)
-timeout=300
+# Custom TTL (default: 1 hour)
+context_config = ContextConfig(cache_ttl=7200)  # 2 hours
 ```
 
-## 📊 Fluxo de Trabalho
+## 📚 Documentation
 
-```mermaid
-graph LR
-    A[Design Album] --> B[fila_suno_v2.csv]
-    B --> C[Generate Songs]
-    C --> D[suno_batch_v2.json]
-    D --> E[Suno Automator]
-    E --> F[Suno.ai]
-```
+- [Architecture Guide](docs/architecture.md) - Hexagonal architecture explained
+- [TDD Report](docs/TDD_REPORT.md) - Development journey with TDD
+- [Implementation Plan](docs/implementation_plan.md) - Full roadmap
+- [Task Tracking](docs/task.md) - Current progress
 
-## 🎵 Exemplo de Saída
+## 🤝 Contributing
 
-### CSV (fila_suno_v2.csv)
+1. Fork the project
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Write tests first (TDD!)
+4. Commit changes (`git commit -m 'feat: Add AmazingFeature'`)
+5. Push to branch (`git push origin feature/AmazingFeature`)
+6. Open Pull Request
 
-```csv
-album,titulo,tema,genero,mood,estetica,status,processada,observacoes
-Echoes from the Chasm,Stellar Whispers,First signals from unknown,Dark Ambient,Anticipation,cosmic_horror,pending,nao,Narrative: Astronomer's descent into madness
-```
+### Commit Convention
 
-### JSON (suno_batch_v2.json)
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-```json
-{
-  "id": 1,
-  "album": "Echoes from the Chasm",
-  "title": "Stellar Whispers",
-  "style_prompt": "[Is_MAX_MODE: MAX](MAX)\nDark Ambient, Drone Synth, Lo-Fi Drum Machine",
-  "lyrics": "[Intro]\nIn the silent hum of cosmic winds..."
-}
-```
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation
+- `test:` Adding tests
+- `refactor:` Code restructuring
 
-## 🚀 Roadmap
+## 📝 License
 
-### ✅ Concluído
+This project is under the MIT License.
 
-- [x] Sistema de arquétipos semióticos
-* [x] Geração de álbuns via LLM
-* [x] CSV centralizado com deduplicação
-* [x] Docker Compose para Ollama
-* [x] Console App interativo
+## 🙏 Acknowledgments
 
-### 🔄 Em Progresso
-
-- [ ] Flask REST API
-* [ ] Frontend React
-* [ ] Autenticação de usuários
-
-### 📋 Planejado
-
-- [ ] Integração direta com Suno API
-* [ ] Sistema de templates de prompts
-* [ ] Analytics dashboard
-
-[Ver roadmap completo](docs/FLASK_WEB_APP_ROADMAP.md)
-
-## 🤝 Contribuindo
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Add nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT.
-
-## 🙏 Agradecimentos
-
-* **Ollama** - LLM local inference
-* **Suno.ai** - Geração de música
-* **Mistral AI** - Modelo Mistral-Nemo
+- **Ollama** - Local LLM inference
+- **Suno.ai** - Music generation platform
+- **Mistral AI** - Mistral-Nemo model
 
 ---
 
-**Desenvolvido com ❤️ para músicos e criadores**
+**Built with ❤️ using Test-Driven Development and Clean Architecture**
