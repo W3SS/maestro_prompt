@@ -67,9 +67,13 @@ class Container:
                 )
             
             else:  # Default to Gemini
+                # Note: Gemini client uses different init pattern
+                # It doesn't need api_key in LLMConfig, uses env GOOGLE_API_KEY
                 config = LLMConfig(
-                    api_key=settings.gemini_api_key,
-                    model=settings.gemini_model
+                    base_url=settings.llm_base_url,
+                    model=settings.gemini_model,
+                    timeout=settings.llm_timeout,
+                    max_retries=settings.llm_max_retries
                 )
                 self._llm_client = GeminiClient(config)
         
