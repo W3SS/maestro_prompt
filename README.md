@@ -1,4 +1,15 @@
-# Maestro AI - Quick Start Guide
+# Maestro AI - Neural Audio Workstation
+
+> AI-powered album generation and batch management for Suno AI
+
+## 📊 Project Status
+
+- **Backend:** ✅ Phase 2 Complete (138/139 tests passing, 83% coverage)
+- **Frontend:** 🔄 Phase 3 Planned (React SPA with UI designs ready)
+- **Interfaces:** FastAPI (REST) + MCP (Claude Desktop)
+- **LLM Support:** Gemini, Ollama, LM Studio
+
+---
 
 ## 🚀 Installation
 
@@ -87,10 +98,30 @@ LLM_PROVIDER=lmstudio
 
 ## 📚 Documentation
 
-- **API Docs:** <http://localhost:8000/docs>
-- **MCP Setup:** `src/adapters/input/mcp/README.md`
-- **Architecture:** `architecture.md`
-- **Walkthrough:** `walkthrough.md`
+### API & Integration
+
+- **OpenAPI/Swagger:** <http://localhost:8000/docs> (when running API mode)
+- **ReDoc:** <http://localhost:8000/redoc>
+- **MCP Setup Guide:** [`src/adapters/input/mcp/README.md`](src/adapters/input/mcp/README.md)
+
+### Project Documentation
+
+- **📖 Complete Walkthrough:** [`docs/walkthrough.md`](docs/walkthrough.md) - Full project history and implementation details
+- **📋 Task Breakdown:** [`docs/task.md`](docs/task.md) - Current status and roadmap
+- **🎨 Frontend Plan:** [`docs/frontend_plan.md`](docs/frontend_plan.md) - React SPA implementation plan
+- **🏛️ Architecture:** [`docs/architecture.md`](docs/architecture.md) - Hexagonal architecture overview
+
+### UI/UX Designs
+
+- **🎭 Album Designer UI:** [`docs/designs/album_designer_ui.png`](docs/designs/album_designer_ui.png)
+- **📦 Batch Manager UI:** [`docs/designs/batch_manager_ui.png`](docs/designs/batch_manager_ui.png)
+- **📐 Design Specifications:** [`docs/designs/design_specs.md`](docs/designs/design_specs.md) - Complete design system
+
+### Additional Resources
+
+- **Integration Guides:** `docs/INTEGRATION_GUIDE.md`
+- **Genre Fusion Analysis:** `docs/GENRE_FUSION_ANALYSIS.md`
+- **Vocal Profiles:** `docs/VOCAL_PROFILES_ENHANCED_GUIDE.md`
 
 ## ✅ Testing
 
