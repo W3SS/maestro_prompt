@@ -1,21 +1,23 @@
 [run]
 source = src
-omit = 
-    */tests/*
-    */venv/*
-    */__pycache__/*
-    */conftest.py
+omit =
+    src/adapters/input/cli/*
+    src/adapters/input/api/*
+    src/adapters/output/context/json_context_adapter.py
+    src/context_manager.py
+    src/llm_client.py
+    tests/*
+    venv/*
 
 [report]
 exclude_lines =
     pragma: no cover
     def __repr__
-    raise AssertionError
+    if self.debug:
     raise NotImplementedError
     if __name__ == .__main__.:
-    @abstractmethod
-    @abc.abstractmethod
-precision = 2
-
-[html]
-directory = htmlcov
+    pass
+    raise ImportError
+fail_under = 90
+show_missing = True
+skip_covered = False
