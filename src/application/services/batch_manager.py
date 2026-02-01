@@ -6,6 +6,7 @@ import uuid
 
 from src.domain.models.batch import Batch, BatchItem, BatchStatus
 from src.application.dto.album_dto import BatchDTO, BatchItemDTO
+from src.ports.output.batch_repository import IBatchRepository
 
 
 class BatchManager:
@@ -19,10 +20,41 @@ class BatchManager:
     - Persistence (future: via repository port)
     """
     
-    def __init__(self):
-        """Initialize the service."""
-        self._batches: Dict[str, Batch] = {}
+    def __init__(self, repository: Optional[IBatchRepository] = None):
+        """
+        Initialize the service.
+        
+        Args:
+            repository: Batch persistence repository. 
+                        If None, uses in-memory (legacy/testing without mock).
+                        In production, this should always be provided.
+        """
+        self._repository = repository
+        self._memory_store: Dict[str, Batch] = {}
     
+    def _save(self, batch: Batch) -> None:
+        """Helper to save batch to repository or memory."""
+        if self._repository:
+            self._repository.save(batch)
+        else:
+            self._memory_store[batch.id] = batch
+            
+    def _get(self, batch_id: str) -> Batch:
+        """Helper to get batch from repository or memory."""
+        if self._repository:
+            batch = self._repository.get(batch_id)
+            if not batch:
+                raise KeyError(f"Batch {batch_id} not found")
+            return batch
+        else:
+            return self._memory_store[batch_id]
+            
+    def _list(self) -> List[Batch]:
+        """Helper to list batches."""
+        if self._repository:
+            return self._repository.list_all()
+        return list(self._memory_store.values())
+
     def create_batch(self, name: str) -> BatchDTO:
         """
         Create a new batch.
@@ -38,7 +70,7 @@ class BatchManager:
             id=str(uuid.uuid4())
         )
         
-        self._batches[batch.id] = batch
+        self._save(batch)
         
         return self._to_dto(batch)
     
@@ -56,7 +88,7 @@ class BatchManager:
         Raises:
             KeyError: If batch not found
         """
-        batch = self._batches[batch_id]
+        batch = self._get(batch_id)
         
         for item_data in items:
             item = BatchItem(
@@ -66,91 +98,45 @@ class BatchManager:
             )
             batch.add_item(item)
         
+        self._save(batch)
         return self._to_dto(batch)
     
     def start_batch(self, batch_id: str) -> BatchDTO:
-        """
-        Start processing a batch.
-        
-        Args:
-            batch_id: Batch ID
-        
-        Returns:
-            Updated BatchDTO
-        """
-        batch = self._batches[batch_id]
+        """Start processing a batch."""
+        batch = self._get(batch_id)
         batch.start_processing()
+        self._save(batch)
         return self._to_dto(batch)
     
     def complete_batch(self, batch_id: str) -> BatchDTO:
-        """
-        Mark batch as completed.
-        
-        Args:
-            batch_id: Batch ID
-        
-        Returns:
-            Updated BatchDTO
-        """
-        batch = self._batches[batch_id]
+        """Mark batch as completed."""
+        batch = self._get(batch_id)
         batch.complete()
+        self._save(batch)
         return self._to_dto(batch)
     
     def fail_batch(self, batch_id: str) -> BatchDTO:
-        """
-        Mark batch as failed.
-        
-        Args:
-            batch_id: Batch ID
-        
-        Returns:
-            Updated BatchDTO
-        """
-        batch = self._batches[batch_id]
+        """Mark batch as failed."""
+        batch = self._get(batch_id)
         batch.fail()
+        self._save(batch)
         return self._to_dto(batch)
     
     def cancel_batch(self, batch_id: str) -> BatchDTO:
-        """
-        Cancel a batch.
-        
-        Args:
-            batch_id: Batch ID
-        
-        Returns:
-            Updated BatchDTO
-        """
-        batch = self._batches[batch_id]
+        """Cancel a batch."""
+        batch = self._get(batch_id)
         batch.cancel()
+        self._save(batch)
         return self._to_dto(batch)
     
     def get_batch(self, batch_id: str) -> BatchDTO:
-        """
-        Get batch by ID.
-        
-        Args:
-            batch_id: Batch ID
-        
-        Returns:
-            BatchDTO
-        
-        Raises:
-            KeyError: If batch not found
-        """
-        batch = self._batches[batch_id]
+        """Get batch by ID."""
+        batch = self._get(batch_id)
         return self._to_dto(batch)
     
     def list_batches(self, status: Optional[str] = None) -> List[BatchDTO]:
-        """
-        List all batches, optionally filtered by status.
-        
-        Args:
-            status: Optional status filter
-        
-        Returns:
-            List of BatchDTOs
-        """
-        batches = list(self._batches.values())
+        """List all batches, optionally filtered by status."""
+        batches = self._list()
         
         if status:
             batches = [b for b in batches if b.status.value == status]
@@ -165,20 +151,8 @@ class BatchManager:
         suno_id: Optional[str] = None,
         audio_url: Optional[str] = None
     ) -> BatchDTO:
-        """
-        Update individual item status.
-        
-        Args:
-            batch_id: Batch ID
-            item_index: Item index in batch
-            status: New status
-            suno_id: Optional Suno ID
-            audio_url: Optional audio URL
-        
-        Returns:
-            Updated BatchDTO
-        """
-        batch = self._batches[batch_id]
+        """Update individual item status."""
+        batch = self._get(batch_id)
         
         if item_index >= len(batch.items):
             raise IndexError(f"Item index {item_index} out of range")
@@ -191,6 +165,7 @@ class BatchManager:
         if audio_url:
             item.audio_url = audio_url
         
+        self._save(batch)
         return self._to_dto(batch)
     
     def _to_dto(self, batch: Batch) -> BatchDTO:

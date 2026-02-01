@@ -1,0 +1,190 @@
+{
+    "8fa94944-99c8-4880-a199-8ad7df571d23": {
+        "name": "Test Batch",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:43:30.732477",
+        "completed_at": null,
+        "id": "8fa94944-99c8-4880-a199-8ad7df571d23",
+        "metadata": {}
+    },
+    "8ce2483a-446e-46ac-9954-8e879bedc9db": {
+        "name": "Test",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:43:30.741676",
+        "completed_at": null,
+        "id": "8ce2483a-446e-46ac-9954-8e879bedc9db",
+        "metadata": {}
+    },
+    "25e98c12-eab7-46e0-96da-d5a2697bfef3": {
+        "name": "Retrieve Test",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:43:30.789937",
+        "completed_at": null,
+        "id": "25e98c12-eab7-46e0-96da-d5a2697bfef3",
+        "metadata": {}
+    },
+    "ba661a16-afae-4849-b067-aea74130286e": {
+        "name": "Batch 1",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:43:30.817932",
+        "completed_at": null,
+        "id": "ba661a16-afae-4849-b067-aea74130286e",
+        "metadata": {}
+    },
+    "f35cd3e8-f0f9-41aa-ba50-1f5af482c46b": {
+        "name": "Batch 2",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:43:30.831394",
+        "completed_at": null,
+        "id": "f35cd3e8-f0f9-41aa-ba50-1f5af482c46b",
+        "metadata": {}
+    },
+    "336d9b0f-b9e2-40eb-aa15-e5bfabd1afde": {
+        "name": "Started Batch",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-01T16:43:30.863348",
+        "completed_at": null,
+        "id": "336d9b0f-b9e2-40eb-aa15-e5bfabd1afde",
+        "metadata": {}
+    },
+    "33a44cc8-24bc-4a14-86cf-b334b7e2fceb": {
+        "name": "Start Test",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-01T16:43:30.905681",
+        "completed_at": null,
+        "id": "33a44cc8-24bc-4a14-86cf-b334b7e2fceb",
+        "metadata": {}
+    },
+    "02260790-bbd0-4e58-ae4a-1b6dd0aaf7db": {
+        "name": "Complete Test",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-01T16:43:30.946035",
+        "completed_at": null,
+        "id": "02260790-bbd0-4e58-ae4a-1b6dd0aaf7db",
+        "metadata": {}
+    },
+    "65c976ad-d234-4de2-8e35-eef1a49d0ccc": {
+        "name": "Cancel Test",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:43:30.995272",
+        "completed_at": null,
+        "id": "65c976ad-d234-4de2-8e35-eef1a49d0ccc",
+        "metadata": {}
+    },
+    "0d0bb13e-4c2d-4a57-807f-0aaaa182d50e": {
+        "name": "Test Batch",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:44:36.122270",
+        "completed_at": null,
+        "id": "0d0bb13e-4c2d-4a57-807f-0aaaa182d50e",
+        "metadata": {}
+    },
+    "34fde784-c496-45d1-bdd8-7b7d423c3945": {
+        "name": "Test Batch",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:45:18.971902",
+        "completed_at": null,
+        "id": "34fde784-c496-45d1-bdd8-7b7d423c3945",
+        "metadata": {}
+    },
+    "483c0293-27ca-4f98-8a04-5b70521cd6e1": {
+        "name": "Test",
+        "items": [
+            {
+                "prompt": "Heavy metal track",
+                "style_tags": "metal",
+                "title": "Track 1",
+                "status": "pending",
+                "suno_id": null,
+                "audio_url": null
+            },
+            {
+                "prompt": "Jazz fusion",
+                "style_tags": "jazz",
+                "title": "Track 2",
+                "status": "pending",
+                "suno_id": null,
+                "audio_url": null
+            }
+        ],
+        "status": "pending",
+        "created_at": "2026-02-01T16:45:18.982564",
+        "completed_at": null,
+        "id": "483c0293-27ca-4f98-8a04-5b70521cd6e1",
+        "metadata": {}
+    },
+    "941dd06f-1335-46e3-ba0d-ec32a4e40dbb": {
+        "name": "Retrieve Test",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:45:19.027037",
+        "completed_at": null,
+        "id": "941dd06f-1335-46e3-ba0d-ec32a4e40dbb",
+        "metadata": {}
+    },
+    "32bdb7db-a785-4318-a56f-2af03acd02a6": {
+        "name": "Batch 1",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:45:19.066788",
+        "completed_at": null,
+        "id": "32bdb7db-a785-4318-a56f-2af03acd02a6",
+        "metadata": {}
+    },
+    "799fe944-7395-4526-896a-27884cfabf17": {
+        "name": "Batch 2",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-01T16:45:19.091801",
+        "completed_at": null,
+        "id": "799fe944-7395-4526-896a-27884cfabf17",
+        "metadata": {}
+    },
+    "57e48668-0367-4708-b348-653a87061857": {
+        "name": "Started Batch",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-01T16:45:19.133635",
+        "completed_at": null,
+        "id": "57e48668-0367-4708-b348-653a87061857",
+        "metadata": {}
+    },
+    "2543f6ef-8b29-4717-a185-3c409faf24ed": {
+        "name": "Start Test",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-01T16:45:19.179436",
+        "completed_at": null,
+        "id": "2543f6ef-8b29-4717-a185-3c409faf24ed",
+        "metadata": {}
+    },
+    "08656f6c-763d-4c36-abdd-794605b8f0d7": {
+        "name": "Complete Test",
+        "items": [],
+        "status": "completed",
+        "created_at": "2026-02-01T16:45:19.212837",
+        "completed_at": "2026-02-01T16:45:19.267711",
+        "id": "08656f6c-763d-4c36-abdd-794605b8f0d7",
+        "metadata": {}
+    },
+    "139b48e9-8b50-40a2-a397-fc000ec15b87": {
+        "name": "Cancel Test",
+        "items": [],
+        "status": "cancelled",
+        "created_at": "2026-02-01T16:45:19.275742",
+        "completed_at": "2026-02-01T16:45:19.305696",
+        "id": "139b48e9-8b50-40a2-a397-fc000ec15b87",
+        "metadata": {}
+    }
+}

@@ -10,45 +10,62 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# --- CONFIGURAÇÃO ---
-API_KEY = "AIzaSyB-diFX1yn0c6iH3v2TRM3x_QbquRVsswY"
+# --- CONFIGURATION ---
+API_KEY = "[ENCRYPTION_KEY]"
 genai.configure(api_key=API_KEY)
 
-# --- CONFIGURAÇÕES DO SUNO (CONSTANTES) ---
-MAX_LYRIC_CHARS = 4000  # Margem de segurança (Limite real 4000)
-MAX_STYLE_CHARS = 900   # Limite rígido do Suno
+# --- SUNO CONFIGURATIONS (CONSTANTS) ---
+MAX_LYRIC_CHARS = 4000 # Safety margin (Actual limit 4000)
+MAX_STYLE_CHARS = 900 # Suno hard limit
 MAX_MODE_HEADER = """[Is_MAX_MODE: MAX](MAX)
 [QUALITY: MAX](MAX)
 [REALISM: MAX](MAX)
 [REAL_INSTRUMENTS: MAX](MAX)"""
 
-# --- PERSONA MAESTRO & PROMPT ---
-def get_maestro_prompt(tema, estetica_usuario, persona="MAESTRO AI"):
-    return f"""
-    IDENTIDADE: Você é o {persona} (Creative-Socratic).
-    MISSÃO: Criar uma música para o Suno AI v5 com qualidade MAX MODE.
-    
-    ENTRADA DO USUÁRIO:
-    - Tema: "{tema}"
-    - Estética Desejada: "{estetica_usuario}"
-    
-    REGRAS RÍGIDAS (SUNO AI SPECS):
-    1. STYLE PROMPT: Máximo {MAX_STYLE_CHARS} caracteres. Deve incluir tags técnicas de mixagem (ex: 'tape saturation', 'close mic'). NÃO use frases, use TAGS separadas por vírgula.
-    2. LYRICS: Máximo {MAX_LYRIC_CHARS} caracteres. Estrutura obrigatória: [Intro], [Verse], [Chorus], etc.
-    3. IDIOMA: Letras em INGLÊS (English).
-    4. HEADER OBRIGATÓRIO: O campo de letras DEVE começar com a tag [START_ON: TRUE].
-    
-    ESTRATÉGIA DE REALISMO (MAX MODE):
-    Use descritores como: "Room tone", "Natural dynamics", "Analog warmth", "Slight wow & flutter".
-    
-    SAÍDA ESPERADA (APENAS JSON):
-    Retorne UM objeto JSON válido (sem markdown ```json) com as chaves:
-    {{
-        "title": "Título curto e impactante",
-        "style_prompt": "String com tags técnicas e instrumentos (Inclua o BPM e Key no inicio)",
-        "lyrics": "Letra completa formatada com quebras de linha \\n"
-    }}
-    """
+# --- MAESTRO PERSONA & PROMPT ---
+def get_maestro_prompt(theme, user_aesthetics, persona="MAESTRO AI"):
+
+return f"""
+
+IDENTITY: You are the {persona} (Creative-Socratic).
+
+MISSION: Create a song for Suno AI v5 with MAX MODE quality.
+
+USER INPUT:
+
+- Theme: "{theme}"
+
+- Desired Aesthetics: "{user_aesthetics}"
+
+STRICT RULES (SUNO AI SPECS):
+
+1. STYLE PROMPT: Maximum {MAX_STYLE_CHARS} characters. Must include technical mixing tags (e.g., 'tape saturation', 'close mic'). DO NOT use phrases, use TAGS separated by commas.
+
+2. LYRICS: Maximum {MAX_LYRIC_CHARS} characters. Mandatory structure: [Intro], [Verse], [Chorus], etc.
+
+3. LANGUAGE: Lyrics in ENGLISH.
+
+4. MANDATORY HEADER: The lyrics field MUST start with the tag [START_ON: TRUE].
+
+REALISM STRATEGY (MAX MODE):
+
+Use descriptors such as: "Room tone", "Natural dynamics", "Analog warmth", "Slight wow & flutter".
+
+EXPECTED OUTPUT (JSON ONLY):
+
+Return ONE valid JSON object (without markdown ```json) with the following keys:
+
+{{
+
+"title": "Short and impactful title",
+
+"style_prompt": "String with technical tags and instruments (Include BPM and Key at the beginning)",
+
+"lyrics": "Full lyrics formatted with line breaks \\n"
+
+}}
+
+""
 
 # --- FUNÇÃO 1: GERADOR (GEMINI) ---
 def gerar_lote_json(csv_path):

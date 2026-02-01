@@ -9,6 +9,8 @@ from src.adapters.output.context.json_context_adapter import ContextManager, Con
 from src.application.services.album_designer import AlbumDesigner
 from src.application.services.batch_manager import BatchManager
 from src.infrastructure.config.settings import get_settings
+from src.ports.output.batch_repository import IBatchRepository
+from src.adapters.output.persistence.json_file_repository import JsonFileRepository
 
 
 class Container:
@@ -71,6 +73,18 @@ class Container:
             )
         return self._album_designer
     
+    def batch_repository(self) -> IBatchRepository:
+        """
+        Get batch repository (singleton).
+        
+        Returns:
+            IBatchRepository instance
+        """
+        # We could add a caching mechanism or singleton here if needed,
+        # but JsonFileRepository is lightweight.
+        # Singleton is better for concurrency if we had in-memory cache inside adapter.
+        return JsonFileRepository()
+
     def batch_manager(self) -> BatchManager:
         """
         Get batch manager service (singleton).
@@ -79,7 +93,9 @@ class Container:
             BatchManager instance
         """
         if self._batch_manager is None:
-            self._batch_manager = BatchManager()
+            self._batch_manager = BatchManager(
+                repository=self.batch_repository()
+            )
         return self._batch_manager
     
     def reset(self) -> None:
