@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # --- CONFIGURAÇÃO ---
-API_KEY = "AIzaSyB-diFX1yn0c6iH3v2TRM3x_QbquRVsswY"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 # --- CONFIGURAÇÕES DO SUNO (CONSTANTES) ---
