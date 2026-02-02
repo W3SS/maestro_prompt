@@ -57,7 +57,7 @@ class Settings(BaseSettings):
         default="mistral-nemo:12b",
         description="[Legacy] LLM model name"
     )
-    llm_timeout: int = Field(default=130, ge=1, description="LLM timeout in seconds")
+    llm_timeout: int = Field(default=1300, ge=1, description="LLM timeout in seconds")
     llm_max_retries: int = Field(default=3, ge=0, description="Max retries for LLM")
     
     # === Application Settings ===
@@ -74,6 +74,16 @@ class Settings(BaseSettings):
     # === API Configuration ===
     api_host: str = Field(default="0.0.0.0", description="API host")
     api_port: int = Field(default=8000, ge=1, le=65535, description="API port")
+
+    # === Database Configuration ===
+    database_url: str = Field(
+        default="sqlite+aiosqlite:///./maestro.db",
+        description="Database URL (Async)"
+    )
+    persistence_type: str = Field(
+        default="sqlalchemy", # Default to SQL for Phase 4
+        description="Persistence type: 'json' or 'sqlalchemy'"
+    )
 
 # Singleton instance
 _settings: Optional[Settings] = None

@@ -61,8 +61,8 @@ The backend has successfully migrated to a **Hexagonal Architecture** with **Mul
 ### Phase 2.5: Stabilization (Current Focus)
 
 - [x] Fix Unit Tests for MCP & UTCP Adapters (done).
-- [ ] Refactor `main_server.py` integration tests for 100% coverage.
-- [ ] Deprecate/Remove legacy CLI code.
+- [x] Refactor `main_server.py` integration tests for 100% coverage.
+- [x] Deprecate/Remove legacy CLI code.
 
 ### Phase 4: Backend Hardening (Post-Frontend)
 

@@ -4,7 +4,7 @@ import pytest
 import os
 from unittest.mock import patch
 
-from src.infrastructure.config.settings import Settings, get_settings, reset_settings
+from src.infrastructure.config import Settings, get_settings, reset_settings
 
 
 class TestSettings:
