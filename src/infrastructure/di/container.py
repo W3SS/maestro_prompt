@@ -1,5 +1,6 @@
 """Dependency Injection Container."""
 
+from pathlib import Path
 from typing import Optional
 
 from src.ports.output.llm_client_port import ILLMClient
@@ -88,7 +89,7 @@ class Container:
         """
         if self._context_loader is None:
             settings = get_settings()
-            config = ContextConfig(data_dir=settings.context_dir)
+            config = ContextConfig(data_dir=Path(settings.context_dir))
             self._context_loader = ContextManager(config)
         return self._context_loader
     

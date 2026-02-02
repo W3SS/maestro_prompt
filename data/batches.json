@@ -578,5 +578,103 @@
         "completed_at": "2026-02-01T19:06:28.434394",
         "id": "08e40753-7131-4fdd-ae8d-963fdabd1ecd",
         "metadata": {}
+    },
+    "8c32373e-7099-4381-9d34-a70f60ea688d": {
+        "name": "Test Batch",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-02T09:03:41.977617",
+        "completed_at": null,
+        "id": "8c32373e-7099-4381-9d34-a70f60ea688d",
+        "metadata": {}
+    },
+    "5d009e92-98a6-4fea-a876-48379f7fb05e": {
+        "name": "Test",
+        "items": [
+            {
+                "prompt": "Heavy metal track",
+                "style_tags": "metal",
+                "title": "Track 1",
+                "status": "pending",
+                "suno_id": null,
+                "audio_url": null
+            },
+            {
+                "prompt": "Jazz fusion",
+                "style_tags": "jazz",
+                "title": "Track 2",
+                "status": "pending",
+                "suno_id": null,
+                "audio_url": null
+            }
+        ],
+        "status": "pending",
+        "created_at": "2026-02-02T09:03:41.995654",
+        "completed_at": null,
+        "id": "5d009e92-98a6-4fea-a876-48379f7fb05e",
+        "metadata": {}
+    },
+    "dc733012-f338-4330-9a80-29b91daa18fa": {
+        "name": "Retrieve Test",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-02T09:03:42.042360",
+        "completed_at": null,
+        "id": "dc733012-f338-4330-9a80-29b91daa18fa",
+        "metadata": {}
+    },
+    "845c4c6b-5f58-4bc7-a58a-ae45aba00317": {
+        "name": "Batch 1",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-02T09:03:42.081719",
+        "completed_at": null,
+        "id": "845c4c6b-5f58-4bc7-a58a-ae45aba00317",
+        "metadata": {}
+    },
+    "73270e60-4ef6-4a08-8448-f11c3bab9d3c": {
+        "name": "Batch 2",
+        "items": [],
+        "status": "pending",
+        "created_at": "2026-02-02T09:03:42.087780",
+        "completed_at": null,
+        "id": "73270e60-4ef6-4a08-8448-f11c3bab9d3c",
+        "metadata": {}
+    },
+    "60eaff04-7d04-4a20-9079-d7decaae31e0": {
+        "name": "Started Batch",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-02T09:03:42.129599",
+        "completed_at": null,
+        "id": "60eaff04-7d04-4a20-9079-d7decaae31e0",
+        "metadata": {}
+    },
+    "ce2fc718-8b7e-4510-a2c0-92588e69022f": {
+        "name": "Start Test",
+        "items": [],
+        "status": "processing",
+        "created_at": "2026-02-02T09:03:42.176861",
+        "completed_at": null,
+        "id": "ce2fc718-8b7e-4510-a2c0-92588e69022f",
+        "metadata": {}
+    },
+    "c789d284-b068-4ff1-94d7-fcf192bacf39": {
+        "name": "Complete Test",
+        "items": [],
+        "status": "completed",
+        "created_at": "2026-02-02T09:03:42.220563",
+        "completed_at": "2026-02-02T09:03:42.277547",
+        "id": "c789d284-b068-4ff1-94d7-fcf192bacf39",
+        "metadata": {}
+    },
+    "876f0ba9-3252-402f-ae1a-23f158f12e3f": {
+        "name": "Cancel Test",
+        "items": [],
+        "status": "cancelled",
+        "created_at": "2026-02-02T09:03:42.285840",
+        "completed_at": "2026-02-02T09:03:42.317517",
+        "id": "876f0ba9-3252-402f-ae1a-23f158f12e3f",
+        "metadata": {}
     }
 }

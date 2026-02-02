@@ -1,7 +1,8 @@
 """Unit tests for MaestroTools (TDD RED Phase)."""
 
 import pytest
-from unittest.mock import Mock, patch
+import asyncio
+from unittest.mock import Mock, patch, AsyncMock
 from src.application.tools import MaestroTools
 from src.application.tool_schema import (
     DesignAlbumInput, CreateBatchInput, StartBatchInput,
@@ -13,8 +14,29 @@ from src.application.tool_schema import (
 class TestMaestroTools:
     """Test suite for MaestroTools (TDD approach)."""
     
-    def test_design_album_success(self):
+    @patch("src.application.tools.get_container")
+    def test_design_album_success(self, mock_get_container):
         """Should design an album with AI."""
+        # Setup mock container and designer
+        mock_container = Mock()
+        mock_designer = Mock()
+        mock_get_container.return_value = mock_container
+        mock_container.album_designer.return_value = mock_designer
+        
+        # Setup mock return value
+        mock_track = Mock()
+        mock_track.title = "Test Track"
+        mock_track.lyrics = "Test Lyrics"
+        mock_track.style_tags = ["test"]
+        mock_track.duration_estimate = "3:30"
+        
+        mock_album = Mock()
+        mock_album.title = "Test Album"
+        mock_album.tracks = [mock_track]
+        
+        # Configure async method mock
+        mock_designer.design_album = AsyncMock(return_value=mock_album)
+        
         input_data = DesignAlbumInput(
             archetype="concept_album",
             genres=["metal", "progressive"],
@@ -23,10 +45,9 @@ class TestMaestroTools:
         
         result = MaestroTools.design_album(input_data)
         
-        assert result.title is not None
-        assert len(result.tracks) > 0
-        assert isinstance(result.tracks[0], dict)
-        assert "title" in result.tracks[0]
+        assert result.title == "Test Album"
+        assert len(result.tracks) == 1
+        assert result.tracks[0]["title"] == "Test Track"
     
     def test_create_batch_success(self):
         """Should create a new batch."""
