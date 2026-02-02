@@ -4,11 +4,25 @@ from typing import Optional
 
 from src.ports.output.llm_client_port import ILLMClient
 from src.ports.output.context_loader_port import IContextLoader
-from src.adapters.output.llm.ollama_adapter import LLMClient, LLMConfig
+
+# LLM Clients
+from src.adapters.output.llm.ollama_adapter import LLMClient as GeminiClient, LLMConfig
+from src.adapters.output.llm.ollama_client import OllamaClient
+from src.adapters.output.llm.lmstudio_client import LMStudioClient
+
+# Other adapters
 from src.adapters.output.context.json_context_adapter import ContextManager, ContextConfig
+from src.adapters.output.persistence.json_file_repository import JsonFileRepository
+
+# Services
 from src.application.services.album_designer import AlbumDesigner
 from src.application.services.batch_manager import BatchManager
-from src.infrastructure.config.settings import get_settings
+
+# Ports
+from src.ports.output.batch_repository import IBatchRepository
+
+# Config
+from src.infrastructure.config import get_settings
 
 
 class Container:
@@ -30,18 +44,39 @@ class Container:
         """
         Get LLM client (singleton).
         
+        Factory pattern: Returns appropriate client based on configuration.
+        Supports: Gemini, Ollama, LM Studio.
+        
         Returns:
             ILLMClient instance
         """
         if self._llm_client is None:
             settings = get_settings()
-            config = LLMConfig(
-                base_url=settings.llm_base_url,
-                model=settings.llm_model,
-                timeout=settings.llm_timeout,
-                max_retries=settings.llm_max_retries
-            )
-            self._llm_client = LLMClient(config)
+            
+            # LLM Provider Factory
+            if settings.llm_provider == "ollama":
+                self._llm_client = OllamaClient(
+                    base_url=settings.ollama_base_url,
+                    model=settings.ollama_model
+                )
+            
+            elif settings.llm_provider == "lmstudio":
+                self._llm_client = LMStudioClient(
+                    base_url=settings.lmstudio_base_url,
+                    model=settings.lmstudio_model
+                )
+            
+            else:  # Default to Gemini
+                # Note: Gemini client uses different init pattern
+                # It doesn't need api_key in LLMConfig, uses env GOOGLE_API_KEY
+                config = LLMConfig(
+                    base_url=settings.llm_base_url,
+                    model=settings.gemini_model,
+                    timeout=settings.llm_timeout,
+                    max_retries=settings.llm_max_retries
+                )
+                self._llm_client = GeminiClient(config)
+        
         return self._llm_client
     
     def context_loader(self) -> IContextLoader:
@@ -53,7 +88,7 @@ class Container:
         """
         if self._context_loader is None:
             settings = get_settings()
-            config = ContextConfig(data_dir=settings.context_data_dir)
+            config = ContextConfig(data_dir=settings.context_dir)
             self._context_loader = ContextManager(config)
         return self._context_loader
     
@@ -71,6 +106,18 @@ class Container:
             )
         return self._album_designer
     
+    def batch_repository(self) -> IBatchRepository:
+        """
+        Get batch repository (singleton).
+        
+        Returns:
+            IBatchRepository instance
+        """
+        # We could add a caching mechanism or singleton here if needed,
+        # but JsonFileRepository is lightweight.
+        # Singleton is better for concurrency if we had in-memory cache inside adapter.
+        return JsonFileRepository()
+
     def batch_manager(self) -> BatchManager:
         """
         Get batch manager service (singleton).
@@ -79,7 +126,9 @@ class Container:
             BatchManager instance
         """
         if self._batch_manager is None:
-            self._batch_manager = BatchManager()
+            self._batch_manager = BatchManager(
+                repository=self.batch_repository()
+            )
         return self._batch_manager
     
     def reset(self) -> None:
