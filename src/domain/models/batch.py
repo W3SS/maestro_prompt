@@ -21,7 +21,7 @@ class BatchStatus(str, Enum):
 class BatchItem:
     """Individual item in a Suno batch."""
     prompt: str
-    style_tags: str
+    style_tags: List[str]
     title: str = ""
     status: str = "pending"
     suno_id: Optional[str] = None
@@ -32,8 +32,15 @@ class BatchItem:
         if not self.prompt or not self.prompt.strip():
             raise InvalidBatchError("Batch item prompt cannot be empty")
         
-        if not self.style_tags or not self.style_tags.strip():
-            raise InvalidBatchError("Batch item style_tags cannot be empty")
+        if not isinstance(self.style_tags, list):
+             raise InvalidBatchError("Batch item style_tags must be a list of strings")
+             
+        if not self.style_tags:
+             # It is allowed to be empty contextually? Maybe. 
+             # But previous logic checked for 'not empty strip'.
+             # Let's assume at least one tag is needed or relax it.
+             # "Cannot be empty" suggests required.
+             raise InvalidBatchError("Batch item style_tags cannot be empty")
 
 
 @dataclass
@@ -49,6 +56,10 @@ class Batch:
     
     def __post_init__(self):
         """Validate batch data."""
+        if not self.id:
+            import uuid
+            self.id = str(uuid.uuid4())
+
         if not self.name or not self.name.strip():
             raise InvalidBatchError("Batch name cannot be empty")
         

@@ -1,8 +1,7 @@
-"""Integration tests for Unified Server entrypoint."""
-
 import pytest
 import subprocess
 import sys
+import asyncio
 from unittest.mock import patch, MagicMock, AsyncMock
 from src.main_server import (
     main, start_api_server, start_mcp_server, start_all_servers
@@ -122,4 +121,80 @@ class TestSubprocessExecution:
         assert "--mode" in result.stdout
         assert "--host" in result.stdout
         assert "--port" in result.stdout
+
+
+class TestServerFunctions:
+    """Test suite for server start functions executing their bodies."""
+
+    def test_start_api_server_runs_uvicorn(self):
+        """test_start_api_server should import uvicorn and run it."""
+        mock_uvicorn = MagicMock()
+        mock_app = MagicMock()
+        
+        # We need to mock the imports execution inside the function
+        with patch.dict(sys.modules, {
+            "uvicorn": mock_uvicorn,
+            "src.adapters.input.api.main": MagicMock(app=mock_app)
+        }):
+            # We also need to patch builtins print to avoid clutter
+            with patch("builtins.print"):
+                start_api_server(host="1.2.3.4", port=9999)
+        
+        mock_uvicorn.run.assert_called_once_with(mock_app, host="1.2.3.4", port=9999, log_level="info")
+
+    def test_start_mcp_server_runs_mcp(self):
+        """test_start_mcp_server should import run_mcp_server and run it."""
+        mock_run_mcp = MagicMock()
+        
+        with patch.dict(sys.modules, {
+            "src.adapters.input.mcp.server": MagicMock(run_mcp_server=mock_run_mcp)
+        }):
+            with patch("builtins.print"):
+                start_mcp_server()
+                
+        mock_run_mcp.assert_called_once()
+
+    @pytest.mark.asyncio
+    async def test_start_all_servers_concurrently(self):
+        """test_start_all_servers should create tasks for api and run mcp."""
+        mock_uvicorn = MagicMock()
+        mock_app = MagicMock()
+        mock_mcp = MagicMock()
+        
+        # We need to mock asyncio.gather to avoid actual waiting/execution in test
+        # But we want to verify the tasks were created.
+        
+        with patch.dict(sys.modules, {
+            "uvicorn": mock_uvicorn,
+            "src.adapters.input.api.main": MagicMock(app=mock_app),
+            "src.adapters.input.mcp.server": MagicMock(mcp=mock_mcp)
+        }):
+            with patch("builtins.print"):
+                # We spy on asyncio.create_task or to_thread
+                with patch("asyncio.to_thread", new_callable=AsyncMock) as mock_to_thread:
+                     with patch("asyncio.gather", new_callable=AsyncMock) as mock_gather:
+                        save_create_task = asyncio.create_task
+                        # We need actual create_task probably, or mock it too.
+                        # Using real create_task might require real event loop which pytest-asyncio provides.
+                        
+                        await start_all_servers(host="1.1.1.1", port=5555)
+                        
+                        # Verify to_thread was called for uvicorn and mcp.run
+                        # args for uvicorn: uvicorn.run, app, ...
+                        # args for mcp: mcp.run
+                        
+                        calls = mock_to_thread.call_args_list
+                        
+                        # We expect 2 calls
+                        assert len(calls) == 2
+                        
+                        # Check calls args
+                        # One should be for uvicorn
+                        uvicorn_called = any(c.args[0] == mock_uvicorn.run for c in calls)
+                        mcp_called = any(c.args[0] == mock_mcp.run for c in calls)
+                        
+                        assert uvicorn_called, "Uvicorn run task should be created"
+                        assert mcp_called, "MCP run task should be created"
+                        
+                        mock_gather.assert_awaited_once()
 

@@ -114,10 +114,13 @@ class Container:
         Returns:
             IBatchRepository instance
         """
-        # We could add a caching mechanism or singleton here if needed,
-        # but JsonFileRepository is lightweight.
-        # Singleton is better for concurrency if we had in-memory cache inside adapter.
-        return JsonFileRepository()
+        settings = get_settings()
+        
+        if settings.persistence_type == "sqlalchemy":
+            from src.adapters.output.persistence.sqlalchemy_repository import SqlAlchemyRepository
+            return SqlAlchemyRepository()
+        else:
+            return JsonFileRepository()
 
     def batch_manager(self) -> BatchManager:
         """

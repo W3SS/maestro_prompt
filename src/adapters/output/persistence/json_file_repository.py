@@ -35,25 +35,12 @@ class JsonFileRepository(IBatchRepository):
         with open(self.data_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4, default=str)
 
-    def save(self, batch: Batch) -> None:
+    async def save(self, batch: Batch) -> None:
         """Save or update a batch."""
-        data = self._load_data()
+        import asyncio
+        data = await asyncio.to_thread(self._load_data)
+        
         # Convert to dataclass dict
-        # Assuming Batch is a dataclass, we can use asdict or verify if pydantic is used (it is @dataclass)
-        # But wait, in domain/models/batch.py it uses @dataclass but imports field. 
-        # Using dataclasses.asdict would be safer if not pydantic.
-        # But previous code used batch.model_dump(). Let's check if it inherits from BaseModel.
-        # It is just @dataclass. So model_dump is not available unless pydantic.dataclasses is used.
-        # The file showed: `from dataclasses import dataclass, field`
-        # So `model_dump` WILL FAIL. I need to fix this too.
-        
-        # FIX: Manual serialization helper since it's a standard dataclass
-        # Or better: make domain models Pydantic dataclasses or BaseModels. 
-        # Given the project uses Pydantic elsewhere, I should probably upgrade the domain model to Pydantic
-        # OR implementation a manual to_dict.
-        
-        # For now, I'll assume I should implementation to_dict here or use dataclasses.asdict
-        
         from dataclasses import asdict
         batch_dict = asdict(batch)
         # Handle Enum and datetime
@@ -71,33 +58,34 @@ class JsonFileRepository(IBatchRepository):
         batch_dict['items'] = items_data
 
         data[batch.id] = batch_dict
-        self._save_data(data)
+        await asyncio.to_thread(self._save_data, data)
 
-    def get(self, batch_id: str) -> Optional[Batch]:
+    async def get(self, batch_id: str) -> Optional[Batch]:
         """Get a batch by ID."""
-        data = self._load_data()
+        import asyncio
+        data = await asyncio.to_thread(self._load_data)
         batch_data = data.get(batch_id)
         if batch_data:
-            # We need to reconstruct objects from dict. 
-            # This logic mimics what Pydantic does.
             return self._reconstruct_batch(batch_data)
         return None
 
-    def list_all(self) -> List[Batch]:
+    async def list_all(self) -> List[Batch]:
         """List all batches."""
-        data = self._load_data()
+        import asyncio
+        data = await asyncio.to_thread(self._load_data)
         return [self._reconstruct_batch(batch_data) for batch_data in data.values()]
 
-    def update(self, batch: Batch) -> None:
+    async def update(self, batch: Batch) -> None:
         """Update a batch (same as save)."""
-        self.save(batch)
+        await self.save(batch)
 
-    def delete(self, batch_id: str) -> None:
+    async def delete(self, batch_id: str) -> None:
         """Delete a batch by ID."""
-        data = self._load_data()
+        import asyncio
+        data = await asyncio.to_thread(self._load_data)
         if batch_id in data:
             del data[batch_id]
-            self._save_data(data)
+            await asyncio.to_thread(self._save_data, data)
 
     def _reconstruct_batch(self, data: Dict[str, Any]) -> Batch:
         from src.domain.models.batch import BatchItem, BatchStatus
@@ -118,9 +106,7 @@ class JsonFileRepository(IBatchRepository):
             name=data['name'],
             id=data['id'],
             items=items,
-            status=data['status'], # Enum handles string in post_init? No, post_init validates.
-            # But the constructor expects Enum.
-            # Batch post_init handles string conversion? yes
+            status=data['status'],
             created_at=created_at,
             completed_at=completed_at,
             metadata=data.get('metadata', {})

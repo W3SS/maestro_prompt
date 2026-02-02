@@ -22,7 +22,7 @@ mcp = FastMCP(
 
 # ===== ALBUM DESIGN =====
 @mcp.tool()
-def design_album(
+async def design_album(
     archetype: str,
     genres: List[str],
     theme: Optional[str] = None
@@ -39,12 +39,12 @@ def design_album(
         Album with title and generated tracks
     """
     input_data = DesignAlbumInput(archetype=archetype, genres=genres, theme=theme)
-    result = MaestroTools.design_album(input_data)
+    result = await MaestroTools.design_album(input_data)
     return result.model_dump()
 
 # ===== BATCH MANAGEMENT =====
 @mcp.tool()
-def create_batch(name: str) -> dict:
+async def create_batch(name: str) -> dict:
     """
     Create a new Suno generation batch.
     
@@ -55,11 +55,11 @@ def create_batch(name: str) -> dict:
         Batch ID and initial status
     """
     input_data = CreateBatchInput(name=name)
-    result = MaestroTools.create_batch(input_data)
+    result = await MaestroTools.create_batch(input_data)
     return result.model_dump()
 
 @mcp.tool()
-def add_items_to_batch(batch_id: str, items: List[Dict[str, Any]]) -> dict:
+async def add_items_to_batch(batch_id: str, items: List[Dict[str, Any]]) -> dict:
     """
     Add tracks to an existing batch.
     
@@ -71,11 +71,11 @@ def add_items_to_batch(batch_id: str, items: List[Dict[str, Any]]) -> dict:
         Updated batch info with items count
     """
     input_data = AddItemsInput(batch_id=batch_id, items=items)
-    result = MaestroTools.add_items_to_batch(input_data)
+    result = await MaestroTools.add_items_to_batch(input_data)
     return result.model_dump()
 
 @mcp.tool()
-def get_batch(batch_id: str) -> dict:
+async def get_batch(batch_id: str) -> dict:
     """
     Get batch details by ID.
     
@@ -86,11 +86,11 @@ def get_batch(batch_id: str) -> dict:
         Complete batch information
     """
     input_data = GetBatchInput(batch_id=batch_id)
-    result = MaestroTools.get_batch(input_data)
+    result = await MaestroTools.get_batch(input_data)
     return result.model_dump()
 
 @mcp.tool()
-def list_batches(status: Optional[str] = None) -> dict:
+async def list_batches(status: Optional[str] = None) -> dict:
     """
     List all batches, optionally filtered by status.
     
@@ -101,12 +101,12 @@ def list_batches(status: Optional[str] = None) -> dict:
         List of batches with summary info
     """
     input_data = ListBatchesInput(status=status)
-    result = MaestroTools.list_batches(input_data)
+    result = await MaestroTools.list_batches(input_data)
     return result.model_dump()
 
 # ===== BATCH OPERATIONS =====
 @mcp.tool()
-def start_batch(batch_id: str) -> dict:
+async def start_batch(batch_id: str) -> dict:
     """
     Start processing a batch.
     
@@ -117,11 +117,11 @@ def start_batch(batch_id: str) -> dict:
         Updated batch status
     """
     input_data = StartBatchInput(batch_id=batch_id)
-    result = MaestroTools.start_batch(input_data)
+    result = await MaestroTools.start_batch(input_data)
     return result
 
 @mcp.tool()
-def complete_batch(batch_id: str) -> dict:
+async def complete_batch(batch_id: str) -> dict:
     """
     Mark batch as completed.
     
@@ -132,11 +132,11 @@ def complete_batch(batch_id: str) -> dict:
         Completion confirmation with timestamp
     """
     input_data = CompleteBatchInput(batch_id=batch_id)
-    result = MaestroTools.complete_batch(input_data)
+    result = await MaestroTools.complete_batch(input_data)
     return result.model_dump()
 
 @mcp.tool()
-def cancel_batch(batch_id: str) -> dict:
+async def cancel_batch(batch_id: str) -> dict:
     """
     Cancel a batch.
     
@@ -147,7 +147,7 @@ def cancel_batch(batch_id: str) -> dict:
         Cancellation confirmation
     """
     input_data = CancelBatchInput(batch_id=batch_id)
-    result = MaestroTools.cancel_batch(input_data)
+    result = await MaestroTools.cancel_batch(input_data)
     return result.model_dump()
 
 # ===== SERVER ENTRYPOINT =====

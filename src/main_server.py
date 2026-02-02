@@ -44,13 +44,17 @@ async def start_all_servers(host: str = "0.0.0.0", port: int = 8000):
     print("🔌 MCP: stdio mode")
     
     # Create tasks
+    # Create tasks
     api_task = asyncio.create_task(
         asyncio.to_thread(uvicorn.run, app, host=host, port=port, log_level="info")
     )
     
-    # MCP runs in stdio, so it blocks
-    # We run API in background and MCP in foreground
-    await api_task
+    mcp_task = asyncio.create_task(
+        asyncio.to_thread(mcp.run)
+    )
+    
+    # Wait for both (or just one if strict stdio is needed, but gather allows both to run)
+    await asyncio.gather(api_task, mcp_task)
 
 def main():
     """Main entrypoint with CLI argument parsing."""

@@ -32,30 +32,30 @@ class BatchManager:
         self._repository = repository
         self._memory_store: Dict[str, Batch] = {}
     
-    def _save(self, batch: Batch) -> None:
+    async def _save(self, batch: Batch) -> None:
         """Helper to save batch to repository or memory."""
         if self._repository:
-            self._repository.save(batch)
+            await self._repository.save(batch)
         else:
             self._memory_store[batch.id] = batch
             
-    def _get(self, batch_id: str) -> Batch:
+    async def _get(self, batch_id: str) -> Batch:
         """Helper to get batch from repository or memory."""
         if self._repository:
-            batch = self._repository.get(batch_id)
+            batch = await self._repository.get(batch_id)
             if not batch:
                 raise KeyError(f"Batch {batch_id} not found")
             return batch
         else:
             return self._memory_store[batch_id]
             
-    def _list(self) -> List[Batch]:
+    async def _list(self) -> List[Batch]:
         """Helper to list batches."""
         if self._repository:
-            return self._repository.list_all()
+            return await self._repository.list_all()
         return list(self._memory_store.values())
 
-    def create_batch(self, name: str) -> BatchDTO:
+    async def create_batch(self, name: str) -> BatchDTO:
         """
         Create a new batch.
         
@@ -70,11 +70,11 @@ class BatchManager:
             id=str(uuid.uuid4())
         )
         
-        self._save(batch)
+        await self._save(batch)
         
         return self._to_dto(batch)
     
-    def add_items(self, batch_id: str, items: List[Dict[str, Any]]) -> BatchDTO:
+    async def add_items(self, batch_id: str, items: List[Dict[str, Any]]) -> BatchDTO:
         """
         Add items to a batch.
         
@@ -88,7 +88,7 @@ class BatchManager:
         Raises:
             KeyError: If batch not found
         """
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         
         for item_data in items:
             item = BatchItem(
@@ -98,52 +98,52 @@ class BatchManager:
             )
             batch.add_item(item)
         
-        self._save(batch)
+        await self._save(batch)
         return self._to_dto(batch)
     
-    def start_batch(self, batch_id: str) -> BatchDTO:
+    async def start_batch(self, batch_id: str) -> BatchDTO:
         """Start processing a batch."""
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         batch.start_processing()
-        self._save(batch)
+        await self._save(batch)
         return self._to_dto(batch)
     
-    def complete_batch(self, batch_id: str) -> BatchDTO:
+    async def complete_batch(self, batch_id: str) -> BatchDTO:
         """Mark batch as completed."""
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         batch.complete()
-        self._save(batch)
+        await self._save(batch)
         return self._to_dto(batch)
     
-    def fail_batch(self, batch_id: str) -> BatchDTO:
+    async def fail_batch(self, batch_id: str) -> BatchDTO:
         """Mark batch as failed."""
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         batch.fail()
-        self._save(batch)
+        await self._save(batch)
         return self._to_dto(batch)
     
-    def cancel_batch(self, batch_id: str) -> BatchDTO:
+    async def cancel_batch(self, batch_id: str) -> BatchDTO:
         """Cancel a batch."""
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         batch.cancel()
-        self._save(batch)
+        await self._save(batch)
         return self._to_dto(batch)
     
-    def get_batch(self, batch_id: str) -> BatchDTO:
+    async def get_batch(self, batch_id: str) -> BatchDTO:
         """Get batch by ID."""
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         return self._to_dto(batch)
     
-    def list_batches(self, status: Optional[str] = None) -> List[BatchDTO]:
+    async def list_batches(self, status: Optional[str] = None) -> List[BatchDTO]:
         """List all batches, optionally filtered by status."""
-        batches = self._list()
+        batches = await self._list()
         
         if status:
             batches = [b for b in batches if b.status.value == status]
         
         return [self._to_dto(b) for b in batches]
     
-    def update_item_status(
+    async def update_item_status(
         self,
         batch_id: str,
         item_index: int,
@@ -152,7 +152,7 @@ class BatchManager:
         audio_url: Optional[str] = None
     ) -> BatchDTO:
         """Update individual item status."""
-        batch = self._get(batch_id)
+        batch = await self._get(batch_id)
         
         if item_index >= len(batch.items):
             raise IndexError(f"Item index {item_index} out of range")
@@ -165,7 +165,7 @@ class BatchManager:
         if audio_url:
             item.audio_url = audio_url
         
-        self._save(batch)
+        await self._save(batch)
         return self._to_dto(batch)
     
     def _to_dto(self, batch: Batch) -> BatchDTO:

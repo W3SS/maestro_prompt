@@ -1,6 +1,6 @@
 
 import pytest
-from unittest.mock import MagicMock, patch, ANY
+from unittest.mock import MagicMock, patch, ANY, AsyncMock
 import sys
 
 # Mock mcp.server.fastmcp before importing the server
@@ -34,8 +34,9 @@ class TestMCPServer:
         # Note: In real execution, 'mcp' is an instance of FastMCP("Maestro AI")
         pass
 
+    @pytest.mark.asyncio
     @patch("src.adapters.input.mcp.server.MaestroTools")
-    def test_tools_registration(self, mock_tools):
+    async def test_tools_registration(self, mock_tools):
         """Test that tools are registered with the server."""
         # Since decorators run at import time, we verify via the mock_fastmcp instance
         # if the decorators were called.
@@ -49,12 +50,15 @@ class TestMCPServer:
         )
         
         # Test design_album
-        mock_input = MagicMock()
-        mock_input.archetype = "arch"
-        mock_input.genres = []
-        mock_input.theme = None
+        # Mock the async return value of MaestroTools.design_album
+        mock_tools.design_album = AsyncMock()
+        mock_tools.design_album.return_value.model_dump.return_value = {}
         
-        design_album(
+        mock_tools.create_batch = AsyncMock()
+        mock_tools.create_batch.return_value.model_dump.return_value = {}
+        
+        # We need to await the coroutine returned by design_album
+        await design_album(
             archetype="arch", 
             genres=[], 
             theme=None
@@ -62,7 +66,7 @@ class TestMCPServer:
         mock_tools.design_album.assert_called_once()
         
         # Test create_batch
-        create_batch(name="test")
+        await create_batch(name="test")
         mock_tools.create_batch.assert_called_once()
 
     @patch("src.adapters.input.mcp.server.mcp")

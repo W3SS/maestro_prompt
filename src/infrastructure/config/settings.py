@@ -70,6 +70,16 @@ class Settings(BaseSettings):
         le=65535,
         description="API port"
     )
+
+    # Database Configuration
+    database_url: str = Field(
+        default="sqlite+aiosqlite:///./maestro.db",
+        description="Database URL (Async)"
+    )
+    persistence_type: str = Field(
+        default="sqlalchemy", # Default to SQL for Phase 4
+        description="Persistence type: 'json' or 'sqlalchemy'"
+    )
     
     model_config = {
         "env_prefix": "MAESTRO_",
