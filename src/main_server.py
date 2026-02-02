@@ -58,11 +58,11 @@ def main():
         description="Maestro AI - Neural Audio Workstation Server",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Examples:
-  python -m src.main_server --mode api              # Start FastAPI only
-  python -m src.main_server --mode mcp              # Start MCP only
-  python -m src.main_server --mode all              # Start both
-  python -m src.main_server --mode api --port 8080  # Custom port
+            Examples:
+                python -m src.main_server --mode api              # Start FastAPI only
+                python -m src.main_server --mode mcp              # Start MCP only
+                python -m src.main_server --mode all              # Start both
+                python -m src.main_server --mode api --port 8080  # Custom port
         """
     )
     

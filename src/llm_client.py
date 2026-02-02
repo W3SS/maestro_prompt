@@ -1,7 +1,5 @@
 """
-Ba
-
-ckward compatibility layer for old imports.
+Backward compatibility layer for old imports.
 
 This module maintains compatibility with existing tests
 while we transition to hexagonal architecture.
