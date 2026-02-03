@@ -21,7 +21,7 @@
 - [x] **State**: Initialize Zustand stores (Dependencies Installed).
 - [x] **API**: Setup Axios instance (Dependencies Installed).
 
-> **Note:** Switched to `yarn` for package management due to filesystem locking issues.
+> **Note:** Switched to `yarn` for package management due to filesystem locking issues with `npm` in this environment. [Decision Record: 2026-02-03]
 
 ### Phase 3.2: Album Designer
 
