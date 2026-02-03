@@ -15,6 +15,7 @@
 ### Visual Identity
 
 **Color Palette (Dark Mode First):**
+
 - Primary: `#6366f1` (Indigo) - Creative energy
 - Secondary: `#8b5cf6` (Purple) - Musical innovation
 - Accent: `#ec4899` (Pink) - AI-powered magic
@@ -26,11 +27,13 @@
 - Text: `#f1f5f9` (Slate 100)
 
 **Typography:**
+
 - Headings: `Inter` (bold, 600-700 weight)
 - Body: `Inter` (regular, 400-500 weight)
 - Code/Mono: `Fira Code` (for JSON/outputs)
 
 **Design Principles:**
+
 1. **Immersive**: Full-screen layouts with minimal chrome
 2. **Responsive**: Desktop-first, mobile-aware
 3. **Accessible**: WCAG 2.1 AA compliant
@@ -42,6 +45,7 @@
 ## 🏗️ Technical Stack
 
 ### Core Framework
+
 ```json
 {
   "framework": "React 18+",
@@ -59,6 +63,7 @@
 ```
 
 ### Why This Stack?
+
 - **Vite:** Lightning-fast dev server, 10x faster than CRA
 - **Zustand:** Simpler than Redux, type-safe, minimal boilerplate  
 - **TailwindCSS v4:** Utility-first, CSS-in-TS, zero runtime
@@ -70,6 +75,7 @@
 ## 📐 Application Architecture
 
 ### File Structure
+
 ```
 frontend/
 ├── public/
@@ -139,7 +145,9 @@ interface BatchStore {
 **Purpose:** Generate concept albums with AI using archetype + genres.
 
 **UI Components:**
+
 1. **Input Panel** (left sidebar, 30% width)
+
    ```
    ┌──────────────────┐
    │ 🎭 Archetype     │
@@ -156,6 +164,7 @@ interface BatchStore {
    ```
 
 2. **Output Panel** (right, 70% width)
+
    ```
    ┌────────────────────────────┐
    │ Album: "Cyberpunk Dreams"  │
@@ -170,12 +179,14 @@ interface BatchStore {
    ```
 
 **Interactions:**
+
 - Real-time validation (archetype required)
 - Loading skeleton during generation (~5-10s)
 - **Copy to clipboard** button for each track
 - **Add to batch** CTA with batch selector modal
 
 **API Integration:**
+
 ```typescript
 POST /album/design
 {
@@ -192,8 +203,10 @@ POST /album/design
 
 **Purpose:** Organize tracks into batches for Suno processing.
 
-**UI Layout:** 
+**UI Layout:**
+
 1. **Batch List** (left, 35%)
+
    ```
    ┌─────────────────┐
    │ [+ New Batch]   │
@@ -207,6 +220,7 @@ POST /album/design
    ```
 
 2. **Batch Detail** (right, 65%)
+
    ```
    ┌───────────────────────────┐
    │ Summer 2024  [⚙️ Actions]│
@@ -220,18 +234,21 @@ POST /album/design
    ```
 
 **Actions Menu:**
+
 - Start Batch
 - Complete Batch
 - Cancel Batch
 - Export JSON (download)
 
 **Status Badges:**
+
 - `PENDING` → Yellow pulse  
 - `PROCESSING` → Blue spinner  
 - `COMPLETED` → Green check  
 - `CANCELLED` → Red X  
 
 **API Integration:**
+
 ```typescript
 GET /batches?status=PENDING
 POST /batch
@@ -246,6 +263,7 @@ POST /batch/{id}/start
 **Purpose:** Real-time stats and workflow overview.
 
 **Widgets:**
+
 - Total albums generated
 - Active batches
 - Recent activity timeline
@@ -257,6 +275,7 @@ POST /batch/{id}/start
 ### Shared Components
 
 1. **`<Card />`** - Container with glass morphism
+
    ```tsx
    <Card variant="glass" padding="lg">
      <CardHeader title="Album Designer" />
@@ -265,6 +284,7 @@ POST /batch/{id}/start
    ```
 
 2. **`<Button />`** - Primary, secondary, ghost variants
+
    ```tsx
    <Button 
      variant="primary" 
@@ -288,12 +308,14 @@ POST /batch/{id}/start
 ## 🎬 Animations & Interactions
 
 **Micro-animations:**
+
 - **Card hover:** Subtle elevation + glow effect
 - **Button:** Scale (0.95) on click
 - **Generate:** Shimmer effect during loading
 - **Track reveal:** Stagger animation (50ms delay each)
 
 **Framer Motion Example:**
+
 ```tsx
 <motion.div
   initial={{ opacity: 0, y: 20 }}
@@ -309,15 +331,18 @@ POST /batch/{id}/start
 ## ✅ Testing Strategy
 
 ### Unit Tests (Vitest + React Testing Library)
+
 - All shared components (>90% coverage)
 - Store actions (Zustand)
 - Utility functions
 
 ### Integration Tests
+
 - Album generation flow (E2E)
 - Batch CRUD operations
 
 ### Accessibility Tests
+
 - aria-labels on all interactive elements
 - Keyboard navigation (Tab, Enter, Esc)
 - Screen reader compatibility (axe-core)
@@ -327,6 +352,7 @@ POST /batch/{id}/start
 ## 📥 Phase Breakdown
 
 ### Phase 3.1: Foundation (Week 1)
+
 - [ ] Vite + React + TypeScript setup
 - [ ] TailwindCSS v4 + theme configuration
 - [ ] API client (`axios` + base URL)
@@ -334,6 +360,7 @@ POST /batch/{id}/start
 - [ ] Zustand stores (skeleton)
 
 ### Phase 3.2: Album Designer (Week 2)
+
 - [ ] Input form with validation (Zod)
 - [ ] API integration (`POST /album/design`)
 - [ ] Track list display with copy CTA
@@ -341,12 +368,14 @@ POST /batch/{id}/start
 - [ ] Loading states + error handling
 
 ### Phase 3.3: Batch Manager (Week 3)
+
 - [ ] Batch list (fetch + display)
 - [ ] Batch detail view
 - [ ] CRUD actions (create, add items, start, complete)
 - [ ] Status indicators with real-time updates
 
 ### Phase 3.4: Polish (Week 4)
+
 - [ ] Animations (Framer Motion)
 - [ ] Accessibility audit (axe DevTools)
 - [ ] Responsive design (mobile breakpoints)
@@ -358,17 +387,20 @@ POST /batch/{id}/start
 ## 🚀 Deployment
 
 **Production Build:**
+
 ```bash
 npm run build
 # → dist/ (static files)
 ```
 
 **Hosting Options:**
+
 - Vercel (recommended, zero-config)
 - Netlify
 - Cloudflare Pages
 
 **Environment Variables:**
+
 ```
 VITE_API_BASE_URL=http://localhost:8000
 VITE_APP_NAME=Maestro AI
@@ -379,11 +411,13 @@ VITE_APP_NAME=Maestro AI
 ## 📊 Success Metrics
 
 **Technical:**
+
 - Lighthouse score >90 (Performance, Accessibility, SEO)
 - First Contentful Paint <1.5s
 - Test coverage >90%
 
 **UX:**
+
 - Album generation <10s (backend dependent)
 - Zero-click batch selection (smart defaults)
 - Keyboard shortcuts for power users

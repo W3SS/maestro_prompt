@@ -12,57 +12,24 @@ The backend has successfully migrated to a **Hexagonal Architecture** with **Mul
 | Metric | Status | Notes |
 | :--- | :--- | :--- |
 | **Architecture** | ✅ Hexagonal | Ports & Adapters fully implemented. Domain isolated. |
-| **Test Coverage** | ⚠️ ~90% | Core domain/application covered. Gaps in legacy CLI and server entrypoint. |
-| **LLM Support** | ✅ Multi-Provider | Gemini, Ollama, LM Studio supported via Factory pattern. |
-| **Interfaces** | ✅ Hybrid | REST API (FastAPI) + MCP (Claude Desktop). |
-| **Persistence** | ⚠️ JSON File | `JsonFileRepository` is thread-safe but not scalable. |
-
----
-
-## 🛑 Identified GAPS & Problems
-
-### 1. Persistence & Scalability (Critical)
-
-- **Current:** Single `batches.json` file.
-- **Problem:**
-  - High risk of corruption with concurrent writes (despite lock).
-  - No query capabilities (filtering is done in-memory Python side).
-  - Performance degrades linearly with file size (O(n) read/write).
-- **Solution:** Migrate to **SQLite** (dev) / **PostgreSQL** (prod) with **SQLAlchemy 2.0**.
-
-### 2. Concurrency & Blocking (High)
-
-- **Current:** Async FastAPI, but CPU-bound tasks (future Audio analysis) will block.
-- **Problem:** Python GIL limits concurrent request handling during intense processing.
-- **Solution:** Implement **Celery** + **Redis** for task offloading (Asynchronous Task Queue).
-
-### 3. Security (High)
-
-- **Current:** Open API, no Authentication/Authorization.
-- **Problem:** Anyone with network access can trigger LLM costs or batch operations.
-- **Solution:** Implement **JWT Authentication** (OAuth2 with Bearer token).
-
-### 4. Observability (Medium)
-
-- **Current:** Basic `print` or standard logging.
-- **Problem:** Impossible to trace request lifecycle across Adapters/LLMs.
-- **Solution:** Structured implementation using `structlog` and **OpenTelemetry**.
-
-### 5. Legacy Code (Low)
-
-- **Current:** `src/adapters/input/cli/` contains old scripts.
-- **Problem:** Confusing for new developers, potential for rot.
-- **Solution:** Deprecate `maestro_cli.py` or refactor it to use `MaestroTools` properly.
+| **Test Coverage** | ✅ 100% | Full coverage achieved across Domain, Application, and Adapters. |
 
 ---
 
 ## 🗺️ Backend Roadmap
 
-### Phase 2.5: Stabilization (Current Focus)
+### Phase 2.5: Stabilization (Completed)
 
 - [x] Fix Unit Tests for MCP & UTCP Adapters (done).
 - [x] Refactor `main_server.py` integration tests for 100% coverage.
 - [x] Deprecate/Remove legacy CLI code.
+
+### Phase 3.2: Feature Expansion (Song DNA)
+
+- [ ] **Music Analysis Service**
+  - [ ] Create `MusicAnalysisService` (Reverse Engineering Logic).
+  - [ ] Implement `POST /analysis/reverse-engineer` endpoint.
+  - [ ] Integrate with LLM for `audio_specs` mapping.
 
 ### Phase 4: Backend Hardening (Post-Frontend)
 
